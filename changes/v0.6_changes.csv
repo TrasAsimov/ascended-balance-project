@@ -1,8 +1,47 @@
 ﻿参数表,行ID,字段,v0.5,v0.6,原因
 MenuCommonParam,0,playerMaxHpLimit,7130,28520,只改变状态条显示尺度，不改变资源数值
-MenuCommonParam,0,playerMaxMpLimit,1650,6600,只改变状态条显示尺度，不改变资源数值
+MenuCommonParam,0,playerMaxMpLimit,1650,3300,只改变状态条显示尺度，不改变资源数值
 MenuCommonParam,0,playerMaxSpLimit,960,1920,只改变状态条显示尺度，不改变资源数值
 SpEffectParam,6202065,maxHpRate,1.5,2.0,玩家基础生命倍率调整为 2 倍
+SpEffectParam,6202065,maxMpRate,5.0,1.0,取消玩家常驻五倍 FP；以等级曲线给法术和战技保留可用次数
+CalcCorrectGraph,101,stageMaxGrowVal2,500.0,450.0,收敛高等级集中力的 FP 成长，99 级目标基值约 650
+CalcCorrectGraph,101,stageMaxGrowVal3,700.0,550.0,收敛高等级集中力的 FP 成长，99 级目标基值约 650
+CalcCorrectGraph,101,stageMaxGrowVal4,900.0,650.0,收敛高等级集中力的 FP 成长，99 级目标基值约 650
+AtkParam_Pc,44401,atkMagCorrection,100,200,卡利亚迅剑后续判定与首段魔力补正一致
+AtkParam_Pc,44405,atkMagCorrection,100,200,卡利亚迅剑后续判定与首段魔力补正一致
+AtkParam_Pc,44406,atkMagCorrection,100,200,卡利亚迅剑后续判定与首段魔力补正一致
+AtkParam_Pc,44407,atkMagCorrection,100,200,卡利亚迅剑后续判定与首段魔力补正一致
+AtkParam_Pc,44408,atkMagCorrection,100,200,卡利亚迅剑后续判定与首段魔力补正一致
+AtkParam_Pc,70000,atkFire,144,216,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70010,atkFire,300,254,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70100,atkFire,450,335,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70110,atkFire,650,473,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70200,atkMag,135,203,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70210,atkMag,300,237,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70300,atkPhys,131,197,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70310,atkPhys,300,233,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70400,atkMag,159,239,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70410,atkMag,450,282,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,210702000,atkMag,350,252,龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态
+AtkParam_Pc,70600,atkPhys,395,494,龙爪／龙咬／龙吼主要攻击约 1.25 倍原版
+AtkParam_Pc,70800,atkPhys,628,785,龙爪／龙咬／龙吼主要攻击约 1.25 倍原版
+AtkParam_Pc,70900,atkPhys,320,400,龙爪／龙咬／龙吼主要攻击约 1.25 倍原版
+EquipParamWeapon,3140000,spEffectBehaviorId0,6202080,-1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,3140000,residentSpEffectId,3310,5031400,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,3140000,residentSpEffectId1,3314,-1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,3140000,disableGemAttr,0,1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,3140000,gemMountType,2,0,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,8100000,spEffectBehaviorId0,6415,6412,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,8100000,residentSpEffectId,3310,-1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,8100000,residentSpEffectId1,3314,-1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,8100000,disableGemAttr,0,1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,8100000,gemMountType,2,0,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,23100000,spEffectBehaviorId0,6605,6405,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,23100000,residentSpEffectId,3150,-1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,23100000,disableGemAttr,0,1,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,23100000,gemMountType,2,0,恢复武器自带战技关联的原版效果与固定战灰限制
+EquipParamWeapon,23100000,correctStrength,0.0,42.0,恢复基萨刺轮被清零的力量和灵巧补正
+EquipParamWeapon,23100000,correctAgility,0.0,42.0,恢复基萨刺轮被清零的力量和灵巧补正
 ThrowParam,10201020,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
 ThrowParam,13356000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
 ThrowParam,13357000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
