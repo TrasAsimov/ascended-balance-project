@@ -1,0 +1,4 @@
+﻿参数表,行ID,字段,原值,恢复值
+EquipParamGoods,130,yesNoDialogMessageId,-1,20000800
+EquipParamGoods,130,pad3,00,07
+EquipParamGoods,130,opmeMenuType,0,9

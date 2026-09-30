@@ -1,8 +1,8 @@
 # Elden Ring Ascended：平衡与新版内容兼容测试
 
-本仓库记录基于用户所持 Ascended MOD 的平衡测试迭代。当前主线为 **v0.5 待实机验证版**；区域随机化尚未开始。v0.3 在玩家的 1.17.1 环境中加载参数文件时出现存档损坏提示，后来改用原版 `11711000` 参数容器。
+本仓库记录基于用户所持 Ascended MOD 的平衡测试迭代。当前集成快照为 **v0.10 待实机验证版**；区域随机化尚未开始。v0.3 在玩家的 1.17.1 环境中加载参数文件时出现存档损坏提示，后来改用原版 `11711000` 参数容器。
 
-实机更新：v0.4 完整包仍报存档提示，**紧凑重建且使用官方封装方式的参数文件已能启动**。v0.5 基于此修复玩家反馈，已完成静态验证，实机测试仍待用户进行。
+实机更新：v0.4 完整包仍报存档提示，后来紧凑重建的参数文件已能启动。v0.10 已合并最新参数、英文文本和编译回读的公共事件，仍需测试龙心脏、追忆互斥、法术增幅和特殊武器被动。
 
 | 版本 | 逐项记录 | 实际调整 |
 |---|---|---|
@@ -11,6 +11,13 @@
 | v0.3 | [`changes/v0.3_manifest.json`](changes/v0.3_manifest.json) · [`docs/v0.3.md`](docs/v0.3.md) | 在 v0.2 上导入 27 张参数表的 426 个新版独有行；其中 82 行为新武器及强化阶段，2 行为新增开局职业选择。去掉 31 个旧版玩家动作或文字覆盖以供兼容测试。 |
 | v0.4 | [`changes/v0.4_manifest.json`](changes/v0.4_manifest.json) · [`docs/v0.4.md`](docs/v0.4.md) | 基于官方 1.17.1 原生容器重建，移植可直接映射的 Ascended 参数行；10 张布局变化的表暂用原版值。 |
 | v0.5 | [`docs/v0.5.md`](docs/v0.5.md) · [`changes/v0.5_talisman_reconciliation.csv`](changes/v0.5_talisman_reconciliation.csv) | 恢复原 Ascended 怪物血量、初始 4 护符槽、原战技、缩短状态条，并对齐英文护符说明及新职业文字。 |
+
+## 当前集成快照与对照文档
+
+- [v0.10 安装与测试说明](docs/v0.10.md)、[v0.5 至今有效改动](docs/from_v05_to_current.md)。
+- [最早官方原版与当前参数对比](docs/vanilla_to_current.md)、[逐表字段统计](docs/vanilla_to_current_summary.generated.md)、[完整字段 CSV（gzip）](changes/vanilla_to_current_fields.csv.gz)。
+- [v0.5 至今逐表字段统计](docs/v05_to_current_summary.generated.md)、[完整字段 CSV（gzip）](changes/v05_to_current_fields.csv.gz)。
+- 本仓库保留源码与审计记录。集成测试包的游戏资源不直接进入 Git 树；具体发布方式和下载地址以 Release 页面为准。
 
 ## 从何处开始
 

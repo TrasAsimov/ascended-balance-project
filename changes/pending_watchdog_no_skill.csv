@@ -1,0 +1,6 @@
+﻿参数表,行ID,字段,原值,新值
+EquipParamWeapon,23010000,swordArtsParamId,1192,10
+EquipParamWeapon,23010000,gemMountType,2,0
+EquipParamWeapon,23010000,disableGemAttr,0,1
+EquipParamCustomWeapon,309,gemId,65000,30900
+EquipParamCustomWeapon,329,gemId,65100,30900

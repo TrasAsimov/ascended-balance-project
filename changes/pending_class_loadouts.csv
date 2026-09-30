@@ -1,0 +1,15 @@
+﻿角色行ID,字段,v0.9.1,待发布值
+3003,equip_Wep_Left,1020000,30000000
+3003,equip_Arrow,50030000,-1
+3003,equip_Accessory02,-1,2090
+3106,equip_Subwep_Left,40000000,-1
+3106,equip_Arrow,50030000,-1
+3106,equip_Accessory01,-1,2080
+3106,equip_Accessory02,-1,2090
+3107,equip_Subwep_Left,40000000,-1
+3107,equip_Arrow,50030000,-1
+3107,equip_Accessory01,-1,2080
+3107,equip_Accessory02,-1,2090
+3000,equip_Accessory01,2200,4100
+3100,equip_Accessory01,-1,4100
+3101,equip_Accessory01,-1,4100
