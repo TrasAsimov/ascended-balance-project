@@ -1,0 +1,799 @@
+{
+  "source_version": "11601000",
+  "base_version": "11711000",
+  "shared_rows_ported": 179348,
+  "ascended_only_rows": 10894,
+  "skipped_layout_changed_tables": [
+    {
+      "table": "EnemyCommonParam",
+      "old_size": 256,
+      "official_size": 264
+    },
+    {
+      "table": "GameSystemCommonParam",
+      "old_size": 1024,
+      "official_size": 1032
+    },
+    {
+      "table": "GraphicsCommonParam",
+      "old_size": 256,
+      "official_size": 264
+    },
+    {
+      "table": "LoadBalancerNewDrawDistScaleParam_ps5",
+      "old_size": 48,
+      "official_size": 56
+    },
+    {
+      "table": "LoadBalancerNewDrawDistScaleParam_xss",
+      "old_size": 48,
+      "official_size": 56
+    },
+    {
+      "table": "LoadBalancerNewDrawDistScaleParam_xsx",
+      "old_size": 48,
+      "official_size": 56
+    },
+    {
+      "table": "MenuCommonParam",
+      "old_size": 256,
+      "official_size": 264
+    },
+    {
+      "table": "MimicryEstablishmentTexParam",
+      "old_size": 16,
+      "official_size": 24
+    },
+    {
+      "table": "PlayerCommonParam",
+      "old_size": 256,
+      "official_size": 264
+    },
+    {
+      "table": "SfxBlockResShareParam",
+      "old_size": 4,
+      "official_size": 8
+    }
+  ],
+  "table_stats": {
+    "ActionButtonParam": {
+      "shared_rows_ported": 400,
+      "ascended_only_rows": 0
+    },
+    "AiSoundParam": {
+      "shared_rows_ported": 217,
+      "ascended_only_rows": 0
+    },
+    "AssetEnvironmentGeometryParam": {
+      "shared_rows_ported": 24106,
+      "ascended_only_rows": 0
+    },
+    "AssetMaterialSfxParam": {
+      "shared_rows_ported": 47,
+      "ascended_only_rows": 0
+    },
+    "AssetModelSfxParam": {
+      "shared_rows_ported": 1293,
+      "ascended_only_rows": 0
+    },
+    "AtkParam_Npc": {
+      "shared_rows_ported": 12855,
+      "ascended_only_rows": 10238
+    },
+    "AtkParam_Pc": {
+      "shared_rows_ported": 11017,
+      "ascended_only_rows": 0
+    },
+    "AttackElementCorrectParam": {
+      "shared_rows_ported": 186,
+      "ascended_only_rows": 0
+    },
+    "AutoCreateEnvSoundParam": {
+      "shared_rows_ported": 12,
+      "ascended_only_rows": 0
+    },
+    "BaseChrSelectMenuParam": {
+      "shared_rows_ported": 17,
+      "ascended_only_rows": 0
+    },
+    "BehaviorParam": {
+      "shared_rows_ported": 13895,
+      "ascended_only_rows": 0
+    },
+    "BehaviorParam_PC": {
+      "shared_rows_ported": 13865,
+      "ascended_only_rows": 0
+    },
+    "BonfireWarpParam": {
+      "shared_rows_ported": 422,
+      "ascended_only_rows": 0
+    },
+    "BonfireWarpSubCategoryParam": {
+      "shared_rows_ported": 55,
+      "ascended_only_rows": 0
+    },
+    "BonfireWarpTabParam": {
+      "shared_rows_ported": 19,
+      "ascended_only_rows": 0
+    },
+    "BuddyParam": {
+      "shared_rows_ported": 170,
+      "ascended_only_rows": 1
+    },
+    "BuddyStoneParam": {
+      "shared_rows_ported": 304,
+      "ascended_only_rows": 0
+    },
+    "BudgetParam": {
+      "shared_rows_ported": 5,
+      "ascended_only_rows": 0
+    },
+    "Bullet": {
+      "shared_rows_ported": 15475,
+      "ascended_only_rows": 0
+    },
+    "BulletCreateLimitParam": {
+      "shared_rows_ported": 64,
+      "ascended_only_rows": 0
+    },
+    "CalcCorrectGraph": {
+      "shared_rows_ported": 77,
+      "ascended_only_rows": 0
+    },
+    "Ceremony": {
+      "shared_rows_ported": 34,
+      "ascended_only_rows": 0
+    },
+    "CharaInitParam": {
+      "shared_rows_ported": 3273,
+      "ascended_only_rows": 0
+    },
+    "CharMakeMenuListItemParam": {
+      "shared_rows_ported": 230,
+      "ascended_only_rows": 0
+    },
+    "CharMakeMenuTopParam": {
+      "shared_rows_ported": 203,
+      "ascended_only_rows": 0
+    },
+    "ChrActivateConditionParam": {
+      "shared_rows_ported": 7,
+      "ascended_only_rows": 0
+    },
+    "ChrEquipModelParam": {
+      "shared_rows_ported": 12,
+      "ascended_only_rows": 0
+    },
+    "ChrModelParam": {
+      "shared_rows_ported": 428,
+      "ascended_only_rows": 0
+    },
+    "ClearCountCorrectParam": {
+      "shared_rows_ported": 16,
+      "ascended_only_rows": 0
+    },
+    "CoolTimeParam": {
+      "shared_rows_ported": 40,
+      "ascended_only_rows": 0
+    },
+    "CutsceneGparamTimeParam": {
+      "shared_rows_ported": 107,
+      "ascended_only_rows": 0
+    },
+    "CutsceneGparamWeatherParam": {
+      "shared_rows_ported": 111,
+      "ascended_only_rows": 0
+    },
+    "CutsceneMapIdParam": {
+      "shared_rows_ported": 102,
+      "ascended_only_rows": 0
+    },
+    "CutSceneTextureLoadParam": {
+      "shared_rows_ported": 12,
+      "ascended_only_rows": 0
+    },
+    "CutsceneTimezoneConvertParam": {
+      "shared_rows_ported": 7,
+      "ascended_only_rows": 0
+    },
+    "CutsceneWeatherOverrideGparamConvertParam": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "DecalParam": {
+      "shared_rows_ported": 488,
+      "ascended_only_rows": 0
+    },
+    "DirectionCameraParam": {
+      "shared_rows_ported": 6,
+      "ascended_only_rows": 0
+    },
+    "EnvObjLotParam": {
+      "shared_rows_ported": 39,
+      "ascended_only_rows": 0
+    },
+    "EquipMtrlSetParam": {
+      "shared_rows_ported": 845,
+      "ascended_only_rows": 0
+    },
+    "EquipParamAccessory": {
+      "shared_rows_ported": 157,
+      "ascended_only_rows": 1
+    },
+    "EquipParamCustomWeapon": {
+      "shared_rows_ported": 1663,
+      "ascended_only_rows": 0
+    },
+    "EquipParamGem": {
+      "shared_rows_ported": 242,
+      "ascended_only_rows": 0
+    },
+    "EquipParamGoods": {
+      "shared_rows_ported": 2329,
+      "ascended_only_rows": 11
+    },
+    "EquipParamProtector": {
+      "shared_rows_ported": 838,
+      "ascended_only_rows": 0
+    },
+    "EquipParamWeapon": {
+      "shared_rows_ported": 3636,
+      "ascended_only_rows": 2
+    },
+    "FaceParam": {
+      "shared_rows_ported": 573,
+      "ascended_only_rows": 0
+    },
+    "FaceRangeParam": {
+      "shared_rows_ported": 2,
+      "ascended_only_rows": 0
+    },
+    "FeTextEffectParam": {
+      "shared_rows_ported": 33,
+      "ascended_only_rows": 0
+    },
+    "FinalDamageRateParam": {
+      "shared_rows_ported": 377,
+      "ascended_only_rows": 0
+    },
+    "FootSfxParam": {
+      "shared_rows_ported": 53,
+      "ascended_only_rows": 0
+    },
+    "GameAreaParam": {
+      "shared_rows_ported": 216,
+      "ascended_only_rows": 0
+    },
+    "GestureParam": {
+      "shared_rows_ported": 57,
+      "ascended_only_rows": 0
+    },
+    "GparamRefSettings": {
+      "shared_rows_ported": 70,
+      "ascended_only_rows": 0
+    },
+    "GraphicsConfig": {
+      "shared_rows_ported": 9,
+      "ascended_only_rows": 0
+    },
+    "GrassLodRangeParam": {
+      "shared_rows_ported": 39,
+      "ascended_only_rows": 0
+    },
+    "GrassTypeParam": {
+      "shared_rows_ported": 501,
+      "ascended_only_rows": 0
+    },
+    "GrassTypeParam_Lv1": {
+      "shared_rows_ported": 73,
+      "ascended_only_rows": 0
+    },
+    "GrassTypeParam_Lv2": {
+      "shared_rows_ported": 58,
+      "ascended_only_rows": 0
+    },
+    "HitEffectSeParam": {
+      "shared_rows_ported": 81,
+      "ascended_only_rows": 0
+    },
+    "HitEffectSfxConceptParam": {
+      "shared_rows_ported": 89,
+      "ascended_only_rows": 0
+    },
+    "HitEffectSfxParam": {
+      "shared_rows_ported": 193,
+      "ascended_only_rows": 0
+    },
+    "HitMtrlParam": {
+      "shared_rows_ported": 51,
+      "ascended_only_rows": 0
+    },
+    "HPEstusFlaskRecoveryParam": {
+      "shared_rows_ported": 52,
+      "ascended_only_rows": 0
+    },
+    "ItemLotParam_enemy": {
+      "shared_rows_ported": 5135,
+      "ascended_only_rows": 19
+    },
+    "ItemLotParam_map": {
+      "shared_rows_ported": 5592,
+      "ascended_only_rows": 20
+    },
+    "KeyAssignMenuItemParam": {
+      "shared_rows_ported": 33,
+      "ascended_only_rows": 0
+    },
+    "KeyAssignParam_TypeA": {
+      "shared_rows_ported": 54,
+      "ascended_only_rows": 0
+    },
+    "KeyAssignParam_TypeB": {
+      "shared_rows_ported": 54,
+      "ascended_only_rows": 0
+    },
+    "KeyAssignParam_TypeC": {
+      "shared_rows_ported": 54,
+      "ascended_only_rows": 0
+    },
+    "KnockBackParam": {
+      "shared_rows_ported": 7,
+      "ascended_only_rows": 0
+    },
+    "KnowledgeLoadScreenItemParam": {
+      "shared_rows_ported": 72,
+      "ascended_only_rows": 0
+    },
+    "LegacyDistantViewPartsReplaceParam": {
+      "shared_rows_ported": 167,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerDrawDistScaleParam": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerDrawDistScaleParam_ps4": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerDrawDistScaleParam_ps5": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerDrawDistScaleParam_xb1": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerDrawDistScaleParam_xb1x": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerDrawDistScaleParam_xss": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerDrawDistScaleParam_xsx": {
+      "shared_rows_ported": 22,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerNewDrawDistScaleParam_ps4": {
+      "shared_rows_ported": 14,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerNewDrawDistScaleParam_win64": {
+      "shared_rows_ported": 14,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerNewDrawDistScaleParam_xb1": {
+      "shared_rows_ported": 9,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerNewDrawDistScaleParam_xb1x": {
+      "shared_rows_ported": 9,
+      "ascended_only_rows": 0
+    },
+    "LoadBalancerParam": {
+      "shared_rows_ported": 16,
+      "ascended_only_rows": 0
+    },
+    "LockCamParam": {
+      "shared_rows_ported": 166,
+      "ascended_only_rows": 0
+    },
+    "Magic": {
+      "shared_rows_ported": 317,
+      "ascended_only_rows": 0
+    },
+    "MapDefaultInfoParam": {
+      "shared_rows_ported": 875,
+      "ascended_only_rows": 0
+    },
+    "MapGdRegionDrawParam": {
+      "shared_rows_ported": 85,
+      "ascended_only_rows": 0
+    },
+    "MapGdRegionInfoParam": {
+      "shared_rows_ported": 293,
+      "ascended_only_rows": 0
+    },
+    "MapGridCreateHeightDetailLimitInfo": {
+      "shared_rows_ported": 25,
+      "ascended_only_rows": 0
+    },
+    "MapGridCreateHeightLimitInfoParam": {
+      "shared_rows_ported": 7,
+      "ascended_only_rows": 0
+    },
+    "MapMimicryEstablishmentParam": {
+      "shared_rows_ported": 120,
+      "ascended_only_rows": 0
+    },
+    "MapNameTexParam": {
+      "shared_rows_ported": 33,
+      "ascended_only_rows": 0
+    },
+    "MapNameTexParam_m61": {
+      "shared_rows_ported": 41,
+      "ascended_only_rows": 0
+    },
+    "MapPieceTexParam": {
+      "shared_rows_ported": 50,
+      "ascended_only_rows": 0
+    },
+    "MapPieceTexParam_m61": {
+      "shared_rows_ported": 43,
+      "ascended_only_rows": 0
+    },
+    "MaterialExParam": {
+      "shared_rows_ported": 360,
+      "ascended_only_rows": 0
+    },
+    "MenuColorTableParam": {
+      "shared_rows_ported": 118,
+      "ascended_only_rows": 0
+    },
+    "MenuOffscrRendParam": {
+      "shared_rows_ported": 11,
+      "ascended_only_rows": 0
+    },
+    "MenuPropertyLayoutParam": {
+      "shared_rows_ported": 1144,
+      "ascended_only_rows": 0
+    },
+    "MenuPropertySpecParam": {
+      "shared_rows_ported": 277,
+      "ascended_only_rows": 0
+    },
+    "MenuValueTableParam": {
+      "shared_rows_ported": 98,
+      "ascended_only_rows": 0
+    },
+    "MimicryEstablishmentTexParam_m61": {
+      "shared_rows_ported": 48,
+      "ascended_only_rows": 0
+    },
+    "MoveParam": {
+      "shared_rows_ported": 52,
+      "ascended_only_rows": 0
+    },
+    "MPEstusFlaskRecoveryParam": {
+      "shared_rows_ported": 52,
+      "ascended_only_rows": 0
+    },
+    "MultiHPEstusFlaskBonusParam": {
+      "shared_rows_ported": 6,
+      "ascended_only_rows": 0
+    },
+    "MultiMPEstusFlaskBonusParam": {
+      "shared_rows_ported": 6,
+      "ascended_only_rows": 0
+    },
+    "MultiPlayCorrectionParam": {
+      "shared_rows_ported": 38,
+      "ascended_only_rows": 0
+    },
+    "MultiSoulBonusRateParam": {
+      "shared_rows_ported": 5,
+      "ascended_only_rows": 0
+    },
+    "NetworkAreaParam": {
+      "shared_rows_ported": 15,
+      "ascended_only_rows": 0
+    },
+    "NetworkMsgParam": {
+      "shared_rows_ported": 73,
+      "ascended_only_rows": 0
+    },
+    "NetworkParam": {
+      "shared_rows_ported": 1,
+      "ascended_only_rows": 0
+    },
+    "NpcAiActionParam": {
+      "shared_rows_ported": 284,
+      "ascended_only_rows": 0
+    },
+    "NpcAiBehaviorProbability": {
+      "shared_rows_ported": 284,
+      "ascended_only_rows": 0
+    },
+    "NpcParam": {
+      "shared_rows_ported": 7045,
+      "ascended_only_rows": 142
+    },
+    "NpcThinkParam": {
+      "shared_rows_ported": 2215,
+      "ascended_only_rows": 0
+    },
+    "ObjActParam": {
+      "shared_rows_ported": 198,
+      "ascended_only_rows": 0
+    },
+    "PartsDrawParam": {
+      "shared_rows_ported": 385,
+      "ascended_only_rows": 0
+    },
+    "PhantomParam": {
+      "shared_rows_ported": 65,
+      "ascended_only_rows": 0
+    },
+    "PlayRegionParam": {
+      "shared_rows_ported": 593,
+      "ascended_only_rows": 0
+    },
+    "PostureControlParam_Gender": {
+      "shared_rows_ported": 6,
+      "ascended_only_rows": 0
+    },
+    "PostureControlParam_Pro": {
+      "shared_rows_ported": 12,
+      "ascended_only_rows": 0
+    },
+    "PostureControlParam_WepLeft": {
+      "shared_rows_ported": 33,
+      "ascended_only_rows": 0
+    },
+    "PostureControlParam_WepRight": {
+      "shared_rows_ported": 33,
+      "ascended_only_rows": 0
+    },
+    "RandomAppearParam": {
+      "shared_rows_ported": 5322,
+      "ascended_only_rows": 0
+    },
+    "ReinforceParamProtector": {
+      "shared_rows_ported": 17,
+      "ascended_only_rows": 0
+    },
+    "ReinforceParamWeapon": {
+      "shared_rows_ported": 939,
+      "ascended_only_rows": 0
+    },
+    "ResistCorrectParam": {
+      "shared_rows_ported": 51,
+      "ascended_only_rows": 0
+    },
+    "RideParam": {
+      "shared_rows_ported": 98,
+      "ascended_only_rows": 0
+    },
+    "RoleParam": {
+      "shared_rows_ported": 49,
+      "ascended_only_rows": 0
+    },
+    "RollingObjLotParam": {
+      "shared_rows_ported": 706,
+      "ascended_only_rows": 0
+    },
+    "RuntimeBoneControlParam": {
+      "shared_rows_ported": 1950,
+      "ascended_only_rows": 0
+    },
+    "SeActivationRangeParam": {
+      "shared_rows_ported": 201,
+      "ascended_only_rows": 0
+    },
+    "SeMaterialConvertParam": {
+      "shared_rows_ported": 102,
+      "ascended_only_rows": 0
+    },
+    "ShopLineupParam": {
+      "shared_rows_ported": 1296,
+      "ascended_only_rows": 0
+    },
+    "ShopLineupParam_Recipe": {
+      "shared_rows_ported": 188,
+      "ascended_only_rows": 0
+    },
+    "SignPuddleParam": {
+      "shared_rows_ported": 214,
+      "ascended_only_rows": 0
+    },
+    "SignPuddleSubCategoryParam": {
+      "shared_rows_ported": 56,
+      "ascended_only_rows": 0
+    },
+    "SignPuddleTabParam": {
+      "shared_rows_ported": 20,
+      "ascended_only_rows": 0
+    },
+    "SoundAssetSoundObjEnableDistParam": {
+      "shared_rows_ported": 144,
+      "ascended_only_rows": 0
+    },
+    "SoundAutoEnvSoundGroupParam": {
+      "shared_rows_ported": 6,
+      "ascended_only_rows": 0
+    },
+    "SoundAutoReverbEvaluationDistParam": {
+      "shared_rows_ported": 6,
+      "ascended_only_rows": 0
+    },
+    "SoundAutoReverbSelectParam": {
+      "shared_rows_ported": 12,
+      "ascended_only_rows": 0
+    },
+    "SoundChrPhysicsSeParam": {
+      "shared_rows_ported": 21,
+      "ascended_only_rows": 0
+    },
+    "SoundCommonIngameParam": {
+      "shared_rows_ported": 14,
+      "ascended_only_rows": 0
+    },
+    "SoundCutsceneParam": {
+      "shared_rows_ported": 125,
+      "ascended_only_rows": 0
+    },
+    "SpeedtreeParam": {
+      "shared_rows_ported": 169,
+      "ascended_only_rows": 0
+    },
+    "SpEffectParam": {
+      "shared_rows_ported": 11354,
+      "ascended_only_rows": 459
+    },
+    "SpEffectSetParam": {
+      "shared_rows_ported": 402,
+      "ascended_only_rows": 0
+    },
+    "SpEffectVfxParam": {
+      "shared_rows_ported": 1513,
+      "ascended_only_rows": 0
+    },
+    "SwordArtsParam": {
+      "shared_rows_ported": 278,
+      "ascended_only_rows": 1
+    },
+    "TalkParam": {
+      "shared_rows_ported": 10309,
+      "ascended_only_rows": 0
+    },
+    "ThrowDirectionSfxParam": {
+      "shared_rows_ported": 51,
+      "ascended_only_rows": 0
+    },
+    "ThrowParam": {
+      "shared_rows_ported": 1794,
+      "ascended_only_rows": 0
+    },
+    "ToughnessParam": {
+      "shared_rows_ported": 84,
+      "ascended_only_rows": 0
+    },
+    "TutorialParam": {
+      "shared_rows_ported": 86,
+      "ascended_only_rows": 0
+    },
+    "WaypointParam": {
+      "shared_rows_ported": 6,
+      "ascended_only_rows": 0
+    },
+    "WeatherAssetCreateParam": {
+      "shared_rows_ported": 8,
+      "ascended_only_rows": 0
+    },
+    "WeatherAssetReplaceParam": {
+      "shared_rows_ported": 1007,
+      "ascended_only_rows": 0
+    },
+    "WeatherLotParam": {
+      "shared_rows_ported": 164,
+      "ascended_only_rows": 0
+    },
+    "WeatherLotTexParam": {
+      "shared_rows_ported": 25,
+      "ascended_only_rows": 0
+    },
+    "WeatherLotTexParam_m61": {
+      "shared_rows_ported": 30,
+      "ascended_only_rows": 0
+    },
+    "WeatherParam": {
+      "shared_rows_ported": 162,
+      "ascended_only_rows": 0
+    },
+    "WepAbsorpPosParam": {
+      "shared_rows_ported": 70,
+      "ascended_only_rows": 0
+    },
+    "WetAspectParam": {
+      "shared_rows_ported": 20,
+      "ascended_only_rows": 0
+    },
+    "WhiteSignCoolTimeParam": {
+      "shared_rows_ported": 10,
+      "ascended_only_rows": 0
+    },
+    "WorldMapLegacyConvParam": {
+      "shared_rows_ported": 196,
+      "ascended_only_rows": 0
+    },
+    "WorldMapPieceParam": {
+      "shared_rows_ported": 34,
+      "ascended_only_rows": 0
+    },
+    "WorldMapPlaceNameParam": {
+      "shared_rows_ported": 10,
+      "ascended_only_rows": 0
+    },
+    "WorldMapPointParam": {
+      "shared_rows_ported": 472,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_BgmBossChrIdConv": {
+      "shared_rows_ported": 213,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_EnvPlaceType": {
+      "shared_rows_ported": 43,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_AttackStrength": {
+      "shared_rows_ported": 3,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_AttackType": {
+      "shared_rows_ported": 4,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_DamageAmount": {
+      "shared_rows_ported": 2,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_DeffensiveMaterial": {
+      "shared_rows_ported": 129,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_GrassHitType": {
+      "shared_rows_ported": 2,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_HitStop": {
+      "shared_rows_ported": 3,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_OffensiveMaterial": {
+      "shared_rows_ported": 12,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_PlayerEquipmentBottoms": {
+      "shared_rows_ported": 67,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_PlayerEquipmentTops": {
+      "shared_rows_ported": 67,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_PlayerShoes": {
+      "shared_rows_ported": 67,
+      "ascended_only_rows": 0
+    },
+    "WwiseValueToStrParam_Switch_PlayerVoiceType": {
+      "shared_rows_ported": 174,
+      "ascended_only_rows": 0
+    }
+  },
+  "native_new_weapons_with_effect": 82,
+  "regulation_sha256": "94c2f5b94c9d6d52efca9bf8080932242ffc0c485ecf900884dc301e784e18a4",
+  "package_sha256": "f8b1f085e6409b9ce6dce3c147d3597b0f287d0886e0bdd938448341f4c97c80"
+}

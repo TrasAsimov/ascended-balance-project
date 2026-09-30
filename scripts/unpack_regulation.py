@@ -1,7 +1,7 @@
 """Unpack an already decrypted BND4/DCX or an Ascended-era regulation.bin.
 
-Official 1.17.1 encrypted regulation.bin uses a different key from Ascended
-1.16 and must first be decrypted with a version-compatible game tool.
+The official 1.17.1 file uses zero padding; build_v04.py handles it. This
+helper's older decrypt route expects PKCS7 padding, as used by our builds.
 """
 from pathlib import Path
 import sys
@@ -30,7 +30,7 @@ def main():
         try:
             _, raw = decrypt(blob)
         except Exception as exc:
-            raise SystemExit('无法解密；1.17.1 官方加密 regulation.bin 请先用兼容工具解密成 DCX 或 BND4。') from exc
+            raise SystemExit('无法解密；官方 1.17.1 加密 regulation.bin 请直接交给 build_v04.py，或先用兼容工具解密。') from exc
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(raw)
     print(f'{destination}: {len(raw)} bytes')
