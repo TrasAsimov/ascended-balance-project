@@ -1,0 +1,32 @@
+﻿参数表,行ID,字段,v0.5,v0.6,原因
+MenuCommonParam,0,playerMaxHpLimit,7130,28520,只改变状态条显示尺度，不改变资源数值
+MenuCommonParam,0,playerMaxMpLimit,1650,6600,只改变状态条显示尺度，不改变资源数值
+MenuCommonParam,0,playerMaxSpLimit,960,1920,只改变状态条显示尺度，不改变资源数值
+SpEffectParam,6202065,maxHpRate,1.5,2.0,玩家基础生命倍率调整为 2 倍
+ThrowParam,10201020,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,13356000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,13357000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,13360000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14211000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14212000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14212001,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14213000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14213001,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14219000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14250000,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+ThrowParam,14250001,whole_official_row,missing attacker animation,official 1.17.1 row,恢复原版已有的处决配对和动作，不给原版不可处决的敌人新增定义
+WeatherParam,0,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,1,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,10,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,11,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,20,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,21,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,30,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,31,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,40,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,41,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,50,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,60,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,81,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,82,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
+WeatherParam,83,GparamId,51,50,用普通雾天气光照配置替代全局强制浓雾；保持事件和夜晚机制
