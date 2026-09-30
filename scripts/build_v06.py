@@ -38,7 +38,7 @@ def main():
     # leave the underlying HP/FP/SP resource values unchanged.
     menu = active_rows(data, 'MenuCommonParam')[0]
     for pos, name, factor in ((8, 'playerMaxHpLimit', 4),
-                              (12, 'playerMaxMpLimit', 4),
+                              (12, 'playerMaxMpLimit', 2),
                               (16, 'playerMaxSpLimit', 2)):
         old = struct.unpack_from('<i', data, menu + pos)[0]
         assert old in (7130, 1650, 960)
@@ -58,6 +58,76 @@ def main():
     struct.pack_into('<f', data, pos, 2.0)
     changes.append(('SpEffectParam', speffect_id, 'maxHpRate', old, 2.0,
                     '玩家基础生命倍率调整为 2 倍'))
+
+    def put_field(table, rid, name, value, reason, expected=None):
+        spec, row_size = fields(defs()[mod[table]['ptype']])
+        assert row_size == mod[table]['row_size']
+        field = next(f for f in spec if f[0] == name)
+        assert field[6] == 1
+        pos = active_rows(data, table)[rid] + field[2]
+        old = decode(mod[table]['rows'][rid]['data'], field)
+        if expected is not None:
+            assert old == expected, (table, rid, name, old, expected)
+        if field[4] is not None:
+            assert field[3] == 1 and 0 <= value < (1 << field[4])
+            mask = ((1 << field[4]) - 1) << field[5]
+            data[pos] = (data[pos] & ~mask) | (value << field[5])
+        else:
+            fmt = {'f32': 'f', 's32': 'i', 'u32': 'I', 'u16': 'H', 'u8': 'B'}[field[1]]
+            assert struct.calcsize(fmt) == field[3]
+            struct.pack_into('<' + fmt, data, pos, value)
+        changes.append((table, rid, name, old, value, reason))
+
+    # Ascended's fivefold always-on MP effect combines with a doubled Mind
+    # curve. Keep meaningful room for repeat casts without 10k+ FP pools.
+    put_field('SpEffectParam', speffect_id, 'maxMpRate', 1.0,
+              '取消玩家常驻五倍 FP；以等级曲线给法术和战技保留可用次数', 5.0)
+    for name, old, new in [('stageMaxGrowVal2', 500.0, 450.0),
+                           ('stageMaxGrowVal3', 700.0, 550.0),
+                           ('stageMaxGrowVal4', 900.0, 650.0)]:
+        put_field('CalcCorrectGraph', 101, name, new,
+                  '收敛高等级集中力的 FP 成长，99 级目标基值约 650', old)
+
+    # The first Carian Slicer hit was doubled in Ascended; follow-up hitboxes
+    # retained official correction, causing an abrupt damage collapse.
+    for rid in (44401, 44405, 44406, 44407, 44408):
+        put_field('AtkParam_Pc', rid, 'atkMagCorrection', 200,
+                  '卡利亚迅剑后续判定与首段魔力补正一致', 100)
+
+    # Tune the main breath hitboxes individually: base breath ~1.5x official,
+    # named variants ~1.5x official. Preserve status and repeat-hit timing.
+    breath = {
+        70000: ('atkFire', 216), 70010: ('atkFire', 254),
+        70100: ('atkFire', 335), 70110: ('atkFire', 473),
+        70200: ('atkMag', 203), 70210: ('atkMag', 237),
+        70300: ('atkPhys', 197), 70310: ('atkPhys', 233),
+        70400: ('atkMag', 239), 70410: ('atkMag', 282),
+        210702000: ('atkMag', 252),
+    }
+    for rid, (name, value) in breath.items():
+        put_field('AtkParam_Pc', rid, name, value,
+                  '龙飨吐息主判定相对原版约 1.5 倍，保留持续命中和异常状态')
+    for rid, name, value in ((70600, 'atkPhys', 494),
+                             (70800, 'atkPhys', 785),
+                             (70900, 'atkPhys', 400)):
+        put_field('AtkParam_Pc', rid, name, value,
+                  '龙爪／龙咬／龙吼主要攻击约 1.25 倍原版')
+
+    # In v0.5 the SwordArtsParam and attack rows were restored, but these
+    # unique weapons retained overwritten weapon-side effects and gem flags.
+    for rid in (3140000, 8100000, 23100000):
+        for name in ('spEffectBehaviorId0', 'residentSpEffectId',
+                     'residentSpEffectId1', 'disableGemAttr', 'gemMountType'):
+            field = next(f for f in fields(defs()[mod['EquipParamWeapon']['ptype']])[0]
+                         if f[0] == name)
+            original = decode(vanilla['EquipParamWeapon']['rows'][rid]['data'], field)
+            previous = decode(mod['EquipParamWeapon']['rows'][rid]['data'], field)
+            if previous != original:
+                put_field('EquipParamWeapon', rid, name, original,
+                          '恢复武器自带战技关联的原版效果与固定战灰限制', previous)
+    for name in ('correctStrength', 'correctAgility'):
+        put_field('EquipParamWeapon', 23100000, name, 42.0,
+                  '恢复基萨刺轮被清零的力量和灵巧补正', 0.0)
 
     # The compact migration copied 1.16's empty DLC throw records over
     # 1.17.1's executable records. Restore only rows with a missing attacker
@@ -112,7 +182,13 @@ def main():
     assert version == '11711000' and len(check) == 194
     for tb in mod:
         for rid, rec in mod[tb]['rows'].items():
-            if tb == 'MenuCommonParam' and rid == 0 or tb == 'SpEffectParam' and rid == speffect_id or tb == 'ThrowParam' and rid in restored or tb == 'WeatherParam' and rid in weather:
+            if (tb == 'MenuCommonParam' and rid == 0 or
+                tb == 'SpEffectParam' and rid == speffect_id or
+                tb == 'CalcCorrectGraph' and rid == 101 or
+                tb == 'EquipParamWeapon' and rid in (3140000, 8100000, 23100000) or
+                tb == 'AtkParam_Pc' and rid in (*breath.keys(), 44401, 44405, 44406, 44407, 44408, 70600, 70800, 70900) or
+                tb == 'ThrowParam' and rid in restored or
+                tb == 'WeatherParam' and rid in weather):
                 continue
             assert check[tb]['rows'][rid]['data'] == rec['data'], (tb, rid)
     for rid in restored:
