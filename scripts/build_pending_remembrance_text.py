@@ -12,10 +12,10 @@ NEW=('Effect: raises maximum HP by 5%, weapon attack power by 2.5%, '
 RUNE='Alternatively, it can be used to gain a great bounty of runes.'
 HEART_ID=2001431
 HEART_TEXT={
- 'GoodsName_dlc01.fmg':'Remembrance Dragon Heart',
+ 'GoodsName_dlc01.fmg':'Empowered Soul',
  'GoodsInfo_dlc01.fmg':'Refreshes power from defeated remembrance bosses',
  'GoodsCaption_dlc01.fmg':(
-  'A heart granted after awakening in the Stranded Graveyard.\n\n'
+  'An empowered soul granted at the beginning of the journey.\n\n'
   'Use it to refresh the power of eligible remembrance bosses you have defeated. '
   'Each of the 21 eligible bosses raises maximum HP by 5%, weapon attack power by 2.5%, '
   'and sorcery/incantation damage by 2.5%. '
