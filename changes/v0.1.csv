@@ -1,0 +1,582 @@
+﻿参数表,行ID,英文名称,中文名称,字段,字段中文,Ascended原值,1.17.1原版参考值,优化后值
+Magic,4000,[Sorcery] Glintstone Pebble,辉石魔砾,mp,基础施法 FP 消耗,41,7,14
+Magic,4000,[Sorcery] Glintstone Pebble,辉石魔砾,mp_charge,蓄力时 FP 消耗,60,0,8
+Magic,4001,[Sorcery] Great Glintstone Shard,辉石大魔砾,mp,基础施法 FP 消耗,50,12,24
+Magic,4001,[Sorcery] Great Glintstone Shard,辉石大魔砾,mp_charge,蓄力时 FP 消耗,70,0,8
+Magic,4010,[Sorcery] Swift Glintstone Shard,辉石迅魔砾,mp,基础施法 FP 消耗,30,5,10
+Magic,4010,[Sorcery] Swift Glintstone Shard,辉石迅魔砾,mp_charge,蓄力时 FP 消耗,50,0,8
+Magic,4020,[Sorcery] Glintstone Cometshard,辉石彗星,mp,基础施法 FP 消耗,80,17,34
+Magic,4020,[Sorcery] Glintstone Cometshard,辉石彗星,mp_charge,蓄力时 FP 消耗,120,17,34
+Magic,4021,[Sorcery] Comet,帚星,mp,基础施法 FP 消耗,200,24,48
+Magic,4021,[Sorcery] Comet,帚星,mp_charge,蓄力时 FP 消耗,130,24,48
+Magic,4030,[Sorcery] Shard Spiral,旋飞魔砾,mp,基础施法 FP 消耗,62,14,28
+Magic,4030,[Sorcery] Shard Spiral,旋飞魔砾,mp_charge,蓄力时 FP 消耗,85,14,28
+Magic,4040,[Sorcery] Glintstone Stars,辉石流星,mp,基础施法 FP 消耗,62,12,24
+Magic,4040,[Sorcery] Glintstone Stars,辉石流星,mp_charge,蓄力时 FP 消耗,85,12,24
+Magic,4050,[Sorcery] Star Shower,流星雨,mp,基础施法 FP 消耗,160,23,46
+Magic,4050,[Sorcery] Star Shower,流星雨,mp_charge,蓄力时 FP 消耗,200,23,46
+Magic,4060,[Sorcery] Crystal Barrage,结晶连弹,mp,基础施法 FP 消耗,62,14,28
+Magic,4060,[Sorcery] Crystal Barrage,结晶连弹,mp_charge,蓄力时 FP 消耗,88,2,8
+Magic,4070,[Sorcery] Glintstone Arc,辉石弯弧,mp,基础施法 FP 消耗,45,9,18
+Magic,4070,[Sorcery] Glintstone Arc,辉石弯弧,mp_charge,蓄力时 FP 消耗,65,0,8
+Magic,4080,[Sorcery] Cannon of Haima,海摩炮弹,mp,基础施法 FP 消耗,160,38,76
+Magic,4080,[Sorcery] Cannon of Haima,海摩炮弹,mp_charge,蓄力时 FP 消耗,200,38,76
+Magic,4090,[Sorcery] Crystal Burst,结晶散射,mp,基础施法 FP 消耗,60,14,28
+Magic,4090,[Sorcery] Crystal Burst,结晶散射,mp_charge,蓄力时 FP 消耗,85,14,28
+Magic,4100,[Sorcery] Shatter Earth,爆碎岩盘,mp,基础施法 FP 消耗,55,10,20
+Magic,4100,[Sorcery] Shatter Earth,爆碎岩盘,mp_charge,蓄力时 FP 消耗,75,0,8
+Magic,4110,[Sorcery] Rock Blaster,爆破岩盘,mp,基础施法 FP 消耗,100,22,44
+Magic,4110,[Sorcery] Rock Blaster,爆破岩盘,mp_charge,蓄力时 FP 消耗,75,4,8
+Magic,4120,[Sorcery] Gavel of Haima,海摩大槌,mp,基础施法 FP 消耗,75,22,44
+Magic,4120,[Sorcery] Gavel of Haima,海摩大槌,mp_charge,蓄力时 FP 消耗,95,0,8
+Magic,4130,[Sorcery] Terra Magicus,魔法之境,mp,基础施法 FP 消耗,200,20,40
+Magic,4140,[Sorcery] Starlight,星光,mp,基础施法 FP 消耗,55,9,18
+Magic,4200,[Sorcery] Comet Azur,彗星亚兹勒,mp,基础施法 FP 消耗,100,40,80
+Magic,4200,[Sorcery] Comet Azur,彗星亚兹勒,mp_charge,蓄力时 FP 消耗,100,10,20
+Magic,4210,[Sorcery] Founding Rain of Stars,创星雨,mp,基础施法 FP 消耗,144,27,54
+Magic,4210,[Sorcery] Founding Rain of Stars,创星雨,mp_charge,蓄力时 FP 消耗,185,27,54
+Magic,4220,[Sorcery] Stars of Ruin,毁灭流星,mp,基础施法 FP 消耗,250,32,64
+Magic,4220,[Sorcery] Stars of Ruin,毁灭流星,mp_charge,蓄力时 FP 消耗,200,32,64
+Magic,4300,[Sorcery] Glintblade Phalanx,辉剑圆阵,mp,基础施法 FP 消耗,85,18,36
+Magic,4301,[Sorcery] Carian Phalanx,卡利亚圆阵,mp,基础施法 FP 消耗,90,24,48
+Magic,4302,[Sorcery] Greatblade Phalanx,巨剑阵,mp,基础施法 FP 消耗,133,30,60
+Magic,4360,[Sorcery] Rennala's Full Moon,蕾娜菈的满月,mp,基础施法 FP 消耗,350,47,94
+Magic,4361,[Sorcery] Ranni's Dark Moon,菈妮的暗月,mp,基础施法 FP 消耗,350,57,114
+Magic,4370,[Sorcery] Magic Downpour,天降魔力,mp,基础施法 FP 消耗,80,18,36
+Magic,4370,[Sorcery] Magic Downpour,天降魔力,mp_charge,蓄力时 FP 消耗,120,18,36
+Magic,4380,[Sorcery] Loretta's Greatbow,罗蕾塔的大弓,mp,基础施法 FP 消耗,200,24,48
+Magic,4380,[Sorcery] Loretta's Greatbow,罗蕾塔的大弓,mp_charge,蓄力时 FP 消耗,200,24,48
+Magic,4381,[Sorcery] Loretta's Mastery,罗蕾塔的绝招,mp,基础施法 FP 消耗,300,39,78
+Magic,4381,[Sorcery] Loretta's Mastery,罗蕾塔的绝招,mp_charge,蓄力时 FP 消耗,450,39,78
+Magic,4390,[Sorcery] Magic Glintblade,魔法辉剑,mp,基础施法 FP 消耗,44,12,24
+Magic,4390,[Sorcery] Magic Glintblade,魔法辉剑,mp_charge,蓄力时 FP 消耗,65,12,24
+Magic,4400,[Sorcery] Glintstone Icecrag,辉石冰块,mp,基础施法 FP 消耗,400,12,24
+Magic,4410,[Sorcery] Zamor Ice Storm,萨米尔冰风暴,mp,基础施法 FP 消耗,88,17,34
+Magic,4410,[Sorcery] Zamor Ice Storm,萨米尔冰风暴,mp_charge,蓄力时 FP 消耗,122,17,34
+Magic,4420,[Sorcery] Freezing Mist,冰雾,mp,基础施法 FP 消耗,85,20,40
+Magic,4420,[Sorcery] Freezing Mist,冰雾,mp_charge,蓄力时 FP 消耗,105,20,40
+Magic,4430,[Sorcery] Carian Greatsword,卡利亚大剑,mp,基础施法 FP 消耗,65,12,24
+Magic,4431,[Sorcery] Adula's Moonblade,亚杜拉的月光剑,mp,基础施法 FP 消耗,90,22,44
+Magic,4440,[Sorcery] Carian Slicer,卡利亚迅剑,mp,基础施法 FP 消耗,33,4,8
+Magic,4450,[Sorcery] Carian Piercer,卡利亚贯刺,mp,基础施法 FP 消耗,75,17,34
+Magic,4450,[Sorcery] Carian Piercer,卡利亚贯刺,mp_charge,蓄力时 FP 消耗,95,17,34
+Magic,4480,[Sorcery] Lucidity,镇定,mp,基础施法 FP 消耗,30,10,20
+Magic,4500,[Sorcery] Shattering Crystal,爆散结晶,mp,基础施法 FP 消耗,120,21,42
+Magic,4500,[Sorcery] Shattering Crystal,爆散结晶,mp_charge,蓄力时 FP 消耗,155,21,42
+Magic,4510,[Sorcery] Crystal Release,飞散结晶,mp,基础施法 FP 消耗,155,34,68
+Magic,4520,[Sorcery] Crystal Torrent,奔放结晶,mp,基础施法 FP 消耗,90,20,40
+Magic,4520,[Sorcery] Crystal Torrent,奔放结晶,mp_charge,蓄力时 FP 消耗,120,5,10
+Magic,4600,[Sorcery] Ambush Shard,奇袭魔砾,mp,基础施法 FP 消耗,65,13,26
+Magic,4610,[Sorcery] Night Shard,黑夜魔砾,mp,基础施法 FP 消耗,50,7,14
+Magic,4620,[Sorcery] Night Comet,黑夜彗星,mp,基础施法 FP 消耗,110,21,42
+Magic,4620,[Sorcery] Night Comet,黑夜彗星,mp_charge,蓄力时 FP 消耗,165,21,42
+Magic,4630,[Sorcery] Thops's Barrier,托普斯的力场,mp,基础施法 FP 消耗,21,7,14
+Magic,4640,[Sorcery] Carian Retaliation,卡利亚式奉还,mp,基础施法 FP 消耗,30,8,16
+Magic,4641,[Sorcery] Carian Retaliation (Unused 1),卡利亚式奉还（未使用 1，暂译）,mp,基础施法 FP 消耗,30,8,16
+Magic,4642,[Sorcery] Carian Retaliation (Unused 2),卡利亚式奉还（未使用 2，暂译）,mp,基础施法 FP 消耗,30,8,16
+Magic,4650,[Sorcery] Eternal Darkness,亘古黑暗,mp,基础施法 FP 消耗,75,25,50
+Magic,4660,[Sorcery] Unseen Blade,无形刀刃,mp,基础施法 FP 消耗,65,13,26
+Magic,4670,[Sorcery] Unseen Form,化为无形,mp,基础施法 FP 消耗,60,20,40
+Magic,4700,[Sorcery] Meteorite,陨石,mp,基础施法 FP 消耗,130,30,60
+Magic,4700,[Sorcery] Meteorite,陨石,mp_charge,蓄力时 FP 消耗,175,10,20
+Magic,4701,[Sorcery] Meteorite of Astel,艾丝缇陨石,mp,基础施法 FP 消耗,230,60,120
+Magic,4701,[Sorcery] Meteorite of Astel,艾丝缇陨石,mp_charge,蓄力时 FP 消耗,320,12,24
+Magic,4710,[Sorcery] Rock Sling,岩石球,mp,基础施法 FP 消耗,125,18,36
+Magic,4720,[Sorcery] Gravity Well,重力球,mp,基础施法 FP 消耗,168,12,24
+Magic,4720,[Sorcery] Gravity Well,重力球,mp_charge,蓄力时 FP 消耗,85,12,24
+Magic,4721,[Sorcery] Collapsing Stars,碎星,mp,基础施法 FP 消耗,350,18,36
+Magic,4721,[Sorcery] Collapsing Stars,碎星,mp_charge,蓄力时 FP 消耗,350,18,36
+Magic,4800,[Sorcery] Magma Shot,熔岩球,mp,基础施法 FP 消耗,95,16,32
+Magic,4800,[Sorcery] Magma Shot,熔岩球,mp_charge,蓄力时 FP 消耗,120,16,32
+Magic,4810,[Sorcery] Gelmir's Fury,格密尔之怒,mp,基础施法 FP 消耗,109,16,32
+Magic,4810,[Sorcery] Gelmir's Fury,格密尔之怒,mp_charge,蓄力时 FP 消耗,130,3,8
+Magic,4820,[Sorcery] Roiling Magma,滚烫熔岩,mp,基础施法 FP 消耗,120,28,56
+Magic,4820,[Sorcery] Roiling Magma,滚烫熔岩,mp_charge,蓄力时 FP 消耗,150,28,56
+Magic,4830,[Sorcery] Rykard's Rancor,拉卡德的怨魂,mp,基础施法 FP 消耗,350,23,46
+Magic,4900,[Sorcery] Briars of Sin,罪恶荆棘,mp,基础施法 FP 消耗,55,6,12
+Magic,4910,[Sorcery] Briars of Punishment,责罚荆棘,mp,基础施法 FP 消耗,88,9,18
+Magic,5000,[Sorcery] Rancorcall,召唤怨魂,mp,基础施法 FP 消耗,150,12,24
+Magic,5000,[Sorcery] Rancorcall,召唤怨魂,mp_charge,蓄力时 FP 消耗,150,12,24
+Magic,5001,[Sorcery] Ancient Death Rancor,古老死亡怨魂,mp,基础施法 FP 消耗,450,21,42
+Magic,5001,[Sorcery] Ancient Death Rancor,古老死亡怨魂,mp_charge,蓄力时 FP 消耗,350,21,42
+Magic,5010,[Sorcery] Explosive Ghostflame,迸发灵火,mp,基础施法 FP 消耗,200,29,58
+Magic,5020,[Sorcery] Fia's Mist,菲雅烟雾,mp,基础施法 FP 消耗,75,25,50
+Magic,5020,[Sorcery] Fia's Mist,菲雅烟雾,mp_charge,蓄力时 FP 消耗,100,25,50
+Magic,5030,[Sorcery] Tibia's Summons,提比亚的唤声,mp,基础施法 FP 消耗,88,17,34
+Magic,5040,[Sorcery] Death Lightning,死亡雷击,mp,基础施法 FP 消耗,177,28,56
+Magic,5040,[Sorcery] Death Lightning,死亡雷击,mp_charge,蓄力时 FP 消耗,210,28,56
+Magic,5100,[Sorcery] Oracle Bubbles,神谕泡泡,mp,基础施法 FP 消耗,66,12,24
+Magic,5100,[Sorcery] Oracle Bubbles,神谕泡泡,mp_charge,蓄力时 FP 消耗,88,12,24
+Magic,5110,[Sorcery] Great Oracular Bubble,神谕大泡泡,mp,基础施法 FP 消耗,99,16,32
+Magic,5110,[Sorcery] Great Oracular Bubble,神谕大泡泡,mp_charge,蓄力时 FP 消耗,135,16,32
+Magic,6000,[Incantation] Catch Flame,燃火,mp,基础施法 FP 消耗,55,10,20
+Magic,6001,"[Incantation] O, Flame!",火焰啊！,mp,基础施法 FP 消耗,76,16,32
+Magic,6001,"[Incantation] O, Flame!",火焰啊！,mp_charge,蓄力时 FP 消耗,100,16,32
+Magic,6010,[Incantation] Flame Sling,投火,mp,基础施法 FP 消耗,55,11,22
+Magic,6010,[Incantation] Flame Sling,投火,mp_charge,蓄力时 FP 消耗,75,11,22
+Magic,6020,[Incantation] Flame Fall Upon Them,火焰啊，倾注吧,mp,基础施法 FP 消耗,110,16,32
+Magic,6020,[Incantation] Flame Fall Upon Them,火焰啊，倾注吧,mp_charge,蓄力时 FP 消耗,145,16,32
+Magic,6030,"[Incantation] Whirl, O Flame",火焰啊，缠绕吧,mp,基础施法 FP 消耗,65,19,38
+Magic,6030,"[Incantation] Whirl, O Flame",火焰啊，缠绕吧,mp_charge,蓄力时 FP 消耗,85,19,38
+Magic,6050,[Incantation] Flame Grant Me Strength,火焰啊，赐予我力量！,mp,基础施法 FP 消耗,60,28,56
+Magic,6100,[Incantation] Giantsflame Take Thee,感受巨人火焰吧,mp,基础施法 FP 消耗,300,30,60
+Magic,6100,[Incantation] Giantsflame Take Thee,感受巨人火焰吧,mp_charge,蓄力时 FP 消耗,155,30,60
+Magic,6110,[Incantation] Flame of The Fell God,恶神火焰,mp,基础施法 FP 消耗,300,34,68
+Magic,6120,"[Incantation] Burn, O Flame!",火焰啊，吞噬一切！,mp,基础施法 FP 消耗,150,26,52
+Magic,6120,"[Incantation] Burn, O Flame!",火焰啊，吞噬一切！,mp_charge,蓄力时 FP 消耗,175,30,60
+Magic,6210,[Incantation] Black Flame,黑焰,mp,基础施法 FP 消耗,200,18,36
+Magic,6210,[Incantation] Black Flame,黑焰,mp_charge,蓄力时 FP 消耗,200,18,36
+Magic,6220,"[Incantation] Surge, O Flame",火焰啊，喷发吧,mp,基础施法 FP 消耗,33,1,8
+Magic,6230,[Incantation] Scouring Black Flame,横扫黑焰,mp,基础施法 FP 消耗,122,21,42
+Magic,6230,[Incantation] Scouring Black Flame,横扫黑焰,mp_charge,蓄力时 FP 消耗,145,21,42
+Magic,6240,[Incantation] Black Flame Ritual,黑焰仪式,mp,基础施法 FP 消耗,155,30,60
+Magic,6240,[Incantation] Black Flame Ritual,黑焰仪式,mp_charge,蓄力时 FP 消耗,200,30,60
+Magic,6270,[Incantation] Noble Presence,贵族气场,mp,基础施法 FP 消耗,88,20,40
+Magic,6270,[Incantation] Noble Presence,贵族气场,mp_charge,蓄力时 FP 消耗,105,20,40
+Magic,6300,[Incantation] Bloodflame Talons,血焰爪痕,mp,基础施法 FP 消耗,88,12,24
+Magic,6310,[Incantation] Bloodboon,授血,mp,基础施法 FP 消耗,88,13,26
+Magic,6400,[Incantation] Rejection,拒绝,mp,基础施法 FP 消耗,55,9,18
+Magic,6400,[Incantation] Rejection,拒绝,mp_charge,蓄力时 FP 消耗,75,9,18
+Magic,6410,[Incantation] Wrath of Gold,黄金之怒,mp,基础施法 FP 消耗,155,40,80
+Magic,6410,[Incantation] Wrath of Gold,黄金之怒,mp_charge,蓄力时 FP 消耗,200,40,80
+Magic,6420,[Incantation] Urgent Heal,紧急恢复,mp,基础施法 FP 消耗,150,16,32
+Magic,6421,[Incantation] Heal,恢复,mp,基础施法 FP 消耗,250,32,64
+Magic,6422,[Incantation] Great Heal,大恢复,mp,基础施法 FP 消耗,350,45,90
+Magic,6423,[Incantation] Lord's Heal,王之恢复,mp,基础施法 FP 消耗,650,55,110
+Magic,6424,[Incantation] Erdtree Heal,黄金树恢复,mp,基础施法 FP 消耗,1000,65,130
+Magic,6440,[Incantation] Cure Poison,疗愈毒性,mp,基础施法 FP 消耗,21,7,14
+Magic,6441,[Incantation] Lord's Aid,王之疗愈,mp,基础施法 FP 消耗,36,12,24
+Magic,6500,[Incantation] Night Maiden's Mist,黑夜女巫烟雾,mp,基础施法 FP 消耗,88,20,40
+Magic,6500,[Incantation] Night Maiden's Mist,黑夜女巫烟雾,mp_charge,蓄力时 FP 消耗,105,20,40
+Magic,6510,[Incantation] Assassin's Approach,刺客步法,mp,基础施法 FP 消耗,45,15,30
+Magic,6520,[Incantation] Shadow Bait,诱敌幻影,mp,基础施法 FP 消耗,66,15,30
+Magic,6530,[Incantation] Darkness,黑暗,mp,基础施法 FP 消耗,70,24,48
+Magic,6700,[Incantation] Discus of Light,光环,mp,基础施法 FP 消耗,55,3,8
+Magic,6701,[Incantation] Triple Rings of Light,化三光环,mp,基础施法 FP 消耗,155,23,46
+Magic,6710,[Incantation] Radagon's Rings of Light,拉达冈的光环,mp,基础施法 FP 消耗,133,21,42
+Magic,6710,[Incantation] Radagon's Rings of Light,拉达冈的光环,mp_charge,蓄力时 FP 消耗,185,21,42
+Magic,6720,[Incantation] Elden Stars,艾尔登流星,mp,基础施法 FP 消耗,300,41,82
+Magic,6730,[Incantation] Law of Regression,回归性原理,mp,基础施法 FP 消耗,155,55,110
+Magic,6740,[Incantation] Immutable Shield,不变盾牌,mp,基础施法 FP 消耗,120,15,30
+Magic,6750,[Incantation] Litany of Proper Death,纠死圣律,mp,基础施法 FP 消耗,88,17,34
+Magic,6760,[Incantation] Law of Causality,因果性原理,mp,基础施法 FP 消耗,88,22,44
+Magic,6800,[Incantation] Bestial Sling,兽石,mp,基础施法 FP 消耗,45,7,14
+Magic,6810,[Incantation] Stone of Gurranq,古兰格的岩石,mp,基础施法 FP 消耗,200,15,30
+Magic,6820,[Incantation] Beast Claw,兽爪,mp,基础施法 FP 消耗,60,10,20
+Magic,6820,[Incantation] Beast Claw,兽爪,mp_charge,蓄力时 FP 消耗,80,10,20
+Magic,6830,[Incantation] Gurranq's Beast Claw,古兰格的兽爪,mp,基础施法 FP 消耗,99,21,42
+Magic,6900,[Incantation] Lightning Spear,雷电枪,mp,基础施法 FP 消耗,77,18,36
+Magic,6900,[Incantation] Lightning Spear,雷电枪,mp_charge,蓄力时 FP 消耗,100,18,36
+Magic,6910,[Incantation] Ancient Dragons' Light Strike,古龙雷击,mp,基础施法 FP 消耗,155,36,72
+Magic,6910,[Incantation] Ancient Dragons' Light Strike,古龙雷击,mp_charge,蓄力时 FP 消耗,200,36,72
+Magic,6920,[Incantation] Lightning Strike,雷击,mp,基础施法 FP 消耗,99,19,38
+Magic,6921,[Incantation] Frozen Lightning Spear,冰雷枪,mp,基础施法 FP 消耗,144,29,58
+Magic,6930,[Incantation] Honed Bolt,精准雷击,mp,基础施法 FP 消耗,88,12,24
+Magic,6940,[Incantation] Ancient Dragons' Light Spear,古龙雷枪,mp,基础施法 FP 消耗,177,25,50
+Magic,6941,[Incantation] Fortissax's Light Spear,弗尔桑克斯的雷枪,mp,基础施法 FP 消耗,200,35,70
+Magic,6950,[Incantation] Lansseax's Glaive,兰斯桑克斯的刀,mp,基础施法 FP 消耗,155,22,44
+Magic,6960,[Incantation] Electrify Armament,雷武器,mp,基础施法 FP 消耗,57,27,54
+Magic,6970,[Incantation] Vyke's Dragonbolt,维克的龙雷,mp,基础施法 FP 消耗,144,35,70
+Magic,7000,[Incantation] Dragonfire,龙焰,mp,基础施法 FP 消耗,144,28,56
+Magic,7000,[Incantation] Dragonfire,龙焰,mp_charge,蓄力时 FP 消耗,40,4,8
+Magic,7001,[Incantation] Agheel's Flame,亚基尔的火焰,mp,基础施法 FP 消耗,244,36,72
+Magic,7001,[Incantation] Agheel's Flame,亚基尔的火焰,mp_charge,蓄力时 FP 消耗,40,6,12
+Magic,7010,[Incantation] Magma Breath,熔岩吐息,mp,基础施法 FP 消耗,144,30,60
+Magic,7011,[Incantation] Theodorix's Magma,席欧朵利克的熔岩,mp,基础施法 FP 消耗,244,45,90
+Magic,7020,[Incantation] Dragonice,龙冰,mp,基础施法 FP 消耗,155,36,72
+Magic,7020,[Incantation] Dragonice,龙冰,mp_charge,蓄力时 FP 消耗,40,4,8
+Magic,7021,[Incantation] Borealis's Mist,玻列琉斯的冰雾,mp,基础施法 FP 消耗,255,48,96
+Magic,7021,[Incantation] Borealis's Mist,玻列琉斯的冰雾,mp_charge,蓄力时 FP 消耗,40,6,12
+Magic,7030,[Incantation] Rotten Breath,腐败吐息,mp,基础施法 FP 消耗,155,36,72
+Magic,7030,[Incantation] Rotten Breath,腐败吐息,mp_charge,蓄力时 FP 消耗,40,4,8
+Magic,7031,[Incantation] Ekzykes's Decay,艾格基斯的腐败,mp,基础施法 FP 消耗,255,48,96
+Magic,7031,[Incantation] Ekzykes's Decay,艾格基斯的腐败,mp_charge,蓄力时 FP 消耗,40,6,12
+Magic,7040,[Incantation] Glintstone Breath,辉石吐息,mp,基础施法 FP 消耗,133,28,56
+Magic,7040,[Incantation] Glintstone Breath,辉石吐息,mp_charge,蓄力时 FP 消耗,40,4,8
+Magic,7041,[Incantation] Smarag's Glint Breath,史玛拉格的辉石,mp,基础施法 FP 消耗,255,36,72
+Magic,7041,[Incantation] Smarag's Glint Breath,史玛拉格的辉石,mp_charge,蓄力时 FP 消耗,40,6,12
+Magic,7050,[Incantation] Placidusax's Ruin,普拉顿桑克斯的凋亡,mp,基础施法 FP 消耗,600,62,124
+Magic,7060,[Incantation] Dragonclaw,龙爪,mp,基础施法 FP 消耗,166,24,48
+Magic,7080,[Incantation] Dragonmaw,龙咬,mp,基础施法 FP 消耗,190,34,68
+Magic,7090,[Incantation] Greyoll's Roar,桂奥尔的咆哮,mp,基础施法 FP 消耗,300,50,100
+Magic,7200,[Incantation] Pest Threads,虫丝,mp,基础施法 FP 消耗,160,19,38
+Magic,7210,[Incantation] Swarm of Flies,蝇群,mp,基础施法 FP 消耗,78,14,28
+Magic,7220,[Incantation] Poison Mist,毒雾,mp,基础施法 FP 消耗,75,18,36
+Magic,7240,[Incantation] Scarlet Aeonia,猩红艾奥尼亚,mp,基础施法 FP 消耗,300,48,96
+Magic,7300,[Incantation] Inescapable Frenzy,发狂扩散,mp,基础施法 FP 消耗,155,22,44
+Magic,7310,[Incantation] The Flame of Frenzy,癫火,mp,基础施法 FP 消耗,88,16,32
+Magic,7310,[Incantation] The Flame of Frenzy,癫火,mp_charge,蓄力时 FP 消耗,110,16,32
+Magic,7311,[Incantation] Unendurable Frenzy,难耐癫火,mp,基础施法 FP 消耗,188,22,44
+Magic,7311,[Incantation] Unendurable Frenzy,难耐癫火,mp_charge,蓄力时 FP 消耗,210,6,12
+Magic,7320,[Incantation] Frenzied Burst,划空癫火,mp,基础施法 FP 消耗,144,24,48
+Magic,7320,[Incantation] Frenzied Burst,划空癫火,mp_charge,蓄力时 FP 消耗,185,24,48
+Magic,7330,[Incantation] Howl of Shabriri,夏玻利利的嘶吼,mp,基础施法 FP 消耗,144,21,42
+Magic,7500,[Incantation] Aspects of the Crucible: Tail,熔炉百相之尾,mp,基础施法 FP 消耗,99,20,40
+Magic,7500,[Incantation] Aspects of the Crucible: Tail,熔炉百相之尾,mp_charge,蓄力时 FP 消耗,125,20,40
+Magic,7510,[Incantation] Aspects of the Crucible: Horns,熔炉百相之角,mp,基础施法 FP 消耗,99,18,36
+Magic,7510,[Incantation] Aspects of the Crucible: Horns,熔炉百相之角,mp_charge,蓄力时 FP 消耗,125,18,36
+Magic,7520,[Incantation] Aspects of the Crucible: Breath,熔炉百相之喉囊,mp,基础施法 FP 消耗,99,28,56
+Magic,7520,[Incantation] Aspects of the Crucible: Breath,熔炉百相之喉囊,mp_charge,蓄力时 FP 消耗,125,4,8
+Magic,7530,[Incantation] Black Blade,黑剑,mp,基础施法 FP 消耗,200,26,52
+Magic,7900,[Incantation] Fire's Deadly Sin,火焰重罪,mp,基础施法 FP 消耗,99,26,52
+Magic,7900,[Incantation] Fire's Deadly Sin,火焰重罪,mp_charge,蓄力时 FP 消耗,125,26,52
+Magic,2004320,[Sorcery] Rellana's Twin Moons,蕾菈娜的双月,mp,基础施法 FP 消耗,850,47,94
+Magic,2004500,[Sorcery] Glintstone Nail,辉石指爪,mp,基础施法 FP 消耗,400,10,20
+Magic,2004500,[Sorcery] Glintstone Nail,辉石指爪,mp_charge,蓄力时 FP 消耗,650,10,20
+Magic,2004510,[Sorcery] Glintstone Nails,辉石繁指爪,mp,基础施法 FP 消耗,400,23,46
+Magic,2004510,[Sorcery] Glintstone Nails,辉石繁指爪,mp_charge,蓄力时 FP 消耗,650,23,46
+Magic,2004700,[Sorcery] Blades of Stone,岩块刀刃,mp,基础施法 FP 消耗,550,18,36
+Magic,2004700,[Sorcery] Blades of Stone,岩块刀刃,mp_charge,蓄力时 FP 消耗,650,18,36
+Magic,2004910,[Sorcery] Impenetrable Thorns,拒绝的刺,mp,基础施法 FP 消耗,800,15,30
+Magic,2006200,[Sorcery] Vortex of Putrescence,融泥漩,mp,基础施法 FP 消耗,850,29,58
+Magic,2006200,[Sorcery] Vortex of Putrescence,融泥漩,mp_charge,蓄力时 FP 消耗,1000,29,58
+Magic,2006210,[Sorcery] Mass of Putrescence,融泥块,mp,基础施法 FP 消耗,850,41,82
+Magic,2006210,[Sorcery] Mass of Putrescence,融泥块,mp_charge,蓄力时 FP 消耗,950,41,82
+Magic,2006300,[Incantation] Furious Blade of Ansbach,安帕赫的狂刃,mp,基础施法 FP 消耗,250,18,36
+Magic,2006300,[Incantation] Furious Blade of Ansbach,安帕赫的狂刃,mp_charge,蓄力时 FP 消耗,350,18,36
+Magic,2006400,[Incantation] Heal from Afar,远方之恢复,mp,基础施法 FP 消耗,600,45,90
+Magic,2006650,[Incantation] Aspects of the Crucible: Thorns,熔炉百相之针,mp,基础施法 FP 消耗,150,14,28
+Magic,2006650,[Incantation] Aspects of the Crucible: Thorns,熔炉百相之针,mp_charge,蓄力时 FP 消耗,200,14,28
+Magic,2006670,[Incantation] Minor Erdtree,小黄金树,mp,基础施法 FP 消耗,300,30,60
+Magic,2006700,[Incantation] Light of Miquella,米凯拉的光,mp,基础施法 FP 消耗,2000,48,96
+Magic,2006710,[Incantation] Multilayered Ring of Light,相迭光环,mp,基础施法 FP 消耗,600,23,46
+Magic,2006710,[Incantation] Multilayered Ring of Light,相迭光环,mp_charge,蓄力时 FP 消耗,700,23,46
+Magic,2006800,[Incantation] Roar of Rugalea,鲁格利亚的咆哮,mp,基础施法 FP 消耗,300,17,34
+Magic,2006800,[Incantation] Roar of Rugalea,鲁格利亚的咆哮,mp_charge,蓄力时 FP 消耗,400,0,8
+Magic,2006900,[Incantation] Knight's Lightning Spear,骑士雷电枪,mp,基础施法 FP 消耗,300,29,58
+Magic,2006900,[Incantation] Knight's Lightning Spear,骑士雷电枪,mp_charge,蓄力时 FP 消耗,400,29,58
+Magic,2006920,[Incantation] Electrocharge,带电,mp,基础施法 FP 消耗,200,26,52
+Magic,2006920,[Incantation] Electrocharge,带电,mp_charge,蓄力时 FP 消耗,300,26,52
+Magic,2007000,[Incantation] Bayle's Tyranny,贝勒的残虐,mp,基础施法 FP 消耗,1500,46,92
+Magic,2007010,[Incantation] Bayle's Flame Lightning,贝勒的焰雷,mp,基础施法 FP 消耗,1200,43,86
+Magic,2007020,[Incantation] Ghostflame Breath,灵火吐息,mp,基础施法 FP 消耗,100,36,72
+Magic,2007200,[Incantation] Rotten Butterflies,腐败蝶,mp,基础施法 FP 消耗,1500,48,96
+Magic,2007200,[Incantation] Rotten Butterflies,腐败蝶,mp_charge,蓄力时 FP 消耗,1700,48,96
+Magic,2007300,[Incantation] Midra's Flame of Frenzy,米德拉的癫火,mp,基础施法 FP 消耗,1400,22,44
+Magic,2007300,[Incantation] Midra's Flame of Frenzy,米德拉的癫火,mp_charge,蓄力时 FP 消耗,200,5,10
+Magic,2007410,[Sorcery] Fleeting Microcosm,虚幻小宇宙,mp,基础施法 FP 消耗,850,26,52
+Magic,2007410,[Sorcery] Fleeting Microcosm,虚幻小宇宙,mp_charge,蓄力时 FP 消耗,950,26,52
+Magic,2007420,[Sorcery] Cherishing Fingers,守护指头,mp,基础施法 FP 消耗,500,20,40
+Magic,2007420,[Sorcery] Cherishing Fingers,守护指头,mp_charge,蓄力时 FP 消耗,550,20,40
+Magic,2007700,[Sorcery] Golden Arcs,黄金弯弧,mp,基础施法 FP 消耗,300,12,24
+Magic,2007700,[Sorcery] Golden Arcs,黄金弯弧,mp_charge,蓄力时 FP 消耗,400,12,24
+Magic,2007710,[Sorcery] Giant Golden Arc,黄金大弯弧,mp,基础施法 FP 消耗,400,24,48
+Magic,2007710,[Sorcery] Giant Golden Arc,黄金大弯弧,mp_charge,蓄力时 FP 消耗,500,24,48
+Magic,2007730,[Incantation] Divine Beast Tornado,神兽龙卷风,mp,基础施法 FP 消耗,700,24,48
+Magic,2007730,[Incantation] Divine Beast Tornado,神兽龙卷风,mp_charge,蓄力时 FP 消耗,800,24,48
+Magic,2007800,[Incantation] Fire Serpent,火焰蛇,mp,基础施法 FP 消耗,450,11,22
+Magic,2007800,[Incantation] Fire Serpent,火焰蛇,mp_charge,蓄力时 FP 消耗,550,11,22
+Magic,2007820,[Incantation] Messmer's Orb,梅瑟莫的火球,mp,基础施法 FP 消耗,1000,31,62
+Magic,2007820,[Incantation] Messmer's Orb,梅瑟莫的火球,mp_charge,蓄力时 FP 消耗,1500,31,62
+SwordArtsParam,100,Lion's Claw,狮子斩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,101,Impaling Thrust,贯穿,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,102,Piercing Fang,突刺,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,103,Spinning Slash,回旋斩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,103,Spinning Slash,回旋斩,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,12,24
+SwordArtsParam,105,Charge Forth,突击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,106,Stamp (Upward Cut),箭步（上砍）,useMagicPoint_L2,战技 L2 的 FP 消耗,80,5,10
+SwordArtsParam,106,Stamp (Upward Cut),箭步（上砍）,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,8,16
+SwordArtsParam,107,Stamp (Sweep),箭步（回旋斩）,useMagicPoint_L2,战技 L2 的 FP 消耗,80,5,10
+SwordArtsParam,107,Stamp (Sweep),箭步（回旋斩）,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,8,16
+SwordArtsParam,109,Repeating Thrust,连击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,7,14
+SwordArtsParam,110,Wild Strikes,盲击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,2,10
+SwordArtsParam,110,Wild Strikes,盲击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,10,20
+SwordArtsParam,110,Wild Strikes,盲击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,15,30
+SwordArtsParam,111,Spinning Strikes,回旋击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,2,10
+SwordArtsParam,111,Spinning Strikes,回旋击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,10,20
+SwordArtsParam,111,Spinning Strikes,回旋击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,15,30
+SwordArtsParam,112,Double Slash,二连斩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,112,Double Slash,二连斩,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,3,10
+SwordArtsParam,113,Prelate's Charge,主教冲锋,useMagicPoint_L2,战技 L2 的 FP 消耗,80,7,14
+SwordArtsParam,113,Prelate's Charge,主教冲锋,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,7,14
+SwordArtsParam,114,Unsheathe,居合,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,10,20
+SwordArtsParam,114,Unsheathe,居合,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,15,30
+SwordArtsParam,115,Square Off,准备架式,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,6,12
+SwordArtsParam,115,Square Off,准备架式,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,8,16
+SwordArtsParam,116,Giant Hunt,狩猎巨人,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,117,Torch Attack,火把攻击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,0,10
+SwordArtsParam,118,Loretta's Slash,罗蕾塔的斩击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,119,Poison Moth Flight,双吻毒蛾,useMagicPoint_L2,战技 L2 的 FP 消耗,80,7,14
+SwordArtsParam,120,Spinning Weapon,转啊转,useMagicPoint_L2,战技 L2 的 FP 消耗,80,12,24
+SwordArtsParam,122,Storm Assault,风暴袭击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,22,44
+SwordArtsParam,123,Stormcaller,唤起风暴,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,123,Stormcaller,唤起风暴,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,11,22
+SwordArtsParam,124,Sword Dance,剑舞,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,124,Sword Dance,剑舞,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,6,12
+SwordArtsParam,125,Spinning Chain,回旋锁链,useMagicPoint_L2,战技 L2 的 FP 消耗,80,8,16
+SwordArtsParam,125,Spinning Chain,回旋锁链,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,8,16
+SwordArtsParam,125,Spinning Chain,回旋锁链,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,10,20
+SwordArtsParam,200,Glintblade Phalanx,辉剑圆阵,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,200,Glintblade Phalanx,辉剑圆阵,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,4,10
+SwordArtsParam,201,Sacred Blade,神圣刀刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,19,38
+SwordArtsParam,202,Ice Spear,冰枪,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,203,Glintstone Pebble,辉石魔砾,useMagicPoint_L2,战技 L2 的 FP 消耗,250,8,16
+SwordArtsParam,203,Glintstone Pebble,辉石魔砾,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,4,10
+SwordArtsParam,204,Bloody Slash,鲜血斩击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,205,Lifesteal Fist,夺命拳,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,207,Eruption,熔岩火浆,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,208,Prayerful Strike,祈祷一击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,209,Gravitas,重力,useMagicPoint_L2,战技 L2 的 FP 消耗,80,13,26
+SwordArtsParam,210,Storm Blade,风暴刃,useMagicPoint_L2,战技 L2 的 FP 消耗,160,10,20
+SwordArtsParam,210,Storm Blade,风暴刃,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,160,6,12
+SwordArtsParam,212,Earthshaker,撼地,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,212,Earthshaker,撼地,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,5,10
+SwordArtsParam,213,Golden Land,黄金大地,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,213,Golden Land,黄金大地,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,5,10
+SwordArtsParam,214,Flaming Strike,炎击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,4,10
+SwordArtsParam,214,Flaming Strike,炎击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,10,20
+SwordArtsParam,216,Thunderbolt,落雷,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,216,Thunderbolt,落雷,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,10,20
+SwordArtsParam,217,Lightning Slash,雷击斩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,218,Carian Grandeur,伟哉卡利亚,useMagicPoint_L2,战技 L2 的 FP 消耗,80,26,52
+SwordArtsParam,219,Carian Greatsword,卡利亚大剑,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,220,Vacuum Slice,真空斩,useMagicPoint_L2,战技 L2 的 FP 消耗,600,14,28
+SwordArtsParam,221,Black Flame Tornado,黑焰漩涡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,222,Sacred Ring of Light,神圣光环,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,222,Sacred Ring of Light,神圣光环,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,9,18
+SwordArtsParam,223,Firebreather,喷火,useMagicPoint_L2,战技 L2 的 FP 消耗,80,8,16
+SwordArtsParam,224,Blood Blade,血刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,3,10
+SwordArtsParam,224,Blood Blade,血刃,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,3,10
+SwordArtsParam,225,Phantom Slash,幻影共击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,8,16
+SwordArtsParam,225,Phantom Slash,幻影共击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,8,16
+SwordArtsParam,226,Spectral Lance,幻影枪,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,227,Chilling Mist,寒气冻雾,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,228,Poisonous Mist,毒雾,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,300,Shield Bash,盾牌冲击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,301,Barricade Shield,铁壁盾防,useMagicPoint_L2,战技 L2 的 FP 消耗,80,12,24
+SwordArtsParam,305,Carian Retaliation,卡利亚式奉还,useMagicPoint_L2,战技 L2 的 FP 消耗,80,8,16
+SwordArtsParam,306,Storm Wall,风暴障壁,useMagicPoint_L2,战技 L2 的 FP 消耗,80,0,10
+SwordArtsParam,307,Golden Parry,黄金格挡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,4,10
+SwordArtsParam,308,Shield Crash,突进冲击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,12,24
+SwordArtsParam,400,Through and Through,贯穿射击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,9,18
+SwordArtsParam,400,Through and Through,贯穿射击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,9,18
+SwordArtsParam,401,Barrage,连续射击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,2,10
+SwordArtsParam,401,Barrage,连续射击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,2,10
+SwordArtsParam,402,Mighty Shot,拉满弓,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,6,12
+SwordArtsParam,402,Mighty Shot,拉满弓,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,6,12
+SwordArtsParam,404,Enchanted Shot,宿灵射击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,8,16
+SwordArtsParam,404,Enchanted Shot,宿灵射击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,8,16
+SwordArtsParam,405,Sky Shot,对空射击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,3,10
+SwordArtsParam,405,Sky Shot,对空射击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,3,10
+SwordArtsParam,406,Rain of Arrows,箭雨,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,20,40
+SwordArtsParam,406,Rain of Arrows,箭雨,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,20,40
+SwordArtsParam,501,Hoarfrost Stomp,冻霜踏地,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,502,Storm Stomp,风暴足,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,504,Lightning Ram,雷电羊球,useMagicPoint_L2,战技 L2 的 FP 消耗,80,5,10
+SwordArtsParam,504,Lightning Ram,雷电羊球,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,5,10
+SwordArtsParam,505,Flame of the Redmanes,红狮子火焰,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,506,Ground Slam,坠落震击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,507,Golden Slam,黄金坠落震击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,22,44
+SwordArtsParam,508,Waves of Darkness,黑暗波动,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,508,Waves of Darkness,黑暗波动,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,5,10
+SwordArtsParam,509,Hoarah Loux's Earthshaker,荷莱·露的撼地,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,509,Hoarah Loux's Earthshaker,荷莱·露的撼地,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,16,32
+SwordArtsParam,600,Determination,决心,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,601,Royal Knight's Resolve,侍王骑士的决心,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,602,Assassin's Gambit,暗杀办法,useMagicPoint_L2,战技 L2 的 FP 消耗,80,5,10
+SwordArtsParam,604,Sacred Order,圣律,useMagicPoint_L2,战技 L2 的 FP 消耗,80,18,36
+SwordArtsParam,605,Shared Order,共享圣律,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,606,Seppuku,切腹,useMagicPoint_L2,战技 L2 的 FP 消耗,80,4,10
+SwordArtsParam,607,Cragblade,岩石剑,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,652,Beast's Roar,野兽咆哮,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,653,Troll's Roar,山妖咆哮,useMagicPoint_L2,战技 L2 的 FP 消耗,80,22,44
+SwordArtsParam,654,Braggart's Roar,夸耀咆哮,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,700,Endure,忍耐,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,701,Vow of the Indomitable,无敌,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,702,Holy Ground,圣域,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,800,Quickstep,碎步,useMagicPoint_L2,战技 L2 的 FP 消耗,60,3,10
+SwordArtsParam,801,Bloodhound's Step,猎犬步法,useMagicPoint_L2,战技 L2 的 FP 消耗,60,5,10
+SwordArtsParam,802,Raptor of the Mists,潜雾猛禽,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,850,White Shadow's Lure,白影诱惑,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1000,Surge of Faith,信仰喷发,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1000,Surge of Faith,信仰喷发,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,15,30
+SwordArtsParam,1001,Flame Spit,火焰唾球,useMagicPoint_L2,战技 L2 的 FP 消耗,80,28,56
+SwordArtsParam,1002,Tongues of Fire,火焰舌柱,useMagicPoint_L2,战技 L2 的 FP 消耗,80,5,10
+SwordArtsParam,1003,Oracular Bubble,神谕泡泡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,1003,Oracular Bubble,神谕泡泡,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,6,12
+SwordArtsParam,1004,Bubble Shower,倾注泡泡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,1005,Great Oracular Bubble,神谕大泡泡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,1006,Sea of Magma,熔岩海,useMagicPoint_L2,战技 L2 的 FP 消耗,80,5,10
+SwordArtsParam,1006,Sea of Magma,熔岩海,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,5,10
+SwordArtsParam,1007,Viper Bite,毒蛇咬杀,useMagicPoint_L2,战技 L2 的 FP 消耗,80,8,16
+SwordArtsParam,1008,Moonlight Greatsword,月光剑,useMagicPoint_L2,战技 L2 的 FP 消耗,80,32,64
+SwordArtsParam,1009,Siluria's Woe,志留亚的漩涡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1010,Rallying Standard,归于麾下,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,1011,Bear Witness!,敬请见证！,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1012,Eochaid's Dancing Blade,欧赫剑舞,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1013,Soul Stifler,恶意气息,useMagicPoint_L2,战技 L2 的 FP 消耗,80,12,24
+SwordArtsParam,1014,Taker's Flames,掠夺火焰,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,1015,Shriek of Milos,灭洛斯的狂嚎,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,1016,Reduvia Blood Blade,逆刺血刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,6,12
+SwordArtsParam,1016,Reduvia Blood Blade,逆刺血刃,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,6,12
+SwordArtsParam,1017,Glintstone Dart,辉石彗砾,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,1017,Glintstone Dart,辉石彗砾,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,4,10
+SwordArtsParam,1018,Flowing Form,流体化,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,1019,Night-and-Flame Stance,夜与火的架式,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,26,52
+SwordArtsParam,1019,Night-and-Flame Stance,夜与火的架式,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,32,64
+SwordArtsParam,1021,Ruinous Ghostflame,毁灭灵火,useMagicPoint_L2,战技 L2 的 FP 消耗,200,20,40
+SwordArtsParam,1022,Establish Order,高举黄金律法,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1022,Establish Order,高举黄金律法,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,20,40
+SwordArtsParam,1023,Mists of Slumber,催眠烟雾,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1024,Spearcall Ritual,唤矛仪式,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1025,Wolf's Assault,狼袭,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1026,Thundercloud Form,雷云化身,useMagicPoint_L2,战技 L2 的 FP 消耗,80,28,56
+SwordArtsParam,1027,Cursed-Blood Slice,咒血斩击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1027,Cursed-Blood Slice,咒血斩击,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,20,40
+SwordArtsParam,1028,Waterfowl Dance,水鸟乱舞,useMagicPoint_L2,战技 L2 的 FP 消耗,80,12,24
+SwordArtsParam,1028,Waterfowl Dance,水鸟乱舞,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,300,9,18
+SwordArtsParam,1029,Gold Breaker,黄金碎击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,26,52
+SwordArtsParam,1030,I Command Thee Kneel!,跪下吧！,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1030,I Command Thee Kneel!,跪下吧！,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,15,30
+SwordArtsParam,1031,Regal Roar,王者嘶吼,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1032,Starcaller Cry,唤星,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1032,Starcaller Cry,唤星,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,20,40
+SwordArtsParam,1033,Wave of Destruction,崩坏波,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1034,Bloodboon Ritual,授血仪式,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1034,Bloodboon Ritual,授血仪式,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,20,40
+SwordArtsParam,1035,Flowing Form,流体化,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,1036,Blade of Death,死亡刀刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1037,Blade of Gold,黄金刀刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,17,34
+SwordArtsParam,1039,Spinning Wheel,旋转刺轮,useMagicPoint_L2,战技 L2 的 FP 消耗,80,3,10
+SwordArtsParam,1040,Alabaster Lords' Pull,白王引力波,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1041,Onyx Lords' Repulsion,黑王推力波,useMagicPoint_L2,战技 L2 的 FP 消耗,80,27,54
+SwordArtsParam,1042,Oath of Vengeance,复仇誓言,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1043,Ice Lightning Sword,冰雷剑,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1044,Regal Beastclaw,兽王爪,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1045,Flame Dance,火焰舞,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1046,Claw Flick,弹指,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,1047,Nebula,星云,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1048,Ghostflame Ignition,点燃灵火,useMagicPoint_L2,战技 L2 的 FP 消耗,450,15,30
+SwordArtsParam,1048,Ghostflame Ignition,点燃灵火,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,200,10,20
+SwordArtsParam,1048,Ghostflame Ignition,点燃灵火,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,200,10,20
+SwordArtsParam,1049,Ancient Lightning Spear,古雷电枪,useMagicPoint_L2,战技 L2 的 FP 消耗,80,24,48
+SwordArtsParam,1050,Frenzyflame Thrust,癫火突击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,1051,Miquella's Ring of Light,米凯拉的光环,useMagicPoint_L2,战技 L2 的 FP 消耗,80,11,22
+SwordArtsParam,1051,Miquella's Ring of Light,米凯拉的光环,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,11,22
+SwordArtsParam,1052,Golden Tempering,黄金剑技,useMagicPoint_L2,战技 L2 的 FP 消耗,300,24,48
+SwordArtsParam,1053,Last Rites,哀悼墓碑,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1054,Unblockable Blade,不可挡之刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,18,36
+SwordArtsParam,1055,Eochaid's Dancing Blade,欧赫剑舞,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1167,Corpse Wax Cutter,尸蜡斩击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,1168,Zamor Ice Storm,萨米尔冰风暴,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1170,The Queen's Black Flame,女王黑焰,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1171,Dynast's Finesse,王朝剑技,useMagicPoint_L2,战技 L2 的 FP 消耗,80,5,10
+SwordArtsParam,1171,Dynast's Finesse,王朝剑技,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,7,14
+SwordArtsParam,1172,Magma Shower,泼洒熔岩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,12,24
+SwordArtsParam,1172,Magma Shower,泼洒熔岩,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,12,24
+SwordArtsParam,1173,Nebula,星云,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1174,Death Flare,死亡闪焰,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,1174,Death Flare,死亡闪焰,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,16,32
+SwordArtsParam,1175,Bloodhound's Finesse,猎犬剑技,useMagicPoint_L2,战技 L2 的 FP 消耗,80,8,16
+SwordArtsParam,1175,Bloodhound's Finesse,猎犬剑技,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,12,24
+SwordArtsParam,1176,Magma Guillotine,熔岩断首,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,1176,Magma Guillotine,熔岩断首,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,10,20
+SwordArtsParam,1177,Corpse Piler,尸横遍野,useMagicPoint_L2,战技 L2 的 FP 消耗,80,17,34
+SwordArtsParam,1177,Corpse Piler,尸横遍野,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,9,18
+SwordArtsParam,1178,Transient Moonlight,隙间月影,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,15,30
+SwordArtsParam,1178,Transient Moonlight,隙间月影,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,20,40
+SwordArtsParam,1179,Bloodblade Dance,血刃乱舞,useMagicPoint_L2,战技 L2 的 FP 消耗,80,11,22
+SwordArtsParam,1179,Bloodblade Dance,血刃乱舞,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,6,12
+SwordArtsParam,1182,Knowledge Above All,百智的世界,useMagicPoint_L2,战技 L2 的 FP 消耗,80,35,70
+SwordArtsParam,1183,Devourer of Worlds,吞世,useMagicPoint_L2,战技 L2 的 FP 消耗,80,35,70
+SwordArtsParam,1184,Familal Rancor,家族怨魂,useMagicPoint_L2,战技 L2 的 FP 消耗,80,25,50
+SwordArtsParam,1185,Rosus's Summons,罗泽司的唤声,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1186,Thunderstorm,雷电风暴,useMagicPoint_L2,战技 L2 的 FP 消耗,80,19,38
+SwordArtsParam,1186,Thunderstorm,雷电风暴,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,12,24
+SwordArtsParam,1187,Sacred Phalanx,圣矛障壁,useMagicPoint_L2,战技 L2 的 FP 消耗,80,12,24
+SwordArtsParam,1188,Great-Serpent Hunt,狩猎大蛇,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,1188,Great-Serpent Hunt,狩猎大蛇,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,20,40
+SwordArtsParam,1189,Angel's Wings,天使羽翼,useMagicPoint_L2,战技 L2 的 FP 消耗,80,17,34
+SwordArtsParam,1190,Storm Kick,风暴踢击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,10,20
+SwordArtsParam,1191,Unblockable Blade,不可挡之刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,17,34
+SwordArtsParam,1192,Sorcery of the Crozier,锡杖魔法,useMagicPoint_L2,战技 L2 的 FP 消耗,450,15,30
+SwordArtsParam,1193,Erdtree Slam,黄金树坠落震击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,19,38
+SwordArtsParam,1194,Gravity Bolt,重力雷电,useMagicPoint_L2,战技 L2 的 FP 消耗,80,13,26
+SwordArtsParam,1194,Gravity Bolt,重力雷电,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,80,13,26
+SwordArtsParam,1195,Fires of Slumber,催眠火焰,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1196,Golden Retaliation,黄金式奉还,useMagicPoint_L2,战技 L2 的 FP 消耗,80,4,10
+SwordArtsParam,1197,Contagious Fury,共鸣愤怒,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,1198,Ordovis's Vortex,奥陶琵斯的漩涡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,1199,Spinning Weapon,转啊转,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,2000,Dryleaf Whirlwind,落叶旋风脚,useMagicPoint_L2,战技 L2 的 FP 消耗,80,9,18
+SwordArtsParam,2001,Aspects of the Crucible: Wings,熔炉百相之羽,useMagicPoint_L2,战技 L2 的 FP 消耗,80,22,44
+SwordArtsParam,4000,Spinning Gravity Thrust,重力旋刺,useMagicPoint_L2,战技 L2 的 FP 消耗,80,26,52
+SwordArtsParam,4010,Palm Blast,发劲,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,4020,Piercing Throw,贯穿投掷,useMagicPoint_L2,战技 L2 的 FP 消耗,80,8,16
+SwordArtsParam,4030,Scattershot Throw,多重投掷,useMagicPoint_L2,战技 L2 的 FP 消耗,80,11,22
+SwordArtsParam,4040,Wall of Sparks,四面火花香,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,4050,Rolling Sparks,串联火花香,useMagicPoint_L2,战技 L2 的 FP 消耗,800,14,28
+SwordArtsParam,4060,Raging Beast,野兽突袭,useMagicPoint_L2,战技 L2 的 FP 消耗,40,7,14
+SwordArtsParam,4070,Savage Claws,野兽爪击,useMagicPoint_L2,战技 L2 的 FP 消耗,40,13,26
+SwordArtsParam,4080,Red Bear Hunt,红熊猎法,useMagicPoint_L2,战技 L2 的 FP 消耗,40,8,16
+SwordArtsParam,4090,Blind Spot,死角一击,useMagicPoint_L2,战技 L2 的 FP 消耗,40,9,18
+SwordArtsParam,4100,Swift Slash,迅斩,useMagicPoint_L2,战技 L2 的 FP 消耗,40,16,32
+SwordArtsParam,4110,Overhead Stance,大上段,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,40,8,16
+SwordArtsParam,4120,Wing Stance,单翼架式,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,40,8,16
+SwordArtsParam,4130,Blinkbolt,瞬雷,useMagicPoint_L2,战技 L2 的 FP 消耗,40,8,16
+SwordArtsParam,4140,Flame Skewer,火焰穿刺,useMagicPoint_L2,战技 L2 的 FP 消耗,40,18,36
+SwordArtsParam,4150,Savage Lion's Claw,勇猛狮子斩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,4160,Divine Beast Frost Stomp,神兽冻霜踏地,useMagicPoint_L2,战技 L2 的 FP 消耗,80,18,36
+SwordArtsParam,4170,Flame Spear,火焰枪,useMagicPoint_L2,战技 L2 的 FP 消耗,80,19,38
+SwordArtsParam,4180,Carian Sovereignty,尊矣卡利亚,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,4190,Shriek of Sorrow,悲恸惨叫,useMagicPoint_L2,战技 L2 的 FP 消耗,80,19,38
+SwordArtsParam,4210,Igon's Drake Hunt,埃贡的猎龙,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,13,26
+SwordArtsParam,4220,Ghostflame Call,唤起灵火,useMagicPoint_L2,战技 L2 的 FP 消耗,450,15,30
+SwordArtsParam,4220,Ghostflame Call,唤起灵火,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,200,10,20
+SwordArtsParam,4220,Ghostflame Call,唤起灵火,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,200,10,20
+SwordArtsParam,5000,Dragonwound Slash,伤龙斩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,18,36
+SwordArtsParam,5010,Needle Piercer,贯刺针,useMagicPoint_L2,战技 L2 的 FP 消耗,80,19,38
+SwordArtsParam,5020,Light,光明,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,5030,Darkness,黑暗,useMagicPoint_L2,战技 L2 的 FP 消耗,80,30,60
+SwordArtsParam,5040,Onze's Line of Stars,翁吉的连星,useMagicPoint_L2,战技 L2 的 FP 消耗,40,10,20
+SwordArtsParam,5050,The Poison Flower Blooms Twice,双刺毒花,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,5080,Spinning Guillotine,回旋断首,useMagicPoint_L2,战技 L2 的 FP 消耗,40,12,24
+SwordArtsParam,5090,Unending Dance,无尽之舞,useMagicPoint_L2,战技 L2 的 FP 消耗,40,2,10
+SwordArtsParam,5100,Revenger's Blade,复仇之刃,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,5110,Mists of Eternal Sleep,永眠烟雾,useMagicPoint_L2,战技 L2 的 FP 消耗,80,23,46
+SwordArtsParam,5120,Dynastic Sickleplay,王朝镰技,useMagicPoint_L2,战技 L2 的 FP 消耗,40,7,14
+SwordArtsParam,5130,Blinkbolt: Twinaxe,瞬雷之对斧,useMagicPoint_L2,战技 L2 的 FP 消耗,40,8,16
+SwordArtsParam,5140,Blinkbolt: Long-hafted Axe,瞬雷之长柄斧,useMagicPoint_L2,战技 L2 的 FP 消耗,40,8,16
+SwordArtsParam,5150,Promised Consort,约定之王,useMagicPoint_L2,战技 L2 的 FP 消耗,450,20,40
+SwordArtsParam,5150,Promised Consort,约定之王,useMagicPoint_R2,战技衔接 R2 的 FP 消耗,150,10,20
+SwordArtsParam,5160,Shadow Sunflower Headbutts,影轮草头槌,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,5170,Moon-and-Fire Stance,月与火的架式,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,40,10,20
+SwordArtsParam,5180,Devonia's Vortex,泥盆亚的漩涡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,5190,Messmer's Assault,梅瑟莫的强攻,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,5210,Sleep Evermore,永恒沉眠,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,5220,Golden Crux,黄金穿刺,useMagicPoint_L2,战技 L2 的 FP 消耗,80,21,42
+SwordArtsParam,5230,Moore's Charge,穆尔的突击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,5240,White Light Charge,白光突袭,useMagicPoint_L2,战技 L2 的 FP 消耗,40,10,20
+SwordArtsParam,5250,Rancor Slash,怨魂斩,useMagicPoint_L2,战技 L2 的 FP 消耗,40,12,24
+SwordArtsParam,5260,Witching Hour Slash,夜暗斩击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,21,42
+SwordArtsParam,5270,Euporia Vortex,艾珀莉亚漩涡,useMagicPoint_L2,战技 L2 的 FP 消耗,80,28,56
+SwordArtsParam,5280,Smithing Art Spears,锻造术之矛,useMagicPoint_L2,战技 L2 的 FP 消耗,80,18,36
+SwordArtsParam,5290,Rancor Slash,怨魂斩,useMagicPoint_L2,战技 L2 的 FP 消耗,40,12,24
+SwordArtsParam,5300,Romina's Purification,萝蜜娜的解厄,useMagicPoint_L2,战技 L2 的 FP 消耗,80,24,48
+SwordArtsParam,5310,Poison Spear-Hand Strike,贯穿毒手,useMagicPoint_L2,战技 L2 的 FP 消耗,40,13,26
+SwordArtsParam,5320,Madding Spear-Hand Strike,贯穿癫狂手,useMagicPoint_L2,战技 L2 的 FP 消耗,40,13,26
+SwordArtsParam,5330,Feeble Lord's Frenzied Flame,弱小王的癫火,useMagicPoint_L2,战技 L2 的 FP 消耗,40,3,10
+SwordArtsParam,5340,Repeating Fire,连射弩的射击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,80,26,52
+SwordArtsParam,5350,Deadly Dance,灾厄之舞,useMagicPoint_L2,战技 L2 的 FP 消耗,80,15,30
+SwordArtsParam,5360,Fan Shot,扇形射击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,40,12,24
+SwordArtsParam,5370,Discus Hurl,飞盘投掷,useMagicPoint_L2,战技 L2 的 FP 消耗,40,3,10
+SwordArtsParam,5380,Flower Dragonbolt,花之龙雷,useMagicPoint_L2,战技 L2 的 FP 消耗,80,18,36
+SwordArtsParam,5390,Kowtower's Resentment,叩头之怒,useMagicPoint_L2,战技 L2 的 FP 消耗,80,31,62
+SwordArtsParam,5420,Painful Strike,痛击,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,5430,Solitary Moon Slash,孤月斩,useMagicPoint_L2,战技 L2 的 FP 消耗,40,12,24
+SwordArtsParam,5440,Revenge of the Night,黑夜式奉还,useMagicPoint_L2,战技 L2 的 FP 消耗,40,5,10
+SwordArtsParam,5450,Weed Cutter,割草,useMagicPoint_L2,战技 L2 的 FP 消耗,40,8,16
+SwordArtsParam,5460,Blindfold of Happiness,幸福遮眼,useMagicPoint_L2,战技 L2 的 FP 消耗,40,10,20
+SwordArtsParam,5470,Jori's Inquisition,约里的拷问,useMagicPoint_L2,战技 L2 的 FP 消耗,40,6,12
+SwordArtsParam,5480,Roaring Bash,咆哮冲击,useMagicPoint_L2,战技 L2 的 FP 消耗,40,12,24
+SwordArtsParam,5490,Deadly Poison Spray,释放剧毒,useMagicPoint_L2,战技 L2 的 FP 消耗,80,21,42
+SwordArtsParam,5500,Flare- O Serpent,蛇啊，燃烧吧,useMagicPoint_L2,战技 L2 的 FP 消耗,40,8,16
+SwordArtsParam,5510,Scattershot (Claws),多重投掷之爪,useMagicPoint_L2,战技 L2 的 FP 消耗,40,11,22
+SwordArtsParam,5520,Hone Blade,磨刀,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,5530,Horn Calling,角降临,useMagicPoint_L2,战技 L2 的 FP 消耗,80,17,34
+SwordArtsParam,5540,Horn Calling: Storm,角降临之风暴,useMagicPoint_L2,战技 L2 的 FP 消耗,80,22,44
+SwordArtsParam,5550,Tremendous Phalanx,巨剑阵,useMagicPoint_L2,战技 L2 的 FP 消耗,80,16,32
+SwordArtsParam,5560,Bloodfiends' Bloodboon,血怪授血,useMagicPoint_L2,战技 L2 的 FP 消耗,80,20,40
+SwordArtsParam,5570,Dragonform Flame,龙形火焰,useMagicPoint_L2,战技 L2 的 FP 消耗,80,14,28
+SwordArtsParam,5580,Lightspeed Slash,光速斩,useMagicPoint_L2,战技 L2 的 FP 消耗,80,32,64
+SwordArtsParam,5600,Rancor Shot,怨魂射击,useMagicPoint_R1,战技衔接 R1 的 FP 消耗,40,3,10

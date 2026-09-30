@@ -1,0 +1,16 @@
+# User-supplied game files, third-party mod assets and generated packages.
+inputs/
+output/
+work/
+downloads/
+upload/
+*.bin
+*.bnd
+*.bnd4
+*.dcx
+*.zip
+*.hks
+__pycache__/
+*.pyc
+.DS_Store
+
