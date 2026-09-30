@@ -21,6 +21,10 @@ NEW_DOC = PREFIX + 'Ascended_v0.10_集成测试说明.md'
 REPORTS = {
     PREFIX + '审查清单/v0.5_至今有效改动.md': ROOT / 'docs/from_v05_to_current.md',
     PREFIX + '审查清单/官方原版_当前参数对比.md': ROOT / 'docs/vanilla_to_current.md',
+    PREFIX + '审查清单/v05_to_current_summary.generated.md': ROOT / 'docs/v05_to_current_summary.generated.md',
+    PREFIX + '审查清单/vanilla_to_current_summary.generated.md': ROOT / 'docs/vanilla_to_current_summary.generated.md',
+    PREFIX + 'changes/v05_to_current_fields.csv.gz': ROOT / 'changes/v05_to_current_fields.csv.gz',
+    PREFIX + 'changes/vanilla_to_current_fields.csv.gz': ROOT / 'changes/vanilla_to_current_fields.csv.gz',
 }
 
 def main():
