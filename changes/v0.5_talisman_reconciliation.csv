@@ -1,0 +1,18 @@
+﻿护符ID,护符名,效果ID,字段,改前,改后,理由
+2140,Magic Talisman,321400,physicsAttackPowerRate,5.0,4.0,说明目标为 +300%，倍率对应 4.0
+2140,Magic Talisman,321400,magicAttackPowerRate,5.0,4.0,说明目标为 +300%，倍率对应 4.0
+2140,Magic Talisman,321400,fireAttackPowerRate,5.0,4.0,说明目标为 +300%，倍率对应 4.0
+2140,Magic Talisman,321400,thunderAttackPowerRate,5.0,4.0,说明目标为 +300%，倍率对应 4.0
+2140,Magic Talisman,321400,darkAttackPowerRate,5.0,4.0,说明目标为 +300%，倍率对应 4.0
+1210,Bull-Goat's Talisman,312100,toughnessDamageCutRate,1.0,0.75,恢复护符实际韧性提升
+4100,Greatshield Talisman,341000,slashDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,blowDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,thrustDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,neutralDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,magicDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,fireDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,thunderDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,darkDamageCutRate,1.2,1.0,移除全时生效的额外受伤，保留护盾定位
+4100,Greatshield Talisman,341000,guardStaminaCutRate,1.1,0.9,格挡精力消耗降低 10%
+6010,Concealing Veil,360100,sightSearchEnemyRate,3.0,1.0,移除提高敌人视觉察觉率的异常值
+6010,Concealing Veil,360100,hearingSearchEnemyRate,3.0,1.0,移除提高敌人听觉察觉率的异常值

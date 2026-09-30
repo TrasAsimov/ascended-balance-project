@@ -1,0 +1,668 @@
+﻿护符ID,护符名,效果ID,原版效果ID,字段,当前值,官方1.17.1值,分类
+1000,Crimson Amber Medallion,310000,310000,maxHpRate,1.12,1.0599999,效果差异
+1000,Crimson Amber Medallion,310000,310000,slashDamageCutRate,0.91,1.0,效果差异
+1000,Crimson Amber Medallion,310000,310000,physicsAttackPower,40,0,效果差异
+1000,Crimson Amber Medallion,310000,310000,pad3,0000000000000000,0000803f00000000,效果差异
+1001,Crimson Amber Medallion +1,310010,310010,maxHpRate,1.1799999,1.0700001,效果差异
+1001,Crimson Amber Medallion +1,310010,310010,slashDamageCutRate,0.82,1.0,效果差异
+1001,Crimson Amber Medallion +1,310010,310010,physicsAttackPower,60,0,效果差异
+1001,Crimson Amber Medallion +1,310010,310010,pad3,0000000000000000,0000803f00000000,效果差异
+1002,Crimson Amber Medallion +2,310020,310020,maxHpRate,1.24,1.08,效果差异
+1002,Crimson Amber Medallion +2,310020,310020,slashDamageCutRate,0.76,1.0,效果差异
+1002,Crimson Amber Medallion +2,310020,310020,physicsAttackPower,80,0,效果差异
+1002,Crimson Amber Medallion +2,310020,310020,pad3,0000000000000000,0000803f00000000,效果差异
+1010,Cerulean Amber Medallion,310100,310100,maxMpRate,1.12,1.0700001,效果差异
+1010,Cerulean Amber Medallion,310100,310100,magicDamageCutRate,0.91,1.0,效果差异
+1010,Cerulean Amber Medallion,310100,310100,magicAttackPower,40,0,效果差异
+1010,Cerulean Amber Medallion,310100,310100,pad3,0000000000000000,0000803f00000000,效果差异
+1011,Cerulean Amber Medallion +1,310110,310110,maxMpRate,1.1799999,1.09,效果差异
+1011,Cerulean Amber Medallion +1,310110,310110,magicDamageCutRate,0.82,1.0,效果差异
+1011,Cerulean Amber Medallion +1,310110,310110,magicAttackPower,60,0,效果差异
+1011,Cerulean Amber Medallion +1,310110,310110,pad3,0000000000000000,0000803f00000000,效果差异
+1012,Cerulean Amber Medallion +2,310120,310120,maxMpRate,1.24,1.11,效果差异
+1012,Cerulean Amber Medallion +2,310120,310120,magicDamageCutRate,0.76,1.0,效果差异
+1012,Cerulean Amber Medallion +2,310120,310120,magicAttackPower,80,0,效果差异
+1012,Cerulean Amber Medallion +2,310120,310120,pad3,0000000000000000,0000803f00000000,效果差异
+1020,Viridian Amber Medallion,310200,310200,maxStaminaRate,1.1,1.11,效果差异
+1020,Viridian Amber Medallion,310200,310200,blowDamageCutRate,0.92,1.0,效果差异
+1020,Viridian Amber Medallion,310200,310200,staminaRecoverChangeSpeed,15,0,效果差异
+1020,Viridian Amber Medallion,310200,310200,pad3,0000000000000000,0000803f00000000,效果差异
+1021,Viridian Amber Medallion +1,310210,310210,maxStaminaRate,1.2,1.13,效果差异
+1021,Viridian Amber Medallion +1,310210,310210,blowDamageCutRate,0.82,1.0,效果差异
+1021,Viridian Amber Medallion +1,310210,310210,staminaRecoverChangeSpeed,25,0,效果差异
+1021,Viridian Amber Medallion +1,310210,310210,pad3,0000000000000000,0000803f00000000,效果差异
+1022,Viridian Amber Medallion +2,310220,310220,maxStaminaRate,1.3,1.15,效果差异
+1022,Viridian Amber Medallion +2,310220,310220,blowDamageCutRate,0.76,1.0,效果差异
+1022,Viridian Amber Medallion +2,310220,310220,staminaRecoverChangeSpeed,35,0,效果差异
+1022,Viridian Amber Medallion +2,310220,310220,pad3,0000000000000000,0000803f00000000,效果差异
+1030,Arsenal Charm,310300,310300,bloodAttackPower,20,0,效果差异
+1030,Arsenal Charm,310300,310300,allItemWeightChangeRate,0.8,1.0,效果差异
+1030,Arsenal Charm,310300,310300,lifeReductionRate,1.2,1.0,效果差异
+1030,Arsenal Charm,310300,310300,pad3,0000000000000000,0000803f00000000,效果差异
+1031,Arsenal Charm +1,310310,310310,bloodAttackPower,40,0,效果差异
+1031,Arsenal Charm +1,310310,310310,allItemWeightChangeRate,0.6,1.0,效果差异
+1031,Arsenal Charm +1,310310,310310,lifeReductionRate,1.4,1.0,效果差异
+1031,Arsenal Charm +1,310310,310310,pad3,0000000000000000,0000803f00000000,效果差异
+1032,Great-Jar's Arsenal,310320,310320,bloodAttackPower,60,0,效果差异
+1032,Great-Jar's Arsenal,310320,310320,allItemWeightChangeRate,0.4,1.0,效果差异
+1032,Great-Jar's Arsenal,310320,310320,lifeReductionRate,1.6,1.0,效果差异
+1032,Great-Jar's Arsenal,310320,310320,pad3,0000000000000000,0000803f00000000,效果差异
+1040,Erdtree's Favor,310400,310400,maxHpRate,1.2,1.03,效果差异
+1040,Erdtree's Favor,310400,310400,maxStaminaRate,1.1,1.0700001,效果差异
+1040,Erdtree's Favor,310400,310400,equipWeightChangeRate,1.1,1.05,效果差异
+1040,Erdtree's Favor,310400,310400,pad3,0000000000000000,0000803f00000000,效果差异
+1041,Erdtree's Favor +1,310410,310410,maxHpRate,1.3,1.035,效果差异
+1041,Erdtree's Favor +1,310410,310410,maxStaminaRate,1.2,1.085,效果差异
+1041,Erdtree's Favor +1,310410,310410,equipWeightChangeRate,1.2,1.0650001,效果差异
+1041,Erdtree's Favor +1,310410,310410,pad3,0000000000000000,0000803f00000000,效果差异
+1042,Erdtree's Favor +2,310420,310420,maxHpRate,1.4,1.04,效果差异
+1042,Erdtree's Favor +2,310420,310420,maxStaminaRate,1.3,1.1,效果差异
+1042,Erdtree's Favor +2,310420,310420,equipWeightChangeRate,1.3,1.08,效果差异
+1042,Erdtree's Favor +2,310420,310420,pad3,0000000000000000,0000803f00000000,效果差异
+1050,Radagon's Scarseal,310500,310500,slashDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,blowDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,thrustDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,neutralDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,magicDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,fireDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,thunderDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,darkDamageCutRate,1.0,1.1,效果差异
+1050,Radagon's Scarseal,310500,310500,addLifeForceStatus,5,3,效果差异
+1050,Radagon's Scarseal,310500,310500,addWillpowerStatus,5,0,效果差异
+1050,Radagon's Scarseal,310500,310500,addEndureStatus,5,3,效果差异
+1050,Radagon's Scarseal,310500,310500,addVitalityStatus,5,0,效果差异
+1050,Radagon's Scarseal,310500,310500,addStrengthStatus,5,3,效果差异
+1050,Radagon's Scarseal,310500,310500,addDexterityStatus,5,3,效果差异
+1050,Radagon's Scarseal,310500,310500,addMagicStatus,5,0,效果差异
+1050,Radagon's Scarseal,310500,310500,addFaithStatus,5,0,效果差异
+1050,Radagon's Scarseal,310500,310500,addLuckStatus,5,0,效果差异
+1050,Radagon's Scarseal,310500,310500,pad3,0000000000000000,0000803f00000000,效果差异
+1051,Radagon's Soreseal,310510,310510,slashDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,blowDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,thrustDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,neutralDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,magicDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,fireDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,thunderDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,darkDamageCutRate,1.0,1.15,效果差异
+1051,Radagon's Soreseal,310510,310510,addLifeForceStatus,10,5,效果差异
+1051,Radagon's Soreseal,310510,310510,addWillpowerStatus,10,0,效果差异
+1051,Radagon's Soreseal,310510,310510,addEndureStatus,10,5,效果差异
+1051,Radagon's Soreseal,310510,310510,addVitalityStatus,10,0,效果差异
+1051,Radagon's Soreseal,310510,310510,addStrengthStatus,10,5,效果差异
+1051,Radagon's Soreseal,310510,310510,addDexterityStatus,10,5,效果差异
+1051,Radagon's Soreseal,310510,310510,addMagicStatus,10,0,效果差异
+1051,Radagon's Soreseal,310510,310510,addFaithStatus,10,0,效果差异
+1051,Radagon's Soreseal,310510,310510,addLuckStatus,10,0,效果差异
+1051,Radagon's Soreseal,310510,310510,pad3,0000000000000000,0000803f00000000,效果差异
+1060,Starscourge Heirloom,310600,310600,weakDmgRateA,1.3,1.0,效果差异
+1060,Starscourge Heirloom,310600,310600,changeHpEstusFlaskCorrectRate,1.2,1.0,效果差异
+1060,Starscourge Heirloom,310600,310600,addStrengthStatus,25,5,效果差异
+1060,Starscourge Heirloom,310600,310600,pad3,0000000000000000,0000803f00000000,效果差异
+1070,Prosthesis-Wearer Heirloom,310700,310700,weakDmgRateB,1.2,1.0,效果差异
+1070,Prosthesis-Wearer Heirloom,310700,310700,consumeStaminaRate,0.8,1.0,效果差异
+1070,Prosthesis-Wearer Heirloom,310700,310700,addDexterityStatus,25,5,效果差异
+1070,Prosthesis-Wearer Heirloom,310700,310700,pad3,0000000000000000,0000803f00000000,效果差异
+1080,Stargazer Heirloom,310800,310800,magicConsumptionRate,0.9,1.0,效果差异
+1080,Stargazer Heirloom,310800,310800,changeMpEstusFlaskCorrectRate,1.2,1.0,效果差异
+1080,Stargazer Heirloom,310800,310800,addMagicStatus,25,5,效果差异
+1080,Stargazer Heirloom,310800,310800,pad3,0000000000000000,0000803f00000000,效果差异
+1090,Two Fingers Heirloom,310900,310900,changeMagicSlot,2,0,效果差异
+1090,Two Fingers Heirloom,310900,310900,shamanConsumptionRate,0.9,1.0,效果差异
+1090,Two Fingers Heirloom,310900,310900,addFaithStatus,25,5,效果差异
+1090,Two Fingers Heirloom,310900,310900,pad3,0000000000000000,0000803f00000000,效果差异
+1100,Silver Scarab,311000,311000,darkDamageCutRate,0.8,1.0,效果差异
+1100,Silver Scarab,311000,311000,darkAttackRate,1.3,1.0,效果差异
+1100,Silver Scarab,311000,311000,itemDropRate,0.7,0.75,效果差异
+1100,Silver Scarab,311000,311000,pad3,0000000000000000,0000803f00000000,效果差异
+1110,Gold Scarab,311100,311100,soulRate,1.3,1.2,效果差异
+1110,Gold Scarab,311100,311100,sightSearchEnemyRate,0.9,1.0,效果差异
+1110,Gold Scarab,311100,311100,hearingSearchEnemyRate,0.9,1.0,效果差异
+1110,Gold Scarab,311100,311100,addWillpowerStatus,50,0,效果差异
+1110,Gold Scarab,311100,311100,pad3,0000000000000000,0000803f00000000,效果差异
+1140,Moon of Nokstella,311400,311400,maxMpRate,1.5,1.0,效果差异
+1140,Moon of Nokstella,311400,311400,changeMagicSlot,3,2,效果差异
+1140,Moon of Nokstella,311400,311400,changeMiracleSlot,3,0,效果差异
+1140,Moon of Nokstella,311400,311400,dexterityCancelSystemOnlyAddDexterity,10,0,效果差异
+1140,Moon of Nokstella,311400,311400,pad3,0000000000000000,0000803f00000000,效果差异
+1150,Green Turtle Talisman,311500,311500,maxStaminaRate,1.1,1.0,效果差异
+1150,Green Turtle Talisman,311500,311500,thrustDamageCutRate,0.88,1.0,效果差异
+1150,Green Turtle Talisman,311500,311500,staminaRecoverChangeSpeed,20,8,效果差异
+1150,Green Turtle Talisman,311500,311500,pad3,0000000000000000,0000803f00000000,效果差异
+1160,Stalwart Horn Charm,311600,311600,changeBloodResistPoint,200,90,效果差异
+1160,Stalwart Horn Charm,311600,311600,changeFreezeResistPoint,200,90,效果差异
+1160,Stalwart Horn Charm,311600,311600,pad3,0000000000000000,0000803f00000000,效果差异
+1161,Stalwart Horn Charm +1,311610,311610,changeBloodResistPoint,400,140,效果差异
+1161,Stalwart Horn Charm +1,311610,311610,changeFreezeResistPoint,400,140,效果差异
+1161,Stalwart Horn Charm +1,311610,311610,pad3,0000000000000000,0000803f00000000,效果差异
+1170,Immunizing Horn Charm,311700,311700,changePoisonResistPoint,200,90,效果差异
+1170,Immunizing Horn Charm,311700,311700,changeDiseaseResistPoint,200,90,效果差异
+1170,Immunizing Horn Charm,311700,311700,pad3,0000000000000000,0000803f00000000,效果差异
+1171,Immunizing Horn Charm +1,311710,311710,changePoisonResistPoint,400,140,效果差异
+1171,Immunizing Horn Charm +1,311710,311710,changeDiseaseResistPoint,400,140,效果差异
+1171,Immunizing Horn Charm +1,311710,311710,pad3,0000000000000000,0000803f00000000,效果差异
+1180,Clarifying Horn Charm,311800,311800,changeSleepResistPoint,200,140,效果差异
+1180,Clarifying Horn Charm,311800,311800,changeMadnessResistPoint,200,140,效果差异
+1180,Clarifying Horn Charm,311800,311800,pad3,0000000000000000,0000803f00000000,效果差异
+1181,Clarifying Horn Charm +1,311810,311810,changeSleepResistPoint,400,190,效果差异
+1181,Clarifying Horn Charm +1,311810,311810,changeMadnessResistPoint,400,190,效果差异
+1181,Clarifying Horn Charm +1,311810,311810,pad3,0000000000000000,0000803f00000000,效果差异
+1190,Prince of Death's Pustule,311900,311900,changeCurseResistPoint,200,90,效果差异
+1190,Prince of Death's Pustule,311900,311900,pad3,0000000000000000,0000803f00000000,效果差异
+1191,Prince of Death's Cyst,311910,311910,changeCurseResistPoint,400,140,效果差异
+1191,Prince of Death's Cyst,311910,311910,pad3,0000000000000000,0000803f00000000,效果差异
+1192,,20370700,,,,,原版无对应效果
+1200,Mottled Necklace,312000,312000,changePoisonResistPoint,120,40,效果差异
+1200,Mottled Necklace,312000,312000,changeDiseaseResistPoint,120,40,效果差异
+1200,Mottled Necklace,312000,312000,changeBloodResistPoint,120,40,效果差异
+1200,Mottled Necklace,312000,312000,changeCurseResistPoint,120,0,效果差异
+1200,Mottled Necklace,312000,312000,changeFreezeResistPoint,120,40,效果差异
+1200,Mottled Necklace,312000,312000,changeSleepResistPoint,120,40,效果差异
+1200,Mottled Necklace,312000,312000,changeMadnessResistPoint,120,40,效果差异
+1200,Mottled Necklace,312000,312000,pad3,0000000000000000,0000803f00000000,效果差异
+1201,Mottled Necklace +1,312010,312010,changePoisonResistPoint,220,60,效果差异
+1201,Mottled Necklace +1,312010,312010,changeDiseaseResistPoint,220,60,效果差异
+1201,Mottled Necklace +1,312010,312010,changeBloodResistPoint,220,60,效果差异
+1201,Mottled Necklace +1,312010,312010,changeCurseResistPoint,220,0,效果差异
+1201,Mottled Necklace +1,312010,312010,changeFreezeResistPoint,220,60,效果差异
+1201,Mottled Necklace +1,312010,312010,changeSleepResistPoint,220,60,效果差异
+1201,Mottled Necklace +1,312010,312010,changeMadnessResistPoint,220,60,效果差异
+1201,Mottled Necklace +1,312010,312010,pad3,0000000000000000,0000803f00000000,效果差异
+1210,Bull-Goat's Talisman,312100,312100,fireDamageCutRate,0.75,1.0,效果差异
+1210,Bull-Goat's Talisman,312100,312100,staminaAttackRate,1.5,1.0,效果差异
+1210,Bull-Goat's Talisman,312100,312100,toughnessDamageCutRate,1.0,0.75,效果差异
+1210,Bull-Goat's Talisman,312100,312100,pad3,0000000000000000,0000803f00000000,效果差异
+1220,Marika's Scarseal,312200,312200,slashDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,blowDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,thrustDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,neutralDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,magicDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,fireDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,thunderDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,darkDamageCutRate,0.88,1.1,效果差异
+1220,Marika's Scarseal,312200,312200,addWillpowerStatus,0,3,效果差异
+1220,Marika's Scarseal,312200,312200,addMagicStatus,0,3,效果差异
+1220,Marika's Scarseal,312200,312200,addFaithStatus,0,3,效果差异
+1220,Marika's Scarseal,312200,312200,addLuckStatus,0,3,效果差异
+1220,Marika's Scarseal,312200,312200,pad3,0000000000000000,0000803f00000000,效果差异
+1221,Marika's Soreseal,312210,312210,slashDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,blowDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,thrustDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,neutralDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,magicDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,fireDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,thunderDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,darkDamageCutRate,0.76,1.15,效果差异
+1221,Marika's Soreseal,312210,312210,addWillpowerStatus,0,5,效果差异
+1221,Marika's Soreseal,312210,312210,addMagicStatus,0,5,效果差异
+1221,Marika's Soreseal,312210,312210,addFaithStatus,0,5,效果差异
+1221,Marika's Soreseal,312210,312210,addLuckStatus,0,5,效果差异
+1221,Marika's Soreseal,312210,312210,pad3,0000000000000000,0000803f00000000,效果差异
+1230,Warrior Jar Shard,312300,312300,physicsAttackRate,1.2,1.1,效果差异
+1230,Warrior Jar Shard,312300,312300,magicAttackRate,1.2,1.1,效果差异
+1230,Warrior Jar Shard,312300,312300,fireAttackRate,1.2,1.1,效果差异
+1230,Warrior Jar Shard,312300,312300,thunderAttackRate,1.2,1.1,效果差异
+1230,Warrior Jar Shard,312300,312300,darkAttackRate,1.2,1.1,效果差异
+1230,Warrior Jar Shard,312300,312300,pad3,0000000000000000,0000803f00000000,效果差异
+1231,Shard of Alexander,312310,312310,physicsAttackRate,1.0,1.15,效果差异
+1231,Shard of Alexander,312310,312310,magicAttackRate,1.0,1.15,效果差异
+1231,Shard of Alexander,312310,312310,fireAttackRate,1.0,1.15,效果差异
+1231,Shard of Alexander,312310,312310,thunderAttackRate,1.0,1.15,效果差异
+1231,Shard of Alexander,312310,312310,physicsDiffence,500,0,效果差异
+1231,Shard of Alexander,312310,312310,magicDiffence,500,0,效果差异
+1231,Shard of Alexander,312310,312310,fireDiffence,500,0,效果差异
+1231,Shard of Alexander,312310,312310,thunderDiffence,500,0,效果差异
+1231,Shard of Alexander,312310,312310,poizonAttackPower,200,0,效果差异
+1231,Shard of Alexander,312310,312310,diseaseAttackPower,200,0,效果差异
+1231,Shard of Alexander,312310,312310,bloodAttackPower,200,0,效果差异
+1231,Shard of Alexander,312310,312310,magicSubCategoryChange1,0,112,效果差异
+1231,Shard of Alexander,312310,312310,magicSubCategoryChange2,0,111,效果差异
+1231,Shard of Alexander,312310,312310,freezeAttackPower,200,0,效果差异
+1231,Shard of Alexander,312310,312310,darkDiffence,500,0,效果差异
+1231,Shard of Alexander,312310,312310,darkAttackRate,1.0,1.15,效果差异
+1231,Shard of Alexander,312310,312310,sleepAttackPower,200,0,效果差异
+1231,Shard of Alexander,312310,312310,pad3,0000000000000000,0000803f00000000,效果差异
+1250,Millicent's Prosthesis,312500,312500,addDexterityStatus,25,5,效果差异
+1250,Millicent's Prosthesis,312500,312500,pad3,0000000000000000,0000803f00000000,效果差异
+2000,Magic Scorpion Charm,320000,320000,defEnemyDmgCorrectRate_Physics,1.0,1.1,效果差异
+2000,Magic Scorpion Charm,320000,320000,atkEnemyDmgCorrectRate_Magic,1.2,1.12,效果差异
+2000,Magic Scorpion Charm,320000,320000,pad3,0000000000000000,0000803f00000000,效果差异
+2010,Lightning Scorpion Charm,320100,320100,defEnemyDmgCorrectRate_Physics,1.0,1.1,效果差异
+2010,Lightning Scorpion Charm,320100,320100,atkEnemyDmgCorrectRate_Thunder,1.2,1.12,效果差异
+2010,Lightning Scorpion Charm,320100,320100,pad3,0000000000000000,0000803f00000000,效果差异
+2020,Fire Scorpion Charm,320200,320200,defEnemyDmgCorrectRate_Physics,1.0,1.1,效果差异
+2020,Fire Scorpion Charm,320200,320200,atkEnemyDmgCorrectRate_Fire,1.2,1.12,效果差异
+2020,Fire Scorpion Charm,320200,320200,pad3,0000000000000000,0000803f00000000,效果差异
+2030,Sacred Scorpion Charm,320300,320300,defEnemyDmgCorrectRate_Physics,1.0,1.1,效果差异
+2030,Sacred Scorpion Charm,320300,320300,atkEnemyDmgCorrectRate_Dark,1.2,1.12,效果差异
+2030,Sacred Scorpion Charm,320300,320300,pad3,0000000000000000,0000803f00000000,效果差异
+2040,Red-Feathered Branchsword,320400,320400,conditionHp,50.0,20.0,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkPlayerDmgCorrectRate_Physics,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkPlayerDmgCorrectRate_Magic,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkPlayerDmgCorrectRate_Fire,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkPlayerDmgCorrectRate_Thunder,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkPlayerDmgCorrectRate_Dark,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkEnemyDmgCorrectRate_Physics,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkEnemyDmgCorrectRate_Magic,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkEnemyDmgCorrectRate_Fire,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkEnemyDmgCorrectRate_Thunder,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,atkEnemyDmgCorrectRate_Dark,1.4,1.2,效果差异
+2040,Red-Feathered Branchsword,320400,320400,pad3,0000000000000000,0000803f00000000,效果差异
+2050,Ritual Sword Talisman,320500,320500,conditionHpRate,50.0,100.0,效果差异
+2050,Ritual Sword Talisman,320500,320500,atkEnemyDmgCorrectRate_Physics,1.2,1.1,效果差异
+2050,Ritual Sword Talisman,320500,320500,atkEnemyDmgCorrectRate_Magic,1.2,1.1,效果差异
+2050,Ritual Sword Talisman,320500,320500,atkEnemyDmgCorrectRate_Fire,1.2,1.1,效果差异
+2050,Ritual Sword Talisman,320500,320500,atkEnemyDmgCorrectRate_Thunder,1.2,1.1,效果差异
+2050,Ritual Sword Talisman,320500,320500,atkEnemyDmgCorrectRate_Dark,1.2,1.1,效果差异
+2050,Ritual Sword Talisman,320500,320500,pad3,0000000000000000,0000803f00000000,效果差异
+2060,Spear Talisman,320600,320600,physicsAttackRate,1.8,1.15,效果差异
+2060,Spear Talisman,320600,320600,pad3,0000000000000000,0000803f00000000,效果差异
+2070,Hammer Talisman,320700,320700,staminaAttackRate,2.0,1.4,效果差异
+2070,Hammer Talisman,320700,320700,pad3,0000000000000000,0000803f00000000,效果差异
+2080,Winged Sword Insignia,320800,320800,addStrengthStatus,25,0,效果差异
+2080,Winged Sword Insignia,320800,320800,pad3,0000000000000000,0000803f00000000,效果差异
+2081,Rotten Winged Sword Insignia,320810,320810,addStrengthStatus,15,0,效果差异
+2081,Rotten Winged Sword Insignia,320810,320810,addDexterityStatus,15,0,效果差异
+2081,Rotten Winged Sword Insignia,320810,320810,addMagicStatus,15,0,效果差异
+2081,Rotten Winged Sword Insignia,320810,320810,addFaithStatus,15,0,效果差异
+2081,Rotten Winged Sword Insignia,320810,320810,pad3,0000000000000000,0000803f00000000,效果差异
+2090,Dagger Talisman,320900,320900,physicsAttackRate,2.0,1.17,效果差异
+2090,Dagger Talisman,320900,320900,magicAttackRate,2.0,1.17,效果差异
+2090,Dagger Talisman,320900,320900,fireAttackRate,2.0,1.17,效果差异
+2090,Dagger Talisman,320900,320900,thunderAttackRate,2.0,1.17,效果差异
+2090,Dagger Talisman,320900,320900,darkAttackRate,2.0,1.17,效果差异
+2090,Dagger Talisman,320900,320900,pad3,0000000000000000,0000803f00000000,效果差异
+2100,Arrow's Reach Talisman,321000,321000,bowDistRate,125,65,效果差异
+2100,Arrow's Reach Talisman,321000,321000,pad3,0000000000000000,0000803f00000000,效果差异
+2110,Blue Dancer Charm,321100,321100,physicsAttackPowerRate,1.0,1.15,效果差异
+2110,Blue Dancer Charm,321100,321100,slashAttackPowerRate,1.0,1.15,效果差异
+2110,Blue Dancer Charm,321100,321100,blowAttackPowerRate,1.0,1.15,效果差异
+2110,Blue Dancer Charm,321100,321100,thrustAttackPowerRate,1.0,1.15,效果差异
+2110,Blue Dancer Charm,321100,321100,neutralAttackPowerRate,1.0,1.15,效果差异
+2110,Blue Dancer Charm,321100,321100,atkEnemyDmgCorrectRate_Physics,1.15,1.0,效果差异
+2110,Blue Dancer Charm,321100,321100,atkEnemyDmgCorrectRate_Magic,1.15,1.0,效果差异
+2110,Blue Dancer Charm,321100,321100,atkEnemyDmgCorrectRate_Fire,1.15,1.0,效果差异
+2110,Blue Dancer Charm,321100,321100,atkEnemyDmgCorrectRate_Thunder,1.15,1.0,效果差异
+2110,Blue Dancer Charm,321100,321100,atkEnemyDmgCorrectRate_Dark,1.15,1.0,效果差异
+2110,Blue Dancer Charm,321100,321100,pad3,0000000000000000,0000803f00000000,效果差异
+2120,Twinblade Talisman,321200,321200,physicsAttackRate,1.5,1.0,效果差异
+2120,Twinblade Talisman,321200,321200,magicAttackRate,1.5,1.0,效果差异
+2120,Twinblade Talisman,321200,321200,fireAttackRate,1.5,1.0,效果差异
+2120,Twinblade Talisman,321200,321200,thunderAttackRate,1.5,1.0,效果差异
+2120,Twinblade Talisman,321200,321200,darkAttackRate,1.5,1.0,效果差异
+2120,Twinblade Talisman,321200,321200,atkPlayerDmgCorrectRate_Physics,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkPlayerDmgCorrectRate_Magic,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkPlayerDmgCorrectRate_Fire,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkPlayerDmgCorrectRate_Thunder,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkPlayerDmgCorrectRate_Dark,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkEnemyDmgCorrectRate_Physics,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkEnemyDmgCorrectRate_Magic,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkEnemyDmgCorrectRate_Fire,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkEnemyDmgCorrectRate_Thunder,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,atkEnemyDmgCorrectRate_Dark,1.0,1.45,效果差异
+2120,Twinblade Talisman,321200,321200,pad3,0000000000000000,0000803f00000000,效果差异
+2130,Axe Talisman,321300,321300,physicsAttackRate,1.5,1.1,效果差异
+2130,Axe Talisman,321300,321300,magicAttackRate,1.5,1.1,效果差异
+2130,Axe Talisman,321300,321300,fireAttackRate,1.5,1.1,效果差异
+2130,Axe Talisman,321300,321300,thunderAttackRate,1.5,1.1,效果差异
+2130,Axe Talisman,321300,321300,darkAttackRate,1.5,1.1,效果差异
+2130,Axe Talisman,321300,321300,pad3,0000000000000000,0000803f00000000,效果差异
+2140,Lance Talisman,321400,321400,physicsAttackRate,1.0,1.15,效果差异
+2140,Lance Talisman,321400,321400,magicAttackRate,1.0,1.15,效果差异
+2140,Lance Talisman,321400,321400,fireAttackRate,1.0,1.15,效果差异
+2140,Lance Talisman,321400,321400,thunderAttackRate,1.0,1.15,效果差异
+2140,Lance Talisman,321400,321400,physicsAttackPowerRate,5.0,1.0,效果差异
+2140,Lance Talisman,321400,321400,magicAttackPowerRate,5.0,1.0,效果差异
+2140,Lance Talisman,321400,321400,fireAttackPowerRate,5.0,1.0,效果差异
+2140,Lance Talisman,321400,321400,thunderAttackPowerRate,5.0,1.0,效果差异
+2140,Lance Talisman,321400,321400,magicSubCategoryChange1,0,101,效果差异
+2140,Lance Talisman,321400,321400,stateInfo,71,0,效果差异
+2140,Lance Talisman,321400,321400,wepParamChange,3,0,效果差异
+2140,Lance Talisman,321400,321400,magParamChange,1,0,效果差异
+2140,Lance Talisman,321400,321400,miracleParamChange,1,0,效果差异
+2140,Lance Talisman,321400,321400,darkAttackRate,1.0,1.15,效果差异
+2140,Lance Talisman,321400,321400,darkAttackPowerRate,5.0,1.0,效果差异
+2140,Lance Talisman,321400,321400,pad3,0000000000000000,0000803f00000000,效果差异
+2150,Arrow's Sting Talisman,321500,321500,physicsAttackRate,1.5,1.1,效果差异
+2150,Arrow's Sting Talisman,321500,321500,magicAttackRate,1.5,1.1,效果差异
+2150,Arrow's Sting Talisman,321500,321500,fireAttackRate,1.5,1.1,效果差异
+2150,Arrow's Sting Talisman,321500,321500,thunderAttackRate,1.5,1.1,效果差异
+2150,Arrow's Sting Talisman,321500,321500,darkAttackRate,1.5,1.1,效果差异
+2150,Arrow's Sting Talisman,321500,321500,pad3,0000000000000000,0000803f00000000,效果差异
+2160,Lord of Blood's Exultation,321600,321600,pad3,0000000000000000,0000803f00000000,效果差异
+2170,Kindred of Rot's Exultation,321700,321700,pad3,0000000000000000,0000803f00000000,效果差异
+2180,Claw Talisman,321800,321800,physicsAttackRate,1.8,1.0,效果差异
+2180,Claw Talisman,321800,321800,magicAttackRate,1.8,1.0,效果差异
+2180,Claw Talisman,321800,321800,fireAttackRate,1.8,1.0,效果差异
+2180,Claw Talisman,321800,321800,thunderAttackRate,1.8,1.0,效果差异
+2180,Claw Talisman,321800,321800,darkAttackRate,1.8,1.0,效果差异
+2180,Claw Talisman,321800,321800,atkPlayerDmgCorrectRate_Physics,1.0,1.075,效果差异
+2180,Claw Talisman,321800,321800,atkPlayerDmgCorrectRate_Magic,1.0,1.075,效果差异
+2180,Claw Talisman,321800,321800,atkPlayerDmgCorrectRate_Fire,1.0,1.075,效果差异
+2180,Claw Talisman,321800,321800,atkPlayerDmgCorrectRate_Thunder,1.0,1.075,效果差异
+2180,Claw Talisman,321800,321800,atkPlayerDmgCorrectRate_Dark,1.0,1.075,效果差异
+2180,Claw Talisman,321800,321800,atkEnemyDmgCorrectRate_Physics,1.0,1.15,效果差异
+2180,Claw Talisman,321800,321800,atkEnemyDmgCorrectRate_Magic,1.0,1.15,效果差异
+2180,Claw Talisman,321800,321800,atkEnemyDmgCorrectRate_Fire,1.0,1.15,效果差异
+2180,Claw Talisman,321800,321800,atkEnemyDmgCorrectRate_Thunder,1.0,1.15,效果差异
+2180,Claw Talisman,321800,321800,atkEnemyDmgCorrectRate_Dark,1.0,1.15,效果差异
+2180,Claw Talisman,321800,321800,pad3,0000000000000000,0000803f00000000,效果差异
+2190,Roar Medallion,321900,321900,physicsAttackRate,1.2,1.15,效果差异
+2190,Roar Medallion,321900,321900,magicAttackRate,1.2,1.15,效果差异
+2190,Roar Medallion,321900,321900,fireAttackRate,1.2,1.15,效果差异
+2190,Roar Medallion,321900,321900,thunderAttackRate,1.2,1.15,效果差异
+2190,Roar Medallion,321900,321900,darkAttackRate,1.2,1.15,效果差异
+2190,Roar Medallion,321900,321900,pad3,0000000000000000,0000803f00000000,效果差异
+2200,Curved Sword Talisman,322000,322000,physicsAttackRate,1.5,1.2,效果差异
+2200,Curved Sword Talisman,322000,322000,magicAttackRate,1.5,1.2,效果差异
+2200,Curved Sword Talisman,322000,322000,fireAttackRate,1.5,1.2,效果差异
+2200,Curved Sword Talisman,322000,322000,thunderAttackRate,1.5,1.2,效果差异
+2200,Curved Sword Talisman,322000,322000,darkAttackRate,1.5,1.2,效果差异
+2200,Curved Sword Talisman,322000,322000,pad3,0000000000000000,0000803f00000000,效果差异
+2210,Companion Jar,322100,322100,physicsAttackRate,1.7,1.2,效果差异
+2210,Companion Jar,322100,322100,magicAttackRate,1.7,1.2,效果差异
+2210,Companion Jar,322100,322100,fireAttackRate,1.7,1.2,效果差异
+2210,Companion Jar,322100,322100,thunderAttackRate,1.7,1.2,效果差异
+2210,Companion Jar,322100,322100,darkAttackRate,1.7,1.2,效果差异
+2210,Companion Jar,322100,322100,pad3,0000000000000000,0000803f00000000,效果差异
+2220,Perfumer's Talisman,322200,322200,physicsAttackRate,2.2,1.2,效果差异
+2220,Perfumer's Talisman,322200,322200,magicAttackRate,2.2,1.2,效果差异
+2220,Perfumer's Talisman,322200,322200,fireAttackRate,2.2,1.2,效果差异
+2220,Perfumer's Talisman,322200,322200,thunderAttackRate,2.2,1.2,效果差异
+2220,Perfumer's Talisman,322200,322200,magicSubCategoryChange2,108,0,效果差异
+2220,Perfumer's Talisman,322200,322200,darkAttackRate,2.2,1.2,效果差异
+2220,Perfumer's Talisman,322200,322200,pad3,0000000000000000,0000803f00000000,效果差异
+3000,Graven-School Talisman,330000,330000,physicsAttackRate,1.2,1.04,效果差异
+3000,Graven-School Talisman,330000,330000,magicAttackRate,1.2,1.04,效果差异
+3000,Graven-School Talisman,330000,330000,fireAttackRate,1.2,1.04,效果差异
+3000,Graven-School Talisman,330000,330000,thunderAttackRate,1.2,1.04,效果差异
+3000,Graven-School Talisman,330000,330000,darkAttackRate,1.2,1.04,效果差异
+3000,Graven-School Talisman,330000,330000,pad3,0000000000000000,0000803f00000000,效果差异
+3001,Graven-Mass Talisman,330010,330010,physicsAttackRate,1.3,1.08,效果差异
+3001,Graven-Mass Talisman,330010,330010,magicAttackRate,1.3,1.08,效果差异
+3001,Graven-Mass Talisman,330010,330010,fireAttackRate,1.3,1.08,效果差异
+3001,Graven-Mass Talisman,330010,330010,thunderAttackRate,1.3,1.08,效果差异
+3001,Graven-Mass Talisman,330010,330010,darkAttackRate,1.3,1.08,效果差异
+3001,Graven-Mass Talisman,330010,330010,pad3,0000000000000000,0000803f00000000,效果差异
+3040,Faithful's Canvas Talisman,330400,330400,physicsAttackRate,1.2,1.04,效果差异
+3040,Faithful's Canvas Talisman,330400,330400,magicAttackRate,1.2,1.04,效果差异
+3040,Faithful's Canvas Talisman,330400,330400,fireAttackRate,1.2,1.04,效果差异
+3040,Faithful's Canvas Talisman,330400,330400,thunderAttackRate,1.2,1.04,效果差异
+3040,Faithful's Canvas Talisman,330400,330400,darkAttackRate,1.2,1.04,效果差异
+3040,Faithful's Canvas Talisman,330400,330400,pad3,0000000000000000,0000803f00000000,效果差异
+3050,Flock's Canvas Talisman,330500,330500,physicsAttackRate,1.3,1.08,效果差异
+3050,Flock's Canvas Talisman,330500,330500,magicAttackRate,1.3,1.08,效果差异
+3050,Flock's Canvas Talisman,330500,330500,fireAttackRate,1.3,1.08,效果差异
+3050,Flock's Canvas Talisman,330500,330500,thunderAttackRate,1.3,1.08,效果差异
+3050,Flock's Canvas Talisman,330500,330500,darkAttackRate,1.3,1.08,效果差异
+3050,Flock's Canvas Talisman,330500,330500,pad3,0000000000000000,0000803f00000000,效果差异
+3060,Old Lord's Talisman,330600,330600,extendLifeRate,4.0,1.3,效果差异
+3060,Old Lord's Talisman,330600,330600,pad3,0000000000000000,0000803f00000000,效果差异
+3070,Radagon Icon,330700,330700,dexterityCancelSystemOnlyAddDexterity,75,30,效果差异
+3070,Radagon Icon,330700,330700,pad3,0000000000000000,0000803f00000000,效果差异
+3080,Primal Glintstone Blade,330800,330800,maxHpRate,1.0,0.85,效果差异
+3080,Primal Glintstone Blade,330800,330800,maxMpRate,1.3,1.0,效果差异
+3080,Primal Glintstone Blade,330800,330800,magicConsumptionRate,0.65,0.75,效果差异
+3080,Primal Glintstone Blade,330800,330800,shamanConsumptionRate,0.65,0.75,效果差异
+3080,Primal Glintstone Blade,330800,330800,miracleConsumptionRate,0.65,0.75,效果差异
+3080,Primal Glintstone Blade,330800,330800,pad3,0000000000000000,0000803f00000000,效果差异
+3090,Godfrey Icon,330900,330900,physicsAttackRate,1.3,1.15,效果差异
+3090,Godfrey Icon,330900,330900,magicAttackRate,1.3,1.15,效果差异
+3090,Godfrey Icon,330900,330900,fireAttackRate,1.3,1.15,效果差异
+3090,Godfrey Icon,330900,330900,thunderAttackRate,1.3,1.15,效果差异
+3090,Godfrey Icon,330900,330900,stateInfo,0,497,效果差异
+3090,Godfrey Icon,330900,330900,darkAttackRate,1.3,1.15,效果差异
+3090,Godfrey Icon,330900,330900,pad3,0000000000000000,0000803f00000000,效果差异
+4000,Dragoncrest Shield Talisman,340000,340000,pad3,0000000000000000,0000803f00000000,效果差异
+4001,Dragoncrest Shield Talisman +1,340010,340010,defEnemyDmgCorrectRate_Physics,0.8,0.87,效果差异
+4001,Dragoncrest Shield Talisman +1,340010,340010,pad3,0000000000000000,0000803f00000000,效果差异
+4002,Dragoncrest Shield Talisman +2,340020,340020,defEnemyDmgCorrectRate_Physics,0.7,0.83,效果差异
+4002,Dragoncrest Shield Talisman +2,340020,340020,pad3,0000000000000000,0000803f00000000,效果差异
+4003,Dragoncrest Greatshield Talisman,340030,340030,defEnemyDmgCorrectRate_Magic,0.8,1.0,效果差异
+4003,Dragoncrest Greatshield Talisman,340030,340030,defEnemyDmgCorrectRate_Fire,0.8,1.0,效果差异
+4003,Dragoncrest Greatshield Talisman,340030,340030,defEnemyDmgCorrectRate_Thunder,0.8,1.0,效果差异
+4003,Dragoncrest Greatshield Talisman,340030,340030,defEnemyDmgCorrectRate_Dark,0.8,1.0,效果差异
+4003,Dragoncrest Greatshield Talisman,340030,340030,pad3,0000000000000000,0000803f00000000,效果差异
+4010,Spelldrake Talisman,340100,340100,defEnemyDmgCorrectRate_Magic,0.9,0.87,效果差异
+4010,Spelldrake Talisman,340100,340100,pad3,0000000000000000,0000803f00000000,效果差异
+4011,Spelldrake Talisman +1,340110,340110,defEnemyDmgCorrectRate_Magic,0.8,0.83,效果差异
+4011,Spelldrake Talisman +1,340110,340110,pad3,0000000000000000,0000803f00000000,效果差异
+4012,Spelldrake Talisman +2,340120,340120,defEnemyDmgCorrectRate_Magic,0.7,0.8,效果差异
+4012,Spelldrake Talisman +2,340120,340120,pad3,0000000000000000,0000803f00000000,效果差异
+4020,Flamedrake Talisman,340200,340200,defEnemyDmgCorrectRate_Fire,0.9,0.87,效果差异
+4020,Flamedrake Talisman,340200,340200,pad3,0000000000000000,0000803f00000000,效果差异
+4021,Flamedrake Talisman +1,340210,340210,defEnemyDmgCorrectRate_Fire,0.8,0.83,效果差异
+4021,Flamedrake Talisman +1,340210,340210,pad3,0000000000000000,0000803f00000000,效果差异
+4022,Flamedrake Talisman +2,340220,340220,defEnemyDmgCorrectRate_Fire,0.7,0.8,效果差异
+4022,Flamedrake Talisman +2,340220,340220,pad3,0000000000000000,0000803f00000000,效果差异
+4030,Boltdrake Talisman,340300,340300,defEnemyDmgCorrectRate_Thunder,0.9,0.87,效果差异
+4030,Boltdrake Talisman,340300,340300,pad3,0000000000000000,0000803f00000000,效果差异
+4031,Boltdrake Talisman +1,340310,340310,defEnemyDmgCorrectRate_Thunder,0.8,0.83,效果差异
+4031,Boltdrake Talisman +1,340310,340310,pad3,0000000000000000,0000803f00000000,效果差异
+4032,Boltdrake Talisman +2,340320,340320,defEnemyDmgCorrectRate_Thunder,0.7,0.8,效果差异
+4032,Boltdrake Talisman +2,340320,340320,pad3,0000000000000000,0000803f00000000,效果差异
+4040,Haligdrake Talisman,340400,340400,defEnemyDmgCorrectRate_Dark,0.9,0.87,效果差异
+4040,Haligdrake Talisman,340400,340400,pad3,0000000000000000,0000803f00000000,效果差异
+4041,Haligdrake Talisman +1,340410,340410,defEnemyDmgCorrectRate_Dark,0.8,0.83,效果差异
+4041,Haligdrake Talisman +1,340410,340410,pad3,0000000000000000,0000803f00000000,效果差异
+4042,Haligdrake Talisman +2,340420,340420,defEnemyDmgCorrectRate_Dark,0.7,0.8,效果差异
+4042,Haligdrake Talisman +2,340420,340420,pad3,0000000000000000,0000803f00000000,效果差异
+4050,Pearldrake Talisman,340500,340500,pad3,0000000000000000,0000803f00000000,效果差异
+4051,Pearldrake Talisman +1,340510,340510,defEnemyDmgCorrectRate_Magic,0.9,0.93,效果差异
+4051,Pearldrake Talisman +1,340510,340510,defEnemyDmgCorrectRate_Fire,0.9,0.93,效果差异
+4051,Pearldrake Talisman +1,340510,340510,defEnemyDmgCorrectRate_Thunder,0.9,0.93,效果差异
+4051,Pearldrake Talisman +1,340510,340510,defEnemyDmgCorrectRate_Dark,0.9,0.93,效果差异
+4051,Pearldrake Talisman +1,340510,340510,pad3,0000000000000000,0000803f00000000,效果差异
+4052,Pearldrake Talisman +2,340520,340520,defEnemyDmgCorrectRate_Magic,0.85,0.91,效果差异
+4052,Pearldrake Talisman +2,340520,340520,defEnemyDmgCorrectRate_Fire,0.85,0.91,效果差异
+4052,Pearldrake Talisman +2,340520,340520,defEnemyDmgCorrectRate_Thunder,0.85,0.91,效果差异
+4052,Pearldrake Talisman +2,340520,340520,defEnemyDmgCorrectRate_Dark,0.85,0.91,效果差异
+4052,Pearldrake Talisman +2,340520,340520,pad3,0000000000000000,0000803f00000000,效果差异
+4060,Crucible Scale Talisman,340600,340600,effectEndurance,10.0,-1.0,效果差异
+4060,Crucible Scale Talisman,340600,340600,motionInterval,0.06,0.0,效果差异
+4060,Crucible Scale Talisman,340600,340600,slashDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,blowDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,thrustDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,neutralDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,magicDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,fireDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,thunderDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,stateInfo,123,335,效果差异
+4060,Crucible Scale Talisman,340600,340600,darkDamageCutRate,0.8,0.7,效果差异
+4060,Crucible Scale Talisman,340600,340600,pad3,0000000000000000,0000803f00000000,效果差异
+4070,Crucible Feather Talisman,340700,340700,slashDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,blowDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,thrustDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,neutralDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,magicDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,fireDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,thunderDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,darkDamageCutRate,1.0,1.3,效果差异
+4070,Crucible Feather Talisman,340700,340700,darkAttackRate,1.15,1.0,效果差异
+4070,Crucible Feather Talisman,340700,340700,pad3,0000000000000000,0000803f00000000,效果差异
+4080,Blue-Feathered Branchsword,340800,340800,conditionHp,50.0,20.0,效果差异
+4080,Blue-Feathered Branchsword,340800,340800,defEnemyDmgCorrectRate_Physics,0.65,0.5,效果差异
+4080,Blue-Feathered Branchsword,340800,340800,defEnemyDmgCorrectRate_Magic,0.65,0.5,效果差异
+4080,Blue-Feathered Branchsword,340800,340800,defEnemyDmgCorrectRate_Fire,0.65,0.5,效果差异
+4080,Blue-Feathered Branchsword,340800,340800,defEnemyDmgCorrectRate_Thunder,0.65,0.5,效果差异
+4080,Blue-Feathered Branchsword,340800,340800,defEnemyDmgCorrectRate_Dark,0.65,0.5,效果差异
+4080,Blue-Feathered Branchsword,340800,340800,pad3,0000000000000000,0000803f00000000,效果差异
+4090,Ritual Shield Talisman,340900,340900,conditionHpRate,50.0,100.0,效果差异
+4090,Ritual Shield Talisman,340900,340900,defEnemyDmgCorrectRate_Physics,0.8,0.7,效果差异
+4090,Ritual Shield Talisman,340900,340900,defEnemyDmgCorrectRate_Magic,0.8,0.7,效果差异
+4090,Ritual Shield Talisman,340900,340900,defEnemyDmgCorrectRate_Fire,0.8,0.7,效果差异
+4090,Ritual Shield Talisman,340900,340900,defEnemyDmgCorrectRate_Thunder,0.8,0.7,效果差异
+4090,Ritual Shield Talisman,340900,340900,defEnemyDmgCorrectRate_Dark,0.8,0.7,效果差异
+4090,Ritual Shield Talisman,340900,340900,pad3,0000000000000000,0000803f00000000,效果差异
+4100,Greatshield Talisman,341000,341000,slashDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,blowDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,thrustDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,neutralDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,magicDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,fireDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,thunderDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,guardStaminaCutRate,1.1,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,darkDamageCutRate,1.2,1.0,效果差异
+4100,Greatshield Talisman,341000,341000,pad3,0000000000000000,cdcc4c3f00000000,效果差异
+4110,Crucible Knot Talisman,341100,341100,addLifeForceStatus,50,0,效果差异
+4110,Crucible Knot Talisman,341100,341100,addWillpowerStatus,50,0,效果差异
+4110,Crucible Knot Talisman,341100,341100,pad3,0000000000000000,0000803f00000000,效果差异
+5000,Crimson Seed Talisman,350000,350000,changeHpEstusFlaskCorrectRate,1.5,1.2,效果差异
+5000,Crimson Seed Talisman,350000,350000,pad3,0000000000000000,0000803f00000000,效果差异
+5010,Cerulean Seed Talisman,350100,350100,changeMpEstusFlaskCorrectRate,1.5,1.2,效果差异
+5010,Cerulean Seed Talisman,350100,350100,pad3,0000000000000000,0000803f00000000,效果差异
+5020,Blessed Dew Talisman,350200,350200,changeHpPoint,-150,-2,效果差异
+5020,Blessed Dew Talisman,350200,350200,pad3,0000000000000000,0000803f00000000,效果差异
+5030,Taker's Cameo,350300,350300,pad3,0000000000000000,0000803f00000000,效果差异
+5040,Godskin Swaddling Cloth,350400,350400,pad3,0000000000000000,0000803f00000000,效果差异
+5050,Assassin's Crimson Dagger,350500,350500,pad3,0000000000000000,0000803f00000000,效果差异
+5060,Assassin's Cerulean Dagger,350600,350600,pad3,0000000000000000,0000803f00000000,效果差异
+6000,Crepus's Vial,360000,360000,sightSearchEnemyRate,0.0,1.0,效果差异
+6000,Crepus's Vial,360000,360000,addDexterityStatus,50,0,效果差异
+6000,Crepus's Vial,360000,360000,pad3,0000000000000000,0000803f00000000,效果差异
+6010,Concealing Veil,360100,360100,sightSearchEnemyRate,3.0,1.0,效果差异
+6010,Concealing Veil,360100,360100,hearingSearchEnemyRate,3.0,1.0,效果差异
+6010,Concealing Veil,360100,360100,pad3,0000000000000000,0000803f00000000,效果差异
+6020,Carian Filigreed Crest,360200,360200,artsConsumptionRate,0.5,0.75,效果差异
+6020,Carian Filigreed Crest,360200,360200,pad3,0000000000000000,0000803f00000000,效果差异
+6040,Longtail Cat Talisman,360400,360400,addDexterityStatus,50,0,效果差异
+6040,Longtail Cat Talisman,360400,360400,pad3,0000000000000000,0000803f00000000,效果差异
+6050,Shabriri's Woe,360500,360500,targetPriority,0.0,0.1,效果差异
+6050,Shabriri's Woe,360500,360500,changeMagicSlot,10,0,效果差异
+6050,Shabriri's Woe,360500,360500,changeMiracleSlot,10,0,效果差异
+6050,Shabriri's Woe,360500,360500,weakDmgRateC,1.2,1.0,效果差异
+6050,Shabriri's Woe,360500,360500,weakDmgRateD,1.2,1.0,效果差异
+6050,Shabriri's Woe,360500,360500,changeSleepResistPoint,1,0,效果差异
+6050,Shabriri's Woe,360500,360500,pad3,0000000000000000,0000803f00000000,效果差异
+6060,Daedicar's Woe,360600,360600,slashDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,blowDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,thrustDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,neutralDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,magicDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,fireDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,thunderDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,physicsAttackRate,1.25,1.0,效果差异
+6060,Daedicar's Woe,360600,360600,magicAttackRate,1.25,1.0,效果差异
+6060,Daedicar's Woe,360600,360600,fireAttackRate,1.25,1.0,效果差异
+6060,Daedicar's Woe,360600,360600,thunderAttackRate,1.25,1.0,效果差异
+6060,Daedicar's Woe,360600,360600,darkDamageCutRate,1.25,2.0,效果差异
+6060,Daedicar's Woe,360600,360600,darkAttackRate,1.25,1.0,效果差异
+6060,Daedicar's Woe,360600,360600,pad3,0000000000000000,0000803f00000000,效果差异
+6070,Sacrificial Twig,360700,360700,addStrengthStatus,15,0,效果差异
+6070,Sacrificial Twig,360700,360700,addDexterityStatus,15,0,效果差异
+6070,Sacrificial Twig,360700,360700,addMagicStatus,15,0,效果差异
+6070,Sacrificial Twig,360700,360700,addFaithStatus,15,0,效果差异
+6070,Sacrificial Twig,360700,360700,pad3,0000000000000000,0000803f00000000,效果差异
+6080,Furled Finger's Trick-Mirror,360800,360800,weakDmgRateA,1.3,1.0,效果差异
+6080,Furled Finger's Trick-Mirror,360800,360800,pad3,0000000000000000,0000803f00000000,效果差异
+6090,Host's Trick-Mirror,360900,360900,weakDmgRateB,1.3,1.0,效果差异
+6090,Host's Trick-Mirror,360900,360900,pad3,0000000000000000,0000803f00000000,效果差异
+6100,Entwining Umbilical Cord,6202041,361000,iconId,20211,-1,效果差异
+6100,Entwining Umbilical Cord,6202041,361000,motionInterval,2.0,0.0,效果差异
+6100,Entwining Umbilical Cord,6202041,361000,changeMpPoint,-40,0,效果差异
+6100,Entwining Umbilical Cord,6202041,361000,stateInfo,0,326,效果差异
+6100,Entwining Umbilical Cord,6202041,361000,pad3,0000000000000000,0000803f00000000,效果差异
+6110,Ancestral Spirit's Horne,361100,361100,addWillpowerStatus,20,0,效果差异
+6110,Ancestral Spirit's Horne,361100,361100,addMagicStatus,20,0,效果差异
+6110,Ancestral Spirit's Horne,361100,361100,pad3,0000000000000000,0000803f00000000,效果差异
+7000,Crimson Amber Medallion +3,20370000,20370000,maxHpRate,1.3,1.1,效果差异
+7000,Crimson Amber Medallion +3,20370000,20370000,slashDamageCutRate,0.7,1.0,效果差异
+7000,Crimson Amber Medallion +3,20370000,20370000,physicsAttackPower,100,0,效果差异
+7010,Cerulean Amber Medallion +3,20370100,20370100,maxMpRate,1.3,1.13,效果差异
+7010,Cerulean Amber Medallion +3,20370100,20370100,magicDamageCutRate,0.7,1.0,效果差异
+7010,Cerulean Amber Medallion +3,20370100,20370100,magicAttackPower,100,0,效果差异
+7020,Viridian Amber Medallion +3,20370200,20370200,maxStaminaRate,1.4,1.17,效果差异
+7020,Viridian Amber Medallion +3,20370200,20370200,blowDamageCutRate,0.7,1.0,效果差异
+7020,Viridian Amber Medallion +3,20370200,20370200,staminaRecoverChangeSpeed,45,0,效果差异
+7030,Two-Headed Turtle Talisman,20370300,20370300,iconId,20410,20210,效果差异
+7030,Two-Headed Turtle Talisman,20370300,20370300,maxStaminaRate,1.2,1.0,效果差异
+7030,Two-Headed Turtle Talisman,20370300,20370300,thrustDamageCutRate,0.76,1.0,效果差异
+7030,Two-Headed Turtle Talisman,20370300,20370300,staminaRecoverChangeSpeed,25,10,效果差异
+7040,Stalwart Horn Charm +2,20370400,20370400,changeBloodResistPoint,600,180,效果差异
+7040,Stalwart Horn Charm +2,20370400,20370400,changeFreezeResistPoint,600,180,效果差异
+7050,Immunizing Horn Charm +2,20370500,20370500,changePoisonResistPoint,600,180,效果差异
+7050,Immunizing Horn Charm +2,20370500,20370500,changeDiseaseResistPoint,600,180,效果差异
+7060,Clarifying Horn Charm +2,20370600,20370600,changeSleepResistPoint,600,230,效果差异
+7060,Clarifying Horn Charm +2,20370600,20370600,changeMadnessResistPoint,600,230,效果差异
+7080,Mottled Necklace +2,20370800,20370800,changePoisonResistPoint,320,100,效果差异
+7080,Mottled Necklace +2,20370800,20370800,changeDiseaseResistPoint,320,100,效果差异
+7080,Mottled Necklace +2,20370800,20370800,changeBloodResistPoint,320,100,效果差异
+7080,Mottled Necklace +2,20370800,20370800,changeCurseResistPoint,320,0,效果差异
+7080,Mottled Necklace +2,20370800,20370800,changeFreezeResistPoint,320,100,效果差异
+7080,Mottled Necklace +2,20370800,20370800,changeSleepResistPoint,320,100,效果差异
+7080,Mottled Necklace +2,20370800,20370800,changeMadnessResistPoint,320,100,效果差异
+7090,Spelldrake Talisman +3,20370900,20370900,defEnemyDmgCorrectRate_Magic,0.6,0.78,效果差异
+7100,Flamedrake Talisman +3,20371000,20371000,defEnemyDmgCorrectRate_Fire,0.6,0.78,效果差异
+7110,Boltdrake Talisman +3,20371100,20371100,defEnemyDmgCorrectRate_Thunder,0.6,0.78,效果差异
+7120,Golden Braid,20371200,20371200,defEnemyDmgCorrectRate_Dark,0.6,0.78,效果差异
+7130,Pearldrake Talisman +3,20371300,20371300,defEnemyDmgCorrectRate_Magic,0.8,0.89,效果差异
+7130,Pearldrake Talisman +3,20371300,20371300,defEnemyDmgCorrectRate_Fire,0.8,0.89,效果差异
+7130,Pearldrake Talisman +3,20371300,20371300,defEnemyDmgCorrectRate_Thunder,0.8,0.89,效果差异
+7130,Pearldrake Talisman +3,20371300,20371300,defEnemyDmgCorrectRate_Dark,0.8,0.89,效果差异
+7140,Crimson Seed Talisman +1,20371400,20371400,changeHpEstusFlaskCorrectRate,2.0,1.3,效果差异
+7150,Cerulean Seed Talisman +1,20371500,20371500,changeMpEstusFlaskCorrectRate,2.0,1.3,效果差异
+8000,Blessed Blue Dew Talisman,20380000,20380000,changeMpPoint,-150,-1,效果差异
+8000,Blessed Blue Dew Talisman,20380000,20380000,spCategory,0,20,效果差异
+8000,Blessed Blue Dew Talisman,20380000,20380000,stateInfo,0,50,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,slashDamageCutRate,1.0,1.15,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,blowDamageCutRate,1.0,1.15,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,thrustDamageCutRate,1.0,1.15,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,neutralDamageCutRate,1.0,1.15,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,magicDamageCutRate,1.0,1.15,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,fireDamageCutRate,1.0,1.15,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,thunderDamageCutRate,1.0,1.15,效果差异
+8010,Fine Crucible Feather Talisman,20380100,20380100,darkDamageCutRate,1.0,1.15,效果差异
+8020,Outer God Heirloom,20380200,20380200,addLuckStatus,50,5,效果差异
+8030,Shattered Stone Talisman,20380300,20380300,atkEnemyDmgCorrectRate_Physics,1.15,1.1,效果差异
+8030,Shattered Stone Talisman,20380300,20380300,atkEnemyDmgCorrectRate_Magic,1.15,1.1,效果差异
+8030,Shattered Stone Talisman,20380300,20380300,atkEnemyDmgCorrectRate_Fire,1.15,1.1,效果差异
+8030,Shattered Stone Talisman,20380300,20380300,atkEnemyDmgCorrectRate_Thunder,1.15,1.1,效果差异
+8030,Shattered Stone Talisman,20380300,20380300,atkEnemyDmgCorrectRate_Dark,1.15,1.1,效果差异
+8040,Two-Handed Sword Talisman,20380400,20380400,atkEnemyDmgCorrectRate_Physics,1.25,1.15,效果差异
+8040,Two-Handed Sword Talisman,20380400,20380400,atkEnemyDmgCorrectRate_Magic,1.25,1.15,效果差异
+8040,Two-Handed Sword Talisman,20380400,20380400,atkEnemyDmgCorrectRate_Fire,1.25,1.15,效果差异
+8040,Two-Handed Sword Talisman,20380400,20380400,atkEnemyDmgCorrectRate_Thunder,1.25,1.15,效果差异
+8040,Two-Handed Sword Talisman,20380400,20380400,atkEnemyDmgCorrectRate_Dark,1.25,1.15,效果差异
+8050,Crusade Insignia,20380500,20380500,,,,直接效果同原版
+8060,Aged One's Exultation,20380600,20380600,,,,直接效果同原版
+8070,Arrow's Soaring Sting Talisman,20380700,20380700,,,,直接效果同原版
+8090,Pearl Shield Talisman,20380900,20380900,,,,直接效果同原版
+8100,Dried Bouquet,20381000,20381000,,,,直接效果同原版
+8110,Smithing Talisman,20381100,20381100,atkEnemyDmgCorrectRate_Physics,1.2,1.1,效果差异
+8110,Smithing Talisman,20381100,20381100,atkEnemyDmgCorrectRate_Magic,1.2,1.1,效果差异
+8110,Smithing Talisman,20381100,20381100,atkEnemyDmgCorrectRate_Fire,1.2,1.1,效果差异
+8110,Smithing Talisman,20381100,20381100,atkEnemyDmgCorrectRate_Thunder,1.2,1.1,效果差异
+8110,Smithing Talisman,20381100,20381100,atkEnemyDmgCorrectRate_Dark,1.2,1.1,效果差异
+8120,Ailment Talisman,20381200,20381200,,,,直接效果同原版
+8130,Retaliatory Crossed-Tree,20381300,20381300,atkEnemyDmgCorrectRate_Physics,1.12,1.17,效果差异
+8130,Retaliatory Crossed-Tree,20381300,20381300,atkEnemyDmgCorrectRate_Magic,1.12,1.17,效果差异
+8130,Retaliatory Crossed-Tree,20381300,20381300,atkEnemyDmgCorrectRate_Fire,1.12,1.17,效果差异
+8130,Retaliatory Crossed-Tree,20381300,20381300,atkEnemyDmgCorrectRate_Thunder,1.12,1.17,效果差异
+8130,Retaliatory Crossed-Tree,20381300,20381300,atkEnemyDmgCorrectRate_Dark,1.12,1.17,效果差异
+8140,Lacerating Crossed-Tree,20381400,20381400,atkEnemyDmgCorrectRate_Physics,1.2,1.15,效果差异
+8140,Lacerating Crossed-Tree,20381400,20381400,atkEnemyDmgCorrectRate_Magic,1.2,1.15,效果差异
+8140,Lacerating Crossed-Tree,20381400,20381400,atkEnemyDmgCorrectRate_Fire,1.2,1.15,效果差异
+8140,Lacerating Crossed-Tree,20381400,20381400,atkEnemyDmgCorrectRate_Thunder,1.2,1.15,效果差异
+8140,Lacerating Crossed-Tree,20381400,20381400,atkEnemyDmgCorrectRate_Dark,1.2,1.15,效果差异
+8150,Sharpshot Talisman,19990,19990,,,,直接效果同原版
+8160,St. Trina's Smile,20381600,20381600,,,,直接效果同原版
+8170,Talisman of the Dread,20381700,20381700,atkEnemyDmgCorrectRate_Physics,1.25,1.15,效果差异
+8170,Talisman of the Dread,20381700,20381700,atkEnemyDmgCorrectRate_Magic,1.25,1.15,效果差异
+8170,Talisman of the Dread,20381700,20381700,atkEnemyDmgCorrectRate_Fire,1.25,1.15,效果差异
+8170,Talisman of the Dread,20381700,20381700,atkEnemyDmgCorrectRate_Thunder,1.25,1.15,效果差异
+8170,Talisman of the Dread,20381700,20381700,atkEnemyDmgCorrectRate_Dark,1.25,1.15,效果差异
+8180,Enraged Divine Beast,20381800,20381800,atkEnemyDmgCorrectRate_Physics,1.25,1.1,效果差异
+8180,Enraged Divine Beast,20381800,20381800,atkEnemyDmgCorrectRate_Magic,1.25,1.1,效果差异
+8180,Enraged Divine Beast,20381800,20381800,atkEnemyDmgCorrectRate_Fire,1.25,1.1,效果差异
+8180,Enraged Divine Beast,20381800,20381800,atkEnemyDmgCorrectRate_Thunder,1.25,1.1,效果差异
+8180,Enraged Divine Beast,20381800,20381800,atkEnemyDmgCorrectRate_Dark,1.25,1.1,效果差异
+8190,Beloved Stardust,20381900,20381900,,,,直接效果同原版
+8200,Talisman of Lord's Bestowal,20382000,20382000,,,,直接效果同原版
+8210,Verdigris Discus,19985,19985,,,,直接效果同原版
+8220,Rellana's Cameo,20382200,20382200,,,,直接效果同原版
+8230,Blade of Mercy,20382300,20382300,,,,直接效果同原版
+8240,Talisman of All Crucibles,20382400,20382400,,,,直接效果同原版
+204000,,20511070,20511070,,,,直接效果同原版
+999999999,,361100,361100,addWillpowerStatus,20,0,效果差异
+999999999,,361100,361100,addMagicStatus,20,0,效果差异
+999999999,,361100,361100,pad3,0000000000000000,0000803f00000000,效果差异

@@ -1,0 +1,2833 @@
+﻿文本包,FMG,ID,原文,新文,原因
+item_dlc01,AccessoryCaption.fmg,1000,"A medallion with crimson amber inlaid.
+
+Effect: max hp+ 12%, absorb slash+ 8%, physical dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with crimson amber inlaid.
+
+Effect: max hp+ 12%, slash damage negation +9%, physical dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1010,"A medallion with cerulean amber inlaid.
+
+Effect: max fp+ 12%, absorb magic+ 8%, magic dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with cerulean amber inlaid.
+
+Effect: max fp+ 12%, magic damage negation +9%, magic dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1020,"A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 10%, absorb strike+ 8%, stamina recovery speed +15%
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 10%, absorb strike+ 8%, improves stamina recovery
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1021,"A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 20%, absorb strike+ 18%, stamina recovery speed +25%
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 20%, absorb strike+ 18%, improves stamina recovery
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1022,"A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 30%, absorb strike+ 24%, stamina recovery speed +35%
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 30%, absorb strike+ 24%, improves stamina recovery
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1030,"An iron charm that resembles a mass of weaponry.
+
+Effect: equip load -20%, bleed buildup +20, spell durations +20%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.","An iron charm that resembles a mass of weaponry.
+
+Effect: equipment weight -20%, bleed buildup +20, spell durations +20%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1031,"An iron charm that resembles a mass of weaponry.
+
+Effect: equip load -40%, bleed buildup +40, spell durations +40%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.","An iron charm that resembles a mass of weaponry.
+
+Effect: equipment weight -40%, bleed buildup +40, spell durations +40%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1032,"A charm that resembles a great jar overflowing with weaponry.
+
+Effect: equip load -60%, bleed buildup +60, spell durations +60%
+
+The great jar grants this talisman to their warriors.
+Carry as much as you can—grow big and strong.","A charm that resembles a great jar overflowing with weaponry.
+
+Effect: equipment weight -60%, bleed buildup +60, spell durations +60%
+
+The great jar grants this talisman to their warriors.
+Carry as much as you can—grow big and strong.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1040,"A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +20%, max stamina +10%, equip load -10%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.","A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +20%, max stamina +10%, maximum equip load +10%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1041,"A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +30%, max stamina +20%, equip load -20%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.","A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +30%, max stamina +20%, maximum equip load +20%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1042,"A legendary talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +40%, max stamina +30%, equip load -30%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.","A legendary talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +40%, max stamina +30%, maximum equip load +30%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1100,"A talisman facsimile of a scarab, the carrier of treasures and precious things.
+
+Effect: raises item discovery by 70%, absorb holy +20%, holy damage +30%
+
+This silver scarab enhances item discovery.","A talisman facsimile of a scarab, the carrier of treasures and precious things.
+
+Effect: improves item discovery, absorb holy +20%, holy damage +30%
+
+This silver scarab enhances item discovery.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,1150,"A talisman in the shape of a green turtle.
+
+Effect: stamina recovery speed +15%, max stamina+ 10%, absorb thrust+ 12%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+However, those who hold turtles to be wise creatures consider the practice of eating their meat to be barbarous.","A talisman in the shape of a green turtle.
+
+Effect: improves stamina recovery, max stamina+ 10%, absorb thrust+ 12%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+However, those who hold turtles to be wise creatures consider the practice of eating their meat to be barbarous.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,2110,"A cloth doll depicting a dancer garbed in blue.
+An ancient heirloom of some sort.
+
+Effect: raises attack power with lower equipment load by 30%
+
+The dancer in blue represents a fairy, who in legend bestowed a flowing sword upon a blind swordsman. Blade in hand, the swordsman sealed away an ancient god—a god that was Rot itself.","A cloth doll depicting a dancer garbed in blue.
+An ancient heirloom of some sort.
+
+Effect: raises attack power with lower equipment load by 15%
+
+The dancer in blue represents a fairy, who in legend bestowed a flowing sword upon a blind swordsman. Blade in hand, the swordsman sealed away an ancient god—a god that was Rot itself.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,2120,"A talisman depicting a twinblade and a confessor.
+
+Effect: enhances the final hit ending a chain of attacks by 285%
+
+The twinblade technique is a tradition of the confessors, who closely guard the secret of how they preserve the momentum of their attacks. Thus is the final strike of their onslaught all the more deadly.","A talisman depicting a twinblade and a confessor.
+
+Effect: enhances the final hit ending a chain of attacks by 50%
+
+The twinblade technique is a tradition of the confessors, who closely guard the secret of how they preserve the momentum of their attacks. Thus is the final strike of their onslaught all the more deadly.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,2130,"A talisman depicting an axe and a warrior.
+
+Effect: enhances charge attacks by 320%
+
+The Lord who led the Long March bore an axe, and his loyal warriors honored him by wielding axes of their own, making them very effective at dealing decisive blows.","A talisman depicting an axe and a warrior.
+
+Effect: enhances charge attacks by 50%
+
+The Lord who led the Long March bore an axe, and his loyal warriors honored him by wielding axes of their own, making them very effective at dealing decisive blows.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,2150,"A talisman depicting three iron arrows.
+Carried by soldiers long ago.
+
+Effect: raises attack power of arrows and bolts by 300%
+
+","A talisman depicting three iron arrows.
+Carried by soldiers long ago.
+
+Effect: raises attack power of arrows and bolts by 50%
+
+",对应现行效果
+item_dlc01,AccessoryCaption.fmg,2200,"A talisman depicting a curved sword and a swordsman.
+
+Effect: +220% guard counter damage
+
+It is said that a blind swordsman was the originator of this technique—the art of allowing one's opponent to strike so as to leave them vulnerable to a well-timed reply.","A talisman depicting a curved sword and a swordsman.
+
+Effect: +50% guard counter damage
+
+It is said that a blind swordsman was the originator of this technique—the art of allowing one's opponent to strike so as to leave them vulnerable to a well-timed reply.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,2210,"A talisman given by the jars to their friends.
+
+Effects: raises potency of thrown jars by 120%
+
+Though the jars are brought to life by human flesh and blood, they are all rather kindly folk. Perhaps they were made to be better than their innards.","A talisman given by the jars to their friends.
+
+Effects: raises potency of thrown jars by 70%
+
+Though the jars are brought to life by human flesh and blood, they are all rather kindly folk. Perhaps they were made to be better than their innards.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,3090,"A legendary talisman depicting the Elden Lord Godfrey.
+
+Effect: raises charge attack power of sorceries, incantations, and skills by 65%
+
+Godfrey was a ferocious warrior. When he vowed to become a lord, he took the Beast Regent Serosh upon on his back to suppress the ceaseless lust for battle that raged within.","A legendary talisman depicting the Elden Lord Godfrey.
+
+Effect: raises charge attack power of sorceries, incantations, and skills by 30%
+
+Godfrey was a ferocious warrior. When he vowed to become a lord, he took the Beast Regent Serosh upon on his back to suppress the ceaseless lust for battle that raged within.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,4100,"Talisman depicting a knight holding a greatshield.
+
+Effect: boosts guarding stability by 10% and shield damage reduction while blocking by 20%
+
+The knights of Leyndell once modelled themselves after the Tree Sentinels. Their purpose is to protect that which deserves protection, and thus the shield always comes before the sword.","Talisman depicting a knight holding a greatshield.
+
+Effect: reduces stamina consumed while guarding by 10%
+
+The knights of Leyndell once modelled themselves after the Tree Sentinels. Their purpose is to protect that which deserves protection, and thus the shield always comes before the sword.",对应现行效果
+item_dlc01,AccessoryCaption.fmg,6100,"Mysterious circular object that's oddly warped.
+
+Effect: grants 80 fp regeneration
+
+","Mysterious circular object that's oddly warped.
+
+Effect: restores 40 FP every 2 seconds
+
+",对应现行效果
+item_dlc01,AccessoryCaption_dlc01.fmg,2220,"A talisman depicting a set of perfume bottles.
+
+
+Effects: raises potency of thrown purfumes by 30%
+
+
+
+There are gardens known only to the perfumers. Whether hidden on the fringes of the highlands, or obscured by shadows inside caves, the flowers blossom in secret, waiting to impart their scent.","A talisman depicting a set of perfume bottles.
+
+
+Effects: raises potency of arts employing perfume by 120%
+
+
+
+There are gardens known only to the perfumers. Whether hidden on the fringes of the highlands, or obscured by shadows inside caves, the flowers blossom in secret, waiting to impart their scent.",对应现行效果
+item_dlc01,AccessoryCaption_dlc01.fmg,7030,"A talisman in the shape of a two-headed green turtle.
+Greatly raises stamina recovery speed.
+
+Effect: stamina recovery speed +25%, max stamina+ 20%, absorb thrust+ 24%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+Two-headed turtles are a favorite subject in the land of the tower, due to the spiral shape of their intertwined necks.","A talisman in the shape of a two-headed green turtle.
+Greatly raises stamina recovery.
+
+Effect: stamina recovery speed +25%, max stamina+ 20%, absorb thrust+ 24%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+Two-headed turtles are a favorite subject in the land of the tower, due to the spiral shape of their intertwined necks.",对应现行效果
+item_dlc01,AccessoryCaption_dlc01.fmg,8130,"Handicraft depicting a golden crossed-tree.
+One of the items conferred to the Needle Knights.
+
+Effect: Increases damage after rolling or backstepping by 20%
+
+Long ago, the Needle Knights were in service of Miquella, but now they are no more. Save for one.","Handicraft depicting a golden crossed-tree.
+One of the items conferred to the Needle Knights.
+
+Effect: Increases damage after rolling or backstepping by 12%
+
+Long ago, the Needle Knights were in service of Miquella, but now they are no more. Save for one.",对应现行效果
+item_dlc01,ArtsCaption.fmg,1200,,"Unique Skill: Muleta
+
+Hold out a red cloth in front, inviting enemies to attack. Use normal or strong attack to gracefully dodge incoming strikes then pivot to offense. Can be charged to increase power of strong attack. Also, additional input allows for a follow-up attack.",补足新版文本
+item_dlc01,ArtsCaption.fmg,1201,,"Unique Skill: Causality's Wrath
+
+A skill which houses the wheel of causality within the user's frame. Once activated, perform an additional input to unleash an attack. The potency of the attack increases with damage taken.",补足新版文本
+item_dlc01,ArtsName.fmg,1200,,Muleta,补足新版文本
+item_dlc01,ArtsName.fmg,1201,,Causality's Wrath,补足新版文本
+item_dlc01,GoodsCaption.fmg,2009600,,"A smaller version of the solemn gold armor that adorns the warhorses of the Tree Sentinels who serve the Erdtree.
+
+One of several liveries once prepared for spectral steeds, which allows Torrent, through grace, to change his appearance.
+
+Though a spectral steed's form will change when vested in this garb, their heart will remain the same.",补足新版文本
+item_dlc01,GoodsCaption.fmg,2009610,,"The richly ornamented white silver armor of the Carian Royal line is a one-of-a-kind item made for a certain spectral steed, once forged in the lands of the Three Sisters.
+
+It is through grace that the spectral steed Torrent's appearance may be changed.
+
+Though a spectral steed's form will change when vested in this garb, their heart will remain the same.",补足新版文本
+item_dlc01,GoodsCaption.fmg,2009620,,"A smaller version of the sable attire used to adorn and conceal the warhorses of the Night's Cavalry.
+
+One of several liveries once prepared for spectral steeds, which allows Torrent, through grace, to change his appearance.
+
+Though a spectral steed's form will change when vested in this garb, their heart will remain the same.",补足新版文本
+item_dlc01,GoodsInfo.fmg,2009600,,Allows grace to alter Torrent's appearance,补足新版文本
+item_dlc01,GoodsInfo.fmg,2009610,,Allows grace to alter Torrent's appearance,补足新版文本
+item_dlc01,GoodsInfo.fmg,2009620,,Allows grace to alter Torrent's appearance,补足新版文本
+item_dlc01,GoodsName.fmg,2009600,,Spectral Steed Regalia: Tree Sentinel,补足新版文本
+item_dlc01,GoodsName.fmg,2009610,,Spectral Steed Regalia: Carian Silver,补足新版文本
+item_dlc01,GoodsName.fmg,2009620,,Spectral Steed Regalia: Funereal Night,补足新版文本
+item_dlc01,NpcName.fmg,147000,,Knight Leontiel,补足新版文本
+item_dlc01,NpcName.fmg,147001,,Knight Leontiel,补足新版文本
+item_dlc01,NpcName.fmg,147100,,The Noble Broken Mask,补足新版文本
+item_dlc01,ProtectorCaption.fmg,5340000,,"A mask designed to resemble a blazing golden halo, though a piece is now broken off.
+
+The attire of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Enhances incantations and skills that harness Causality.
+
+Upon the splintering of the Golden Order, so too did these companions part ways. One kept the faith, though the faith itself was broken, while the other fell completely to his own doubts.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5340100,,"An intricate tattoo, etched into the flesh.
+
+The work of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Increases faith to the detriment of focus.
+
+It is an artificial tongue, created to express the Golden Order itself, now an unrelenting curse that binds the entire body with its rule.
+""Do your utmost, to rid yourself of doubt.""",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5340200,,"An intricate tattoo, etched into the flesh.
+
+The work of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Increases faith to the detriment of focus.
+
+It is an artificial tongue, created to express the Golden Order itself, now an unrelenting curse that binds the entire body with its rule.
+""Do your utmost, to rid yourself of doubt.""",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5340300,,"An intricate tattoo, etched into the flesh.
+
+The work of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Increases faith to the detriment of focus.
+
+It is an artificial tongue, created to express the Golden Order itself, now an unrelenting curse that binds the entire body with its rule.
+""Do your utmost, to rid yourself of doubt.""",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5350000,,"A silver helm whose expert craftsmanship compensates for its weight. The construction is extremely thin, but the beautifully etched grooves reinforce its strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5350100,,"Silver armor whose expert craftsmanship compensates for its weight. The construction is extremely thin, but the beautifully etched grooves reinforce its strength as protective gear.
+
+The verdant green raiment is given upon receiving the guidance of grace—even if the wearer is but a sapling at present, in time must they grow into ripened gold. ",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5350200,,"Silver gauntlets whose expert craftsmanship compensates for their weight. The construction is extremely thin, but the beautifully etched grooves reinforce their strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5350300,,"Silver greaves whose expert craftsmanship compensates for their weight. The construction is extremely thin, but the beautifully etched grooves reinforce their strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5351100,,"Silver armor whose expert craftsmanship compensates for their weight. The construction is extremely thin, but the beautifully etched grooves reinforce their strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5360000,,"A sharp-brimmed ceremonial hat affixed with a mask, the favored protective gear of the knight Leontiel.
+
+Leontiel admired Jerren as a father figure of sorts, and this mask lends her the same distinguished severity she saw in his own.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5360100,,"Armor comprised of a mixture of metal and hard leather, favored protective gear of the knight Leontiel.
+
+The distinctive pauldrons accentuate the wearer's graceful movements, Leontiel's own eccentric little quirk.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5360200,,"Thick leather gloves designed for real combat, favored protective gear of the knight Leontiel.
+
+Affixed to the wrist with a belt-like mechanism.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5360300,,"Leather boots designed for real combat, favored protective gear of the knight Leontiel.
+
+The fold-overs have been tanned a contrasting white.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5361000,,"A sharp-brimmed ceremonial hat, favored protective gear of the knight Leontiel.
+
+Features a long, pointed crest that juts out from behind.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5370000,,"A helm of thick steel with black luster. Very weighty, but boasts high damage negation.
+
+A piece of protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5370100,,"Armor of thick steel with black luster. Very weighty, but boasts high damage negation.
+
+A piece of protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5370200,,"Gauntlets of thick steel with black luster. Very weighty, but boast high damage negation.
+
+Protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc01,ProtectorCaption.fmg,5370300,,"Greaves of thick steel with black luster. Very weighty, but boast high damage negation.
+
+Protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc01,ProtectorName.fmg,5340000,,Broken Gold Mask,补足新版文本
+item_dlc01,ProtectorName.fmg,5340100,,Gold Tattoo (Chest),补足新版文本
+item_dlc01,ProtectorName.fmg,5340200,,Gold Tattoo (Arm),补足新版文本
+item_dlc01,ProtectorName.fmg,5340300,,Gold Tattoo (Leg),补足新版文本
+item_dlc01,ProtectorName.fmg,5350000,,Silver Grooved Helm,补足新版文本
+item_dlc01,ProtectorName.fmg,5350100,,Silver Grooved Armor,补足新版文本
+item_dlc01,ProtectorName.fmg,5350200,,Silver Grooved Gauntlets,补足新版文本
+item_dlc01,ProtectorName.fmg,5350300,,Silver Grooved Greaves,补足新版文本
+item_dlc01,ProtectorName.fmg,5351100,,Silver Grooved Armor (Altered),补足新版文本
+item_dlc01,ProtectorName.fmg,5360000,,Leontiel's Hat,补足新版文本
+item_dlc01,ProtectorName.fmg,5360100,,Leontiel's Armor,补足新版文本
+item_dlc01,ProtectorName.fmg,5360200,,Leontiel's Leather Gloves,补足新版文本
+item_dlc01,ProtectorName.fmg,5360300,,Leontiel's Boots,补足新版文本
+item_dlc01,ProtectorName.fmg,5361000,,Leontiel's Hat (Altered),补足新版文本
+item_dlc01,ProtectorName.fmg,5370000,,Steel Helm,补足新版文本
+item_dlc01,ProtectorName.fmg,5370100,,Steel Armor,补足新版文本
+item_dlc01,ProtectorName.fmg,5370200,,Steel Gauntlets,补足新版文本
+item_dlc01,ProtectorName.fmg,5370300,,Steel Greaves,补足新版文本
+item_dlc01,WeaponCaption.fmg,3560000,,"The knight Leontiel's favored weapon—a greatsword whose blade is wrapped in leather at the base.
+
+Said to have been wielded by a proud order of orthodox knights long ago, weapons of this ilk demand high dexterity.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530000,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530100,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530200,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530300,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530400,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530500,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530600,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530700,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530800,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8530900,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8531000,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8531100,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,8531200,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc01,WeaponCaption.fmg,13510000,,"A flail with three golden rings for striking heads, the sacred signature weapon of the esteemed Broken Mask.
+
+The golden bands are modelled upon the Elden Ring itself, half-corporeal and half formed of light, all in the process of shattering.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540000,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540100,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540200,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540300,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540400,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540500,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540600,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540700,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540800,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31540900,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31541000,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31541100,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,31541200,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520000,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520100,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520200,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520300,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520400,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520500,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520600,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520700,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520800,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62520900,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62521000,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62521100,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,62521200,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530000,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530100,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530200,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530300,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530400,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530500,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530600,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530700,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530800,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64530900,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64531000,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64531100,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,64531200,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530000,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530100,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530200,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530300,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530400,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530500,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530600,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530700,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530800,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66530900,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66531000,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66531100,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,66531200,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530000,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530100,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530200,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530300,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530400,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530500,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530600,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530700,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530800,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67530900,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67531000,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67531100,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponCaption.fmg,67531200,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc01,WeaponName.fmg,3560000,,Leontiel's Greatsword,补足新版文本
+item_dlc01,WeaponName.fmg,8530000,,Hefty Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530100,,Hefty Heavy Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530200,,Hefty Keen Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530300,,Hefty Quality Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530400,,Hefty Fire Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530500,,Hefty Flame Art Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530600,,Hefty Lightning Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530700,,Hefty Sacred Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530800,,Hefty Magic Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8530900,,Hefty Cold Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8531000,,Hefty Poison Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8531100,,Hefty Blood Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,8531200,,Hefty Occult Scimitar,补足新版文本
+item_dlc01,WeaponName.fmg,13510000,,Golden Order Flail,补足新版文本
+item_dlc01,WeaponName.fmg,31540000,,Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540100,,Heavy Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540200,,Keen Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540300,,Quality Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540400,,Fire Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540500,,Flame Art Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540600,,Lightning Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540700,,Sacred Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540800,,Magic Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31540900,,Cold Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31541000,,Poison Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31541100,,Blood Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,31541200,,Occult Silver Grooved Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520000,,Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520100,,Heavy Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520200,,Keen Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520300,,Quality Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520400,,Fire Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520500,,Flame Art Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520600,,Lightning Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520700,,Sacred Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520800,,Magic Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62520900,,Cold Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62521000,,Poison Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62521100,,Blood Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,62521200,,Occult Ritual Thrusting Shield,补足新版文本
+item_dlc01,WeaponName.fmg,64530000,,Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530100,,Heavy Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530200,,Keen Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530300,,Quality Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530400,,Fire Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530500,,Flame Art Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530600,,Lightning Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530700,,Sacred Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530800,,Magic Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64530900,,Cold Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64531000,,Poison Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64531100,,Blood Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,64531200,,Occult Reverse-Bladed Sword,补足新版文本
+item_dlc01,WeaponName.fmg,66530000,,Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530100,,Heavy Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530200,,Keen Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530300,,Quality Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530400,,Fire Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530500,,Flame Art Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530600,,Lightning Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530700,,Sacred Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530800,,Magic Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66530900,,Cold Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66531000,,Poison Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66531100,,Blood Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,66531200,,Occult Reed Great Katana,补足新版文本
+item_dlc01,WeaponName.fmg,67530000,,Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530100,,Heavy Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530200,,Keen Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530300,,Quality Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530400,,Fire Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530500,,Flame Art Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530600,,Lightning Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530700,,Sacred Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530800,,Magic Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67530900,,Cold Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67531000,,Poison Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67531100,,Blood Idus Sword,补足新版文本
+item_dlc01,WeaponName.fmg,67531200,,Occult Idus Sword,补足新版文本
+item_dlc02,AccessoryCaption.fmg,1000,"A medallion with crimson amber inlaid.
+
+Effect: max hp+ 12%, absorb slash+ 8%, physical dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with crimson amber inlaid.
+
+Effect: max hp+ 12%, slash damage negation +9%, physical dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1010,"A medallion with cerulean amber inlaid.
+
+Effect: max fp+ 12%, absorb magic+ 8%, magic dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with cerulean amber inlaid.
+
+Effect: max fp+ 12%, magic damage negation +9%, magic dmg+ 40 flat
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1020,"A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 10%, absorb strike+ 8%, stamina recovery speed +15%
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 10%, absorb strike+ 8%, improves stamina recovery
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1021,"A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 20%, absorb strike+ 18%, stamina recovery speed +25%
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 20%, absorb strike+ 18%, improves stamina recovery
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1022,"A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 30%, absorb strike+ 24%, stamina recovery speed +35%
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.","A medallion with viridian amber inlaid.
+
+Effect: max stamina+ 30%, absorb strike+ 24%, improves stamina recovery
+
+The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord.
+
+A primordial life energy resides inside.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1030,"An iron charm that resembles a mass of weaponry.
+
+Effect: equip load -20%, bleed buildup +20, spell durations +20%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.","An iron charm that resembles a mass of weaponry.
+
+Effect: equipment weight -20%, bleed buildup +20, spell durations +20%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1031,"An iron charm that resembles a mass of weaponry.
+
+Effect: equip load -40%, bleed buildup +40, spell durations +40%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.","An iron charm that resembles a mass of weaponry.
+
+Effect: equipment weight -40%, bleed buildup +40, spell durations +40%
+
+This talisman was derived from an unusual greatsword once wielded by a hero hungry for vengeance.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1032,"A charm that resembles a great jar overflowing with weaponry.
+
+Effect: equip load -60%, bleed buildup +60, spell durations +60%
+
+The great jar grants this talisman to their warriors.
+Carry as much as you can—grow big and strong.","A charm that resembles a great jar overflowing with weaponry.
+
+Effect: equipment weight -60%, bleed buildup +60, spell durations +60%
+
+The great jar grants this talisman to their warriors.
+Carry as much as you can—grow big and strong.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1040,"A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +20%, max stamina +10%, equip load -10%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.","A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +20%, max stamina +10%, maximum equip load +10%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1041,"A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +30%, max stamina +20%, equip load -20%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.","A talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +30%, max stamina +20%, maximum equip load +20%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1042,"A legendary talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +40%, max stamina +30%, equip load -30%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.","A legendary talisman depicting a special blessing of the Erdtree.
+
+Effect: max hp +40%, max stamina +30%, maximum equip load +30%
+
+It is said that when the Age of the Erdtree began, such blessings were personally bestowed upon their recipients by Queen Marika herself.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1100,"A talisman facsimile of a scarab, the carrier of treasures and precious things.
+
+Effect: raises item discovery by 70%, absorb holy +20%, holy damage +30%
+
+This silver scarab enhances item discovery.","A talisman facsimile of a scarab, the carrier of treasures and precious things.
+
+Effect: improves item discovery, absorb holy +20%, holy damage +30%
+
+This silver scarab enhances item discovery.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,1150,"A talisman in the shape of a green turtle.
+
+Effect: stamina recovery speed +15%, max stamina+ 10%, absorb thrust+ 12%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+However, those who hold turtles to be wise creatures consider the practice of eating their meat to be barbarous.","A talisman in the shape of a green turtle.
+
+Effect: improves stamina recovery, max stamina+ 10%, absorb thrust+ 12%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+However, those who hold turtles to be wise creatures consider the practice of eating their meat to be barbarous.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,2110,"A cloth doll depicting a dancer garbed in blue.
+An ancient heirloom of some sort.
+
+Effect: raises attack power with lower equipment load by 30%
+
+The dancer in blue represents a fairy, who in legend bestowed a flowing sword upon a blind swordsman. Blade in hand, the swordsman sealed away an ancient god—a god that was Rot itself.","A cloth doll depicting a dancer garbed in blue.
+An ancient heirloom of some sort.
+
+Effect: raises attack power with lower equipment load by 15%
+
+The dancer in blue represents a fairy, who in legend bestowed a flowing sword upon a blind swordsman. Blade in hand, the swordsman sealed away an ancient god—a god that was Rot itself.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,2120,"A talisman depicting a twinblade and a confessor.
+
+Effect: enhances the final hit ending a chain of attacks by 285%
+
+The twinblade technique is a tradition of the confessors, who closely guard the secret of how they preserve the momentum of their attacks. Thus is the final strike of their onslaught all the more deadly.","A talisman depicting a twinblade and a confessor.
+
+Effect: enhances the final hit ending a chain of attacks by 50%
+
+The twinblade technique is a tradition of the confessors, who closely guard the secret of how they preserve the momentum of their attacks. Thus is the final strike of their onslaught all the more deadly.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,2130,"A talisman depicting an axe and a warrior.
+
+Effect: enhances charge attacks by 320%
+
+The Lord who led the Long March bore an axe, and his loyal warriors honored him by wielding axes of their own, making them very effective at dealing decisive blows.","A talisman depicting an axe and a warrior.
+
+Effect: enhances charge attacks by 50%
+
+The Lord who led the Long March bore an axe, and his loyal warriors honored him by wielding axes of their own, making them very effective at dealing decisive blows.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,2150,"A talisman depicting three iron arrows.
+Carried by soldiers long ago.
+
+Effect: raises attack power of arrows and bolts by 300%
+
+","A talisman depicting three iron arrows.
+Carried by soldiers long ago.
+
+Effect: raises attack power of arrows and bolts by 50%
+
+",对应现行效果
+item_dlc02,AccessoryCaption.fmg,2200,"A talisman depicting a curved sword and a swordsman.
+
+Effect: +220% guard counter damage
+
+It is said that a blind swordsman was the originator of this technique—the art of allowing one's opponent to strike so as to leave them vulnerable to a well-timed reply.","A talisman depicting a curved sword and a swordsman.
+
+Effect: +50% guard counter damage
+
+It is said that a blind swordsman was the originator of this technique—the art of allowing one's opponent to strike so as to leave them vulnerable to a well-timed reply.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,2210,"A talisman given by the jars to their friends.
+
+Effects: raises potency of thrown jars by 120%
+
+Though the jars are brought to life by human flesh and blood, they are all rather kindly folk. Perhaps they were made to be better than their innards.","A talisman given by the jars to their friends.
+
+Effects: raises potency of thrown jars by 70%
+
+Though the jars are brought to life by human flesh and blood, they are all rather kindly folk. Perhaps they were made to be better than their innards.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,3090,"A legendary talisman depicting the Elden Lord Godfrey.
+
+Effect: raises charge attack power of sorceries, incantations, and skills by 65%
+
+Godfrey was a ferocious warrior. When he vowed to become a lord, he took the Beast Regent Serosh upon on his back to suppress the ceaseless lust for battle that raged within.","A legendary talisman depicting the Elden Lord Godfrey.
+
+Effect: raises charge attack power of sorceries, incantations, and skills by 30%
+
+Godfrey was a ferocious warrior. When he vowed to become a lord, he took the Beast Regent Serosh upon on his back to suppress the ceaseless lust for battle that raged within.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,4100,"Talisman depicting a knight holding a greatshield.
+
+Effect: boosts guarding stability by 10% and shield damage reduction while blocking by 20%
+
+The knights of Leyndell once modelled themselves after the Tree Sentinels. Their purpose is to protect that which deserves protection, and thus the shield always comes before the sword.","Talisman depicting a knight holding a greatshield.
+
+Effect: reduces stamina consumed while guarding by 10%
+
+The knights of Leyndell once modelled themselves after the Tree Sentinels. Their purpose is to protect that which deserves protection, and thus the shield always comes before the sword.",对应现行效果
+item_dlc02,AccessoryCaption.fmg,6100,"Mysterious circular object that's oddly warped.
+
+Effect: grants 80 fp regeneration
+
+","Mysterious circular object that's oddly warped.
+
+Effect: restores 40 FP every 2 seconds
+
+",对应现行效果
+item_dlc02,AccessoryCaption_dlc01.fmg,2220,"A talisman depicting a set of perfume bottles.
+
+
+Effects: raises potency of thrown purfumes by 30%
+
+
+
+There are gardens known only to the perfumers. Whether hidden on the fringes of the highlands, or obscured by shadows inside caves, the flowers blossom in secret, waiting to impart their scent.","A talisman depicting a set of perfume bottles.
+
+
+Effects: raises potency of arts employing perfume by 120%
+
+
+
+There are gardens known only to the perfumers. Whether hidden on the fringes of the highlands, or obscured by shadows inside caves, the flowers blossom in secret, waiting to impart their scent.",对应现行效果
+item_dlc02,AccessoryCaption_dlc01.fmg,7030,"A talisman in the shape of a two-headed green turtle.
+Greatly raises stamina recovery speed.
+
+Effect: stamina recovery speed +25%, max stamina+ 20%, absorb thrust+ 24%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+Two-headed turtles are a favorite subject in the land of the tower, due to the spiral shape of their intertwined necks.","A talisman in the shape of a two-headed green turtle.
+Greatly raises stamina recovery.
+
+Effect: stamina recovery speed +25%, max stamina+ 20%, absorb thrust+ 24%
+
+Turtles are known as a nutritious ingredient, symbolic of inexhaustible power.
+
+Two-headed turtles are a favorite subject in the land of the tower, due to the spiral shape of their intertwined necks.",对应现行效果
+item_dlc02,AccessoryCaption_dlc01.fmg,8130,"Handicraft depicting a golden crossed-tree.
+One of the items conferred to the Needle Knights.
+
+Effect: Increases damage after rolling or backstepping by 20%
+
+Long ago, the Needle Knights were in service of Miquella, but now they are no more. Save for one.","Handicraft depicting a golden crossed-tree.
+One of the items conferred to the Needle Knights.
+
+Effect: Increases damage after rolling or backstepping by 12%
+
+Long ago, the Needle Knights were in service of Miquella, but now they are no more. Save for one.",对应现行效果
+item_dlc02,ArtsCaption.fmg,1200,,"Unique Skill: Muleta
+
+Hold out a red cloth in front, inviting enemies to attack. Use normal or strong attack to gracefully dodge incoming strikes then pivot to offense. Can be charged to increase power of strong attack. Also, additional input allows for a follow-up attack.",补足新版文本
+item_dlc02,ArtsCaption.fmg,1201,,"Unique Skill: Causality's Wrath
+
+A skill which houses the wheel of causality within the user's frame. Once activated, perform an additional input to unleash an attack. The potency of the attack increases with damage taken.",补足新版文本
+item_dlc02,ArtsName.fmg,1200,,Muleta,补足新版文本
+item_dlc02,ArtsName.fmg,1201,,Causality's Wrath,补足新版文本
+item_dlc02,GemName.fmg,40,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,41,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,80,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,81,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,82,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,83,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,84,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,85,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,86,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,87,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,88,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,89,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,90,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,100,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,101,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,102,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,103,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,104,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,105,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,106,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,107,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,108,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,109,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,110,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,111,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,112,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,113,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,114,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,115,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,116,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,117,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,118,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,119,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,120,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,121,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,122,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,123,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,124,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,125,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,126,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,127,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,128,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,129,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,130,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,131,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,132,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,133,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,134,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,135,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,136,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,137,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,138,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,139,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,140,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,141,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,142,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,143,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,144,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,146,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,147,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,148,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,149,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,151,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,152,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,153,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,154,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,155,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,156,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,157,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,158,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,159,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,160,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,161,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,163,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,164,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,165,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,166,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,167,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,168,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,169,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,170,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,171,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,173,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,174,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,175,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,176,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,177,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,178,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,179,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,180,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,181,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,182,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,183,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,184,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,185,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,186,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,187,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,190,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,191,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,192,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,194,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,195,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,196,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,197,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,198,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1000,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1001,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1002,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1003,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1004,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1005,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1006,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1007,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1008,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1009,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1010,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1011,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1012,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1013,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1014,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1015,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1016,,[ERROR],补足新版文本
+item_dlc02,GemName.fmg,1017,,[ERROR],补足新版文本
+item_dlc02,GoodsCaption.fmg,8224,,"Note sold by a nomadic merchant imparting knowledge in brief.
+
+""Preceptor Seluvis is hiding a dirty secret in a cellar among the ruins not far from the sisters three.
+
+The vile Graven Witch seems to be a frequent visitor to that place.""",补足新版文本
+item_dlc02,GoodsCaption.fmg,8225,,"A simple, badly weathered map.
+Left discarded and forgotten for some time.
+
+Depicts streaks of amber light.",补足新版文本
+item_dlc02,GoodsCaption.fmg,8226,,"A note sold by a nomadic merchant.
+Contains information about the preceptor's secret.
+
+Further details are available only to paying customers.",补足新版文本
+item_dlc02,GoodsCaption.fmg,8227,,"A simple, badly weathered map.
+Left discarded and forgotten for some time.
+
+Further details are available only to paying customers.",补足新版文本
+item_dlc02,GoodsCaption.fmg,8717,,"Note sold by a nomadic merchant imparting knowledge in brief.
+
+""Below the royal capital of Leyndell is a vast network of sewers.
+
+The well in the city below reaches deep into its tunnels.""",补足新版文本
+item_dlc02,GoodsCaption.fmg,8767,,"A note sold by a nomadic merchant.
+Contains information about the sewers below the capital.
+
+Further details are available only to paying customers.",补足新版文本
+item_dlc02,GoodsCaption.fmg,9141,,"The Great Runes you receive by defeating shardbearers have lost their beneficial power.
+However, their power can be restored at Divine Towers throughout the Lands Between.
+
+See the description of each Great Rune to discover which Divine Tower you should visit.",补足新版文本
+item_dlc02,GoodsCaption.fmg,9142,,"Jump down the hole ahead, and you will find the Cave of Knowledge.
+
+There, you can learn more about game controls and basic actions, as well as other tips that may be helpful during your adventures in the Lands Between.",补足新版文本
+item_dlc02,GoodsCaption.fmg,9150,,"To engage in combat with other players, touch the effigy of Marika in a Colosseum.
+
+Duels, in which combatants fight one on one, can be undertaken in this venue.",补足新版文本
+item_dlc02,GoodsCaption.fmg,9151,,"To engage in combat with other players, touch the effigy of Marika in a Colosseum.
+
+United Combat and Combat Ordeals can be undertaken in this venue.
+
+In United Combat two teams of fighters clash. Combat Ordeals are all-out brawls in which every combatant is out for themselves.",补足新版文本
+item_dlc02,GoodsCaption.fmg,9152,,"To engage in combat with other players, touch the effigy of Marika in a Colosseum.
+
+In this venue spirit ashes are permitted for use in battle.",补足新版文本
+item_dlc02,GoodsCaption.fmg,9153,,"The effigy of Marika at the Roundtable Hold can be used to enter Colosseum combat.
+
+Your preferred ruleset may be chosen from those of Colosseums already visited.",补足新版文本
+item_dlc02,GoodsCaption.fmg,2009600,,"A smaller version of the solemn gold armor that adorns the warhorses of the Tree Sentinels who serve the Erdtree.
+
+One of several liveries once prepared for spectral steeds, which allows Torrent, through grace, to change his appearance.
+
+Though a spectral steed's form will change when vested in this garb, their heart will remain the same.",补足新版文本
+item_dlc02,GoodsCaption.fmg,2009610,,"The richly ornamented white silver armor of the Carian Royal line is a one-of-a-kind item made for a certain spectral steed, once forged in the lands of the Three Sisters.
+
+It is through grace that the spectral steed Torrent's appearance may be changed.
+
+Though a spectral steed's form will change when vested in this garb, their heart will remain the same.",补足新版文本
+item_dlc02,GoodsCaption.fmg,2009620,,"A smaller version of the sable attire used to adorn and conceal the warhorses of the Night's Cavalry.
+
+One of several liveries once prepared for spectral steeds, which allows Torrent, through grace, to change his appearance.
+
+Though a spectral steed's form will change when vested in this garb, their heart will remain the same.",补足新版文本
+item_dlc02,GoodsDialog.fmg,20000015,,Nearby only,补足新版文本
+item_dlc02,GoodsDialog.fmg,20000016,,Both near and far,补足新版文本
+item_dlc02,GoodsDialog.fmg,20000055,,Nearby only,补足新版文本
+item_dlc02,GoodsDialog.fmg,20000056,,Both near and far,补足新版文本
+item_dlc02,GoodsDialog.fmg,20000065,,Nearby only,补足新版文本
+item_dlc02,GoodsDialog.fmg,20000066,,Both near and far,补足新版文本
+item_dlc02,GoodsInfo.fmg,8224,,"Note imparting knowledge in brief
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,8225,,"A simple map, badly weathered
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,8226,,Note imparting knowledge in brief,补足新版文本
+item_dlc02,GoodsInfo.fmg,8227,,"A simple map, badly weathered",补足新版文本
+item_dlc02,GoodsInfo.fmg,8717,,"Note imparting knowledge in brief
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,8767,,Note imparting knowledge in brief,补足新版文本
+item_dlc02,GoodsInfo.fmg,9141,,"Information about Great Runes
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,9142,,"Information about the Cave of Knowledge
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,9150,,"Information about duels.
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,9151,,"Information about group combat.
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,9152,,"Information about player combat using spirit ashes.
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,9153,,"About the effigy of Marika at the Roundtable Hold.
+Examine using <?keyicon@31?>",补足新版文本
+item_dlc02,GoodsInfo.fmg,2009600,,Allows grace to alter Torrent's appearance,补足新版文本
+item_dlc02,GoodsInfo.fmg,2009610,,Allows grace to alter Torrent's appearance,补足新版文本
+item_dlc02,GoodsInfo.fmg,2009620,,Allows grace to alter Torrent's appearance,补足新版文本
+item_dlc02,GoodsName.fmg,10,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,11,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,12,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,13,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,14,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,15,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,16,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,20,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,21,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,22,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,23,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,24,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,25,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,26,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,27,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,28,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,29,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,30,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,31,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,35,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,40,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,41,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,42,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,43,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,44,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,60,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,61,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,62,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,63,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,64,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,65,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,66,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,67,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,68,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,69,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,70,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,71,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,72,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,73,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,74,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,75,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,76,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,77,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,78,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,79,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,90,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,91,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,92,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,93,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,94,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,98,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,99,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,8165,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,8224,,Note: The Preceptor's Secret,补足新版文本
+item_dlc02,GoodsName.fmg,8225,,Weathered Map,补足新版文本
+item_dlc02,GoodsName.fmg,8226,,Note: The Preceptor's Secret,补足新版文本
+item_dlc02,GoodsName.fmg,8227,,Weathered Map,补足新版文本
+item_dlc02,GoodsName.fmg,8717,,Note: Below the Capital,补足新版文本
+item_dlc02,GoodsName.fmg,8767,,Note: Below the Capital,补足新版文本
+item_dlc02,GoodsName.fmg,8852,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,8853,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,8854,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,8914,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,8949,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,8950,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9141,,About Great Runes,补足新版文本
+item_dlc02,GoodsName.fmg,9142,,About the Cave of Knowledge,补足新版文本
+item_dlc02,GoodsName.fmg,9150,,About Duels,补足新版文本
+item_dlc02,GoodsName.fmg,9151,,About United Combat and Combat Ordeals,补足新版文本
+item_dlc02,GoodsName.fmg,9152,,About Combat with Spirit Ashes,补足新版文本
+item_dlc02,GoodsName.fmg,9153,,About Marika's Effigy at the Roundtable,补足新版文本
+item_dlc02,GoodsName.fmg,9314,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9315,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9316,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9317,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9318,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9319,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9332,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9333,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9334,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9335,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9336,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9337,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9338,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9339,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9349,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9350,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9351,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9352,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9353,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9354,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9355,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9356,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9357,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9358,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9359,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9366,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9367,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9368,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9369,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9370,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9394,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9395,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9396,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9397,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9398,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9399,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9404,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9405,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9406,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9407,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9408,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9409,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9410,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9424,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9425,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9426,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9427,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9428,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9429,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9430,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9442,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9443,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9444,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9445,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9446,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9447,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9448,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9449,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,9450,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,51760,,[ERROR],补足新版文本
+item_dlc02,GoodsName.fmg,2009600,,Spectral Steed Regalia: Tree Sentinel,补足新版文本
+item_dlc02,GoodsName.fmg,2009610,,Spectral Steed Regalia: Carian Silver,补足新版文本
+item_dlc02,GoodsName.fmg,2009620,,Spectral Steed Regalia: Funereal Night,补足新版文本
+item_dlc02,NpcName.fmg,131601,,Sorceress Sellen,补足新版文本
+item_dlc02,NpcName.fmg,131802,,Shabriri,补足新版文本
+item_dlc02,NpcName.fmg,131911,,"D, Beholder of Death",补足新版文本
+item_dlc02,NpcName.fmg,132301,,Dung Eater,补足新版文本
+item_dlc02,NpcName.fmg,132302,,Dung Eater,补足新版文本
+item_dlc02,NpcName.fmg,132602,,Recusant Bernahl,补足新版文本
+item_dlc02,NpcName.fmg,133402,,"Nepheli Loux, Warrior",补足新版文本
+item_dlc02,NpcName.fmg,134401,,Great Horned Tragoth,补足新版文本
+item_dlc02,NpcName.fmg,139001,,"Polyanna, Adopted Daughter",补足新版文本
+item_dlc02,NpcName.fmg,139100,,Magnus the Beast Claw,补足新版文本
+item_dlc02,NpcName.fmg,147000,,Knight Leontiel,补足新版文本
+item_dlc02,NpcName.fmg,147001,,Knight Leontiel,补足新版文本
+item_dlc02,NpcName.fmg,147100,,The Noble Broken Mask,补足新版文本
+item_dlc02,NpcName.fmg,904811602,,Putrid Avatar,补足新版文本
+item_dlc02,PlaceName.fmg,341470,,The Rold Route,补足新版文本
+item_dlc02,PlaceName.fmg,450000,,Royal Colosseum,补足新版文本
+item_dlc02,PlaceName.fmg,450100,,Limgrave Colosseum,补足新版文本
+item_dlc02,PlaceName.fmg,450200,,Caelid Colosseum,补足新版文本
+item_dlc02,PlaceName.fmg,6108702,,Starfall Crater,补足新版文本
+item_dlc02,ProtectorCaption.fmg,5340000,,"A mask designed to resemble a blazing golden halo, though a piece is now broken off.
+
+The attire of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Enhances incantations and skills that harness Causality.
+
+Upon the splintering of the Golden Order, so too did these companions part ways. One kept the faith, though the faith itself was broken, while the other fell completely to his own doubts.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5340100,,"An intricate tattoo, etched into the flesh.
+
+The work of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Increases faith to the detriment of focus.
+
+It is an artificial tongue, created to express the Golden Order itself, now an unrelenting curse that binds the entire body with its rule.
+""Do your utmost, to rid yourself of doubt.""",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5340200,,"An intricate tattoo, etched into the flesh.
+
+The work of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Increases faith to the detriment of focus.
+
+It is an artificial tongue, created to express the Golden Order itself, now an unrelenting curse that binds the entire body with its rule.
+""Do your utmost, to rid yourself of doubt.""",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5340300,,"An intricate tattoo, etched into the flesh.
+
+The work of the honorable Goldmask's closest disciple, and dear friend, who accompanied him on his great venture. Increases faith to the detriment of focus.
+
+It is an artificial tongue, created to express the Golden Order itself, now an unrelenting curse that binds the entire body with its rule.
+""Do your utmost, to rid yourself of doubt.""",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5350000,,"A silver helm whose expert craftsmanship compensates for its weight. The construction is extremely thin, but the beautifully etched grooves reinforce its strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5350100,,"Silver armor whose expert craftsmanship compensates for its weight. The construction is extremely thin, but the beautifully etched grooves reinforce its strength as protective gear.
+
+The verdant green raiment is given upon receiving the guidance of grace—even if the wearer is but a sapling at present, in time must they grow into ripened gold. ",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5350200,,"Silver gauntlets whose expert craftsmanship compensates for their weight. The construction is extremely thin, but the beautifully etched grooves reinforce their strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5350300,,"Silver greaves whose expert craftsmanship compensates for their weight. The construction is extremely thin, but the beautifully etched grooves reinforce their strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5351100,,"Silver armor whose expert craftsmanship compensates for their weight. The construction is extremely thin, but the beautifully etched grooves reinforce their strength as protective gear.
+
+In the land of Idus delicacy is no weakness.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5360000,,"A sharp-brimmed ceremonial hat affixed with a mask, the favored protective gear of the knight Leontiel.
+
+Leontiel admired Jerren as a father figure of sorts, and this mask lends her the same distinguished severity she saw in his own.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5360100,,"Armor comprised of a mixture of metal and hard leather, favored protective gear of the knight Leontiel.
+
+The distinctive pauldrons accentuate the wearer's graceful movements, Leontiel's own eccentric little quirk.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5360200,,"Thick leather gloves designed for real combat, favored protective gear of the knight Leontiel.
+
+Affixed to the wrist with a belt-like mechanism.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5360300,,"Leather boots designed for real combat, favored protective gear of the knight Leontiel.
+
+The fold-overs have been tanned a contrasting white.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5361000,,"A sharp-brimmed ceremonial hat, favored protective gear of the knight Leontiel.
+
+Features a long, pointed crest that juts out from behind.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5370000,,"A helm of thick steel with black luster. Very weighty, but boasts high damage negation.
+
+A piece of protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5370100,,"Armor of thick steel with black luster. Very weighty, but boasts high damage negation.
+
+A piece of protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5370200,,"Gauntlets of thick steel with black luster. Very weighty, but boast high damage negation.
+
+Protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc02,ProtectorCaption.fmg,5370300,,"Greaves of thick steel with black luster. Very weighty, but boast high damage negation.
+
+Protective gear for those who rely only on themselves upon the battlefield.
+
+Whether putting your foes to the sword in glorious victory or fleeing a deadly onslaught, first must you remain among the standing.",补足新版文本
+item_dlc02,ProtectorName.fmg,202100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,742000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,834100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,835000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,835100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,835200,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,835300,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,873000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,892100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,901200,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,901600,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,904100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,912000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,912100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,912200,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,912300,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,913000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,965000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,965100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,965300,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,966000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,967000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,992000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,1610000,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,1932100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,1960100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,1960200,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,1971100,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,1971200,,[ERROR],补足新版文本
+item_dlc02,ProtectorName.fmg,5340000,,Broken Gold Mask,补足新版文本
+item_dlc02,ProtectorName.fmg,5340100,,Gold Tattoo (Chest),补足新版文本
+item_dlc02,ProtectorName.fmg,5340200,,Gold Tattoo (Arm),补足新版文本
+item_dlc02,ProtectorName.fmg,5340300,,Gold Tattoo (Leg),补足新版文本
+item_dlc02,ProtectorName.fmg,5350000,,Silver Grooved Helm,补足新版文本
+item_dlc02,ProtectorName.fmg,5350100,,Silver Grooved Armor,补足新版文本
+item_dlc02,ProtectorName.fmg,5350200,,Silver Grooved Gauntlets,补足新版文本
+item_dlc02,ProtectorName.fmg,5350300,,Silver Grooved Greaves,补足新版文本
+item_dlc02,ProtectorName.fmg,5351100,,Silver Grooved Armor (Altered),补足新版文本
+item_dlc02,ProtectorName.fmg,5360000,,Leontiel's Hat,补足新版文本
+item_dlc02,ProtectorName.fmg,5360100,,Leontiel's Armor,补足新版文本
+item_dlc02,ProtectorName.fmg,5360200,,Leontiel's Leather Gloves,补足新版文本
+item_dlc02,ProtectorName.fmg,5360300,,Leontiel's Boots,补足新版文本
+item_dlc02,ProtectorName.fmg,5361000,,Leontiel's Hat (Altered),补足新版文本
+item_dlc02,ProtectorName.fmg,5370000,,Steel Helm,补足新版文本
+item_dlc02,ProtectorName.fmg,5370100,,Steel Armor,补足新版文本
+item_dlc02,ProtectorName.fmg,5370200,,Steel Gauntlets,补足新版文本
+item_dlc02,ProtectorName.fmg,5370300,,Steel Greaves,补足新版文本
+item_dlc02,WeaponCaption.fmg,3560000,,"The knight Leontiel's favored weapon—a greatsword whose blade is wrapped in leather at the base.
+
+Said to have been wielded by a proud order of orthodox knights long ago, weapons of this ilk demand high dexterity.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530000,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530100,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530200,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530300,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530400,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530500,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530600,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530700,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530800,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8530900,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8531000,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8531100,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,8531200,,"A curved blade of considerable size whose keen edge is only made more deadly by its imposing weight.
+
+This curved greatsword demands both strength and dexterity of its wielder, rewarding those capable of mastering it with great, sweeping slashes that mow through multiple foes at once.",补足新版文本
+item_dlc02,WeaponCaption.fmg,13510000,,"A flail with three golden rings for striking heads, the sacred signature weapon of the esteemed Broken Mask.
+
+The golden bands are modelled upon the Elden Ring itself, half-corporeal and half formed of light, all in the process of shattering.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540000,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540100,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540200,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540300,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540400,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540500,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540600,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540700,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540800,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31540900,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31541000,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31541100,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,31541200,,"A silver shield whose expert craftsmanship compensates for its weight.
+The elegant grooves render a picturesque scene, recalling the faraway Erdtree's principles.
+Spread out above shall its many boughs, spread below shall its many roots, till the world entire knows its blessing.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520000,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520100,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520200,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520300,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520400,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520500,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520600,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520700,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520800,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62520900,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62521000,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62521100,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,62521200,,"A ""thrusting shield,"" or combined weapon and shield.
+Enables the wielder to attack and guard simultaneously.
+
+An armament once used in rites of combat performed to honor the Erdtree, now lost to time.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530000,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530100,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530200,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530300,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530400,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530500,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530600,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530700,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530800,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64530900,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64531000,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64531100,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,64531200,,"Curved blade wielded with a backhand grip, said to have originated from the hidden realm of shadow.
+
+The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530000,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530100,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530200,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530300,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530400,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530500,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530600,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530700,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530800,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66530900,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66531000,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66531100,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,66531200,,"Large katana with a long, heavy blade.
+A weapon unique to warriors of the Land of Reeds.
+
+Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530000,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530100,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530200,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530300,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530400,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530500,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530600,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530700,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530800,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67530900,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67531000,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67531100,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponCaption.fmg,67531200,,"A light greatsword; that is, a sword whose blade matches the length of a greatsword, while only possessing a very light weight due to its remarkable manufacture.
+A signature weapon of the land of Idus.
+With cultivated form, one can wield this weapon as swiftly as one might a straight sword.",补足新版文本
+item_dlc02,WeaponName.fmg,1000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1100,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1200,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1210,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1220,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1230,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1240,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1250,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1260,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1400,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1410,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1420,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1430,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1500,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1600,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1700,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1800,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1900,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,2000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,2100,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,2200,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,11000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,12000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,13000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100100,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100200,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100300,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100400,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100500,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100600,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100700,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100800,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,100900,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,101000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1190000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,1910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,3220000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,3560000,,Leontiel's Greatsword,补足新版文本
+item_dlc02,WeaponName.fmg,3900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,4900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,4910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,6900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,8530000,,Hefty Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530100,,Hefty Heavy Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530200,,Hefty Keen Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530300,,Hefty Quality Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530400,,Hefty Fire Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530500,,Hefty Flame Art Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530600,,Hefty Lightning Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530700,,Hefty Sacred Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530800,,Hefty Magic Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8530900,,Hefty Cold Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8531000,,Hefty Poison Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8531100,,Hefty Blood Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8531200,,Hefty Occult Scimitar,补足新版文本
+item_dlc02,WeaponName.fmg,8900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,9900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,9910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,9911000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,9920000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,9930000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,11170000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,12900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,12910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,13510000,,Golden Order Flail,补足新版文本
+item_dlc02,WeaponName.fmg,15900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070101,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070102,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070103,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070104,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070105,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070106,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070107,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070108,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070109,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070110,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070111,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070112,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070113,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070114,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070115,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070116,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070117,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070118,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070119,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070120,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070121,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070122,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070123,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070124,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070125,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070201,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070202,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070203,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070204,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070205,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070206,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070207,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070208,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070209,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070210,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070211,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070212,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070213,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070214,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070215,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070216,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070217,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070218,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070219,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070220,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070221,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070222,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070223,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070224,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070225,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070301,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070302,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070303,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070304,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070305,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070306,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070307,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070308,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070309,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070310,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070311,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070312,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070313,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070314,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070315,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070316,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070317,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070318,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070319,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070320,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070321,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070322,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070323,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070324,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070325,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070401,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070402,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070403,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070404,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070405,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070406,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070407,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070408,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070409,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070410,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070411,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070412,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070413,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070414,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070415,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070416,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070417,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070418,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070419,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070420,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070421,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070422,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070423,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070424,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070425,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070501,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070502,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070503,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070504,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070505,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070506,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070507,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070508,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070509,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070510,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070511,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070512,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070513,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070514,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070515,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070516,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070517,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070518,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070519,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070520,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070521,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070522,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070523,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070524,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070525,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070601,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070602,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070603,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070604,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070605,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070606,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070607,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070608,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070609,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070610,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070611,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070612,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070613,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070614,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070615,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070616,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070617,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070618,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070619,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070620,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070621,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070622,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070623,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070624,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070625,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070701,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070702,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070703,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070704,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070705,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070706,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070707,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070708,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070709,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070710,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070711,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070712,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070713,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070714,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070715,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070716,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070717,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070718,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070719,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070720,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070721,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070722,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070723,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070724,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070725,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070801,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070802,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070803,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070804,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070805,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070806,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070807,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070808,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070809,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070810,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070811,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070812,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070813,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070814,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070815,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070816,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070817,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070818,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070819,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070820,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070821,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070822,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070823,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070824,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070825,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070901,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070902,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070903,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070904,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070905,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070906,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070907,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070908,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070909,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070910,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070911,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070912,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070913,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070914,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070915,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070916,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070917,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070918,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070919,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070920,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070921,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070922,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070923,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070924,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17070925,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071001,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071002,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071003,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071004,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071005,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071006,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071007,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071008,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071009,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071010,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071011,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071012,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071013,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071014,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071015,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071016,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071017,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071018,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071019,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071020,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071021,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071022,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071023,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071024,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071025,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071101,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071102,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071103,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071104,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071105,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071106,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071107,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071108,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071109,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071110,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071111,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071112,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071113,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071114,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071115,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071116,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071117,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071118,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071119,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071120,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071121,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071122,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071123,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071124,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071125,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071201,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071202,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071203,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071204,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071205,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071206,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071207,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071208,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071209,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071210,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071211,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071212,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071213,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071214,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071215,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071216,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071217,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071218,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071219,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071220,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071221,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071222,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071223,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071224,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17071225,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,17910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020101,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020102,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020103,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020104,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020105,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020106,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020107,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020108,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020109,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020110,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020111,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020112,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020113,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020114,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020115,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020116,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020117,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020118,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020119,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020120,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020121,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020122,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020123,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020124,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020125,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020201,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020202,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020203,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020204,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020205,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020206,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020207,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020208,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020209,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020210,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020211,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020212,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020213,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020214,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020215,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020216,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020217,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020218,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020219,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020220,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020221,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020222,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020223,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020224,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020225,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020301,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020302,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020303,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020304,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020305,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020306,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020307,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020308,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020309,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020310,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020311,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020312,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020313,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020314,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020315,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020316,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020317,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020318,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020319,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020320,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020321,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020322,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020323,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020324,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020325,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020401,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020402,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020403,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020404,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020405,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020406,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020407,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020408,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020409,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020410,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020411,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020412,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020413,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020414,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020415,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020416,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020417,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020418,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020419,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020420,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020421,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020422,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020423,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020424,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020425,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020501,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020502,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020503,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020504,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020505,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020506,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020507,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020508,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020509,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020510,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020511,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020512,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020513,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020514,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020515,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020516,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020517,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020518,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020519,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020520,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020521,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020522,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020523,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020524,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020525,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020601,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020602,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020603,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020604,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020605,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020606,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020607,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020608,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020609,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020610,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020611,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020612,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020613,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020614,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020615,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020616,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020617,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020618,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020619,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020620,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020621,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020622,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020623,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020624,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020625,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020701,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020702,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020703,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020704,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020705,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020706,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020707,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020708,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020709,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020710,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020711,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020712,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020713,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020714,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020715,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020716,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020717,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020718,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020719,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020720,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020721,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020722,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020723,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020724,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020725,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020801,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020802,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020803,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020804,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020805,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020806,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020807,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020808,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020809,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020810,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020811,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020812,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020813,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020814,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020815,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020816,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020817,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020818,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020819,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020820,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020821,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020822,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020823,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020824,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020825,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020901,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020902,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020903,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020904,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020905,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020906,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020907,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020908,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020909,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020910,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020911,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020912,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020913,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020914,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020915,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020916,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020917,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020918,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020919,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020920,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020921,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020922,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020923,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020924,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23020925,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021001,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021002,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021003,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021004,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021005,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021006,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021007,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021008,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021009,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021010,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021011,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021012,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021013,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021014,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021015,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021016,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021017,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021018,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021019,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021020,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021021,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021022,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021023,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021024,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021025,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021101,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021102,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021103,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021104,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021105,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021106,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021107,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021108,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021109,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021110,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021111,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021112,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021113,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021114,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021115,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021116,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021117,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021118,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021119,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021120,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021121,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021122,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021123,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021124,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021125,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021201,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021202,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021203,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021204,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021205,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021206,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021207,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021208,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021209,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021210,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021211,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021212,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021213,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021214,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021215,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021216,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021217,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021218,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021219,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021220,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021221,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021222,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021223,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021224,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23021225,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130101,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130102,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130103,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130104,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130105,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130106,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130107,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130108,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130109,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130110,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130111,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130112,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130113,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130114,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130115,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130116,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130117,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130118,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130119,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130120,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130121,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130122,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130123,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130124,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130125,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130201,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130202,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130203,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130204,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130205,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130206,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130207,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130208,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130209,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130210,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130211,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130212,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130213,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130214,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130215,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130216,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130217,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130218,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130219,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130220,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130221,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130222,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130223,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130224,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130225,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130301,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130302,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130303,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130304,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130305,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130306,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130307,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130308,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130309,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130310,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130311,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130312,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130313,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130314,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130315,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130316,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130317,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130318,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130319,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130320,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130321,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130322,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130323,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130324,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130325,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130401,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130402,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130403,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130404,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130405,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130406,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130407,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130408,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130409,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130410,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130411,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130412,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130413,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130414,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130415,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130416,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130417,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130418,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130419,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130420,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130421,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130422,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130423,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130424,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130425,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130501,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130502,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130503,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130504,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130505,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130506,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130507,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130508,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130509,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130510,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130511,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130512,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130513,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130514,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130515,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130516,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130517,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130518,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130519,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130520,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130521,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130522,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130523,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130524,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130525,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130601,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130602,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130603,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130604,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130605,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130606,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130607,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130608,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130609,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130610,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130611,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130612,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130613,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130614,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130615,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130616,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130617,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130618,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130619,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130620,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130621,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130622,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130623,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130624,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130625,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130701,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130702,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130703,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130704,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130705,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130706,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130707,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130708,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130709,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130710,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130711,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130712,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130713,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130714,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130715,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130716,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130717,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130718,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130719,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130720,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130721,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130722,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130723,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130724,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130725,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130801,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130802,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130803,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130804,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130805,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130806,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130807,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130808,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130809,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130810,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130811,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130812,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130813,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130814,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130815,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130816,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130817,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130818,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130819,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130820,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130821,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130822,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130823,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130824,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130825,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130901,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130902,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130903,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130904,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130905,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130906,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130907,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130908,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130909,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130910,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130911,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130912,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130913,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130914,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130915,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130916,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130917,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130918,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130919,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130920,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130921,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130922,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130923,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130924,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23130925,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131001,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131002,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131003,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131004,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131005,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131006,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131007,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131008,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131009,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131010,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131011,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131012,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131013,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131014,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131015,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131016,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131017,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131018,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131019,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131020,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131021,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131022,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131023,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131024,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131025,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131101,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131102,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131103,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131104,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131105,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131106,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131107,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131108,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131109,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131110,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131111,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131112,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131113,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131114,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131115,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131116,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131117,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131118,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131119,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131120,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131121,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131122,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131123,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131124,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131125,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131201,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131202,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131203,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131204,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131205,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131206,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131207,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131208,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131209,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131210,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131211,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131212,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131213,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131214,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131215,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131216,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131217,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131218,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131219,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131220,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131221,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131222,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131223,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131224,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23131225,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23920000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,23930000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,31540000,,Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540100,,Heavy Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540200,,Keen Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540300,,Quality Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540400,,Fire Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540500,,Flame Art Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540600,,Lightning Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540700,,Sacred Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540800,,Magic Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31540900,,Cold Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31541000,,Poison Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31541100,,Blood Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,31541200,,Occult Silver Grooved Shield,补足新版文本
+item_dlc02,WeaponName.fmg,32900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,32910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,32920000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33920000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33930000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33940000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33950000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33960000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33970000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,33980000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34920000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34930000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34940000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34950000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34960000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34970000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34980000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,34990000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,43900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,52900000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,52910000,,[ERROR],补足新版文本
+item_dlc02,WeaponName.fmg,62520000,,Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520100,,Heavy Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520200,,Keen Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520300,,Quality Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520400,,Fire Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520500,,Flame Art Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520600,,Lightning Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520700,,Sacred Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520800,,Magic Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62520900,,Cold Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62521000,,Poison Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62521100,,Blood Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,62521200,,Occult Ritual Thrusting Shield,补足新版文本
+item_dlc02,WeaponName.fmg,64530000,,Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530100,,Heavy Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530200,,Keen Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530300,,Quality Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530400,,Fire Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530500,,Flame Art Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530600,,Lightning Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530700,,Sacred Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530800,,Magic Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64530900,,Cold Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64531000,,Poison Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64531100,,Blood Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,64531200,,Occult Reverse-Bladed Sword,补足新版文本
+item_dlc02,WeaponName.fmg,66530000,,Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530100,,Heavy Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530200,,Keen Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530300,,Quality Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530400,,Fire Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530500,,Flame Art Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530600,,Lightning Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530700,,Sacred Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530800,,Magic Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66530900,,Cold Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66531000,,Poison Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66531100,,Blood Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,66531200,,Occult Reed Great Katana,补足新版文本
+item_dlc02,WeaponName.fmg,67530000,,Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530100,,Heavy Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530200,,Keen Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530300,,Quality Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530400,,Fire Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530500,,Flame Art Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530600,,Lightning Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530700,,Sacred Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530800,,Magic Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67530900,,Cold Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67531000,,Poison Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67531100,,Blood Idus Sword,补足新版文本
+item_dlc02,WeaponName.fmg,67531200,,Occult Idus Sword,补足新版文本
