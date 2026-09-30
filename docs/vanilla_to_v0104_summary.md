@@ -1,8 +1,8 @@
-# 官方原版 1.17.1 → 当前 v0.10 集成测试参数
+# 官方原版 1.17.1 → v0.10.4 参数
 
 基线及当前均是内部版本 `11711000` 的 194 张参数表。仅比较 `regulation.bin` 参数行；事件、文本、地图及角色动画另行记录。相同共有行不会列入 CSV。
 
-逐字段全量明细（gzip 压缩的 CSV，下载后解压）：[`../changes/vanilla_to_current_fields.csv.gz`](../changes/vanilla_to_current_fields.csv.gz)。独有行只有行级数量，不在字段 CSV 中假定原值。
+逐字段全量明细（gzip 压缩的 CSV，下载后解压）：[`../changes/vanilla_to_v0104_fields.csv.gz`](../changes/vanilla_to_v0104_fields.csv.gz)。独有行只有行级数量，不在字段 CSV 中假定原值。
 
 | 指标 | 数量 |
 |---|---:|
@@ -10,20 +10,20 @@
 | 当前行 | 190,247 |
 | 新增行 | 10,915 |
 | 缺失行 | 0 |
-| 改动共有行 | 45,348 |
-| 字段改动 | 159,487 |
-| 相同行 | 133,984 |
+| 改动共有行 | 45,350 |
+| 字段改动 | 158,663 |
+| 相同行 | 133,982 |
 
 | 参数表 | 中文类别 | 基线行 | 当前行 | 新增 | 缺失 | 改动共有行 | 逐字段变化 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| `NpcParam` | 敌人与 NPC | 7045 | 7187 | 142 | 0 | 4816 | 38109 |
+| `NpcParam` | 敌人与 NPC | 7045 | 7187 | 142 | 0 | 4816 | 37261 |
 | `AtkParam_Npc` | 敌人攻击判定 | 12855 | 23093 | 10238 | 0 | 10380 | 36882 |
 | `EquipParamWeapon` | 武器／盾牌 | 3636 | 3638 | 2 | 0 | 3521 | 19945 |
 | `Bullet` |  | 15475 | 15475 | 0 | 0 | 5783 | 16212 |
 | `SpEffectParam` | 特殊效果 | 11354 | 11834 | 480 | 0 | 8639 | 14270 |
 | `ItemLotParam_enemy` |  | 5135 | 5154 | 19 | 0 | 2628 | 5466 |
 | `NpcThinkParam` |  | 2215 | 2215 | 0 | 0 | 1031 | 5320 |
-| `CharaInitParam` |  | 3273 | 3273 | 0 | 0 | 397 | 3920 |
+| `CharaInitParam` |  | 3273 | 3273 | 0 | 0 | 399 | 3944 |
 | `ItemLotParam_map` | 地图奖励 | 5592 | 5612 | 20 | 0 | 2898 | 3905 |
 | `EquipParamProtector` |  | 838 | 838 | 0 | 0 | 753 | 3775 |
 | `AtkParam_Pc` | 玩家攻击判定 | 11017 | 11017 | 0 | 0 | 1754 | 3331 |
@@ -170,9 +170,9 @@
 | `NpcParam` | `turnVellocity` | 3503 |
 | `NpcParam` | `hp` | 2680 |
 | `NpcParam` | `weakPartsDamageRate` | 1179 |
-| `NpcParam` | `hitHeight` | 912 |
 | `NpcParam` | `getSoul` | 907 |
 | `NpcParam` | `defFlickPower` | 875 |
+| `NpcParam` | `thrustDamageCutRate` | 652 |
 | `NpcThinkParam` | `TeamAttackEffectivity` | 697 |
 | `NpcThinkParam` | `backhomeBattleDist` | 662 |
 | `NpcThinkParam` | `backhomeDist` | 660 |

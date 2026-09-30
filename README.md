@@ -1,51 +1,45 @@
-# Elden Ring Ascended：平衡与新版内容兼容测试
+# Elden Ring Ascended Balance Project
 
-本仓库记录基于用户所持 Ascended MOD 的平衡测试迭代。当前集成快照为 **v0.10 待实机验证版**；区域随机化尚未开始。v0.3 在玩家的 1.17.1 环境中加载参数文件时出现存档损坏提示，后来改用原版 `11711000` 参数容器。
+[简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Latest test build](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 
-实机更新：v0.4 完整包仍报存档提示，后来紧凑重建的参数文件已能启动。v0.10 已合并最新参数、英文文本和编译回读的公共事件，仍需测试龙心脏、追忆互斥、法术增幅和特殊武器被动。
+An independent balance and compatibility project built on the **Ascended: Age of the Endless** mod for *Elden Ring*. The first phase makes more character builds viable while retaining Ascended's stronger enemies and distinctive encounters. Enemy, boss, and loot randomization is a later phase; it has **not** been implemented.
 
-| 版本 | 逐项记录 | 实际调整 |
-|---|---|---|
-| v0.1 | [`changes/v0.1.csv`](changes/v0.1.csv) · [`docs/v0.1.md`](docs/v0.1.md) | 581 项 FP 消耗；一处公共事件效果 ID `530373 → 530273`。 |
-| v0.2 | [`changes/v0.2.csv`](changes/v0.2.csv) · [`docs/v0.2.md`](docs/v0.2.md) | 9,259 项玩家倍率、护符、敌人血量／抗性／失衡／攻击和近战接触弹反参数改动；继承 v0.1。 |
-| v0.3 | [`changes/v0.3_manifest.json`](changes/v0.3_manifest.json) · [`docs/v0.3.md`](docs/v0.3.md) | 在 v0.2 上导入 27 张参数表的 426 个新版独有行；其中 82 行为新武器及强化阶段，2 行为新增开局职业选择。去掉 31 个旧版玩家动作或文字覆盖以供兼容测试。 |
-| v0.4 | [`changes/v0.4_manifest.json`](changes/v0.4_manifest.json) · [`docs/v0.4.md`](docs/v0.4.md) | 基于官方 1.17.1 原生容器重建，移植可直接映射的 Ascended 参数行；10 张布局变化的表暂用原版值。 |
-| v0.5 | [`docs/v0.5.md`](docs/v0.5.md) · [`changes/v0.5_talisman_reconciliation.csv`](changes/v0.5_talisman_reconciliation.csv) | 恢复原 Ascended 怪物血量、初始 4 护符槽、原战技、缩短状态条，并对齐英文护符说明及新职业文字。 |
+The current integrated test build is **v0.10.4**. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. The game and any DLC must be owned separately.
 
-## 当前集成快照与对照文档
+## What changed
 
-- [v0.10 安装与测试说明](docs/v0.10.md)、[v0.5 至今有效改动](docs/from_v05_to_current.md)。
-- [最早官方原版与当前参数对比](docs/vanilla_to_current.md)、[逐表字段统计](docs/vanilla_to_current_summary.generated.md)、[完整字段 CSV（gzip）](changes/vanilla_to_current_fields.csv.gz)。
-- [v0.5 至今逐表字段统计](docs/v05_to_current_summary.generated.md)、[完整字段 CSV（gzip）](changes/v05_to_current_fields.csv.gz)。
-- 本仓库保留源码与审计记录。集成测试包的游戏资源不直接进入 Git 树；具体发布方式和下载地址以 Release 页面为准。
+| Area | Current direction |
+|---|---|
+| Build variety | Rebalanced the FP economy and reviewed all 217 player spells and incantations. Many spell hitboxes, damage parameters, and related effects were revised so magic and incantations can compete with heavy charged attacks. |
+| Difficulty and survival | Restored Ascended's enemy base HP and regional HP multipliers after an overcorrection made encounters too easy. Player base HP follows twice the game's Vigor growth curve; carrying a weapon no longer adds an unrelated HP multiplier or fixed elemental attack. |
+| Equipment | Restored original weapon skills for affected equipment, audited 2,550 weapon rows, and adjusted talismans such as Dagger, Curved Sword, Twinblade, Axe, Claw, Greatshield, and Arrow's Sting. English in-game captions were updated to match the intended effects. |
+| Stance and critical attacks | Restored official critical-attack pairings and audited all 7,187 NPC rows. Contact dimensions were corrected on eligible models and Ascended variants. Some custom animation interactions still require in-game testing. |
+| Player experience | Four talisman slots from the start, revised HP/FP/stamina display and growth, revised Bandit/Vagabond starting gear, Torrent item parameters, and the starter Empowered Soul. |
+| Remembrances | Twenty-one ordinary remembrance effects target +5% maximum HP and +2.5% attack power per eligible boss, with a corresponding spell effect. The unified heart and non-stacking behavior need further in-game validation. Four special remembrances retain their distinct effects. |
+| Night and movement | A common event aims to return the world to 23:45 after time changes. The current-version player HKS restores Ascended's 1.4 jump movement scale without reverting new weapon skills to the old 1.16 mapping. The jump and the new sword's skill were tested by the player. |
 
-## 从何处开始
+These are the **current intended and integrated changes**, not a claim that every boss, weapon, event, or localization has passed exhaustive playtesting. Faster or more forgiving parry timing, full Chinese in-game text, the final unified-heart action, and randomization remain separate work items.
 
-- 阅读 [`CHANGELOG.md`](CHANGELOG.md) 了解每版决策、验证与未解决问题。
-- 阅读 [`docs/initial-comparison.md`](docs/initial-comparison.md) 了解跨版本参数对照的方法及局限。
-- 逐项 CSV 含参数表、行 ID、字段中英文说明、原值、原版参考值与调整后值。v0.3 JSON 包含每个新增行 ID、被移除的覆盖路径和测试包哈希。
+## Install and test
 
-### 复现参数构建
+1. Download the complete ZIP from the [v0.10.4 release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated). Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
+2. Extract it to a **new** mod folder and use the included ModEngine launch method. Mixing with older mod folders can leave obsolete `c0000.hks`, `c0000.anibnd.dcx`, or message files behind.
+3. Back up saves, run offline, and disable EAC for mod testing. New-character starting items do not retroactively appear in old saves.
+4. To revert only the jump script, remove `ModEngine/mod/action/script/c0000.hks` from the mod folder.
 
-仓库不提供游戏或 MOD 原包。v0.3 需要自己的 v0.2 完整 ZIP 和官方 1.17.1 已解密 BND4。v0.4 另需自己的 v0.3 完整 ZIP、v0.3 manifest 和官方 1.17.1 加密 `regulation.bin`。可运行：
+The v0.10.4 complete ZIP SHA-256 is `007b4f0b8dff4d6bab6ad7bcec25ba28386df839c9f589849df23efcfad70136`.
 
-```bash
-python3 -m pip install zstandard cryptography
-python3 scripts/unpack_regulation.py /path/to/official/decrypted_regulation.dcx inputs/vanilla_1.17.1.bnd
-cp /path/to/Ascended_优化版_v0.2_完整包.zip inputs/
-python3 scripts/build_v03.py
-cp /path/to/Ascended_优化版_v0.3_新版武器职业测试包.zip inputs/
-cp /path/to/v03_manifest.json inputs/
-cp /path/to/current/game/regulation.bin inputs/vanilla_1.17.1_regulation.bin
-python3 scripts/build_v04.py
-```
+## Repository map
 
-生成文件位于 `output/`。v0.4 对可兼容表逐行回读验证，并保留原版新行和 Ascended 独有行。10 张布局变化表的旧字段暂未迁移。v0.1/v0.2 的历史精确改动由 CSV 和说明记录，历史构建脚本未包含在此仓库中。
+- [`CHANGELOG.md`](CHANGELOG.md): the single maintained version history, current status, and known limitations.
+- [`docs/vanilla_to_v0104_summary.md`](docs/vanilla_to_v0104_summary.md): same-version 1.17.1 parameter comparison by table.
+- [`changes/vanilla_to_v0104_fields.csv.gz`](changes/vanilla_to_v0104_fields.csv.gz): all comparable changed fields, with row IDs, baseline values, and current values. Decompress before opening as CSV. Ascended's original changes and this project's changes are both included.
+- [`changes/`](changes/): per-version parameter audit CSVs and manifests retained for traceability; historical `pending_` filenames do not necessarily describe the current release status.
+- [`scripts/`](scripts/): build and audit scripts. They require the owner's own game/mod inputs and are not a one-command clean-room build.
+- [`docs/zhocn_patch.md`](docs/zhocn_patch.md): bilingual instructions and the source patch for matching-version Simplified Chinese item descriptions. A ready-to-install Chinese binary awaits the owner's matching game archives.
 
-**测试包须在新 MOD 文件夹使用。** 直接覆盖旧文件夹不会删除旧版玩家动作和 `item/menu.msgbnd.dcx`，这会遮住新版资源。新增职业和装备依赖玩家自己安装的游戏版本与 Tarnished Pack 权限；本仓库不含 DLC 内容，也不解除授权。
+The original and integrated game resource files are distributed as test build assets under Releases, not as source files in this Git tree. [Paramdex](https://github.com/soulsmods/Paramdex) supplies field definitions for the comparison; its data is not copied here.
 
-## 文件边界
+## Credit
 
-`changes/`、`docs/` 与 `scripts/` 仅保存本项目生成的文本、代码和逐项记录。原版与 Ascended 的 `regulation.bin`、地图、动画、脚本、消息文件、完整测试 ZIP 都不进入 Git。Paramdex 字段资料属于 [soulsmods/Paramdex](https://github.com/soulsmods/Paramdex)，这里不复制其内容。
-
-已核对的完整包 SHA-256：v0.2 `82aad1d33353e4bcb4345ca104b889abd429d3222d7f93e7178114c4568bb888`；v0.3 `311171fe4da27f325681e2b6c7e767217d283418b23d63264c18b251972fe3bc`；v0.4 `f8b1f085e6409b9ce6dce3c147d3597b0f287d0886e0bdd938448341f4c97c80`。加密文件含随机 IV，所以重建的 ZIP 哈希会不同，应按解密后的参数行核对。
+Ascended: Age of the Endless and *Elden Ring* belong to their respective creators. This project is an independent balance and compatibility effort, not an official update of Ascended or the game.
