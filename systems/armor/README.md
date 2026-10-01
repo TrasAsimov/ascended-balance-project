@@ -65,3 +65,7 @@ python systems/armor/scripts/verify_binder.py
 中性奖励模板的 wepParamChange 从排除武器的 3 改为 0，补回蓄力、跳跃、防反、末段等武器适用性。新增独立 verify_attack_filters.py 检查全奖励筛选及只改此字段的差分。数值/事件/文本不变；实测待确认，详见 [修复说明](../../docs/armor_weapon_filter_20261002.md)。
 
 构建容器时从本地环境变量 `ARMOR_REGULATION_KEY_HEX` 读取格式密钥；不在更新源码中嵌入密钥。
+
+## 禁用额外减益，保留异常攻击
+
+2026-10-02 用户要求禁用额外全局 debuff，并明确保留敌人攻击附带异常。最终集成后运行仓库 `scripts/disable_player_debuffs.py`，只清除12条明确自定义效果的额外负面字段，保留异常累积、状态、时长、目标位、发狂爆发与调用链。所有普通异常及单件／套装行不变；普通异常本身已有Ascended改动并未恢复原版。详见 [范围与实测说明](../../docs/player_debuff_disable_20261002.md)。05统一整合完整包，后续重建后需再运行此步骤。
