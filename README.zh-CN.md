@@ -1,5 +1,7 @@
 # 艾尔登法环 Ascended 平衡优化项目
 
+**套装武器筛选后续修复：** v0.10.7 完整包仍含排除武器的错误字段；蓄力/跳跃/防反等需一起使用[独立 bin 修正与复测说明](docs/armor_weapon_filter_20261002.md)。静态检查通过，实机待确认。
+
 **最新完整测试版：[v0.10.7 护甲描述分行版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.7-armor-text-layout)。** 包含 v0.10.6 的紧凑 BND、套装对象标记和初始化入口修复。741 件护甲描述使用百分比、逐项分行及实际件数；参数和事件与 v0.10.6 相同。仍需实际增益及显示复测。旧 v0.10.5 曾出现存档损坏误报，请使用新版测试；已实测历史基准为 v0.10.4。
 
 [English](README.md) · [版本改动记录](CHANGELOG.md) · [已实测基准](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)

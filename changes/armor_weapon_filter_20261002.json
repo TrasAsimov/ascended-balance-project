@@ -1,0 +1,719 @@
+{
+  "reward_checks": {
+    "all_reward_roots": 308,
+    "neutral_rewards_include_weapons": 234
+  },
+  "action_filter_checks": [
+    {
+      "effect": 7200001,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200002,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200003,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200007,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200017,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200019,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200027,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200029,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200030,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200031,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200034,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200035,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200054,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200055,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200070,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200073,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200078,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200079,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200107,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200112,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200114,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200120,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200121,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200123,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200124,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200125,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200134,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200135,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200136,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200139,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200144,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200145,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200149,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200152,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200153,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200161,
+      "category": 102,
+      "native_reference": 321800,
+      "player_attack_rows": 838,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200162,
+      "category": 102,
+      "native_reference": 321800,
+      "player_attack_rows": 838,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200163,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200164,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200167,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200168,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200187,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200195,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200197,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200211,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200223,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200228,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200229,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200239,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200240,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200242,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200243,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200244,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200248,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200249,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200250,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200265,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200266,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200268,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200273,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200274,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200277,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200278,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200282,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200285,
+      "category": 102,
+      "native_reference": 321800,
+      "player_attack_rows": 838,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200286,
+      "category": 102,
+      "native_reference": 321800,
+      "player_attack_rows": 838,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200288,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200289,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200290,
+      "category": 102,
+      "native_reference": 321800,
+      "player_attack_rows": 838,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200291,
+      "category": 102,
+      "native_reference": 321800,
+      "player_attack_rows": 838,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200292,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200293,
+      "category": 100,
+      "native_reference": 321300,
+      "player_attack_rows": 1219,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200303,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200307,
+      "category": 103,
+      "native_reference": 322000,
+      "player_attack_rows": 151,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200309,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    },
+    {
+      "effect": 7200313,
+      "category": 104,
+      "native_reference": 321200,
+      "player_attack_rows": 461,
+      "both_hands": "included"
+    }
+  ],
+  "only_weapon_filter_changed_rows": 234,
+  "all_other_parameter_rows": "byte-identical",
+  "regulation_sha256": "5fd2f52972159dfda55683af4b87f30beb1fbfa1a7ce6edd19d6fc118801c89a",
+  "runtime_validation": "not run; player reports jump/charge/counter fail, critical and magic work",
+  "other_static_audits": {
+    "verification.json": {
+      "core_effect_rows_verified": 4,
+      "core_caption_checks": 8,
+      "approved_excel_profiles": 26,
+      "approved_excel_piece_decisions": 12,
+      "explicit_piece_effect_fields_verified": 10,
+      "parameter_tables": 194,
+      "original_armor_verified": 140,
+      "official_effect_chain_verified": 167,
+      "event_cases": 61420,
+      "loadout_hp_scenarios": 15620,
+      "english_descriptions": 741,
+      "unchanged_original_events": 256,
+      "game_test": "not run",
+      "game_validation": {
+        "startup": "not run",
+        "load": "not run",
+        "save_and_reload": "not run",
+        "armor_and_set_effects": "not run"
+      }
+    },
+    "activation_verification.json": {
+      "required_wearer_masks_verified": 314,
+      "previous_inapplicable_rewards": 0,
+      "only_applicability_masks_changed_rows": 0,
+      "initialized_rewards": 308,
+      "constructor_scenarios": [
+        {
+          "other_world": false,
+          "flag2052": false,
+          "previous_started": 308,
+          "new_started": 308
+        },
+        {
+          "other_world": false,
+          "flag2052": true,
+          "previous_started": 0,
+          "new_started": 308
+        },
+        {
+          "other_world": true,
+          "flag2052": false,
+          "previous_started": 0,
+          "new_started": 308
+        },
+        {
+          "other_world": true,
+          "flag2052": true,
+          "previous_started": 0,
+          "new_started": 308
+        }
+      ],
+      "game_validation": "not run; player reports current bug-fixed build enters game but set effects fail; installed hash not provided"
+    },
+    "layout_verification.json": {
+      "table_audit": {
+        "BehaviorParam_PC.param": {
+          "row_size_from_definition": 32,
+          "existing_rows": 13865,
+          "added_rows": 1,
+          "changed_rows": 0,
+          "existing_offsets_shift_only": 24
+        },
+        "Bullet.param": {
+          "row_size_from_definition": 272,
+          "existing_rows": 15475,
+          "added_rows": 1,
+          "changed_rows": 0,
+          "existing_offsets_shift_only": 24
+        },
+        "EquipParamProtector.param": {
+          "row_size_from_definition": 416,
+          "existing_rows": 838,
+          "added_rows": 0,
+          "changed_rows": 141,
+          "existing_offsets_shift_only": 0
+        },
+        "SpEffectParam.param": {
+          "row_size_from_definition": 912,
+          "existing_rows": 11834,
+          "added_rows": 437,
+          "changed_rows": 4,
+          "existing_offsets_shift_only": 10488
+        }
+      },
+      "untouched_table_bodies": 190,
+      "matches_previous_design": false,
+      "approved_workbook_checked": false,
+      "startup": "not run",
+      "load": "not run",
+      "save_and_reload": "not run",
+      "runtime_set_and_piece_effects": "not run"
+    },
+    "binder_verification.json": {
+      "status": "static container audit passed; game test not run",
+      "native_base_bytes": 59594000,
+      "candidate_bytes": 60003408,
+      "candidate_sha256": "1802f0f348cc51e022f9580b1a070cb46528eefeb90b6b13125ca3ec05a3ed68",
+      "member_count": 194,
+      "member_payload_bytes": 59964183,
+      "metadata_bytes": 37728,
+      "alignment_bytes": 1497,
+      "unreferenced_data_bytes": 0,
+      "baseline_noop_byte_identity": true,
+      "idempotent": true,
+      "metadata_changes": "member sizes and offsets only",
+      "legitimate_payload_growth": 409398,
+      "previous_candidate": null,
+      "game_validation": {
+        "startup": "not run",
+        "load": "not run",
+        "save_and_reload": "not run",
+        "armor_and_set_effects": "not run"
+      }
+    }
+  },
+  "common_and_english_archives": "SHA256 identical to v0.10.7",
+  "native_weapon_enum_source": "https://github.com/vawser/Smithbox/blob/main/src/Smithbox.Data/Assets/PARAM/ER/Param%20Enums/SP_EFE_WEP_CHANGE_PARAM.json",
+  "native_weapon_enum_values": {
+    "Key": "SP_EFE_WEP_CHANGE_PARAM",
+    "Names": [
+      {
+        "Language": "English",
+        "Text": "SP_EFE_WEP_CHANGE_PARAM"
+      }
+    ],
+    "Options": [
+      {
+        "Key": "0",
+        "Names": [
+          {
+            "Language": "English",
+            "Text": "None"
+          }
+        ]
+      },
+      {
+        "Key": "1",
+        "Names": [
+          {
+            "Language": "English",
+            "Text": "Right-hand"
+          }
+        ]
+      },
+      {
+        "Key": "2",
+        "Names": [
+          {
+            "Language": "English",
+            "Text": "Left-hand"
+          }
+        ]
+      },
+      {
+        "Key": "3",
+        "Names": [
+          {
+            "Language": "English",
+            "Text": "Self"
+          }
+        ]
+      },
+      {
+        "Key": "4",
+        "Names": [
+          {
+            "Language": "English",
+            "Text": "Kick"
+          }
+        ]
+      }
+    ]
+  }
+}

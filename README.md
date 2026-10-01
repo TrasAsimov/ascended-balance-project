@@ -1,5 +1,7 @@
 # Elden Ring Ascended Balance Project
 
+**Armor weapon-filter follow-up:** The v0.10.7 ZIP still contains a weapon-exclusion flag error. Use the [individual regulation fix and retest notes](docs/armor_weapon_filter_20261002.md) for charged/jump/guard-counter and other weapon rewards. Static checks pass; in-game validation remains pending.
+
 **Latest complete test build: [v0.10.7 armor text layout](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.7-armor-text-layout).** Includes the v0.10.6 compact binder, reward target flags and initializer fixes. All 741 armor captions use percentages, one effect per line and actual set/tier counts. Parameters and events are identical to v0.10.6. In-game effects and wrapping still require retesting; the old v0.10.5 package had a save-corruption error regression.
 
 [简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Game-tested baseline](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)

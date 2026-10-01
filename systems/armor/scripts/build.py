@@ -13,7 +13,7 @@ from cryptography.hazmat.primitives.ciphers import Cipher,algorithms,modes
 import zstandard as zstd
 
 BASE=OLD/'pending_v0105/adjusted.bnd'
-KEY=bytes.fromhex('99BFFC366A6BC8C6F5827D093602D676C42892A01C207FB024D3AF4E493FEF99')
+KEY=bytes.fromhex(__import__('os').environ['ARMOR_REGULATION_KEY_HEX'])
 for directory in ['data','docs','ModEngine/mod/msg/engus']:(ROOT/directory).mkdir(parents=True,exist_ok=True)
 expected=json.loads((ROOT/'config/input_hashes.json').read_text())
 for relative,digest in expected.items():
@@ -171,7 +171,10 @@ def make_reward(spec):
         clean[key]=1
     if template==1950:clean['stateInfo']=0
     if template==1950:
-        clean.update({'magParamChange':1,'miracleParamChange':1,'wepParamChange':3})
+        # Native wearable attack modifiers use 0 (no weapon restriction),
+        # not 3 (Self/body scope). Spell applicability is
+        # controlled separately, then narrowed by the attack subcategory.
+        clean.update({'magParamChange':1,'miracleParamChange':1,'wepParamChange':0})
     for k,v in clean.items():put('SpEffectParam',body,k,v)
     for k,v in spec['fields'].items():put('SpEffectParam',body,k,v)
     kids=[]
