@@ -1,10 +1,10 @@
 # 艾尔登法环 Ascended 平衡优化项目
 
-[English](README.md) · [版本改动记录](CHANGELOG.md) · [最新测试包](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
+[English](README.md) · [版本改动记录](CHANGELOG.md) · [最新测试包](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated)
 
 这是在 **Ascended: Age of the Endless** MOD 基础上进行的独立平衡与新版兼容项目。第一阶段希望保留 Ascended 的敌人强度与特色战斗，同时让法术、祷告、战技、弓箭和其他武器玩法有更多选择。敌人、Boss 与掉落随机化属于第二阶段，**目前尚未制作**。
 
-最新已完成完整测试包为 **v0.10.5**，待上传；GitHub 已发布版暂仍为 v0.10.4。新版参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
+当前完整测试版为 **v0.10.5**，已上传 GitHub Release。参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
 
 ## v0.10.5 护甲与核心平衡
 
@@ -39,11 +39,11 @@
 
 ## 安装与测试
 
-1. v0.10.5 完整安装包已准备，待上传；[v0.10.4 Release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) 暂仍提供上一版完整安装 ZIP。GitHub 自动生成的“Source code”压缩包不是 MOD 安装包。
+1. 从 [v0.10.5 Release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated) 下载完整安装 ZIP。GitHub 自动生成的“Source code”压缩包不是 MOD 安装包。
 2. 统一使用 **ME3**。将整个 MOD 文件夹解压到例如 `E:\me3\config\profiles\eldenring-mods\<MOD文件夹>\` 的目录下，保持其中的 `ModEngine` 文件夹及 `ModEngine\launchmod_eldenring.bat` 原有结构。请用新文件夹，不要直接覆盖旧版，以免残留旧脚本、动画或文本文件。
 3. 备份存档，关闭反作弊 EAC 并离线测试。先开启 Steam，再运行 `<MOD文件夹>\ModEngine\launchmod_eldenring.bat` 启动 MOD。新角色初始物品不会自动补发到旧存档；游戏须拥有**全部 DLC 包**才有完整内容。
 
-完整包文件名为 `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`；已准备的发布文件附 `SHA256SUMS.txt`，打包校验见 [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json)。
+完整包文件名为 `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`；Release 附 `SHA256SUMS.txt`，打包校验见 [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json)。
 
 ## 仓库内容
 

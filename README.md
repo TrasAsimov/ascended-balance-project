@@ -1,10 +1,10 @@
 # Elden Ring Ascended Balance Project
 
-[简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Latest test build](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
+[简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Latest test build](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated)
 
 An independent balance and compatibility project built on the **Ascended: Age of the Endless** mod for *Elden Ring*. The first phase makes more character builds viable while retaining Ascended's stronger enemies and distinctive encounters. Enemy, boss, and loot randomization is a later phase; it has **not** been implemented.
 
-The latest completed package is **v0.10.5**, prepared for upload. The published GitHub Release remains v0.10.4 until the new asset is uploaded. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
+The current integrated test build is **v0.10.5**, available from GitHub Releases. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
 
 ## Armor and core balance in v0.10.5
 
@@ -39,11 +39,11 @@ These are the **current intended and integrated changes**, not a claim that ever
 
 ## Install and test
 
-1. The v0.10.5 complete package is prepared for upload. The existing [v0.10.4 release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) contains the previous complete build. Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
+1. Download the complete package from the [v0.10.5 release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated). Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
 2. Use **ME3**. Extract the whole mod folder to a location such as `E:\me3\config\profiles\eldenring-mods\<mod-folder>\`, keeping its `ModEngine` directory and `ModEngine\launchmod_eldenring.bat` in place. Use a fresh folder: mixing with an older version can leave obsolete scripts, animations, or message files behind.
 3. Back up saves and disable EAC for offline mod testing. Start Steam, then run `<mod-folder>\ModEngine\launchmod_eldenring.bat` to launch the mod. A new character is needed to test starting items; existing saves do not receive them automatically. The base game and **all DLC packs** are required for the full content.
 
-Download `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`. The prepared release files include `SHA256SUMS.txt`; package validation is recorded in [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json).
+Download `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`. The Release includes `SHA256SUMS.txt`; package validation is recorded in [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json).
 
 ## Repository map
 
