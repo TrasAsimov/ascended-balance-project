@@ -187,7 +187,7 @@ for name in ['item_dlc01','item_dlc02']:
             for rid,text in fmg_read(r).items():
                 if rid in {2120,2130,2140,2180} and text:
                     assert '[Ascended Balance effect]' not in text and 'Effect:' not in text
-                    assert {2120:'+250%',2130:'+200%',2140:'+120%',2180:'+100%'}[rid] in text
+                    assert {2120:'+250%',2130:'+300%',2140:'+220%',2180:'+100%'}[rid] in text
                     assert len(text.splitlines())==1
                     core_caption_checks+=1
         if k.startswith('ProtectorCaption'):

@@ -1,23 +1,23 @@
 # 艾尔登法环 Ascended 平衡优化项目
 
-**套装武器筛选后续修复：** v0.10.7 完整包仍含排除武器的错误字段；蓄力/跳跃/防反等需一起使用[独立 bin 修正与复测说明](docs/armor_weapon_filter_20261002.md)。静态检查通过，实机待确认。
+**最新完整测试版：[v0.10.8 统一整合版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.8-unified-integration)。** 纳入套装武器筛选、额外减益移除、小首领心脏成长及贝勒独立奖励、玩家法术异常累积减半、蓄力额外 +300% 与魔法/祷告攻击力额外 +220%。见[整合检查与测试说明](docs/integration_20261002.md)。静态核验通过，实机待测；测试前备份存档。
 
-**最新完整测试版：[v0.10.7 护甲描述分行版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.7-armor-text-layout)。** 包含 v0.10.6 的紧凑 BND、套装对象标记和初始化入口修复。741 件护甲描述使用百分比、逐项分行及实际件数；参数和事件与 v0.10.6 相同。仍需实际增益及显示复测。旧 v0.10.5 曾出现存档损坏误报，请使用新版测试；已实测历史基准为 v0.10.4。
+继承 v0.10.7 的 741 件护甲百分比逐项分行、实际套装件数，以及紧凑 BND、奖励对象标记和初始化入口修复。旧 v0.10.5 曾出现存档损坏误报；历史已实测基准仍为 v0.10.4。
 
 [English](README.md) · [版本改动记录](CHANGELOG.md) · [已实测基准](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 
 这是在 **Ascended: Age of the Endless** MOD 基础上进行的独立平衡与新版兼容项目。第一阶段希望保留 Ascended 的敌人强度与特色战斗，同时让法术、祷告、战技、弓箭和其他武器玩法有更多选择。敌人、Boss 与掉落随机化属于第二阶段，**目前尚未制作**。
 
-当前完整测试版为 **v0.10.7**，已上传 GitHub Release。参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
+当前完整测试版为 **v0.10.8**，已上传 GitHub Release。参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
 
-## v0.10.5 护甲与核心平衡
+## v0.10.8 护甲与核心平衡
 
-回传护甲方案和核心护符定案已并入完整安装包：**187 个护甲家族、741 件具名护甲，165 个家族有奖励**。恢复原版单件特色与代价，保留兼容的 Mod 效果；详细分类、套装名和数值见[完整目录与合并检查](docs/armor_core_integration_20261001.md)，安装和测试见 [v0.10.5 说明](docs/v0.10.5.md)。
+回传护甲方案和核心护符定案已并入完整安装包：**187 个护甲家族、741 件具名护甲，165 个家族有奖励**。恢复原版单件特色与代价，保留兼容的 Mod 效果；详细分类、套装名和数值见[完整目录与合并检查](docs/armor_core_integration_20261001.md)，安装和测试见 [当前整合测试说明](docs/integration_20261002.md)。
 
 | 核心效果 | 当前系数 |
 |---|---:|
-| 魔法／祷告攻击力 | ×2.2 |
-| 蓄力攻击 | ×3 |
+| 魔法／祷告攻击力 | +220%（×3.2）|
+| 蓄力攻击 | +300%（×4）|
 | 跳跃攻击 | ×2 |
 | 普通连段最后一击 | ×3.5 |
 | 防御反击 | ×4 |
@@ -43,11 +43,11 @@
 
 ## 安装与测试
 
-1. 本次回归排查期间，正常运行使用 [v0.10.4 基准](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)。要测试单文件修复候选，按上方 BUG 记录单独操作。GitHub 自动生成的“Source code”压缩包不是 MOD 安装包。
+1. 从上方 Release 下载 v0.10.8 完整 ZIP，按[整合测试说明](docs/integration_20261002.md)使用全新目录离线测试并备份存档。GitHub 自动生成的 Source code 压缩包不是安装包。
 2. 统一使用 **ME3**。将整个 MOD 文件夹解压到例如 `E:\me3\config\profiles\eldenring-mods\<MOD文件夹>\` 的目录下，保持其中的 `ModEngine` 文件夹及 `ModEngine\launchmod_eldenring.bat` 原有结构。请用新文件夹，不要直接覆盖旧版，以免残留旧脚本、动画或文本文件。
 3. 备份存档，关闭反作弊 EAC 并离线测试。先开启 Steam，再运行 `<MOD文件夹>\ModEngine\launchmod_eldenring.bat` 启动 MOD。新角色初始物品不会自动补发到旧存档；游戏须拥有**全部 DLC 包**才有完整内容。
 
-完整包文件名为 `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`；Release 附 `SHA256SUMS.txt`，打包校验见 [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json)。
+完整包文件名为 `Ascended_Balance_v0.10.8_Unified_Integration.zip`；Release 附 `SHA256SUMS.txt` 和打包审计。
 
 ## 仓库内容
 
@@ -64,4 +64,4 @@
 
 Ascended: Age of the Endless 与《艾尔登法环》分别归其原作者所有。本项目是独立的平衡与兼容性工作，不是原 Ascended 或游戏官方更新。
 
-套装效果跟进：当前源代码已修复奖励对象标记与事件初始化位置，并压缩护甲／护符正文，见[跟进记录](docs/armor_activation_text_20261001.md)。尚待实际增益复测，GitHub 已有 v0.10.5 包不包含这次新修复。
+套装对象标记、初始化入口及武器筛选修复均已纳入 v0.10.8，实际增益仍需复测；历史 Release 文件保持不变。

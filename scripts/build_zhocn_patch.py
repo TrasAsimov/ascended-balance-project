@@ -24,8 +24,8 @@ NORMAL_EFFECT = (
 ACCESSORY = {
     2090: ("背刺/处决伤害提高400%（独立倍率×5.00）。", "大幅提高致命一击伤害"),
     2120: ("连段末击伤害提高250%（独立倍率×3.50）。", "提高连续攻击最后一击的伤害"),
-    2130: ("蓄力重击伤害提高200%（独立倍率×3.00）。", "大幅提高蓄力攻击伤害"),
-    2140: ("魔法/祷告攻击力提高120%（×2.20）。", "大幅提高魔法与祷告攻击力"),
+    2130: ("蓄力重击伤害提高300%。", "大幅提高蓄力攻击伤害"),
+    2140: ("魔法/祷告攻击力提高220%。", "大幅提高魔法与祷告攻击力"),
     2150: ("箭矢/弩箭伤害提高100%（独立倍率×2.00）。", "提高箭矢与弩箭的伤害"),
     2180: ("跳跃攻击伤害提高100%（独立倍率×2.00）。", "大幅提高跳跃攻击伤害"),
     2200: ("防御反击伤害提高300%（独立倍率×4.00）。", "大幅提高防御反击伤害"),
@@ -33,20 +33,20 @@ ACCESSORY = {
 }
 HEART = {
     "GoodsName_dlc01.fmg": "强化之魂",
-    "GoodsInfo_dlc01.fmg": "使用后刷新已击败追忆首领的力量",
+    "GoodsInfo_dlc01.fmg": "刷新已击败首领的增益",
     "GoodsCaption_dlc01.fmg": (
-        "旅程开始时获得的强化之魂。\n\n"
-        "使用后，根据已经击败且符合条件的追忆首领刷新增益。"
-        "每位首领各提供最大生命值5%、物理与各属性攻击力2.5%，"
-        "以及魔法与祷告伤害2.5%的增益。未击败任何符合条件的首领时没有效果。\n\n"
-        "使用后不会消耗；与同一追忆的单独增益不叠加。"
-        "四种特殊追忆保留各自的特殊效果。"
+        "使用后刷新已击败首领的增益。\n"
+        "每场小首领（贝勒除外）：生命、法力、精力上限各+0.2%。\n"
+        "武器攻击力、魔法/祷告伤害各+0.1%。\n"
+        "上述奖励加算；重复使用仅刷新。\n"
+        "贝勒按追忆首领奖励；使用后不消耗。"
     ),
 }
+
 EXISTING_ENGLISH_HEART = {
     "GoodsName_dlc01.fmg": "Empowered Soul",
-    "GoodsInfo_dlc01.fmg": "Refreshes power from defeated remembrance bosses",
-    "GoodsCaption_dlc01.fmg": "An empowered soul granted at the beginning of the journey.",
+    "GoodsInfo_dlc01.fmg": ("Refreshes power from defeated remembrance bosses", "Refreshes bonuses from defeated bosses"),
+    "GoodsCaption_dlc01.fmg": ("An empowered soul granted at the beginning of the journey.", "Use to refresh bonuses from defeated bosses."),
 }
 
 

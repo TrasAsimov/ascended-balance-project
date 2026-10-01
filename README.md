@@ -1,23 +1,23 @@
 # Elden Ring Ascended Balance Project
 
-**Armor weapon-filter follow-up:** The v0.10.7 ZIP still contains a weapon-exclusion flag error. Use the [individual regulation fix and retest notes](docs/armor_weapon_filter_20261002.md) for charged/jump/guard-counter and other weapon rewards. Static checks pass; in-game validation remains pending.
+**Latest complete test build: [v0.10.8 unified integration](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.8-unified-integration).** Includes armor weapon applicability, extra-penalty removal, additive minor-boss heart progression and separate Bayle reward, player-spell status buildup at 50%, and revised charged/casting core bonuses. [Integration checks and test instructions](docs/integration_20261002.md). Static checks passed; game validation is pending. Back up saves before testing.
 
-**Latest complete test build: [v0.10.7 armor text layout](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.7-armor-text-layout).** Includes the v0.10.6 compact binder, reward target flags and initializer fixes. All 741 armor captions use percentages, one effect per line and actual set/tier counts. Parameters and events are identical to v0.10.6. In-game effects and wrapping still require retesting; the old v0.10.5 package had a save-corruption error regression.
+Preserves v0.10.7 armor text layout, compact binder, reward target flags and initializer repairs. Historical game-tested baseline: v0.10.4; v0.10.5 had a save-corruption error regression.
 
 [简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Game-tested baseline](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 
 An independent balance and compatibility project built on the **Ascended: Age of the Endless** mod for *Elden Ring*. The first phase makes more character builds viable while retaining Ascended's stronger enemies and distinctive encounters. Enemy, boss, and loot randomization is a later phase; it has **not** been implemented.
 
-The current integrated test build is **v0.10.7**, available from GitHub Releases. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
+The current integrated test build is **v0.10.8**, available from GitHub Releases. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
 
-## Armor and core balance in v0.10.5
+## Armor and core balance in v0.10.8
 
-The reviewed 2026-10-01 armor revision and core talisman balance are included in the complete package. The system covers **187 families and 741 named pieces**, with rewards for 165 families, restores official single-piece effects, and preserves compatible mod effects. See the [complete armor catalog and audit](docs/armor_core_integration_20261001.md) and [v0.10.5 installation and test notes](docs/v0.10.5.md).
+The reviewed 2026-10-01 armor revision and core talisman balance are included in the complete package. The system covers **187 families and 741 named pieces**, with rewards for 165 families, restores official single-piece effects, and preserves compatible mod effects. See the [complete armor catalog and audit](docs/armor_core_integration_20261001.md) and [current installation and test notes](docs/integration_20261002.md).
 
 | Core effect | Current coefficient |
 |---|---:|
-| Sorcery / incantation attack power | ×2.2 |
-| Charged attack | ×3 |
+| Sorcery / incantation attack power | +220% (×3.2) |
+| Charged attack | +300% (×4) |
 | Jump attack | ×2 |
 | Regular combo final hit | ×3.5 |
 | Guard counter | ×4 |
@@ -43,11 +43,11 @@ These are the **current intended and integrated changes**, not a claim that ever
 
 ## Install and test
 
-1. Use the [v0.10.4 baseline](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) while the v0.10.5 regression is investigated. For the single-file repair candidate, follow the dedicated bug report above. Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
+1. Download the complete v0.10.8 ZIP from the release above and follow [integration test instructions](docs/integration_20261002.md). Back up saves and test offline in a clean directory. Do not use the auto-generated Source code ZIP.
 2. Use **ME3**. Extract the whole mod folder to a location such as `E:\me3\config\profiles\eldenring-mods\<mod-folder>\`, keeping its `ModEngine` directory and `ModEngine\launchmod_eldenring.bat` in place. Use a fresh folder: mixing with an older version can leave obsolete scripts, animations, or message files behind.
 3. Back up saves and disable EAC for offline mod testing. Start Steam, then run `<mod-folder>\ModEngine\launchmod_eldenring.bat` to launch the mod. A new character is needed to test starting items; existing saves do not receive them automatically. The base game and **all DLC packs** are required for the full content.
 
-Download `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`. The Release includes `SHA256SUMS.txt`; package validation is recorded in [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json).
+The complete package is `Ascended_Balance_v0.10.8_Unified_Integration.zip`. The Release includes `SHA256SUMS.txt` and a package audit.
 
 ## Repository map
 
@@ -64,4 +64,4 @@ The original and integrated game resource files are distributed as test build as
 
 Ascended: Age of the Endless and *Elden Ring* belong to their respective creators. This project is an independent balance and compatibility effort, not an official update of Ascended or the game.
 
-Armor follow-up: current source fixes wearer applicability masks and constructor reachability, and replaces armor/talisman lore with compact effects. See the [follow-up audit](docs/armor_activation_text_20261001.md). Runtime bonuses require retesting; the existing v0.10.5 download does not include this follow-up.
+Armor follow-up repairs are included in v0.10.8. Runtime bonuses still require retesting; historical releases are not modified.

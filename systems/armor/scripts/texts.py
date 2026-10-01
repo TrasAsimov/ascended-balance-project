@@ -133,7 +133,7 @@ for name in ['item_dlc01','item_dlc02']:
     for fname,(_,data) in parts.items():
         if fname.startswith('AccessoryCaption'):
             entries=fmg_read(data)
-            coretext={2090:'Critical damage +400%.',2120:'Combo final hit damage +250%.',2130:'Charged heavy attack damage +200%.',2140:'Sorcery/incantation attack power +120%.',2150:'Arrow/bolt damage +100%.',2180:'Jump attack damage +100%.',2200:'Guard counter damage +300%.',4100:'Guard stamina cost -50%.'}
+            coretext={2090:'Critical damage +400%.',2120:'Combo final hit damage +250%.',2130:'Charged heavy attack damage +300%.',2140:'Sorcery/incantation attack power +220%.',2150:'Arrow/bolt damage +100%.',2180:'Jump attack damage +100%.',2200:'Guard counter damage +300%.',4100:'Guard stamina cost -50%.'}
             for rid,line in coretext.items():
                 if rid in entries:
                     entries[rid]=line

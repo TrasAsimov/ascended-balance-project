@@ -1,0 +1,18 @@
+{
+  "package": "Ascended_Balance_v0.10.8_Unified_Integration.zip",
+  "bytes": 170972214,
+  "sha256": "d73a47f780e27b2d9fdfeeaa329503188902113898f8a7f83f6448ca51027bba",
+  "members": 1249,
+  "changed_existing_members": [
+    "Elden_Ascended_Mod_Age of the Endless Mod/ModEngine/mod/event/common.emevd.dcx",
+    "Elden_Ascended_Mod_Age of the Endless Mod/ModEngine/mod/msg/engus/item_dlc01.msgbnd.dcx",
+    "Elden_Ascended_Mod_Age of the Endless Mod/ModEngine/mod/msg/engus/item_dlc02.msgbnd.dcx",
+    "Elden_Ascended_Mod_Age of the Endless Mod/ModEngine/mod/regulation.bin",
+    "Elden_Ascended_Mod_Age of the Endless Mod/regulation.bin",
+    "Elden_Ascended_Mod_Age of the Endless Mod/Armor_Core/description_zh.json"
+  ],
+  "unchanged_existing_members": 1233,
+  "new_members": 10,
+  "crc": "passed",
+  "game_validation": "not run"
+}
