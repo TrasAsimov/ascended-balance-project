@@ -2,42 +2,49 @@
 from pathlib import Path
 import struct, zlib, json
 
-def param_rebuild(raw, changes, added, size):
+def param_patch(raw, changes, added, size):
+    """Patch resident rows in place, then extend the existing row directory.
+
+    Existing data, names, null pointers, padding and opaque tail bytes are
+    retained. Additions use the append strategy in build_v03.insert_rows,
+    also used by the game-tested v0.4+ lineage. No string re-encoding or
+    whole-table row packing occurs. Runtime acceptance still needs testing.
+    """
+    assert len(raw)>=64 and raw[0x2c]==0
     assert raw[0x2d] & 0x84 == 0x84
     count=struct.unpack_from('<H',raw,10)[0]
-    records=[]
-    for i in range(count):
-        rid,pad,off,name=struct.unpack_from('<iIQQ',raw,64+24*i)
-        body=changes.get(rid,raw[off:off+size]); assert len(body)==size
-        namebytes=b''
-        if name:
-            end=name
-            while raw[end:end+2]!=b'\0\0':end+=2
-            namebytes=raw[name:end]
-        records.append((rid,pad,body,namebytes))
-    assert not set(added)&{r[0] for r in records}
-    records += [(rid,0,body,b'') for rid,body in added.items()]
-    records.sort(key=lambda r:r[0])
-    # Canonical ordering: headers, contiguous fixed-size rows, then strings.
-    # Keeping strings before appended rows breaks size inference in editors.
-    out=bytearray(raw[:64])+bytearray(24*len(records))
-    struct.pack_into('<H',out,4,0)
-    struct.pack_into('<Q',out,0x30,len(out))
-    struct.pack_into('<H',out,10,len(records))
-    for i,(rid,pad,body,name) in enumerate(records):
-        pos=len(out);out.extend(body)
-        struct.pack_into('<iIQQ',out,64+24*i,rid,pad,pos,0)
-    stringstart=len(out)
-    typepos=struct.unpack_from('<Q',raw,0x10)[0]
-    typ=raw[typepos:raw.index(b'\0',typepos)+1]
-    out.extend(typ);out.extend(bytes(-len(out)%2))
-    struct.pack_into('<I',out,0,stringstart)
-    struct.pack_into('<Q',out,0x10,stringstart)
-    cache={}
-    for i,(_,_,_,name) in enumerate(records):
-        if name not in cache:
-            cache[name]=len(out);out.extend(name+b'\0\0')
-        struct.pack_into('<Q',out,64+24*i+16,cache[name])
+    assert count+len(added)<65536 and size>0
+    end=64+24*count
+    assert end<=len(raw)
+    records=[struct.unpack_from('<iIQQ',raw,64+24*i) for i in range(count)]
+    ids={r[0] for r in records}
+    assert len(ids)==count and set(changes)<=ids and not set(added)&ids
+    out=bytearray(raw)
+    for rid,pad,off,name in records:
+        assert end<=off and off+size<=len(raw),(rid,off,size)
+        if rid in changes:
+            assert len(changes[rid])==size
+            out[off:off+size]=changes[rid]
+    if not added:
+        return bytes(out)
+    delta=24*len(added)
+    out[end:end]=bytes(delta)
+    # StringsOffset is uint32; the type and data-start pointers are uint64.
+    # Never read the first eight bytes as one pointer (Unk06 lives at 6).
+    for pos,fmt in [(0,'I'),(0x10,'Q'),(0x30,'Q')]:
+        old=struct.unpack_from('<'+fmt,raw,pos)[0]
+        if old:
+            assert old>=end,(pos,old,end)
+            struct.pack_into('<'+fmt,out,pos,old+delta)
+    moved=[(rid,pad,off+delta,name+delta if name else 0)
+           for rid,pad,off,name in records]
+    empty=len(out);out.extend(b'\0\0');out.extend(bytes(-len(out)%8))
+    for rid,body in sorted(added.items()):
+        assert -(2**31)<=rid<2**31 and len(body)==size
+        moved.append((rid,0,len(out),empty));out.extend(body)
+    struct.pack_into('<H',out,10,len(moved))
+    for i,record in enumerate(sorted(moved,key=lambda r:r[0])):
+        struct.pack_into('<iIQQ',out,64+24*i,*record)
     return bytes(out)
 
 def bnd_entries(raw):

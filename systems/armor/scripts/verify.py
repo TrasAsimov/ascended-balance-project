@@ -72,6 +72,23 @@ for eid,target in core.items():
 for armor,extra in approval['piece_additions'].items():
     body=out['EquipParamProtector']['rows'][int(armor)]['data']
     assert extra in [decode(body,fm['EquipParamProtector'][k]) for k in ['residentSpEffectId','residentSpEffectId2','residentSpEffectId3']]
+# Check the actual shared effect fields, not only the resident references.
+piece_fields={
+    6202024:{'changeDiseaseResistPoint':400},
+    6202022:{'darkDamageCutRate':.70},
+    6202018:{'dexterityCancelSystemOnlyAddDexterity':90},
+    6202016:{'equipWeightChangeRate':1.30},
+    6202012:{'physicsAttackPower':100},
+    6202004:{'maxStaminaRate':1.30},
+    6202034:{'addStrengthStatus':30},
+    6202037:{'addFaithStatus':30},
+    6202039:{'motionInterval':.5,'changeHpPoint':-30},
+}
+for eid,expect in piece_fields.items():
+    for field,value in expect.items():
+        assert abs(decode(out['SpEffectParam']['rows'][eid]['data'],fm['SpEffectParam'][field])-value)<1e-6,(eid,field,value)
+lion=out['EquipParamProtector']['rows'][5330000]['data']
+assert 6202037 in [decode(lion,fm['EquipParamProtector'][k]) for k in ['residentSpEffectId','residentSpEffectId2','residentSpEffectId3']]
 for eid in added:
     r=out['SpEffectParam']['rows'][int(eid)]
     for k in link:
@@ -179,5 +196,5 @@ for name in ['item_dlc01','item_dlc02']:
                     seen.add(rid)
     assert seen==named
 assert core_caption_checks>=8,core_caption_checks
-report=dict(core_effect_rows_verified=4,core_caption_checks=core_caption_checks,approved_excel_profiles=26,approved_excel_piece_decisions=12,parameter_tables=194,original_armor_verified=140,official_effect_chain_verified=len(mapping),event_cases=cases,loadout_hp_scenarios=transitions,english_descriptions=741,unchanged_original_events=len(before.events),game_test='not run')
+report=dict(core_effect_rows_verified=4,core_caption_checks=core_caption_checks,approved_excel_profiles=26,approved_excel_piece_decisions=12,explicit_piece_effect_fields_verified=sum(len(v) for v in piece_fields.values()),parameter_tables=194,original_armor_verified=140,official_effect_chain_verified=len(mapping),event_cases=cases,loadout_hp_scenarios=transitions,english_descriptions=741,unchanged_original_events=len(before.events),game_test='not run',game_validation={'startup':'not run','load':'not run','save_and_reload':'not run','armor_and_set_effects':'not run'})
 (ROOT/'data/verification.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

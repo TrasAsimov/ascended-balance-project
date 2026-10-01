@@ -1,6 +1,8 @@
 # Elden Ring Ascended Balance Project
 
-[简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Latest test build](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated)
+**v0.10.5 regression:** The player reports `Save data is corrupted`; keeping its other files and replacing only `regulation.bin` with v0.10.4 works. Use [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) for the game-tested baseline. The [06-BUG-001 repair candidate](docs/bug_06_001_regulation_20261001.md) preserves the approved armor design and has passed static checks; startup, load/save and actual effect validation are still pending. No replacement release has been published.
+
+[简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Game-tested baseline](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 
 An independent balance and compatibility project built on the **Ascended: Age of the Endless** mod for *Elden Ring*. The first phase makes more character builds viable while retaining Ascended's stronger enemies and distinctive encounters. Enemy, boss, and loot randomization is a later phase; it has **not** been implemented.
 
@@ -39,7 +41,7 @@ These are the **current intended and integrated changes**, not a claim that ever
 
 ## Install and test
 
-1. Download the complete package from the [v0.10.5 release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated). Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
+1. Use the [v0.10.4 baseline](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) while the v0.10.5 regression is investigated. For the single-file repair candidate, follow the dedicated bug report above. Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
 2. Use **ME3**. Extract the whole mod folder to a location such as `E:\me3\config\profiles\eldenring-mods\<mod-folder>\`, keeping its `ModEngine` directory and `ModEngine\launchmod_eldenring.bat` in place. Use a fresh folder: mixing with an older version can leave obsolete scripts, animations, or message files behind.
 3. Back up saves and disable EAC for offline mod testing. Start Steam, then run `<mod-folder>\ModEngine\launchmod_eldenring.bat` to launch the mod. A new character is needed to test starting items; existing saves do not receive them automatically. The base game and **all DLC packs** are required for the full content.
 

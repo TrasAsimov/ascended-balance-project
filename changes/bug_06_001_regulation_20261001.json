@@ -1,0 +1,100 @@
+{
+  "issue": "06-BUG-001",
+  "status": "repair candidate; game verification pending",
+  "scope_confirmed": "v0.10.5 regulation.bin",
+  "root_cause": "not proven; whole-table serialization is the hypothesis tested by this candidate",
+  "user_test": "v0.10.5 other files + v0.10.4 regulation.bin starts normally",
+  "manifest": {
+    "base": "v0.10.4 + pending_v0105",
+    "version": "11711000",
+    "sets": 187,
+    "reward_sets": 165,
+    "named_armor": 741,
+    "restored_armor": 140,
+    "changed_armor": 141,
+    "new_effect_rows": 437,
+    "reward_events": 308,
+    "official_chain_rows": 167,
+    "status": "06-BUG-001 repair candidate; requires game testing",
+    "param_writer": "in-place edits plus conservative row-directory extension",
+    "game_validation": {
+      "startup": "not run",
+      "load": "not run",
+      "save_and_reload": "not run",
+      "armor_and_set_effects": "not run"
+    },
+    "regulation_sha256": "2da71947d3a81801aba9324359d4c477c41b5fcf4665bfedab8e01d5fbe5830a",
+    "common_sha256": "01871ab0cd77aa74a72ed11c0c633ef2f539d72088d94a45161c28e5a0217d43"
+  },
+  "verification": {
+    "core_effect_rows_verified": 4,
+    "core_caption_checks": 8,
+    "approved_excel_profiles": 26,
+    "approved_excel_piece_decisions": 12,
+    "explicit_piece_effect_fields_verified": 10,
+    "parameter_tables": 194,
+    "original_armor_verified": 140,
+    "official_effect_chain_verified": 167,
+    "event_cases": 61420,
+    "loadout_hp_scenarios": 15620,
+    "english_descriptions": 741,
+    "unchanged_original_events": 256,
+    "game_test": "not run",
+    "game_validation": {
+      "startup": "not run",
+      "load": "not run",
+      "save_and_reload": "not run",
+      "armor_and_set_effects": "not run"
+    }
+  },
+  "layout_verification": {
+    "table_audit": {
+      "BehaviorParam_PC.param": {
+        "row_size_from_definition": 32,
+        "existing_rows": 13865,
+        "added_rows": 1,
+        "changed_rows": 0,
+        "existing_offsets_shift_only": 24
+      },
+      "Bullet.param": {
+        "row_size_from_definition": 272,
+        "existing_rows": 15475,
+        "added_rows": 1,
+        "changed_rows": 0,
+        "existing_offsets_shift_only": 24
+      },
+      "EquipParamProtector.param": {
+        "row_size_from_definition": 416,
+        "existing_rows": 838,
+        "added_rows": 0,
+        "changed_rows": 141,
+        "existing_offsets_shift_only": 0
+      },
+      "SpEffectParam.param": {
+        "row_size_from_definition": 912,
+        "existing_rows": 11834,
+        "added_rows": 437,
+        "changed_rows": 4,
+        "existing_offsets_shift_only": 10488
+      }
+    },
+    "untouched_table_bodies": 190,
+    "matches_previous_design": true,
+    "approved_workbook_checked": true,
+    "startup": "not run",
+    "load": "not run",
+    "save_and_reload": "not run",
+    "runtime_set_and_piece_effects": "not run"
+  },
+  "old_insertion_strategy_equivalence": {
+    "SpEffectParam": 437,
+    "Bullet": 1,
+    "BehaviorParam_PC": 1
+  },
+  "previous_regulation_sha256": "4ea460901390b85ecbe1040aa2e0676dbec7a27f7bdd61c93acfe6ef063253b1",
+  "new_regulation_bytes": 2758704,
+  "approved_excel_sha256": "6a5db95385af773c902981d56061c691747639f13703daf26b343110fac8bb99",
+  "common_and_english_binary_files": "unchanged from v0.10.5; full byte comparison passed",
+  "package_generated": false,
+  "release_created": false
+}

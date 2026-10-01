@@ -242,7 +242,7 @@ assert Emevd(dcx_unpack((out/'event/common.emevd.dcx').read_bytes())).events==ev
 
 parts=bnd_entries(BASE.read_bytes());updates={}
 for t,changed,new in [('EquipParamProtector',armchanges,{}),('SpEffectParam',changes,added)]+[(t,{},a) for t,a in external_added.items() if a]:
-    raw=param_rebuild(parts[t+'.param'][1],changed,new,tables[t]['row_size'])
+    raw=param_patch(parts[t+'.param'][1],changed,new,tables[t]['row_size'])
     check=read_param(raw,t)
     assert len(check['rows'])==len(tables[t]['rows'])+len(new)
     for rid,rec in tables[t]['rows'].items():assert check['rows'][rid]['data']==changed.get(rid,rec['data']),(t,rid)
@@ -269,6 +269,6 @@ data=ROOT/'data'
 (data/'original_effect_map.json').write_text(json.dumps(chainmap,indent=2))
 (data/'external_effect_dependencies.json').write_text(json.dumps(external_map,indent=2))
 (data/'official_effect_fields.json').write_text(json.dumps({e:{f[0]:decode(added.get(chainmap[e],cur[chainmap[e]]['data'] if chainmap[e] in cur else sp[e]['data']),f) for f in efields.values() if f[1]!='dummy8'} for e in chainmap},indent=2))
-manifest=dict(base='v0.10.4 + pending_v0105',version=VERSION,sets=len(groups),reward_sets=sum(bool(g['rewards']) for g in groups.values()),named_armor=len(armors),restored_armor=len(restored),changed_armor=len(armchanges),new_effect_rows=len(added),reward_events=len(rewards),official_chain_rows=len(chainmap),status='static build; requires game testing',regulation_sha256=hashlib.sha256(encrypted).hexdigest(),common_sha256=hashlib.sha256((out/'event/common.emevd.dcx').read_bytes()).hexdigest())
+manifest=dict(base='v0.10.4 + pending_v0105',version=VERSION,sets=len(groups),reward_sets=sum(bool(g['rewards']) for g in groups.values()),named_armor=len(armors),restored_armor=len(restored),changed_armor=len(armchanges),new_effect_rows=len(added),reward_events=len(rewards),official_chain_rows=len(chainmap),status='06-BUG-001 repair candidate; requires game testing',param_writer='in-place edits plus conservative row-directory extension',game_validation={'startup':'not run','load':'not run','save_and_reload':'not run','armor_and_set_effects':'not run'},regulation_sha256=hashlib.sha256(encrypted).hexdigest(),common_sha256=hashlib.sha256((out/'event/common.emevd.dcx').read_bytes()).hexdigest())
 (data/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 print(json.dumps(manifest,ensure_ascii=False,indent=2))

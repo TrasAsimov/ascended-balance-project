@@ -1,6 +1,8 @@
 # 艾尔登法环 Ascended 平衡优化项目
 
-[English](README.md) · [版本改动记录](CHANGELOG.md) · [最新测试包](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated)
+**v0.10.5 回归故障：** 用户实测出现 `Save data is corrupted`；保持其余文件、只换回 v0.10.4 的 regulation.bin 后正常。正常测试基准请使用 [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)。[06-BUG-001 修复候选](docs/bug_06_001_regulation_20261001.md) 已保留批准的护甲设计并通过静态检查，启动、读档／保存和增益实际生效待实机确认，尚未发布替代版本。
+
+[English](README.md) · [版本改动记录](CHANGELOG.md) · [已实测基准](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 
 这是在 **Ascended: Age of the Endless** MOD 基础上进行的独立平衡与新版兼容项目。第一阶段希望保留 Ascended 的敌人强度与特色战斗，同时让法术、祷告、战技、弓箭和其他武器玩法有更多选择。敌人、Boss 与掉落随机化属于第二阶段，**目前尚未制作**。
 
@@ -39,7 +41,7 @@
 
 ## 安装与测试
 
-1. 从 [v0.10.5 Release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.5-armor-core-integrated) 下载完整安装 ZIP。GitHub 自动生成的“Source code”压缩包不是 MOD 安装包。
+1. 本次回归排查期间，正常运行使用 [v0.10.4 基准](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)。要测试单文件修复候选，按上方 BUG 记录单独操作。GitHub 自动生成的“Source code”压缩包不是 MOD 安装包。
 2. 统一使用 **ME3**。将整个 MOD 文件夹解压到例如 `E:\me3\config\profiles\eldenring-mods\<MOD文件夹>\` 的目录下，保持其中的 `ModEngine` 文件夹及 `ModEngine\launchmod_eldenring.bat` 原有结构。请用新文件夹，不要直接覆盖旧版，以免残留旧脚本、动画或文本文件。
 3. 备份存档，关闭反作弊 EAC 并离线测试。先开启 Steam，再运行 `<MOD文件夹>\ModEngine\launchmod_eldenring.bat` 启动 MOD。新角色初始物品不会自动补发到旧存档；游戏须拥有**全部 DLC 包**才有完整内容。
 
