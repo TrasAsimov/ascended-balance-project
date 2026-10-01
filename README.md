@@ -1,6 +1,6 @@
 # Elden Ring Ascended Balance Project
 
-**v0.10.5 regression:** The player reports `Save data is corrupted`; keeping its other files and replacing only `regulation.bin` with v0.10.4 works. Use [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) for the game-tested baseline. The [06-BUG-001 repair candidate](docs/bug_06_001_regulation_20261001.md) preserves the approved armor design and has passed static checks; startup, load/save and actual effect validation are still pending. No replacement release has been published.
+**v0.10.5 regression:** The player reports `Save data is corrupted`; keeping its other files and replacing only `regulation.bin` with v0.10.4 works. Candidate 1 also failed. Use [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) for the game-tested baseline. [Candidate 2](docs/bug_06_001_regulation_20261001.md) preserves all approved parameter data and removes unreferenced outer-container copies; startup, load/save and actual effect validation are still pending. No replacement release has been published.
 
 [简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Game-tested baseline](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 

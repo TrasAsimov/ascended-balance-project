@@ -248,7 +248,7 @@ for t,changed,new in [('EquipParamProtector',armchanges,{}),('SpEffectParam',cha
     for rid,rec in tables[t]['rows'].items():assert check['rows'][rid]['data']==changed.get(rid,rec['data']),(t,rid)
     for rid,body in new.items():assert check['rows'][rid]['data']==body
     updates[t+'.param']=raw
-raw=bnd_patch(BASE.read_bytes(),updates)
+raw=bnd_repack(BASE.read_bytes(),updates)
 (ROOT/'data/result.bnd').write_bytes(raw)
 source=(OLD/'pending_v0105/ModEngine/mod/regulation.bin').read_bytes()
 dec=Cipher(algorithms.AES(KEY),modes.CBC(source[:16])).decryptor();plain=dec.update(source[16:])+dec.finalize()
@@ -269,6 +269,6 @@ data=ROOT/'data'
 (data/'original_effect_map.json').write_text(json.dumps(chainmap,indent=2))
 (data/'external_effect_dependencies.json').write_text(json.dumps(external_map,indent=2))
 (data/'official_effect_fields.json').write_text(json.dumps({e:{f[0]:decode(added.get(chainmap[e],cur[chainmap[e]]['data'] if chainmap[e] in cur else sp[e]['data']),f) for f in efields.values() if f[1]!='dummy8'} for e in chainmap},indent=2))
-manifest=dict(base='v0.10.4 + pending_v0105',version=VERSION,sets=len(groups),reward_sets=sum(bool(g['rewards']) for g in groups.values()),named_armor=len(armors),restored_armor=len(restored),changed_armor=len(armchanges),new_effect_rows=len(added),reward_events=len(rewards),official_chain_rows=len(chainmap),status='06-BUG-001 repair candidate; requires game testing',param_writer='in-place edits plus conservative row-directory extension',game_validation={'startup':'not run','load':'not run','save_and_reload':'not run','armor_and_set_effects':'not run'},regulation_sha256=hashlib.sha256(encrypted).hexdigest(),common_sha256=hashlib.sha256((out/'event/common.emevd.dcx').read_bytes()).hexdigest())
+manifest=dict(base='v0.10.4 + pending_v0105',version=VERSION,sets=len(groups),reward_sets=sum(bool(g['rewards']) for g in groups.values()),named_armor=len(armors),restored_armor=len(restored),changed_armor=len(armchanges),new_effect_rows=len(added),reward_events=len(rewards),official_chain_rows=len(chainmap),status='06-BUG-001 candidate 2 (compact BND); requires game testing',param_writer='in-place edits plus conservative row-directory extension',binder_writer='original metadata; each live member packed once',uncompressed_binder_bytes=len(raw),game_validation={'startup':'not run','load':'not run','save_and_reload':'not run','armor_and_set_effects':'not run'},regulation_sha256=hashlib.sha256(encrypted).hexdigest(),common_sha256=hashlib.sha256((out/'event/common.emevd.dcx').read_bytes()).hexdigest())
 (data/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 print(json.dumps(manifest,ensure_ascii=False,indent=2))

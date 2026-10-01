@@ -1,6 +1,6 @@
 # 艾尔登法环 Ascended 平衡优化项目
 
-**v0.10.5 回归故障：** 用户实测出现 `Save data is corrupted`；保持其余文件、只换回 v0.10.4 的 regulation.bin 后正常。正常测试基准请使用 [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)。[06-BUG-001 修复候选](docs/bug_06_001_regulation_20261001.md) 已保留批准的护甲设计并通过静态检查，启动、读档／保存和增益实际生效待实机确认，尚未发布替代版本。
+**v0.10.5 回归故障：** 用户实测出现 `Save data is corrupted`；保持其余文件、只换回 v0.10.4 的 regulation.bin 后正常，候选 1 也已失败。正常测试基准请使用 [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)。[候选 2](docs/bug_06_001_regulation_20261001.md) 保留全部参数与护甲设计，只清理外层容器无引用副本；启动、读档／保存和增益实际生效待实机确认，尚未发布替代版本。
 
 [English](README.md) · [版本改动记录](CHANGELOG.md) · [已实测基准](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 

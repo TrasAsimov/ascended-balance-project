@@ -1,9 +1,9 @@
 {
   "issue": "06-BUG-001",
-  "status": "candidate 1 failed in player game; superseded by candidate 2 isolation test",
-  "scope_confirmed": "v0.10.5 regulation.bin",
-  "root_cause": "not proven; whole-table serialization is the hypothesis tested by this candidate",
-  "user_test": "v0.10.5 other files + v0.10.4 regulation.bin starts normally",
+  "status": "candidate 1 failed in game; candidate 2 awaiting game test",
+  "reported_failure_time": "2026-10-01T21:29:55+08:00",
+  "failed_candidate1_sha256": "2da71947d3a81801aba9324359d4c477c41b5fcf4665bfedab8e01d5fbe5830a",
+  "root_cause": "not proven; container-only isolation test removes abandoned outer BND payloads",
   "manifest": {
     "base": "v0.10.4 + pending_v0105",
     "version": "11711000",
@@ -15,31 +15,39 @@
     "new_effect_rows": 437,
     "reward_events": 308,
     "official_chain_rows": 167,
-    "status": "06-BUG-001 repair candidate; requires game testing",
+    "status": "06-BUG-001 candidate 2 (compact BND); requires game testing",
     "param_writer": "in-place edits plus conservative row-directory extension",
+    "binder_writer": "original metadata; each live member packed once",
+    "uncompressed_binder_bytes": 60003408,
     "game_validation": {
-      "startup": "failed (player report)",
+      "startup": "not run",
       "load": "not run",
       "save_and_reload": "not run",
       "armor_and_set_effects": "not run"
     },
-    "regulation_sha256": "2da71947d3a81801aba9324359d4c477c41b5fcf4665bfedab8e01d5fbe5830a",
+    "regulation_sha256": "60a23d61fea75ca68faa749bd8b7a307927ce587ba31f820008e87551f626388",
     "common_sha256": "01871ab0cd77aa74a72ed11c0c633ef2f539d72088d94a45161c28e5a0217d43"
   },
-  "verification": {
-    "core_effect_rows_verified": 4,
-    "core_caption_checks": 8,
-    "approved_excel_profiles": 26,
-    "approved_excel_piece_decisions": 12,
-    "explicit_piece_effect_fields_verified": 10,
-    "parameter_tables": 194,
-    "original_armor_verified": 140,
-    "official_effect_chain_verified": 167,
-    "event_cases": 61420,
-    "loadout_hp_scenarios": 15620,
-    "english_descriptions": 741,
-    "unchanged_original_events": 256,
-    "game_test": "not run",
+  "binder_verification": {
+    "status": "static container audit passed; game test not run",
+    "native_base_bytes": 59594000,
+    "candidate_bytes": 60003408,
+    "candidate_sha256": "20ff81bdd410f276dae0dd3396d988fe56926619b39e187730db57988aa43d87",
+    "member_count": 194,
+    "member_payload_bytes": 59964183,
+    "metadata_bytes": 37728,
+    "alignment_bytes": 1497,
+    "unreferenced_data_bytes": 0,
+    "baseline_noop_byte_identity": true,
+    "idempotent": true,
+    "metadata_changes": "member sizes and offsets only",
+    "legitimate_payload_growth": 409398,
+    "previous_candidate": {
+      "bytes": 76806152,
+      "sha256": "4a5731e70aa5ac2366027c6ded9893edb1f96005ff4cbe1c7c14dd33a52687a4",
+      "identical_table_payloads": 194,
+      "removed_unreferenced_bytes": 16802744
+    },
     "game_validation": {
       "startup": "not run",
       "load": "not run",
@@ -86,16 +94,11 @@
     "save_and_reload": "not run",
     "runtime_set_and_piece_effects": "not run"
   },
-  "old_insertion_strategy_equivalence": {
-    "SpEffectParam": 437,
-    "Bullet": 1,
-    "BehaviorParam_PC": 1
-  },
-  "previous_regulation_sha256": "4ea460901390b85ecbe1040aa2e0676dbec7a27f7bdd61c93acfe6ef063253b1",
-  "new_regulation_bytes": 2758704,
-  "approved_excel_sha256": "6a5db95385af773c902981d56061c691747639f13703daf26b343110fac8bb99",
-  "common_and_english_binary_files": "unchanged from v0.10.5; full byte comparison passed",
+  "event_and_piece_static_results": "reused from candidate 1 after exact comparison of all 194 PARAM payloads, events and English text; no new game tests",
+  "new_file_name": "06_BUG_001_Compact_BND_Candidate2_20261001.bin",
+  "new_file_bytes": 2252560,
+  "library_file_id": "libfile_403b6b093364819190c4717722647bfc",
   "package_generated": false,
   "release_created": false,
-  "user_feedback": "2026-10-01 21:29 Asia/Shanghai: same startup error"
+  "next_if_failure": "isolate pending/core changes with all armor changes absent, then bisect parameter content"
 }

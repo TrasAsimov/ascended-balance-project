@@ -70,6 +70,32 @@ def bnd_patch(raw,updates):
     for n,(_,body) in parts.items():assert check[n][1]==updates.get(n,body)
     return bytes(out)
 
+def bnd_repack(raw,updates):
+    """Keep original BND4 metadata and pack each live member exactly once.
+
+    Unlike bnd_patch, this does not retain abandoned copies of replaced
+    tables. Names/IDs/flags/hash tables are retained in the original prefix;
+    only member sizes and data offsets change. PARAM payloads are opaque.
+    """
+    parts=bnd_entries(raw)
+    assert parts and set(updates)<=set(parts)
+    first=min(struct.unpack_from('<I',raw,h+24)[0] for h,_ in parts.values())
+    assert first>=64+36*len(parts)
+    # For the native ER binder, HeadersEnd is the start of aligned payloads.
+    assert struct.unpack_from('<Q',raw,0x28)[0]==first
+    out=bytearray(raw[:first])
+    for name,(h,original) in parts.items():
+        body=updates.get(name,original)
+        out.extend(bytes(-len(out)%16));offset=len(out)
+        assert offset<2**32
+        struct.pack_into('<QQI',out,h+8,len(body),len(body),offset)
+        out.extend(body)
+    checked=bnd_entries(out)
+    assert checked.keys()==parts.keys()
+    for name,(_,body) in parts.items():
+        assert checked[name][1]==updates.get(name,body),name
+    return bytes(out)
+
 def dcx_pack(raw):
     h=bytearray.fromhex('44435800000110000000001800000024000000440000004c4443530000000000000000004443500044464c540000002009000000000000000000000000000000000101004443410000000008')
     p=zlib.compress(raw,9);assert len(h)==76

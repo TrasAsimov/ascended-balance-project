@@ -2,7 +2,7 @@
 
 用户回传 Excel 的 26 类奖励、12 件单件意见，以及另一 Work 聊天的核心护符定案，已合并到同一个构建流程。具体目标和例外见 `config/approved_edits.json`，分类及全部 187 个家族见 `config/families.json`。
 
-设计曾随 v0.10.5 发布，但用户实测其 regulation.bin 触发存档损坏误报；保留 v0.10.5 其余文件、只换 v0.10.4 regulation.bin 后正常。当前构建输出是 06-BUG-001 修复候选，尚未实机验证，没有新的下载包或 Release。问题范围确认到参数包，整表重排只是待实测的原因假设。记录见仓库 `docs/bug_06_001_regulation_20261001.md`。完整包仍由发布专用聊天处理。
+设计曾随 v0.10.5 发布，但用户实测其 regulation.bin 触发存档损坏误报；保留 v0.10.5 其余文件、只换 v0.10.4 regulation.bin 后正常。保留 PARAM 原布局的候选 1 也已实测失败。当前构建输出是候选 2：表体与候选 1 相同，清理外层 BND 无引用副本，尚未实机验证，没有新的下载包或 Release。问题范围确认到参数包，具体根因未确认。记录见仓库 `docs/bug_06_001_regulation_20261001.md`。完整包仍由发布专用聊天处理。
 
 ## 构建
 
@@ -25,6 +25,7 @@ python systems/armor/scripts/build.py
 python systems/armor/scripts/texts.py
 python systems/armor/scripts/verify.py
 python systems/armor/scripts/verify_layout.py
+python systems/armor/scripts/verify_binder.py
 ```
 
 输出为本目录 `ModEngine/mod/regulation.bin`、`ModEngine/mod/event/common.emevd.dcx` 和两份 `ModEngine/mod/msg/engus/` 文本档案。`data/` 存放中间参数、逐项描述和审查记录，`docs/ARMOR_SYSTEM.md` 为完整目录。这些本地输出不进入 Git。
@@ -44,5 +45,7 @@ python systems/armor/scripts/verify_layout.py
 匹配版本的自有简中档案未提供，故未生成简中游戏档案。可先用仓库 `scripts/build_zhocn_patch.py` 更新核心护符／既有成长说明，再用本目录 `scripts/merge_zhocn.py` 添加护甲说明，两步使用不同输入、输出目录。后者默认读取生成后的 `data/description_zh.json`，支持已解压 BND4 或 DFLT；Kraken 需拥有者的解包工具或匹配 Oodle DLL。不得用英文文本文件冒充简中。
 
 `param_patch()` 对已有行原位修改；新增行扩展目录并追加数据，保留原字符串区、原行相对布局、空指针、padding 和旧版尾部数据。新增行导致已有绝对偏移整体移动，这是必须的目录扩展，不能表述为所有偏移完全不动。`verify_layout.py` 用参数定义给定的行长检查，不使用回读器的众数行长推断；可加 `--previous-bnd <旧v0.10.5解密BND>` 核对全部行内容不变，加 `--excel <用户回传xlsx>` 核对原始意见。
+
+`bnd_repack()` 保留原容器元数据前缀，每个有效成员只保存一次，不把替换前的整表副本留在外层文件。`verify_binder.py` 可加 `--previous-bnd <失败候选BND>`，检查当前候选是只修改外层布局的隔离测试，并验证正常基准重排的逐字节一致性。
 
 参数回读、差分与事件分支模拟通过，只能作为静态验证。启动、读档、保存重载、单件和套装实际触发须各自记为通过后才可称为实机验证通过；没有这些结果时保留 not run。历史验证记录见仓库 `docs/armor_core_integration_20261001.md`。
