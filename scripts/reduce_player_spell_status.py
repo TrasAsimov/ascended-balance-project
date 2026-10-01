@@ -21,7 +21,8 @@ from analyze_regulation import read_param
 from field_diff import decode, defs, fields, TYPES
 from formats import bnd_entries, bnd_repack, param_patch
 
-BASE_ID, END_ID = 7400000, 7500000
+# 7400000/7410000 are reserved by the minor-boss heart module.
+BASE_ID, END_ID = 7500000, 7600000
 STATUS = ['poizonAttackPower','diseaseAttackPower','bloodAttackPower',
           'curseAttackPower','freezeAttackPower','sleepAttackPower','madnessAttackPower']
 CHAINS = ['replaceSpEffectId','cycleOccurrenceSpEffectId','atkOccurrenceSpEffectId']
