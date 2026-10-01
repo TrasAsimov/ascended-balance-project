@@ -22,9 +22,7 @@ def patch(raw,texts):
         ids=fmg_read(parts['ProtectorName'+name[len('ProtectorCaption'):]][1]);entries=fmg_read(body)
         for rid in ids:
             if str(rid) not in texts:continue
-            lore=(entries.get(rid) or '').split(MARK)[0].rstrip()
-            lore='\n'.join(l for l in lore.splitlines() if not re.match(r'^\s*Effect\s*:',l,re.I)).rstrip()
-            entries[rid]=lore+'\n\n'+MARK+'\n'+texts[str(rid)];seen.add(rid)
+            entries[rid]=texts[str(rid)];seen.add(rid)
         updates[name]=fmg_write(entries)
     result=bnd_patch(raw,updates);check=bnd_entries(result)
     assert all(check[n][1]==v[1] for n,v in parts.items() if n not in updates)

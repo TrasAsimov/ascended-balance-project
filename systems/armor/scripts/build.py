@@ -165,6 +165,10 @@ def make_reward(spec):
     # the official attack selectors and conditional state implementation.
     clean={'iconId':-1,'vfxId':-1,'effectEndurance':-1,'motionInterval':0,'spCategory':0,'categoryPriority':0,'saveCategory':-1,'dontDeleteOnDead':0}
     clean.update({k:-1 for k in LINKS})
+    # 1950 is a crown visual effect with recipient masks disabled. Numeric
+    # armor rewards must be applicable to the wearer like vanilla wearables.
+    for key in ['effectTargetSelf','effectTargetFriend','effectTargetPlayer','effectTargetAI','effectTargetLive','effectTargetGhost']:
+        clean[key]=1
     if template==1950:clean['stateInfo']=0
     if template==1950:
         clean.update({'magParamChange':1,'miracleParamChange':1,'wepParamChange':3})
@@ -212,6 +216,7 @@ I=instruction_builder(REF/'er-common.emedf.json')
 ev=Emevd((REF/'common.emevd').read_bytes());original_events=copy.deepcopy(ev.events)
 constructor=next(e for e in ev.events if e['id']==0)
 assert all(e['id']<9000000 or e['id']>=9100000 for e in ev.events)
+initializers=[]
 for n,r in enumerate(rewards):
     g=groups[r['key']];ins=count_conditions(I,g,r['tier'],-5,1)
     ins.append(I(0,0,15,1,-5))
@@ -233,7 +238,10 @@ for n,r in enumerate(rewards):
     ins.append(I(1001,1,6));ins.append(I(1000,4,1))
     eventid=9000000+n;r['event']=eventid
     ev.events.append(dict(id=eventid,rest=1,ins=ins,params=[]))
-    constructor['ins'].append(I(2000,0,0,eventid,0))
+    initializers.append(I(2000,0,0,eventid,0))
+# Local equipment checks must start before the constructor's host/world
+# and 2052 early exits. Preserve every existing instruction and its order.
+constructor['ins']=initializers+constructor['ins']
 eventraw=ev.write()
 out=ROOT/'ModEngine/mod'
 (out/'event').mkdir(parents=True,exist_ok=True)
@@ -269,6 +277,6 @@ data=ROOT/'data'
 (data/'original_effect_map.json').write_text(json.dumps(chainmap,indent=2))
 (data/'external_effect_dependencies.json').write_text(json.dumps(external_map,indent=2))
 (data/'official_effect_fields.json').write_text(json.dumps({e:{f[0]:decode(added.get(chainmap[e],cur[chainmap[e]]['data'] if chainmap[e] in cur else sp[e]['data']),f) for f in efields.values() if f[1]!='dummy8'} for e in chainmap},indent=2))
-manifest=dict(base='v0.10.4 + pending_v0105',version=VERSION,sets=len(groups),reward_sets=sum(bool(g['rewards']) for g in groups.values()),named_armor=len(armors),restored_armor=len(restored),changed_armor=len(armchanges),new_effect_rows=len(added),reward_events=len(rewards),official_chain_rows=len(chainmap),status='06-BUG-001 candidate 2 (compact BND); requires game testing',param_writer='in-place edits plus conservative row-directory extension',binder_writer='original metadata; each live member packed once',uncompressed_binder_bytes=len(raw),game_validation={'startup':'not run','load':'not run','save_and_reload':'not run','armor_and_set_effects':'not run'},regulation_sha256=hashlib.sha256(encrypted).hexdigest(),common_sha256=hashlib.sha256((out/'event/common.emevd.dcx').read_bytes()).hexdigest())
+manifest=dict(base='v0.10.4 + pending_v0105',version=VERSION,sets=len(groups),reward_sets=sum(bool(g['rewards']) for g in groups.values()),named_armor=len(armors),restored_armor=len(restored),changed_armor=len(armchanges),new_effect_rows=len(added),reward_events=len(rewards),official_chain_rows=len(chainmap),status='02 armor activation and compact text follow-up; game effects require retest',param_writer='in-place edits plus conservative row-directory extension',binder_writer='original metadata; each live member packed once',uncompressed_binder_bytes=len(raw),game_validation={'startup':'not run','load':'not run','save_and_reload':'not run','armor_and_set_effects':'not run'},regulation_sha256=hashlib.sha256(encrypted).hexdigest(),common_sha256=hashlib.sha256((out/'event/common.emevd.dcx').read_bytes()).hexdigest())
 (data/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 print(json.dumps(manifest,ensure_ascii=False,indent=2))

@@ -99,7 +99,7 @@ ae={e['id']:e for e in after.events}
 for old in before.events:
     new=ae[old['id']]
     assert new['rest']==old['rest'] and new['params']==old['params']
-    if old['id']==0:assert new['ins'][:len(old['ins'])]==old['ins']
+    if old['id']==0:assert new['ins'][-len(old['ins']):]==old['ins']
     else:assert new==old,('collateral event change',old['id'])
 doc=json.loads((REF/'er-common.emedf.json').read_text());spec={(b['index'],i['index']):i for b in doc['main_classes'] for i in b['instrs']}
 fmts={0:'B',1:'H',2:'I',3:'b',4:'h',5:'i',6:'f',8:'I'}
@@ -163,6 +163,8 @@ sets=json.loads((ROOT/'data/sets.json').read_text())
 for g in sets.values():
     for reward in g['rewards']:
         body=out['SpEffectParam']['rows'][reward['effect']]['data']
+        for key in ['effectTargetSelf','effectTargetPlayer','effectTargetLive']:
+            assert decode(body,fm['SpEffectParam'][key])==1,('reward not applicable to wearer',g['key'],key)
         for key,value in reward['fields'].items():
             assert abs(decode(body,fm['SpEffectParam'][key])-value)<1e-5,(g['key'],key,value)
         if reward['tier']==2 and g['full']>2:
@@ -184,14 +186,17 @@ for name in ['item_dlc01','item_dlc02']:
         if k.startswith('AccessoryCaption'):
             for rid,text in fmg_read(r).items():
                 if rid in {2120,2130,2140,2180} and text:
-                    assert '[Ascended Balance effect]' in text
+                    assert '[Ascended Balance effect]' not in text and 'Effect:' not in text
                     assert {2120:'x3.5',2130:'x3.0',2140:'x2.2',2180:'x2.0'}[rid] in text
-                    assert not any(l.strip().startswith('Effect:') for l in text.splitlines())
+                    assert len(text.splitlines())==1
                     core_caption_checks+=1
         if k.startswith('ProtectorCaption'):
             for rid,text in fmg_read(r).items():
                 if rid in named and text:
-                    assert '[Armor effects and set bonuses]' in text
+                    assert text.startswith('Set: ')
+                    assert text==json.loads((ROOT/'data/description_en.json').read_text())[str(rid)]
+                    assert 'Original piece:' not in text and 'Retained Mod piece:' not in text
+                    assert len(text.splitlines())<=4
                     assert not any(l.strip().startswith('Effect:') for l in text.splitlines())
                     seen.add(rid)
     assert seen==named

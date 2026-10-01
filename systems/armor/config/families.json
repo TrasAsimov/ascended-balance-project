@@ -19,7 +19,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Iron Set"
     },
     "5": {
       "key": "5",
@@ -40,7 +41,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Kaiden Set"
     },
     "6": {
       "key": "6",
@@ -63,7 +65,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Drake Knight Set"
     },
     "8": {
       "key": "8",
@@ -85,7 +88,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Scaled Set"
     },
     "9": {
       "key": "9",
@@ -107,7 +111,8 @@
         ]
       },
       "full": 4,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "Perfumer Set"
     },
     "10": {
       "key": "10",
@@ -129,7 +134,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Traveler Set (Hat)"
     },
     "12": {
       "key": "12",
@@ -152,7 +158,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Alberich's Set"
     },
     "13": {
       "key": "13",
@@ -174,7 +181,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Spellblade's Set"
     },
     "14": {
       "key": "14",
@@ -195,7 +203,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Bull-Goat Set"
     },
     "15": {
       "key": "15",
@@ -217,7 +226,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Ronin's Set"
     },
     "16": {
       "key": "16",
@@ -235,7 +245,8 @@
         ]
       },
       "full": 3,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Guilty Set"
     },
     "17": {
       "key": "17",
@@ -257,7 +268,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Blaidd's Set"
     },
     "18": {
       "key": "18",
@@ -279,7 +291,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Black Knife Set"
     },
     "19": {
       "key": "19",
@@ -300,7 +313,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Exile Set"
     },
     "20": {
       "key": "20",
@@ -323,7 +337,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Banished Knight Set"
     },
     "21": {
       "key": "21",
@@ -345,7 +360,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Briar Set"
     },
     "22": {
       "key": "22",
@@ -364,7 +380,8 @@
         ]
       },
       "full": 3,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "Page Set"
     },
     "23": {
       "key": "23",
@@ -387,7 +404,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Night's Cavalry Set"
     },
     "24": {
       "key": "24",
@@ -409,7 +427,8 @@
         ]
       },
       "full": 4,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "Blue Silver Mail Set"
     },
     "25": {
       "key": "25",
@@ -428,7 +447,8 @@
         ]
       },
       "full": 3,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "Nomadic Merchant Set"
     },
     "26": {
       "key": "26",
@@ -449,7 +469,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Malformed Dragon Set"
     },
     "27": {
       "key": "27",
@@ -471,7 +492,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Tree Sentinel Set"
     },
     "28": {
       "key": "28",
@@ -493,7 +515,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Royal Knight Set"
     },
     "29:诺克斯修士": {
       "key": "29:诺克斯修士",
@@ -516,7 +539,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Nox Monk Set"
     },
     "29:诺克斯剑士": {
       "key": "29:诺克斯剑士",
@@ -533,7 +557,8 @@
         ]
       },
       "full": 2,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Nox Swordstress Set"
     },
     "29:黑夜女巫": {
       "key": "29:黑夜女巫",
@@ -548,7 +573,8 @@
         ]
       },
       "full": 2,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Night Maiden Set"
     },
     "30:灵魂巫者": {
       "key": "30:灵魂巫者",
@@ -566,7 +592,8 @@
         ]
       },
       "full": 3,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Shaman Set"
     },
     "30:祖灵祭司": {
       "key": "30:祖灵祭司",
@@ -584,7 +611,8 @@
         ]
       },
       "full": 3,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "Ancestral Follower Set"
     },
     "31": {
       "key": "31",
@@ -603,7 +631,8 @@
         ]
       },
       "full": 3,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Duelist Set"
     },
     "32": {
       "key": "32",
@@ -621,7 +650,8 @@
         ]
       },
       "full": 3,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Sanguine Noble Set"
     },
     "33": {
       "key": "33",
@@ -643,7 +673,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Guardian Set"
     },
     "34": {
       "key": "34",
@@ -666,7 +697,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Cleanrot Set"
     },
     "35:火焰修士": {
       "key": "35:火焰修士",
@@ -687,7 +719,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Fire Monk Set"
     },
     "35:黑焰修士": {
       "key": "35:黑焰修士",
@@ -708,7 +741,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Blackflame Monk Set"
     },
     "36": {
       "key": "36",
@@ -730,7 +764,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Fire Prelate Set"
     },
     "37": {
       "key": "37",
@@ -749,7 +784,8 @@
         ]
       },
       "full": 3,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Aristocrat Set (Headband)"
     },
     "38": {
       "key": "38",
@@ -764,7 +800,8 @@
         ]
       },
       "full": 2,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Aristocrat Set (Hat)"
     },
     "39": {
       "key": "39",
@@ -782,7 +819,8 @@
         ]
       },
       "full": 3,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Old Aristocrat Set"
     },
     "42": {
       "key": "42",
@@ -803,7 +841,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Vulgar Militia Set"
     },
     "43": {
       "key": "43",
@@ -821,7 +860,8 @@
         ]
       },
       "full": 3,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Sage Set"
     },
     "44": {
       "key": "44",
@@ -833,7 +873,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Pumpkin Helm"
     },
     "46": {
       "key": "46",
@@ -855,7 +896,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Elden Lord Set"
     },
     "47": {
       "key": "47",
@@ -877,7 +919,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Radahn Set"
     },
     "48": {
       "key": "48",
@@ -890,7 +933,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Lord of Blood's Robe"
     },
     "51": {
       "key": "51",
@@ -911,7 +955,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Full Moon Queen Set"
     },
     "52": {
       "key": "52",
@@ -932,7 +977,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Godskin Apostle Set"
     },
     "53": {
       "key": "53",
@@ -953,7 +999,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Godskin Noble Set"
     },
     "54": {
       "key": "54",
@@ -975,7 +1022,8 @@
         ]
       },
       "full": 4,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "Depraved Perfumer Set"
     },
     "57": {
       "key": "57",
@@ -1000,7 +1048,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Crucible Knight Set (Axe/Tree)"
     },
     "58:亚兹勒": {
       "key": "58:亚兹勒",
@@ -1018,7 +1067,8 @@
         ]
       },
       "full": 3,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Azur's Glintstone Set"
     },
     "58:卢瑟特": {
       "key": "58:卢瑟特",
@@ -1039,7 +1089,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Lusat's Set"
     },
     "59": {
       "key": "59",
@@ -1061,7 +1112,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "All-Knowing Set"
     },
     "60": {
       "key": "60",
@@ -1083,7 +1135,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Twinned Set"
     },
     "61": {
       "key": "61",
@@ -1106,7 +1159,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Ragged Set"
     },
     "62": {
       "key": "62",
@@ -1126,7 +1180,8 @@
         ]
       },
       "full": 3,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Prophet Set"
     },
     "63": {
       "key": "63",
@@ -1148,7 +1203,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Astrologer Set"
     },
     "64": {
       "key": "64",
@@ -1170,7 +1226,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Lionel's Set"
     },
     "65": {
       "key": "65",
@@ -1193,7 +1250,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Hoslow's Set"
     },
     "66": {
       "key": "66",
@@ -1215,7 +1273,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Vagabond Knight Set"
     },
     "67": {
       "key": "67",
@@ -1236,7 +1295,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Blue Cloth Set"
     },
     "68": {
       "key": "68",
@@ -1258,7 +1318,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "War Surgeon Set"
     },
     "69": {
       "key": "69",
@@ -1279,7 +1340,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Royal Remains Set"
     },
     "70": {
       "key": "70",
@@ -1302,7 +1364,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Brave Set (Mod)"
     },
     "72": {
       "key": "72",
@@ -1324,7 +1387,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Beast Champion Set"
     },
     "73": {
       "key": "73",
@@ -1345,7 +1409,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Champion Set"
     },
     "74": {
       "key": "74",
@@ -1367,7 +1432,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Noble Set"
     },
     "76": {
       "key": "76",
@@ -1389,7 +1455,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Maliketh's Set"
     },
     "77": {
       "key": "77",
@@ -1411,7 +1478,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Malenia's Set"
     },
     "78": {
       "key": "78",
@@ -1433,7 +1501,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Veteran's Set"
     },
     "79": {
       "key": "79",
@@ -1455,7 +1524,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Bloodhound Knight Set"
     },
     "80": {
       "key": "80",
@@ -1474,7 +1544,8 @@
         ]
       },
       "full": 2,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Festive Set"
     },
     "81": {
       "key": "81",
@@ -1496,7 +1567,8 @@
         ]
       },
       "full": 3,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Commoner's Set"
     },
     "82": {
       "key": "82",
@@ -1508,7 +1580,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Envoy Crown"
     },
     "83": {
       "key": "83",
@@ -1533,7 +1606,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Raya Lucarian Sorcerer Set"
     },
     "84": {
       "key": "84",
@@ -1548,7 +1622,8 @@
         ]
       },
       "full": 2,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "Marionette Soldier Set"
     },
     "85": {
       "key": "85",
@@ -1560,7 +1635,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Marionette Soldier Birdhelm"
     },
     "86": {
       "key": "86",
@@ -1582,7 +1658,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Raging Wolf Set"
     },
     "87:白芦苇": {
       "key": "87:白芦苇",
@@ -1603,7 +1680,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "White Reed Set"
     },
     "87:芦苇之国": {
       "key": "87:芦苇之国",
@@ -1625,7 +1703,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Land of Reeds Set"
     },
     "88": {
       "key": "88",
@@ -1648,7 +1727,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Confessor Set"
     },
     "89": {
       "key": "89",
@@ -1667,7 +1747,8 @@
         ]
       },
       "full": 3,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Prisoner Set"
     },
     "90:指头巫女": {
       "key": "90:指头巫女",
@@ -1686,7 +1767,8 @@
         ]
       },
       "full": 3,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Finger Maiden Set"
     },
     "90:旅行巫女": {
       "key": "90:旅行巫女",
@@ -1708,7 +1790,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Traveling Maiden Set"
     },
     "91": {
       "key": "91",
@@ -1731,7 +1814,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Preceptor's Set"
     },
     "92": {
       "key": "92",
@@ -1743,7 +1827,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Grass Hair Ornament"
     },
     "93": {
       "key": "93",
@@ -1765,7 +1850,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Raptor Set"
     },
     "94": {
       "key": "94",
@@ -1787,7 +1873,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Eccentric's Set"
     },
     "95": {
       "key": "95",
@@ -1809,7 +1896,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Fingerprint Set"
     },
     "97": {
       "key": "97",
@@ -1830,7 +1918,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Omen Set"
     },
     "98": {
       "key": "98",
@@ -1852,7 +1941,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Carian Knight Set"
     },
     "99": {
       "key": "99",
@@ -1874,7 +1964,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Errant Sorcerer Set"
     },
     "100": {
       "key": "100",
@@ -1895,7 +1986,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Battlemage Set"
     },
     "101": {
       "key": "101",
@@ -1914,7 +2006,8 @@
         ]
       },
       "full": 3,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Snow Witch Set"
     },
     "102": {
       "key": "102",
@@ -1932,7 +2025,8 @@
         ]
       },
       "full": 3,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Traveler Set (Dress)"
     },
     "103": {
       "key": "103",
@@ -1947,7 +2041,8 @@
         ]
       },
       "full": 2,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Juvenile Scholar Set"
     },
     "104": {
       "key": "104",
@@ -1968,7 +2063,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Goldmask's Set"
     },
     "105": {
       "key": "105",
@@ -1980,7 +2076,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Fell Omen Cloak"
     },
     "106": {
       "key": "106",
@@ -1995,7 +2092,8 @@
         ]
       },
       "full": 2,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Albinauric Set"
     },
     "107": {
       "key": "107",
@@ -2016,7 +2114,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Zamor Set"
     },
     "108": {
       "key": "108",
@@ -2033,7 +2132,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Imp Heads (Single Pieces)"
     },
     "109": {
       "key": "109",
@@ -2045,7 +2145,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Silver Tear Mask"
     },
     "110:巨盔与罩袍": {
       "key": "110:巨盔与罩袍",
@@ -2061,7 +2162,8 @@
         ]
       },
       "full": 2,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Greathelm and Surcoat Set"
     },
     "110:锁子甲": {
       "key": "110:锁子甲",
@@ -2082,7 +2184,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Chain Set"
     },
     "111": {
       "key": "111",
@@ -2094,7 +2197,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Octopus Head"
     },
     "112": {
       "key": "112",
@@ -2106,7 +2210,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Jar"
     },
     "113": {
       "key": "113",
@@ -2127,7 +2232,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Mushroom Set"
     },
     "130": {
       "key": "130",
@@ -2140,7 +2246,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Nox Mirrorhelm"
     },
     "140": {
       "key": "140",
@@ -2162,7 +2269,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Leather Set"
     },
     "150": {
       "key": "150",
@@ -2183,7 +2291,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Knight Set"
     },
     "160": {
       "key": "160",
@@ -2195,7 +2304,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Greathood"
     },
     "170": {
       "key": "170",
@@ -2216,7 +2326,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Godrick Soldier Set"
     },
     "171": {
       "key": "171",
@@ -2237,7 +2348,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Raya Lucarian Soldier Set"
     },
     "172": {
       "key": "172",
@@ -2258,7 +2370,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Leyndell Soldier Set"
     },
     "173": {
       "key": "173",
@@ -2279,7 +2392,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Radahn Soldier Set"
     },
     "174": {
       "key": "174",
@@ -2297,7 +2411,8 @@
         ]
       },
       "full": 3,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Mausoleum Soldier Set"
     },
     "175": {
       "key": "175",
@@ -2318,7 +2433,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Haligtree Soldier Set"
     },
     "176": {
       "key": "176",
@@ -2340,7 +2456,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Gelmir Knight Set"
     },
     "177": {
       "key": "177",
@@ -2362,7 +2479,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Godrick Knight Set"
     },
     "178": {
       "key": "178",
@@ -2384,7 +2502,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Cuckoo Knight Set"
     },
     "179": {
       "key": "179",
@@ -2406,7 +2525,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Leyndell Knight Set"
     },
     "180": {
       "key": "180",
@@ -2428,7 +2548,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Redmane Knight Set"
     },
     "181": {
       "key": "181",
@@ -2447,7 +2568,8 @@
         ]
       },
       "full": 3,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Mausoleum Knight Set"
     },
     "182": {
       "key": "182",
@@ -2469,7 +2591,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Haligtree Knight Set"
     },
     "183": {
       "key": "183",
@@ -2490,7 +2613,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Godrick Foot Soldier Set"
     },
     "184": {
       "key": "184",
@@ -2505,7 +2629,8 @@
         ]
       },
       "full": 2,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Raya Lucarian Foot Soldier Set"
     },
     "185": {
       "key": "185",
@@ -2520,7 +2645,8 @@
         ]
       },
       "full": 2,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Leyndell Foot Soldier Set"
     },
     "186": {
       "key": "186",
@@ -2535,7 +2661,8 @@
         ]
       },
       "full": 2,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Radahn Foot Soldier Set"
     },
     "187": {
       "key": "187",
@@ -2547,7 +2674,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Bloodsoaked Tabard"
     },
     "188": {
       "key": "188",
@@ -2562,7 +2690,8 @@
         ]
       },
       "full": 2,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Haligtree Foot Soldier Set"
     },
     "189": {
       "key": "189",
@@ -2583,7 +2712,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Omenkiller Set"
     },
     "190": {
       "key": "190",
@@ -2597,7 +2727,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Ash-of-War Scarab"
     },
     "191": {
       "key": "191",
@@ -2609,7 +2740,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Crimson Tear Scarab"
     },
     "192": {
       "key": "192",
@@ -2621,7 +2753,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Cerulean Tear Scarab"
     },
     "193": {
       "key": "193",
@@ -2636,7 +2769,8 @@
         ]
       },
       "full": 2,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Deathbed Dress Set"
     },
     "194": {
       "key": "194",
@@ -2652,7 +2786,8 @@
         ]
       },
       "full": 2,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Fia's Set"
     },
     "195": {
       "key": "195",
@@ -2670,7 +2805,8 @@
         ]
       },
       "full": 3,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Millicent's Set (Robe, Mod)"
     },
     "197": {
       "key": "197",
@@ -2685,7 +2821,8 @@
         ]
       },
       "full": 2,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Millicent's Set (Tunic, Mod)"
     },
     "198": {
       "key": "198",
@@ -2703,7 +2840,8 @@
         ]
       },
       "full": 3,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Highwayman Set"
     },
     "199": {
       "key": "199",
@@ -2719,7 +2857,8 @@
         ]
       },
       "full": 2,
-      "category": "远程与道具"
+      "category": "远程与道具",
+      "english_name": "High Page Set"
     },
     "200": {
       "key": "200",
@@ -2738,7 +2877,8 @@
         ]
       },
       "full": 3,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Rotten Duelist Set"
     },
     "201": {
       "key": "201",
@@ -2750,7 +2890,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Mushroom Crown"
     },
     "202": {
       "key": "202",
@@ -2762,7 +2903,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Black Dumpling"
     },
     "203": {
       "key": "203",
@@ -2774,7 +2916,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Lazuli Robe"
     },
     "300": {
       "key": "300",
@@ -2796,7 +2939,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Dane's Set"
     },
     "301": {
       "key": "301",
@@ -2817,7 +2961,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Gaius's Set"
     },
     "500": {
       "key": "500",
@@ -2839,7 +2984,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Oathseeker Knight Set"
     },
     "501": {
       "key": "501",
@@ -2860,7 +3006,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Verdigris Set"
     },
     "502": {
       "key": "502",
@@ -2882,7 +3029,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Iron Rivet Set (Ralva)"
     },
     "503": {
       "key": "503",
@@ -2904,7 +3052,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Thiollier's Set"
     },
     "506": {
       "key": "506",
@@ -2926,7 +3075,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "High Priest Set"
     },
     "507": {
       "key": "507",
@@ -2947,7 +3097,8 @@
         ]
       },
       "full": 4,
-      "category": "异常状态"
+      "category": "异常状态",
+      "english_name": "Braided Cord Set"
     },
     "508": {
       "key": "508",
@@ -2969,7 +3120,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Dancer's Set"
     },
     "509": {
       "key": "509",
@@ -2990,7 +3142,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Night Set"
     },
     "510": {
       "key": "510",
@@ -3013,7 +3166,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Igon's Set"
     },
     "511": {
       "key": "511",
@@ -3035,7 +3189,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Ansbach's Set"
     },
     "512": {
       "key": "512",
@@ -3057,7 +3212,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Freyja's Set"
     },
     "513": {
       "key": "513",
@@ -3079,7 +3235,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Solitude Set"
     },
     "514": {
       "key": "514",
@@ -3101,7 +3258,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Messmer Soldier Set"
     },
     "515": {
       "key": "515",
@@ -3122,7 +3280,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Black Knight Set"
     },
     "516": {
       "key": "516",
@@ -3143,7 +3302,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Rakshasa Set"
     },
     "518": {
       "key": "518",
@@ -3168,7 +3328,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Fire Knight Set"
     },
     "519": {
       "key": "519",
@@ -3191,7 +3352,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Gloried Attire Set"
     },
     "520": {
       "key": "520",
@@ -3212,7 +3374,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Death Knight Set"
     },
     "521": {
       "key": "521",
@@ -3233,7 +3396,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Ascetic Set (Curseblade)"
     },
     "522": {
       "key": "522",
@@ -3255,7 +3419,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Messmer's Set"
     },
     "523": {
       "key": "523",
@@ -3277,7 +3442,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Gravebird Set"
     },
     "524": {
       "key": "524",
@@ -3298,7 +3464,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Common Soldier Set"
     },
     "525:神兽战士": {
       "key": "525:神兽战士",
@@ -3313,7 +3480,8 @@
         ]
       },
       "full": 2,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Divine Beast Warrior Set"
     },
     "525:神鸟战士": {
       "key": "525:神鸟战士",
@@ -3334,7 +3502,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Divine Bird Warrior Set"
     },
     "525:角战士": {
       "key": "525:角战士",
@@ -3355,7 +3524,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Horned Warrior Set"
     },
     "526": {
       "key": "526",
@@ -3376,7 +3546,8 @@
         ]
       },
       "full": 4,
-      "category": "近战与战技"
+      "category": "近战与战技",
+      "english_name": "Rellana's Set"
     },
     "527": {
       "key": "527",
@@ -3399,7 +3570,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Young Lion's Set"
     },
     "528": {
       "key": "528",
@@ -3420,7 +3592,8 @@
         ]
       },
       "full": 4,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Shadow Militiaman Set"
     },
     "529": {
       "key": "529",
@@ -3432,7 +3605,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Divine Beast Head"
     },
     "530": {
       "key": "530",
@@ -3444,7 +3618,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "St. Trina's Blossom"
     },
     "531": {
       "key": "531",
@@ -3456,7 +3631,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Crucible Hammer-Helm"
     },
     "532": {
       "key": "532",
@@ -3468,7 +3644,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Greatjar"
     },
     "533": {
       "key": "533",
@@ -3480,7 +3657,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Imp Head (Lion)"
     },
     "534": {
       "key": "534",
@@ -3501,7 +3679,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Broken Gold Mask Set (Mod)"
     },
     "535": {
       "key": "535",
@@ -3523,7 +3702,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Silver Grooved Set (Mod)"
     },
     "536": {
       "key": "536",
@@ -3545,7 +3725,8 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告"
+      "category": "法术与祷告",
+      "english_name": "Leontiel's Set (Mod)"
     },
     "537": {
       "key": "537",
@@ -3566,7 +3747,8 @@
         ]
       },
       "full": 4,
-      "category": "防御与生存"
+      "category": "防御与生存",
+      "english_name": "Steel Set (Mod)"
     },
     "96:consort": {
       "key": "96:consort",
@@ -3584,7 +3766,8 @@
         ]
       },
       "full": 3,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Consort Set"
     },
     "96:ruler": {
       "key": "96:ruler",
@@ -3599,7 +3782,8 @@
         ]
       },
       "full": 2,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Ruler Set"
     },
     "96:upper": {
       "key": "96:upper",
@@ -3611,7 +3795,8 @@
         ]
       },
       "full": 1,
-      "category": "单件与特殊"
+      "category": "单件与特殊",
+      "english_name": "Upper-Class"
     },
     "96:marais": {
       "key": "96:marais",
@@ -3626,7 +3811,8 @@
         ]
       },
       "full": 2,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Marais Set"
     },
     "96:blood": {
       "key": "96:blood",
@@ -3644,7 +3830,8 @@
         ]
       },
       "full": 3,
-      "category": "潜行与轻装"
+      "category": "潜行与轻装",
+      "english_name": "Bloodsoaked Set"
     }
   },
   "armors": {

@@ -8,6 +8,7 @@ from analyze_regulation import read_bnd
 from field_diff import defs,fields,decode
 from build_zhocn_patch import fmg_read,fmg_write,unpack
 from formats import bnd_entries,bnd_patch,dcx_pack,dcx_unpack
+from short_text import compact
 
 _,result=read_bnd(ROOT/'data/result.bnd')
 _,original=read_bnd(OLD/'work/vanilla.bnd')
@@ -80,33 +81,28 @@ texts={}
 for s,r in armors.items():
     rid=int(s);body=result['EquipParamProtector']['rows'][rid]['data']
     resident=[decode(body,la[k]) for k in ['residentSpEffectId','residentSpEffectId2','residentSpEffectId3']]
-    ownofficial=rr.get(s,{}).get('official_ids',[])
-    z=[];e=[]
-    for eid in ownofficial:
-        a,b=describe_original(eid);z.append('原版单件：'+a+'。');e.append('Original piece: '+b+'.')
+    g=groups[r['key']];z=['套装：'+g['name']];e=['Set: '+g['english_name']]
+    singles_z=[];singles_e=[]
+    for eid in rr.get(s,{}).get('official_ids',[]):
+        zh,en=describe_original(eid)
+        zh,en=compact(zh,'zh'),compact(en,'en')
+        if zh:singles_z.append(zh)
+        if en:singles_e.append(en)
     for eid in resident:
         if eid<=0 or eid in reverse:continue
         assert eid in MOD,('missing resident description',rid,eid)
-        a,b=MOD[eid];z.append('保留 Mod 单件：'+a+'。');e.append('Retained Mod piece: '+b+'.')
-    g=groups[r['key']]
-    if g['rewards']:
-        for n in sorted({x['tier'] for x in g['rewards']}):
-            rewards=[x for x in g['rewards'] if x['tier']==n]
-            if not rewards:continue
-            z.append(('新增单件：' if n==1 else f'同套 {n} 件：')+'；'.join(x['zh'] for x in rewards)+'。')
-            e.append(('Added single-piece effect: ' if n==1 else f'{n} matching pieces: ')+'; '.join(x['en'] for x in rewards)+'.')
-        replacing=any(x['exclusive'] for x in g['rewards']) or g['profile']=='regen'
-        if replacing:
-            z.append('满套替换低档同类奖励，数值不相加。');e.append('Full-set value replaces the lower-tier bonus of the same type; values do not add.')
-        elif g['full']>2:
-            z.append('满套同时保留 2 件奖励；符合不同伤害奖励时，各倍率相乘。');e.append('Full set retains its 2-piece bonus; separate applicable damage multipliers multiply.')
-        # Exact IDs avoid mislabeled mixed families from the preliminary draft.
-        z.append('套装：'+g['name']+'；同套原版与改造版按实际穿戴部位计件，每部位最多 1 件。')
-        e.append('Set: '+g['name']+'; normal and altered variants count by equipped slot, once per slot.')
-        z.append('不满足件数时在最多 6 个游戏帧内取消套装效果；单件效果仍按原版规则生效。')
-        e.append('Set effects are removed within 6 game frames after dropping below the threshold; original piece rules remain active.')
-    else:
-        z.append('此护甲不参与多件套装奖励。');e.append('This armor has no multi-piece set bonus.')
+        zh,en=MOD[eid];singles_z.append(compact(zh,'zh'));singles_e.append(compact(en,'en'))
+    if singles_z:z.append('单件：'+'；'.join(singles_z))
+    if singles_e:e.append('Piece: '+'; '.join(singles_e))
+    for tier in sorted({x['tier'] for x in g['rewards']}):
+        rewards=[x for x in g['rewards'] if x['tier']==tier]
+        zlabel='单件' if tier==1 else ('满套' if tier>2 else '2件')
+        elabel='Piece' if tier==1 else ('Full set' if tier>2 else '2 pieces')
+        zh='；'.join(compact(x['zh'],'zh',independent='伤害' in x['zh'] and '承伤' not in x['zh'] and '受到' not in x['zh']) for x in rewards)
+        en='; '.join(compact(x['en'],'en',independent='damage' in x['en'].lower() and 'received' not in x['en'].lower()) for x in rewards)
+        if tier>2 and any(x['exclusive'] for x in g['rewards']):
+            zh+='（替换2件）';en+=' (replaces 2 pieces)'
+        z.append(zlabel+'：'+zh);e.append(elabel+': '+en)
     texts[s]={'zh':'\n'.join(z),'en':'\n'.join(e),'set':g['name'],'name':r['name']}
 (ROOT/'data/description_zh.json').write_text(json.dumps({k:v['zh'] for k,v in texts.items()},ensure_ascii=False,indent=2))
 (ROOT/'data/description_en.json').write_text(json.dumps({k:v['en'] for k,v in texts.items()},ensure_ascii=False,indent=2))
@@ -118,12 +114,10 @@ for name in ['item_dlc01','item_dlc02']:
     for fname,(_,data) in parts.items():
         if fname.startswith('AccessoryCaption'):
             entries=fmg_read(data)
-            coretext={2120:'Final attack of regular combos deals 250% more damage (x3.5); earlier attacks are unchanged.',2130:'Charged attacks deal 200% more damage (x3.0).',2140:'Sorcery and incantation attack power +120% (x2.2); final damage depends on target defense.',2180:'Jump attacks deal 100% more damage (x2.0).'}
+            coretext={2090:'Critical damage +400% (x5.00).',2120:'Combo final hit damage +250% (x3.50).',2130:'Charged heavy attack damage +200% (x3.00).',2140:'Sorcery/incantation attack power +120% (x2.20).',2150:'Arrow/bolt damage +100% (x2.00).',2180:'Jump attack damage +100% (x2.00).',2200:'Guard counter damage +300% (x4.00).',4100:'Guard stamina cost -50% (x0.50).'}
             for rid,line in coretext.items():
                 if rid in entries:
-                    lore=(entries[rid] or '').split('[Ascended Balance effect]')[0]
-                    lore='\n'.join(l for l in lore.splitlines() if not re.match(r'^\s*Effect\s*:',l,flags=re.I)).rstrip()
-                    entries[rid]=lore+'\n\n[Ascended Balance effect]\n'+line
+                    entries[rid]=line
             updates[fname]=fmg_write(entries)
             continue
         if not fname.startswith('ProtectorCaption'):continue
@@ -133,9 +127,7 @@ for name in ['item_dlc01','item_dlc02']:
         for s,v in texts.items():
             rid=int(s)
             if rid not in nentries:continue
-            lore=entries.get(rid) or ''
-            lore='\n'.join(l for l in lore.splitlines() if not re.match(r'^\s*Effect\s*:',l,flags=re.I)).rstrip()
-            entries[rid]=lore+'\n\n[Armor effects and set bonuses]\n'+v['en'];covered.add(rid)
+            entries[rid]=v['en'];covered.add(rid)
         updates[fname]=fmg_write(entries)
     assert len(covered)==len(texts),(name,len(covered),len(texts))
     raw=bnd_patch(raw,updates);packed=dcx_pack(raw)

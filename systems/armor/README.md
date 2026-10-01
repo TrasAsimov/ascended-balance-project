@@ -24,6 +24,8 @@
 python systems/armor/scripts/build.py
 python systems/armor/scripts/texts.py
 python systems/armor/scripts/verify.py
+python systems/armor/scripts/verify_activation.py
+python systems/armor/scripts/verify_short_text.py
 python systems/armor/scripts/verify_layout.py
 python systems/armor/scripts/verify_binder.py
 ```
@@ -42,10 +44,14 @@ python systems/armor/scripts/verify_binder.py
 
 ## 简中说明
 
-匹配版本的自有简中档案未提供，故未生成简中游戏档案。可先用仓库 `scripts/build_zhocn_patch.py` 更新核心护符／既有成长说明，再用本目录 `scripts/merge_zhocn.py` 添加护甲说明，两步使用不同输入、输出目录。后者默认读取生成后的 `data/description_zh.json`，支持已解压 BND4 或 DFLT；Kraken 需拥有者的解包工具或匹配 Oodle DLL。不得用英文文本文件冒充简中。
+匹配版本的自有简中档案未提供，故未生成简中游戏档案。可先用仓库 `scripts/build_zhocn_patch.py` 更新核心护符／既有成长说明，再用本目录 `scripts/merge_zhocn.py` 替换护甲正文，两步使用不同输入、输出目录。后者默认读取生成后的 `data/description_zh.json`，支持已解压 BND4 或 DFLT；Kraken 需拥有者的解包工具或匹配 Oodle DLL。不得用英文文本文件冒充简中。
 
 `param_patch()` 对已有行原位修改；新增行扩展目录并追加数据，保留原字符串区、原行相对布局、空指针、padding 和旧版尾部数据。新增行导致已有绝对偏移整体移动，这是必须的目录扩展，不能表述为所有偏移完全不动。`verify_layout.py` 用参数定义给定的行长检查，不使用回读器的众数行长推断；可加 `--previous-bnd <旧v0.10.5解密BND>` 核对全部行内容不变，加 `--excel <用户回传xlsx>` 核对原始意见。
 
 `bnd_repack()` 保留原容器元数据前缀，每个有效成员只保存一次，不把替换前的整表副本留在外层文件。`verify_binder.py` 可加 `--previous-bnd <失败候选BND>`，检查当前候选是只修改外层布局的隔离测试，并验证正常基准重排的逐字节一致性。
 
 参数回读、差分与事件分支模拟通过，只能作为静态验证。启动、读档、保存重载、单件和套装实际触发须各自记为通过后才可称为实机验证通过；没有这些结果时保留 not run。历史验证记录见仓库 `docs/armor_core_integration_20261001.md`。
+
+## 套装生效与短描述跟进
+
+2026-10-01 新修复佩戴者目标位和 constructor 初始化位置，741 件护甲正文改为最多四行、八个改动护符改为一行；背景和来源标签删除。参数及事件需一起更新，详见[跟进记录](../../docs/armor_activation_text_20261001.md)。当前只有静态验证，等待实际增益复测；未生成新下载包。

@@ -6,6 +6,12 @@
 
 “已集成”表示相应文件进入安装包；“静态核验”表示参数、事件结构或压缩包检查通过；只有标明玩家实测的项目才表示已在游戏里确认。当前 MOD 基于 Ascended 1.16 资源，参数容器迁移到官方 1.17.1 格式；跨版本原版差异不能全部归因于本项目。
 
+## Unreleased — 2026-10-01 armor activation and compact captions
+
+- Enable wearer applicability masks on 234 reward rows and initialize all 308 armor events before native constructor early exits. Preserve approved bonus values and compact BND/PARAM layouts.
+- Replace all 741 armor captions with set names, effective piece bonuses and tier effects; replace eight modified talisman captions with one-line effects. Remove lore and provenance labels, show percentage multipliers and full-tier replacement.
+- Add applicability, constructor reachability and compact-caption regression checks. Static checks pass; actual game effects and screen layout need retesting. No new package or Release.
+
 ## 06-BUG-001 · regulation 修复候选（2026-10-01，未发布）
 
 21:29 用户反馈候选 1 仍报错，不能把保留 PARAM 布局当成已解决。候选 2 保持全部 194 张表体完全相同，改为外层 BND 每个有效成员只存一次，移除 16,802,744 字节无引用旧表副本：解压后容器从 76,806,152 降为 60,003,408 字节，接近正常基准。外层元数据、对齐、无引用数据、基准重排逐字节一致、Excel 及加密回读检查通过。外层冗余是否为报错原因待实机测试，没有证明具体大小上限。只生成单文件候选 2，未打包或发布。

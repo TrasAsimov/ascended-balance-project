@@ -61,3 +61,5 @@ The original and integrated game resource files are distributed as test build as
 ## Credit
 
 Ascended: Age of the Endless and *Elden Ring* belong to their respective creators. This project is an independent balance and compatibility effort, not an official update of Ascended or the game.
+
+Armor follow-up: current source fixes wearer applicability masks and constructor reachability, and replaces armor/talisman lore with compact effects. See the [follow-up audit](docs/armor_activation_text_20261001.md). Runtime bonuses require retesting; the existing v0.10.5 download does not include this follow-up.
