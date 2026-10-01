@@ -4,7 +4,7 @@
 
 An independent balance and compatibility project built on the **Ascended: Age of the Endless** mod for *Elden Ring*. The first phase makes more character builds viable while retaining Ascended's stronger enemies and distinctive encounters. Enemy, boss, and loot randomization is a later phase; it has **not** been implemented.
 
-The current integrated test build is **v0.10.4**. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. The game and any DLC must be owned separately.
+The current integrated test build is **v0.10.4**. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
 
 ## What changed
 
@@ -23,9 +23,8 @@ These are the **current intended and integrated changes**, not a claim that ever
 ## Install and test
 
 1. Download the complete ZIP from the [v0.10.4 release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated). Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
-2. Extract it to a **new** mod folder and use the included ModEngine launch method. Mixing with older mod folders can leave obsolete `c0000.hks`, `c0000.anibnd.dcx`, or message files behind.
-3. Back up saves, run offline, and disable EAC for mod testing. New-character starting items do not retroactively appear in old saves.
-4. To revert only the jump script, remove `ModEngine/mod/action/script/c0000.hks` from the mod folder.
+2. Use **ME3**. Extract the whole mod folder to a location such as `E:\me3\config\profiles\eldenring-mods\<mod-folder>\`, keeping its `ModEngine` directory and `ModEngine\launchmod_eldenring.bat` in place. Use a fresh folder: mixing with an older version can leave obsolete scripts, animations, or message files behind.
+3. Back up saves and disable EAC for offline mod testing. Start Steam, then run `<mod-folder>\ModEngine\launchmod_eldenring.bat` to launch the mod. A new character is needed to test starting items; existing saves do not receive them automatically. The base game and **all DLC packs** are required for the full content.
 
 The v0.10.4 complete ZIP SHA-256 is `007b4f0b8dff4d6bab6ad7bcec25ba28386df839c9f589849df23efcfad70136`.
 
