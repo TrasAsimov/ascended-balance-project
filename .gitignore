@@ -14,3 +14,9 @@ __pycache__/
 *.pyc
 .DS_Store
 
+
+# Armor build outputs and local owned inputs.
+systems/armor/data/
+systems/armor/ModEngine/
+systems/armor/docs/
+systems/armor/inputs

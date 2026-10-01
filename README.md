@@ -6,6 +6,10 @@ An independent balance and compatibility project built on the **Ascended: Age of
 
 The current integrated test build is **v0.10.4**. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
 
+## Pending armor and core damage integration
+
+The user-approved 2026-10-01 armor revision and core talisman targets are implemented in [`systems/armor/`](systems/armor/), with the [integration audit](docs/armor_core_integration_20261001.md). Static checks pass; in-game testing is pending. This source submission does not create a new download package or Release; v0.10.4 remains the published release.
+
 ## What changed
 
 | Area | Current direction |

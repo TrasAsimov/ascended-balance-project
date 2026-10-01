@@ -1,0 +1,489 @@
+{
+  "excel_sha256": "6a5db95385af773c902981d56061c691747639f13703daf26b343110fac8bb99",
+  "changes": [
+    {
+      "sheet": "armor",
+      "id": "1080000",
+      "name": "小恶魔头罩（六种单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "腐败抗性 +400 点"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "1081000",
+      "name": "小恶魔头罩（六种单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "圣属性承伤 -30%"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "1082000",
+      "name": "小恶魔头罩（六种单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "施法速度用的虚拟灵巧 +90（不增加面板灵巧；受施法速度上限限制）"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "1083000",
+      "name": "小恶魔头罩（六种单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "装备重量上限 +30%"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "1084000",
+      "name": "小恶魔头罩（六种单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "物理攻击力 +100"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "1085000",
+      "name": "小恶魔头罩（六种单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "最大精力 +30%"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "2010000",
+      "name": "蘑菇王冠（单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "原版单件：附近发生中毒或腐败后，伤害 +10%，10分钟。"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "2020000",
+      "name": "黑头罩（Black Dumpling，单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "原版单件：自身发狂后，伤害 +10%，持续 10分钟。"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "5290000",
+      "name": "神兽头部（单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "原版单件：力量 +20；灵巧 +20；睡眠抗性 -60 点；发狂抗性 -60 点；红露滴圣杯瓶回复量 ×0.89；风暴类技能伤害系数 ×1.05。\n保留 Mod 单件：斩击承伤 -30%。"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "5310000",
+      "name": "熔炉锤形头盔（单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "原版单件：熔炉百相祷告伤害系数 ×1.04。\n保留 Mod 单件：每 0.5 秒恢复 30 HP。\n保留 Mod 单件：最大生命值 +30%。"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "5320000",
+      "name": "大壶头罩（单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "原版单件：投掷壶／投掷大壶伤害系数 ×1.17。\n保留 Mod 单件：最大精力 +30%。\n保留 Mod 单件：耐力 +30。"
+        }
+      ]
+    },
+    {
+      "sheet": "armor",
+      "id": "5330000",
+      "name": "小恶魔狮子头罩（单件）",
+      "changes": [
+        {
+          "column": 8,
+          "before": null,
+          "after": "力量 +30\n信仰 +30"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "heavy",
+      "name": "蓄力",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件套:蓄力普通重击削韧系数 +10%\n满套：蓄力普通重击伤害 +10%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "crit",
+      "name": "处决",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "背刺与处决伤害 +10%，背刺与处决伤害 +20%(覆盖前面的10%效果，套装综合20%加成)"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "sorcery",
+      "name": "魔法",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "魔法伤害改为 +10%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "magic_skill",
+      "name": "魔法剑士",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件套:魔力属性战技伤害 +8%（魔法剑士对应的战技类别）\n满套：魔力属性战技伤害 +15%（魔法剑士对应的战技类别）"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "incant",
+      "name": "祷告",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "祷告伤害 改为+10%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "fire",
+      "name": "火焰",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "火焰属性伤害 +10% 受到的火焰属性伤害 -20%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "blackflame",
+      "name": "黑焰",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "神皮／黑焰类直接攻击祷告伤害 +10%（不放大持续百分比灼烧）"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "holy",
+      "name": "圣属性",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "圣属性伤害 +10% 受到的圣属性伤害 -20%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "lightning",
+      "name": "雷电",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "雷属性伤害 +10% 受到的雷属性伤害 -20%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "frost",
+      "name": "寒冰",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "冻伤抗性 +200 点 ，寒冰魔法伤害 +15%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "bleed",
+      "name": "出血",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "感应 +20\n附近发生出血时，所有伤害 +10%，持续 10分钟；再次触发刷新时间"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "poison",
+      "name": "中毒",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "中毒与腐败抗性各 +100 点\n附近发生中毒或腐败时，所有伤害 +10%，持续 10分钟；再次触发刷新时间"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "rot",
+      "name": "腐败",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "腐败抗性 +200 点\n附近发生中毒或腐败时，所有伤害 +8%，持续 10分钟；再次触发刷新时间"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "dragon",
+      "name": "龙飨",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "龙飨祷告直接伤害 +10%\n对参数标记为龙类（D）的敌人伤害 +20%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "crucible",
+      "name": "熔炉",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件：熔炉百相祷告伤害 +10%\n满套：熔炉百相祷告伤害 +15%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "bow",
+      "name": "弓箭",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "箭矢与弩箭伤害 +10%\n弓箭飞行距离修正 +30 个百分点"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "jump",
+      "name": "跳跃",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件套：跳跃攻击削韧系数 +10%\n满套：跳跃攻击伤害 +10%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "counter",
+      "name": "防反",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件套：防御反击削韧系数 +15%\n满套：防御反击伤害 +12%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "craft",
+      "name": "工艺",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件套：投掷壶与大壶伤害 +10%\n满套：投掷壶与大壶伤害 +20%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "martial",
+      "name": "格斗",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "所有行动的精力消耗 -10%（含格斗武器）\n蓄力普通重击伤害 +10%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "frenzy",
+      "name": "癫火",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "癫火祷告直接伤害 +10%\n发狂抗性 +100 点"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "dance",
+      "name": "舞蹈",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件：舞蹈战技伤害 +8%\n满套：舞蹈战技伤害 +15%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "bloodmagic",
+      "name": "荆棘魔法",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件：荆棘魔法伤害 +8%\n满套：荆棘魔法伤害 +15%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "gravity",
+      "name": "重力",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件：重力魔法伤害 +8%\n满套：重力魔法伤害 +15%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "sleep",
+      "name": "睡眠",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件：睡眠抗性 +100 点\n满套：血量上限+10%"
+        }
+      ]
+    },
+    {
+      "sheet": "drafts",
+      "id": "bloodskill",
+      "name": "鲜血战技",
+      "changes": [
+        {
+          "column": 9,
+          "before": null,
+          "after": "两件：鲜血系战技伤害 +8%\n满套：鲜血系战技伤害 +15%"
+        }
+      ]
+    }
+  ],
+  "same_effect_full_set": "replaces lower tier; full-set total",
+  "original_overrides": {
+    "6201001": {
+      "effectEndurance": 600
+    },
+    "6202001": {
+      "effectEndurance": 600
+    },
+    "6529000": {
+      "addStrengthStatus": 20,
+      "addDexterityStatus": 20
+    }
+  },
+  "piece_additions": {
+    "1080000": 6202024,
+    "1081000": 6202022,
+    "1082000": 6202018,
+    "1083000": 6202016,
+    "1084000": 6202012,
+    "1085000": 6202004,
+    "5330000": 6202034
+  },
+  "core_targets": {
+    "321400": 2.2,
+    "321300": 3.0,
+    "321800": 2.0,
+    "321200": 3.5
+  }
+}

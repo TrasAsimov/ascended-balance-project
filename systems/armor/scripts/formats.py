@@ -1,0 +1,145 @@
+"""Conservative ER PARAM/BND4 and EMEVD editing; untouched records stay intact."""
+from pathlib import Path
+import struct, zlib, json
+
+def param_rebuild(raw, changes, added, size):
+    assert raw[0x2d] & 0x84 == 0x84
+    count=struct.unpack_from('<H',raw,10)[0]
+    records=[]
+    for i in range(count):
+        rid,pad,off,name=struct.unpack_from('<iIQQ',raw,64+24*i)
+        body=changes.get(rid,raw[off:off+size]); assert len(body)==size
+        namebytes=b''
+        if name:
+            end=name
+            while raw[end:end+2]!=b'\0\0':end+=2
+            namebytes=raw[name:end]
+        records.append((rid,pad,body,namebytes))
+    assert not set(added)&{r[0] for r in records}
+    records += [(rid,0,body,b'') for rid,body in added.items()]
+    records.sort(key=lambda r:r[0])
+    # Canonical ordering: headers, contiguous fixed-size rows, then strings.
+    # Keeping strings before appended rows breaks size inference in editors.
+    out=bytearray(raw[:64])+bytearray(24*len(records))
+    struct.pack_into('<H',out,4,0)
+    struct.pack_into('<Q',out,0x30,len(out))
+    struct.pack_into('<H',out,10,len(records))
+    for i,(rid,pad,body,name) in enumerate(records):
+        pos=len(out);out.extend(body)
+        struct.pack_into('<iIQQ',out,64+24*i,rid,pad,pos,0)
+    stringstart=len(out)
+    typepos=struct.unpack_from('<Q',raw,0x10)[0]
+    typ=raw[typepos:raw.index(b'\0',typepos)+1]
+    out.extend(typ);out.extend(bytes(-len(out)%2))
+    struct.pack_into('<I',out,0,stringstart)
+    struct.pack_into('<Q',out,0x10,stringstart)
+    cache={}
+    for i,(_,_,_,name) in enumerate(records):
+        if name not in cache:
+            cache[name]=len(out);out.extend(name+b'\0\0')
+        struct.pack_into('<Q',out,64+24*i+16,cache[name])
+    return bytes(out)
+
+def bnd_entries(raw):
+    assert raw[:4]==b'BND4'
+    result={}
+    for i in range(struct.unpack_from('<I',raw,12)[0]):
+        h=64+36*i
+        flag,unk,size,usize,off,rid,noff=struct.unpack_from('<IIQQIII',raw,h)
+        end=noff
+        while raw[end:end+2]!=b'\0\0':end+=2
+        name=raw[noff:end].decode('utf-16le').split('\\')[-1]
+        result[name]=(h,raw[off:off+size])
+    return result
+
+def bnd_patch(raw,updates):
+    out=bytearray(raw)
+    parts=bnd_entries(raw)
+    assert set(updates)<=set(parts)
+    for name,body in updates.items():
+        out.extend(bytes(-len(out)%16));pos=len(out);out.extend(body)
+        h=parts[name][0];struct.pack_into('<QQI',out,h+8,len(body),len(body),pos)
+    check=bnd_entries(out)
+    for n,(_,body) in parts.items():assert check[n][1]==updates.get(n,body)
+    return bytes(out)
+
+def dcx_pack(raw):
+    h=bytearray.fromhex('44435800000110000000001800000024000000440000004c4443530000000000000000004443500044464c540000002009000000000000000000000000000000000101004443410000000008')
+    p=zlib.compress(raw,9);assert len(h)==76
+    struct.pack_into('>II',h,28,len(raw),len(p));return bytes(h)+p
+
+def dcx_unpack(blob):
+    if blob[:4]!=b'DCX\0':return blob
+    assert blob[40:44]==b'DFLT'
+    size,cs=struct.unpack_from('>II',blob,28);raw=zlib.decompress(blob[76:76+cs]);assert len(raw)==size;return raw
+
+class Emevd:
+    def __init__(self,raw):
+        assert raw[:8]==b'EVD\0\0\xff\x01\xff'
+        assert struct.unpack_from('<I',raw,12)[0]==len(raw)
+        h=struct.unpack_from('<16q',raw,16)
+        self.prefix=raw[:12];self.events=[]
+        self.linked=raw[h[11]:h[11]+8*h[10]]
+        self.strings=raw[h[15]:h[15]+h[14]]
+        for e in range(h[0]):
+            rid,n,io,pn,po,rest,pad=struct.unpack_from('<5qII',raw,h[1]+48*e)
+            assert pad==0
+            ins=[]
+            for i in range(n):
+                bank,idx,alen,ao,lo=struct.unpack_from('<ii3q',raw,h[3]+io+32*i)
+                layer=raw[h[7]+lo:h[7]+lo+32] if lo!=-1 else None
+                args=raw[h[13]+ao:h[13]+ao+alen] if alen else b''
+                assert len(args)==alen
+                ins.append((bank,idx,args,layer))
+            params=[struct.unpack_from('<3qii',raw,h[9]+po+32*i) for i in range(pn)]
+            self.events.append({'id':rid,'rest':rest,'ins':ins,'params':params})
+        assert sum(len(e['ins']) for e in self.events)==h[2]
+        assert sum(len(e['params']) for e in self.events)==h[8]
+
+    def write(self):
+        out=bytearray(self.prefix)+bytes(4+128)
+        h=[0]*16;h[0]=len(self.events);h[1]=len(out)
+        out.extend(bytes(48*h[0]));h[2]=sum(len(e['ins']) for e in self.events);h[3]=len(out)
+        layers=[]
+        for e in self.events:
+            for i in e['ins']:
+                if i[3] is not None and i[3] not in layers:layers.append(i[3])
+        ih={}
+        for e in self.events:
+            for j,i in enumerate(e['ins']):
+                ih[e['id'],j]=len(out);out.extend(bytes(32))
+        h[5]=len(out);h[6]=len(layers);h[7]=len(out)
+        for l in layers:out.extend(l)
+        h[13]=len(out)
+        instoffset=0
+        for k,e in enumerate(self.events):
+            struct.pack_into('<5qII',out,h[1]+48*k,e['id'],len(e['ins']),instoffset if e['ins'] else -1,len(e['params']),-1,e['rest'],0)
+            instoffset+=32*len(e['ins'])
+            for j,(bank,idx,args,layer) in enumerate(e['ins']):
+                aoff=len(out)-h[13] if args else -1
+                struct.pack_into('<ii3q',out,ih[e['id'],j],bank,idx,len(args),aoff,layers.index(layer)*32 if layer else -1)
+                out.extend(args);out.extend(bytes(-len(out)%4))
+        out.extend(bytes(-(len(out)-h[13])%16));h[12]=len(out)-h[13]
+        h[8]=sum(len(e['params']) for e in self.events);h[9]=len(out)
+        for k,e in enumerate(self.events):
+            po=len(out)-h[9] if e['params'] else -1
+            struct.pack_into('<q',out,h[1]+48*k+32,po)
+            for p in e['params']:out.extend(struct.pack('<3qii',*p))
+        h[10]=len(self.linked)//8;h[11]=len(out);out.extend(self.linked)
+        h[14]=len(self.strings);h[15]=len(out);out.extend(self.strings)
+        struct.pack_into('<16q',out,16,*h);struct.pack_into('<I',out,12,len(out))
+        assert Emevd(out).events==self.events
+        return bytes(out)
+
+def instruction_builder(emedf):
+    docs=json.loads(Path(emedf).read_text())
+    specs={(b['index'],i['index']):i for b in docs['main_classes'] for i in b['instrs']}
+    fmts={0:'B',1:'H',2:'I',3:'b',4:'h',5:'i',6:'f',8:'I'}
+    def inst(bank,idx,*args):
+        spec=specs[bank,idx]['args'];assert len(spec)==len(args),(bank,idx,args)
+        out=bytearray()
+        for a,v in zip(spec,args):
+            f=fmts[a['type']];size=struct.calcsize(f);out.extend(bytes(-len(out)%size));out.extend(struct.pack('<'+f,v))
+        out.extend(bytes(-len(out)%4))
+        return bank,idx,bytes(out),None
+    return inst

@@ -1,0 +1,151 @@
+{
+  "manifest": {
+    "base": "v0.10.4 + pending_v0105",
+    "version": "11711000",
+    "sets": 187,
+    "reward_sets": 165,
+    "named_armor": 741,
+    "restored_armor": 140,
+    "changed_armor": 141,
+    "new_effect_rows": 437,
+    "reward_events": 308,
+    "official_chain_rows": 167,
+    "status": "static build; requires game testing",
+    "regulation_sha256": "4ea460901390b85ecbe1040aa2e0676dbec7a27f7bdd61c93acfe6ef063253b1",
+    "common_sha256": "01871ab0cd77aa74a72ed11c0c633ef2f539d72088d94a45161c28e5a0217d43"
+  },
+  "verification": {
+    "core_effect_rows_verified": 4,
+    "core_caption_checks": 8,
+    "approved_excel_profiles": 26,
+    "approved_excel_piece_decisions": 12,
+    "parameter_tables": 194,
+    "original_armor_verified": 140,
+    "official_effect_chain_verified": 167,
+    "event_cases": 61420,
+    "loadout_hp_scenarios": 15620,
+    "english_descriptions": 741,
+    "unchanged_original_events": 256,
+    "game_test": "not run"
+  },
+  "core": [
+    {
+      "id": 321400,
+      "fields": {
+        "physicsAttackPowerRate": {
+          "before": 3.8,
+          "after": 2.2
+        },
+        "magicAttackPowerRate": {
+          "before": 3.8,
+          "after": 2.2
+        },
+        "fireAttackPowerRate": {
+          "before": 3.8,
+          "after": 2.2
+        },
+        "thunderAttackPowerRate": {
+          "before": 3.8,
+          "after": 2.2
+        },
+        "darkAttackPowerRate": {
+          "before": 3.8,
+          "after": 2.2
+        }
+      }
+    },
+    {
+      "id": 321300,
+      "fields": {
+        "physicsAttackRate": {
+          "before": 4.1999998,
+          "after": 3.0
+        },
+        "magicAttackRate": {
+          "before": 4.1999998,
+          "after": 3.0
+        },
+        "fireAttackRate": {
+          "before": 4.1999998,
+          "after": 3.0
+        },
+        "thunderAttackRate": {
+          "before": 4.1999998,
+          "after": 3.0
+        },
+        "darkAttackRate": {
+          "before": 4.1999998,
+          "after": 3.0
+        }
+      }
+    },
+    {
+      "id": 321800,
+      "fields": {
+        "physicsAttackRate": {
+          "before": 2.5,
+          "after": 2.0
+        },
+        "magicAttackRate": {
+          "before": 2.5,
+          "after": 2.0
+        },
+        "fireAttackRate": {
+          "before": 2.5,
+          "after": 2.0
+        },
+        "thunderAttackRate": {
+          "before": 2.5,
+          "after": 2.0
+        },
+        "darkAttackRate": {
+          "before": 2.5,
+          "after": 2.0
+        }
+      }
+    },
+    {
+      "id": 321200,
+      "fields": {
+        "physicsAttackRate": {
+          "before": 2.5,
+          "after": 3.5
+        },
+        "magicAttackRate": {
+          "before": 2.5,
+          "after": 3.5
+        },
+        "fireAttackRate": {
+          "before": 2.5,
+          "after": 3.5
+        },
+        "thunderAttackRate": {
+          "before": 2.5,
+          "after": 3.5
+        },
+        "darkAttackRate": {
+          "before": 2.5,
+          "after": 3.5
+        }
+      }
+    }
+  ],
+  "approved_original_overrides": {
+    "6201001": {
+      "effectEndurance": 600
+    },
+    "6202001": {
+      "effectEndurance": 600
+    },
+    "6529000": {
+      "addStrengthStatus": 20,
+      "addDexterityStatus": 20
+    }
+  },
+  "output_files": {
+    "ModEngine/mod/regulation.bin": "4ea460901390b85ecbe1040aa2e0676dbec7a27f7bdd61c93acfe6ef063253b1",
+    "ModEngine/mod/event/common.emevd.dcx": "01871ab0cd77aa74a72ed11c0c633ef2f539d72088d94a45161c28e5a0217d43",
+    "ModEngine/mod/msg/engus/item_dlc02.msgbnd.dcx": "70cbb477cab370ffa74ad60f5e4883d87d4a936ebb2e29a7208156a187f2f178",
+    "ModEngine/mod/msg/engus/item_dlc01.msgbnd.dcx": "7dce380b054bc6d9ebf54658dfe3a983ab76c2041e43ea26701c6fe5d695e731"
+  }
+}

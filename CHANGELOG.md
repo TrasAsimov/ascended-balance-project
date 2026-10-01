@@ -6,6 +6,13 @@
 
 “已集成”表示相应文件进入安装包；“静态核验”表示参数、事件结构或压缩包检查通过；只有标明玩家实测的项目才表示已在游戏里确认。当前 MOD 基于 Ascended 1.16 资源，参数容器迁移到官方 1.17.1 格式；跨版本原版差异不能全部归因于本项目。
 
+## Unreleased — 2026-10-01 armor and core integration
+
+- Implement the reviewed armor workbook: 26 reward profile revisions, 12 single-piece decisions, 187 explicit families, and 741 named pieces.
+- Restore official single-piece effects with isolated copies; apply the explicitly approved 600-second triggers and Divine Beast Head attributes. Preserve compatible mod effects.
+- Apply core talisman targets: sorcery/incantation attack power x2.2, charged attacks x3.0, jumps x2.0, regular combo final hit x3.5. Preserve guard counter x4, critical x5, arrows/bolts x2, and boss growth.
+- Update English item descriptions and Chinese source overlays. No new binary package or Release. Static verification passes; game testing remains pending.
+
 ## v0.10.4 · 高跳与新版战技兼容
 
 - 从玩家当前版本的 `c0000.hks` 反编译结果重建玩家脚本，仅在 `Act_Jump()` 加入 Ascended 的 `act(2001, 1.4)` 移动缩放。没有恢复整份 1.16 旧 HKS 或旧玩家动画包。
