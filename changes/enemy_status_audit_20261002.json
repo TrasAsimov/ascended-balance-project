@@ -1,0 +1,6345 @@
+{
+  "scope": "Static comparison; NPC rows include variants, summons and friendly actors. Not a game test.",
+  "current_version": "11711000",
+  "official_version": "11711000",
+  "current_bnd_sha256": "1802f0f348cc51e022f9580b1a070cb46528eefeb90b6b13125ca3ec05a3ed68",
+  "official_bnd_sha256": "198c2919691b2b36455c93a6f5594e4c43e30f78bfe5303d947f333d7437a9cd",
+  "shared_positive_hp_npc_rows": 7025,
+  "npc_resistance_comparison": {
+    "resist_poison": {
+      "counts": {
+        "same": 6902,
+        "higher": 43,
+        "lower": 80
+      },
+      "lowered_rows": [
+        {
+          "id": 21300014,
+          "official": 154,
+          "current": 0,
+          "reference_name": "Margit, the Fell Omen"
+        },
+        {
+          "id": 80000000,
+          "official": 999,
+          "current": 0,
+          "reference_name": "Torrent"
+        },
+        {
+          "id": 100000020,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nepheli Loux Puppet"
+        },
+        {
+          "id": 100000030,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dung Eater Puppet"
+        },
+        {
+          "id": 100000040,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Finger Maiden Therolina Puppet"
+        },
+        {
+          "id": 100000050,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dolores the Sleeping Arrow"
+        },
+        {
+          "id": 100000060,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Jarwight Puppet"
+        },
+        {
+          "id": 121000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Black Knife Tiche"
+        },
+        {
+          "id": 130101000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Oleg"
+        },
+        {
+          "id": 130102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Engvall"
+        },
+        {
+          "id": 130801100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fanged Imps"
+        },
+        {
+          "id": 131700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Latenna the Albinauric"
+        },
+        {
+          "id": 132010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nomad"
+        },
+        {
+          "id": 133001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nightmaiden"
+        },
+        {
+          "id": 133002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Swordstress"
+        },
+        {
+          "id": 133201000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mimic Tear - Blob"
+        },
+        {
+          "id": 133500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Crystalian"
+        },
+        {
+          "id": 133600500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancestral Follower"
+        },
+        {
+          "id": 134701300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Albinauric Ashes"
+        },
+        {
+          "id": 135000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Militiaman"
+        },
+        {
+          "id": 135004000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Bandit"
+        },
+        {
+          "id": 136100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Oracle Envoy"
+        },
+        {
+          "id": 136610000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Putrid Corpse"
+        },
+        {
+          "id": 137000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Depraved Perfumer"
+        },
+        {
+          "id": 137011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Perfumer Tricia"
+        },
+        {
+          "id": 137021000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Glintstone Sorcerer Scholar"
+        },
+        {
+          "id": 137023000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Twinsage Sorcerer"
+        },
+        {
+          "id": 137030000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Page"
+        },
+        {
+          "id": 137040000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Battlemage Hugues"
+        },
+        {
+          "id": 137502000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Clayman"
+        },
+        {
+          "id": 138001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Cleanrot Knight Finlay"
+        },
+        {
+          "id": 138100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kindred of Rot"
+        },
+        {
+          "id": 138500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Marionette Soldier"
+        },
+        {
+          "id": 138601100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Avionette Soldier"
+        },
+        {
+          "id": 139000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fire Monk"
+        },
+        {
+          "id": 139011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Blackflame Monk"
+        },
+        {
+          "id": 139501000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Man-Serpent"
+        },
+        {
+          "id": 139701100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Azula Beastman"
+        },
+        {
+          "id": 140500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kaiden Sellsword"
+        },
+        {
+          "id": 140700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lone Wolf"
+        },
+        {
+          "id": 140800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Giant Rat"
+        },
+        {
+          "id": 141000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 1"
+        },
+        {
+          "id": 141001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 2"
+        },
+        {
+          "id": 141002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 3"
+        },
+        {
+          "id": 141010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 4"
+        },
+        {
+          "id": 141100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 5"
+        },
+        {
+          "id": 141660000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Rotten Dog"
+        },
+        {
+          "id": 141800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Spirit Jellyfish"
+        },
+        {
+          "id": 142100100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Warhawk"
+        },
+        {
+          "id": 142102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Stormhawk"
+        },
+        {
+          "id": 142900000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Bloodhound Knight Floh"
+        },
+        {
+          "id": 143000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 1"
+        },
+        {
+          "id": 143000200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 2"
+        },
+        {
+          "id": 143001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 3"
+        },
+        {
+          "id": 143002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Noble Sorcerer"
+        },
+        {
+          "id": 143005000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 4"
+        },
+        {
+          "id": 143005100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 5"
+        },
+        {
+          "id": 143111300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 1"
+        },
+        {
+          "id": 143112000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 2"
+        },
+        {
+          "id": 143122000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Soldier 1"
+        },
+        {
+          "id": 143133000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Leyndell Soldier"
+        },
+        {
+          "id": 143140100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 1"
+        },
+        {
+          "id": 143142000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 2"
+        },
+        {
+          "id": 143150000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 1"
+        },
+        {
+          "id": 143151000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 2"
+        },
+        {
+          "id": 143152000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 3"
+        },
+        {
+          "id": 143210000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Vulgar Militia"
+        },
+        {
+          "id": 143410000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mad Pumpkin Head"
+        },
+        {
+          "id": 143531000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancient Dragon Knight Kristoff"
+        },
+        {
+          "id": 143542000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Redmane Knight Ogha"
+        },
+        {
+          "id": 143551000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lhutel the Headless"
+        },
+        {
+          "id": 143720500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 2"
+        },
+        {
+          "id": 143722500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 3"
+        },
+        {
+          "id": 143760500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 143762500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 144810000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Miranda Sprout"
+        },
+        {
+          "id": 144910200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Soldjars of Fortune"
+        },
+        {
+          "id": 148200000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Omenkiller"
+        },
+        {
+          "id": 170001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Greatshield Soldier"
+        },
+        {
+          "id": 170002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Archer"
+        }
+      ]
+    },
+    "resist_desease": {
+      "counts": {
+        "same": 6896,
+        "higher": 49,
+        "lower": 80
+      },
+      "lowered_rows": [
+        {
+          "id": 21300014,
+          "official": 154,
+          "current": 0,
+          "reference_name": "Margit, the Fell Omen"
+        },
+        {
+          "id": 80000000,
+          "official": 999,
+          "current": 0,
+          "reference_name": "Torrent"
+        },
+        {
+          "id": 100000020,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nepheli Loux Puppet"
+        },
+        {
+          "id": 100000030,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dung Eater Puppet"
+        },
+        {
+          "id": 100000040,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Finger Maiden Therolina Puppet"
+        },
+        {
+          "id": 100000050,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dolores the Sleeping Arrow"
+        },
+        {
+          "id": 100000060,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Jarwight Puppet"
+        },
+        {
+          "id": 121000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Black Knife Tiche"
+        },
+        {
+          "id": 130101000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Oleg"
+        },
+        {
+          "id": 130102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Engvall"
+        },
+        {
+          "id": 130801100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fanged Imps"
+        },
+        {
+          "id": 131700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Latenna the Albinauric"
+        },
+        {
+          "id": 132010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nomad"
+        },
+        {
+          "id": 133001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nightmaiden"
+        },
+        {
+          "id": 133002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Swordstress"
+        },
+        {
+          "id": 133201000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mimic Tear - Blob"
+        },
+        {
+          "id": 133500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Crystalian"
+        },
+        {
+          "id": 133600500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancestral Follower"
+        },
+        {
+          "id": 134701300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Albinauric Ashes"
+        },
+        {
+          "id": 135000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Militiaman"
+        },
+        {
+          "id": 135004000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Bandit"
+        },
+        {
+          "id": 136100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Oracle Envoy"
+        },
+        {
+          "id": 136610000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Putrid Corpse"
+        },
+        {
+          "id": 137000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Depraved Perfumer"
+        },
+        {
+          "id": 137011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Perfumer Tricia"
+        },
+        {
+          "id": 137021000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Glintstone Sorcerer Scholar"
+        },
+        {
+          "id": 137023000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Twinsage Sorcerer"
+        },
+        {
+          "id": 137030000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Page"
+        },
+        {
+          "id": 137040000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Battlemage Hugues"
+        },
+        {
+          "id": 137502000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Clayman"
+        },
+        {
+          "id": 138001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Cleanrot Knight Finlay"
+        },
+        {
+          "id": 138100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kindred of Rot"
+        },
+        {
+          "id": 138500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Marionette Soldier"
+        },
+        {
+          "id": 138601100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Avionette Soldier"
+        },
+        {
+          "id": 139000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fire Monk"
+        },
+        {
+          "id": 139011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Blackflame Monk"
+        },
+        {
+          "id": 139501000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Man-Serpent"
+        },
+        {
+          "id": 139701100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Azula Beastman"
+        },
+        {
+          "id": 140500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kaiden Sellsword"
+        },
+        {
+          "id": 140700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lone Wolf"
+        },
+        {
+          "id": 140800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Giant Rat"
+        },
+        {
+          "id": 141000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 1"
+        },
+        {
+          "id": 141001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 2"
+        },
+        {
+          "id": 141002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 3"
+        },
+        {
+          "id": 141010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 4"
+        },
+        {
+          "id": 141100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 5"
+        },
+        {
+          "id": 141660000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Rotten Dog"
+        },
+        {
+          "id": 141800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Spirit Jellyfish"
+        },
+        {
+          "id": 142100100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Warhawk"
+        },
+        {
+          "id": 142102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Stormhawk"
+        },
+        {
+          "id": 142900000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Bloodhound Knight Floh"
+        },
+        {
+          "id": 143000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 1"
+        },
+        {
+          "id": 143000200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 2"
+        },
+        {
+          "id": 143001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 3"
+        },
+        {
+          "id": 143002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Noble Sorcerer"
+        },
+        {
+          "id": 143005000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 4"
+        },
+        {
+          "id": 143005100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 5"
+        },
+        {
+          "id": 143111300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 1"
+        },
+        {
+          "id": 143112000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 2"
+        },
+        {
+          "id": 143122000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Soldier 1"
+        },
+        {
+          "id": 143133000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Leyndell Soldier"
+        },
+        {
+          "id": 143140100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 1"
+        },
+        {
+          "id": 143142000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 2"
+        },
+        {
+          "id": 143150000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 1"
+        },
+        {
+          "id": 143151000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 2"
+        },
+        {
+          "id": 143152000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 3"
+        },
+        {
+          "id": 143210000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Vulgar Militia"
+        },
+        {
+          "id": 143410000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mad Pumpkin Head"
+        },
+        {
+          "id": 143531000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancient Dragon Knight Kristoff"
+        },
+        {
+          "id": 143542000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Redmane Knight Ogha"
+        },
+        {
+          "id": 143551000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lhutel the Headless"
+        },
+        {
+          "id": 143720500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 2"
+        },
+        {
+          "id": 143722500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 3"
+        },
+        {
+          "id": 143760500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 143762500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 144810000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Miranda Sprout"
+        },
+        {
+          "id": 144910200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Soldjars of Fortune"
+        },
+        {
+          "id": 148200000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Omenkiller"
+        },
+        {
+          "id": 170001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Greatshield Soldier"
+        },
+        {
+          "id": 170002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Archer"
+        }
+      ]
+    },
+    "resist_blood": {
+      "counts": {
+        "same": 6900,
+        "lower": 81,
+        "higher": 44
+      },
+      "lowered_rows": [
+        {
+          "id": 21300014,
+          "official": 154,
+          "current": 0,
+          "reference_name": "Margit, the Fell Omen"
+        },
+        {
+          "id": 80000000,
+          "official": 999,
+          "current": 0,
+          "reference_name": "Torrent"
+        },
+        {
+          "id": 100000020,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nepheli Loux Puppet"
+        },
+        {
+          "id": 100000030,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dung Eater Puppet"
+        },
+        {
+          "id": 100000040,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Finger Maiden Therolina Puppet"
+        },
+        {
+          "id": 100000050,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dolores the Sleeping Arrow"
+        },
+        {
+          "id": 100000060,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Jarwight Puppet"
+        },
+        {
+          "id": 121000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Black Knife Tiche"
+        },
+        {
+          "id": 130101000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Oleg"
+        },
+        {
+          "id": 130102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Engvall"
+        },
+        {
+          "id": 130801100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fanged Imps"
+        },
+        {
+          "id": 131700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Latenna the Albinauric"
+        },
+        {
+          "id": 132010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nomad"
+        },
+        {
+          "id": 133001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nightmaiden"
+        },
+        {
+          "id": 133002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Swordstress"
+        },
+        {
+          "id": 133201000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mimic Tear - Blob"
+        },
+        {
+          "id": 133500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Crystalian"
+        },
+        {
+          "id": 133600500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancestral Follower"
+        },
+        {
+          "id": 134701300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Albinauric Ashes"
+        },
+        {
+          "id": 135000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Militiaman"
+        },
+        {
+          "id": 135004000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Bandit"
+        },
+        {
+          "id": 136100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Oracle Envoy"
+        },
+        {
+          "id": 136610000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Putrid Corpse"
+        },
+        {
+          "id": 137000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Depraved Perfumer"
+        },
+        {
+          "id": 137011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Perfumer Tricia"
+        },
+        {
+          "id": 137021000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Glintstone Sorcerer Scholar"
+        },
+        {
+          "id": 137023000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Twinsage Sorcerer"
+        },
+        {
+          "id": 137030000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Page"
+        },
+        {
+          "id": 137040000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Battlemage Hugues"
+        },
+        {
+          "id": 137502000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Clayman"
+        },
+        {
+          "id": 138001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Cleanrot Knight Finlay"
+        },
+        {
+          "id": 138100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kindred of Rot"
+        },
+        {
+          "id": 138500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Marionette Soldier"
+        },
+        {
+          "id": 138601100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Avionette Soldier"
+        },
+        {
+          "id": 139000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fire Monk"
+        },
+        {
+          "id": 139011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Blackflame Monk"
+        },
+        {
+          "id": 139501000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Man-Serpent"
+        },
+        {
+          "id": 139701100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Azula Beastman"
+        },
+        {
+          "id": 140500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kaiden Sellsword"
+        },
+        {
+          "id": 140700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lone Wolf"
+        },
+        {
+          "id": 140800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Giant Rat"
+        },
+        {
+          "id": 141000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 1"
+        },
+        {
+          "id": 141001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 2"
+        },
+        {
+          "id": 141002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 3"
+        },
+        {
+          "id": 141010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 4"
+        },
+        {
+          "id": 141100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 5"
+        },
+        {
+          "id": 141660000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Rotten Dog"
+        },
+        {
+          "id": 141800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Spirit Jellyfish"
+        },
+        {
+          "id": 142100100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Warhawk"
+        },
+        {
+          "id": 142102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Stormhawk"
+        },
+        {
+          "id": 142900000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Bloodhound Knight Floh"
+        },
+        {
+          "id": 143000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 1"
+        },
+        {
+          "id": 143000200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 2"
+        },
+        {
+          "id": 143001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 3"
+        },
+        {
+          "id": 143002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Noble Sorcerer"
+        },
+        {
+          "id": 143005000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 4"
+        },
+        {
+          "id": 143005100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 5"
+        },
+        {
+          "id": 143111300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 1"
+        },
+        {
+          "id": 143112000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 2"
+        },
+        {
+          "id": 143122000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Soldier 1"
+        },
+        {
+          "id": 143133000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Leyndell Soldier"
+        },
+        {
+          "id": 143140100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 1"
+        },
+        {
+          "id": 143142000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 2"
+        },
+        {
+          "id": 143150000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 1"
+        },
+        {
+          "id": 143151000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 2"
+        },
+        {
+          "id": 143152000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 3"
+        },
+        {
+          "id": 143210000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Vulgar Militia"
+        },
+        {
+          "id": 143410000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mad Pumpkin Head"
+        },
+        {
+          "id": 143531000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancient Dragon Knight Kristoff"
+        },
+        {
+          "id": 143542000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Redmane Knight Ogha"
+        },
+        {
+          "id": 143551000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lhutel the Headless"
+        },
+        {
+          "id": 143720500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 2"
+        },
+        {
+          "id": 143722500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 3"
+        },
+        {
+          "id": 143760500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 143762500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 144400000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Land Squirt"
+        },
+        {
+          "id": 144810000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Miranda Sprout"
+        },
+        {
+          "id": 144910200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Soldjars of Fortune"
+        },
+        {
+          "id": 148200000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Omenkiller"
+        },
+        {
+          "id": 170001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Greatshield Soldier"
+        },
+        {
+          "id": 170002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Archer"
+        }
+      ]
+    },
+    "resist_curse": {
+      "counts": {
+        "same": 6949,
+        "higher": 1,
+        "lower": 75
+      },
+      "lowered_rows": [
+        {
+          "id": 80000000,
+          "official": 999,
+          "current": 0,
+          "reference_name": "Torrent"
+        },
+        {
+          "id": 121000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Black Knife Tiche"
+        },
+        {
+          "id": 130101000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Oleg"
+        },
+        {
+          "id": 130102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Engvall"
+        },
+        {
+          "id": 130801100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fanged Imps"
+        },
+        {
+          "id": 131700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Latenna the Albinauric"
+        },
+        {
+          "id": 132010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nomad"
+        },
+        {
+          "id": 133001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nightmaiden"
+        },
+        {
+          "id": 133002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Swordstress"
+        },
+        {
+          "id": 133201000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mimic Tear - Blob"
+        },
+        {
+          "id": 133500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Crystalian"
+        },
+        {
+          "id": 133600500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancestral Follower"
+        },
+        {
+          "id": 134701300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Albinauric Ashes"
+        },
+        {
+          "id": 135000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Militiaman"
+        },
+        {
+          "id": 135004000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Bandit"
+        },
+        {
+          "id": 136100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Oracle Envoy"
+        },
+        {
+          "id": 136610000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Putrid Corpse"
+        },
+        {
+          "id": 137000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Depraved Perfumer"
+        },
+        {
+          "id": 137011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Perfumer Tricia"
+        },
+        {
+          "id": 137021000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Glintstone Sorcerer Scholar"
+        },
+        {
+          "id": 137023000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Twinsage Sorcerer"
+        },
+        {
+          "id": 137030000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Page"
+        },
+        {
+          "id": 137040000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Battlemage Hugues"
+        },
+        {
+          "id": 137502000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Clayman"
+        },
+        {
+          "id": 138001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Cleanrot Knight Finlay"
+        },
+        {
+          "id": 138100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kindred of Rot"
+        },
+        {
+          "id": 138500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Marionette Soldier"
+        },
+        {
+          "id": 138601100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Avionette Soldier"
+        },
+        {
+          "id": 139000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fire Monk"
+        },
+        {
+          "id": 139011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Blackflame Monk"
+        },
+        {
+          "id": 139501000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Man-Serpent"
+        },
+        {
+          "id": 139701100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Azula Beastman"
+        },
+        {
+          "id": 140500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kaiden Sellsword"
+        },
+        {
+          "id": 140700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lone Wolf"
+        },
+        {
+          "id": 140800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Giant Rat"
+        },
+        {
+          "id": 141000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 1"
+        },
+        {
+          "id": 141001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 2"
+        },
+        {
+          "id": 141002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 3"
+        },
+        {
+          "id": 141010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 4"
+        },
+        {
+          "id": 141100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 5"
+        },
+        {
+          "id": 141660000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Rotten Dog"
+        },
+        {
+          "id": 141800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Spirit Jellyfish"
+        },
+        {
+          "id": 142100100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Warhawk"
+        },
+        {
+          "id": 142102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Stormhawk"
+        },
+        {
+          "id": 142900000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Bloodhound Knight Floh"
+        },
+        {
+          "id": 143000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 1"
+        },
+        {
+          "id": 143000200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 2"
+        },
+        {
+          "id": 143001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 3"
+        },
+        {
+          "id": 143002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Noble Sorcerer"
+        },
+        {
+          "id": 143005000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 4"
+        },
+        {
+          "id": 143005100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 5"
+        },
+        {
+          "id": 143111300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 1"
+        },
+        {
+          "id": 143112000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 2"
+        },
+        {
+          "id": 143122000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Soldier 1"
+        },
+        {
+          "id": 143133000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Leyndell Soldier"
+        },
+        {
+          "id": 143140100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 1"
+        },
+        {
+          "id": 143142000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 2"
+        },
+        {
+          "id": 143150000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 1"
+        },
+        {
+          "id": 143151000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 2"
+        },
+        {
+          "id": 143152000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 3"
+        },
+        {
+          "id": 143210000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Vulgar Militia"
+        },
+        {
+          "id": 143410000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mad Pumpkin Head"
+        },
+        {
+          "id": 143531000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancient Dragon Knight Kristoff"
+        },
+        {
+          "id": 143542000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Redmane Knight Ogha"
+        },
+        {
+          "id": 143551000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lhutel the Headless"
+        },
+        {
+          "id": 143720500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 2"
+        },
+        {
+          "id": 143722500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 3"
+        },
+        {
+          "id": 143760500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 143762500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 144400000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Land Squirt"
+        },
+        {
+          "id": 144810000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Miranda Sprout"
+        },
+        {
+          "id": 144910200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Soldjars of Fortune"
+        },
+        {
+          "id": 148200000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Omenkiller"
+        },
+        {
+          "id": 170001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Greatshield Soldier"
+        },
+        {
+          "id": 170002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Archer"
+        }
+      ]
+    },
+    "resist_sleep": {
+      "counts": {
+        "same": 6996,
+        "higher": 13,
+        "lower": 16
+      },
+      "lowered_rows": [
+        {
+          "id": 80000000,
+          "official": 999,
+          "current": 0,
+          "reference_name": "Torrent"
+        },
+        {
+          "id": 121000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Black Knife Tiche"
+        },
+        {
+          "id": 130801100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fanged Imps"
+        },
+        {
+          "id": 132010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nomad"
+        },
+        {
+          "id": 133201000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mimic Tear - Blob"
+        },
+        {
+          "id": 133500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Crystalian"
+        },
+        {
+          "id": 135000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Militiaman"
+        },
+        {
+          "id": 135004000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Bandit"
+        },
+        {
+          "id": 138500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Marionette Soldier"
+        },
+        {
+          "id": 138601100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Avionette Soldier"
+        },
+        {
+          "id": 141800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Spirit Jellyfish"
+        },
+        {
+          "id": 143150000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 1"
+        },
+        {
+          "id": 143151000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 2"
+        },
+        {
+          "id": 143152000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 3"
+        },
+        {
+          "id": 143551000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lhutel the Headless"
+        },
+        {
+          "id": 144400000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Land Squirt"
+        }
+      ]
+    },
+    "resist_madness": {
+      "counts": {
+        "same": 6944,
+        "higher": 1,
+        "lower": 80
+      },
+      "lowered_rows": [
+        {
+          "id": 80000000,
+          "official": 999,
+          "current": 0,
+          "reference_name": "Torrent"
+        },
+        {
+          "id": 100000020,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nepheli Loux Puppet"
+        },
+        {
+          "id": 100000030,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dung Eater Puppet"
+        },
+        {
+          "id": 100000040,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Finger Maiden Therolina Puppet"
+        },
+        {
+          "id": 100000050,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Dolores the Sleeping Arrow"
+        },
+        {
+          "id": 100000060,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Jarwight Puppet"
+        },
+        {
+          "id": 121000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Black Knife Tiche"
+        },
+        {
+          "id": 130101000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Oleg"
+        },
+        {
+          "id": 130102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Banished Knight Engvall"
+        },
+        {
+          "id": 130801100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fanged Imps"
+        },
+        {
+          "id": 131700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Latenna the Albinauric"
+        },
+        {
+          "id": 132010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nomad"
+        },
+        {
+          "id": 133001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Nightmaiden"
+        },
+        {
+          "id": 133002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Swordstress"
+        },
+        {
+          "id": 133201000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mimic Tear - Blob"
+        },
+        {
+          "id": 133500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Crystalian"
+        },
+        {
+          "id": 133600500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancestral Follower"
+        },
+        {
+          "id": 134701300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Albinauric Ashes"
+        },
+        {
+          "id": 135000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Militiaman"
+        },
+        {
+          "id": 135004000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Skeletal Bandit"
+        },
+        {
+          "id": 136100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Oracle Envoy"
+        },
+        {
+          "id": 136610000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Putrid Corpse"
+        },
+        {
+          "id": 137000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Depraved Perfumer"
+        },
+        {
+          "id": 137011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Perfumer Tricia"
+        },
+        {
+          "id": 137021000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Glintstone Sorcerer Scholar"
+        },
+        {
+          "id": 137023000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Twinsage Sorcerer"
+        },
+        {
+          "id": 137030000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Page"
+        },
+        {
+          "id": 137040000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Battlemage Hugues"
+        },
+        {
+          "id": 137502000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Clayman"
+        },
+        {
+          "id": 138001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Cleanrot Knight Finlay"
+        },
+        {
+          "id": 138100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kindred of Rot"
+        },
+        {
+          "id": 138500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Marionette Soldier"
+        },
+        {
+          "id": 138601100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Avionette Soldier"
+        },
+        {
+          "id": 139000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fire Monk"
+        },
+        {
+          "id": 139011000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Blackflame Monk"
+        },
+        {
+          "id": 139501000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Man-Serpent"
+        },
+        {
+          "id": 139701100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Azula Beastman"
+        },
+        {
+          "id": 140500000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Kaiden Sellsword"
+        },
+        {
+          "id": 140700000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lone Wolf"
+        },
+        {
+          "id": 140800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Giant Rat"
+        },
+        {
+          "id": 141000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 1"
+        },
+        {
+          "id": 141001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 2"
+        },
+        {
+          "id": 141002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 3"
+        },
+        {
+          "id": 141010000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 4"
+        },
+        {
+          "id": 141100000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Demi-Human 5"
+        },
+        {
+          "id": 141660000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Rotten Dog"
+        },
+        {
+          "id": 141800000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Spirit Jellyfish"
+        },
+        {
+          "id": 142100100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Warhawk"
+        },
+        {
+          "id": 142102000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Stormhawk"
+        },
+        {
+          "id": 142900000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Bloodhound Knight Floh"
+        },
+        {
+          "id": 143000000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 1"
+        },
+        {
+          "id": 143000200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 2"
+        },
+        {
+          "id": 143001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 3"
+        },
+        {
+          "id": 143002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Noble Sorcerer"
+        },
+        {
+          "id": 143005000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 4"
+        },
+        {
+          "id": 143005100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Wandering Noble 5"
+        },
+        {
+          "id": 143111300,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 1"
+        },
+        {
+          "id": 143112000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Godrick Soldier 2"
+        },
+        {
+          "id": 143122000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Soldier 1"
+        },
+        {
+          "id": 143133000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Leyndell Soldier"
+        },
+        {
+          "id": 143140100,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 1"
+        },
+        {
+          "id": 143142000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Radahn Soldier 2"
+        },
+        {
+          "id": 143150000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 1"
+        },
+        {
+          "id": 143151000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 2"
+        },
+        {
+          "id": 143152000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mausoleum Soldier 3"
+        },
+        {
+          "id": 143210000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Vulgar Militia"
+        },
+        {
+          "id": 143410000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Mad Pumpkin Head"
+        },
+        {
+          "id": 143531000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Ancient Dragon Knight Kristoff"
+        },
+        {
+          "id": 143542000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Redmane Knight Ogha"
+        },
+        {
+          "id": 143551000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Lhutel the Headless"
+        },
+        {
+          "id": 143720500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 2"
+        },
+        {
+          "id": 143722500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Raya Lucaria Foot Soldier 3"
+        },
+        {
+          "id": 143760500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 143762500,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Haligtree Foot Soldier"
+        },
+        {
+          "id": 144400000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Land Squirt"
+        },
+        {
+          "id": 144810000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Miranda Sprout"
+        },
+        {
+          "id": 144910200,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Soldjars of Fortune"
+        },
+        {
+          "id": 148200000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Omenkiller"
+        },
+        {
+          "id": 170001000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Greatshield Soldier"
+        },
+        {
+          "id": 170002000,
+          "official": 999,
+          "current": 200,
+          "reference_name": "[Spirit Summon] Fallen Hawks Archer"
+        }
+      ]
+    },
+    "resist_freeze": {
+      "counts": {
+        "same": 7015,
+        "higher": 9,
+        "lower": 1
+      },
+      "lowered_rows": [
+        {
+          "id": 21300014,
+          "official": 154,
+          "current": 0,
+          "reference_name": "Margit, the Fell Omen"
+        }
+      ]
+    }
+  },
+  "npc_examples": [
+    {
+      "id": 43110000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 84,
+          "current": 84
+        },
+        "resist_desease": {
+          "official": 84,
+          "current": 84
+        },
+        "resist_blood": {
+          "official": 112,
+          "current": 112
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 112,
+          "current": 112
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 112,
+          "current": 112
+        }
+      },
+      "reference_name": "Godrick Soldier"
+    },
+    {
+      "id": 30100000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 112,
+          "current": 112
+        },
+        "resist_desease": {
+          "official": 112,
+          "current": 112
+        },
+        "resist_blood": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 112,
+          "current": 112
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 154,
+          "current": 154
+        }
+      },
+      "reference_name": "Banished Knight"
+    },
+    {
+      "id": 21200000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 542,
+          "current": 542
+        },
+        "resist_desease": {
+          "official": 542,
+          "current": 542
+        },
+        "resist_blood": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 112,
+          "current": 112
+        }
+      },
+      "reference_name": "Malenia, Blade of Miquella"
+    },
+    {
+      "id": 21300000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_desease": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_blood": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 154,
+          "current": 154
+        }
+      },
+      "reference_name": "Margit"
+    },
+    {
+      "id": 25000000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_desease": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_blood": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 252,
+          "current": 252
+        }
+      },
+      "reference_name": "Crucible Knight (Unscaled)"
+    },
+    {
+      "id": 52200000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_desease": {
+          "official": 112,
+          "current": 112
+        },
+        "resist_blood": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 252,
+          "current": 252
+        }
+      },
+      "reference_name": "Promised Consort Radahn"
+    },
+    {
+      "id": 47300000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_desease": {
+          "official": 112,
+          "current": 112
+        },
+        "resist_blood": {
+          "official": 154,
+          "current": 999
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 154,
+          "current": 999
+        }
+      },
+      "reference_name": "Starscourge Radahn"
+    },
+    {
+      "id": 47500000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 154,
+          "current": 999
+        },
+        "resist_desease": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_blood": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 154,
+          "current": 154
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 154,
+          "current": 154
+        }
+      },
+      "reference_name": "Godrick the Grafted (Unscaled)"
+    },
+    {
+      "id": 48000000,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_desease": {
+          "official": 252,
+          "current": 252
+        },
+        "resist_blood": {
+          "official": 112,
+          "current": 999
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 542,
+          "current": 999
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 252,
+          "current": 252
+        }
+      },
+      "reference_name": "Mohg, the Omen"
+    },
+    {
+      "id": 21300014,
+      "base_resistance_before_effects": {
+        "resist_poison": {
+          "official": 154,
+          "current": 0
+        },
+        "resist_desease": {
+          "official": 154,
+          "current": 0
+        },
+        "resist_blood": {
+          "official": 154,
+          "current": 0
+        },
+        "resist_curse": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_sleep": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_madness": {
+          "official": 999,
+          "current": 999
+        },
+        "resist_freeze": {
+          "official": 154,
+          "current": 0
+        }
+      },
+      "reference_name": "Margit, the Fell Omen"
+    }
+  ],
+  "npc_correction_reference_changes": {
+    "resistCorrectId_poison": 0,
+    "resistCorrectId_disease": 0,
+    "resistCorrectId_blood": 0,
+    "resistCorrectId_curse": 0,
+    "resistCorrectId_freeze": 0,
+    "resistCorrectId_sleep": 0,
+    "resistCorrectId_madness": 0
+  },
+  "resist_correct_changed_rows": 0,
+  "shared_buildup_increases": [
+    {
+      "id": 1756,
+      "field": "bloodAttackPower",
+      "official": 30,
+      "current": 84
+    },
+    {
+      "id": 1759,
+      "field": "bloodAttackPower",
+      "official": 30,
+      "current": 84
+    },
+    {
+      "id": 1782,
+      "field": "madnessAttackPower",
+      "official": 4,
+      "current": 7
+    },
+    {
+      "id": 1939,
+      "field": "poizonAttackPower",
+      "official": 15,
+      "current": 50
+    },
+    {
+      "id": 3141,
+      "field": "freezeAttackPower",
+      "official": 63,
+      "current": 100
+    },
+    {
+      "id": 3143,
+      "field": "freezeAttackPower",
+      "official": 80,
+      "current": 100
+    },
+    {
+      "id": 3145,
+      "field": "freezeAttackPower",
+      "official": 63,
+      "current": 100
+    },
+    {
+      "id": 3147,
+      "field": "freezeAttackPower",
+      "official": 80,
+      "current": 100
+    },
+    {
+      "id": 3151,
+      "field": "sleepAttackPower",
+      "official": 33,
+      "current": 100
+    },
+    {
+      "id": 3153,
+      "field": "sleepAttackPower",
+      "official": 42,
+      "current": 100
+    },
+    {
+      "id": 3155,
+      "field": "sleepAttackPower",
+      "official": 33,
+      "current": 100
+    },
+    {
+      "id": 3157,
+      "field": "sleepAttackPower",
+      "official": 42,
+      "current": 100
+    },
+    {
+      "id": 3176,
+      "field": "poizonAttackPower",
+      "official": 63,
+      "current": 100
+    },
+    {
+      "id": 3178,
+      "field": "poizonAttackPower",
+      "official": 80,
+      "current": 100
+    },
+    {
+      "id": 3180,
+      "field": "poizonAttackPower",
+      "official": 63,
+      "current": 100
+    },
+    {
+      "id": 3182,
+      "field": "poizonAttackPower",
+      "official": 80,
+      "current": 100
+    },
+    {
+      "id": 3191,
+      "field": "bloodAttackPower",
+      "official": 30,
+      "current": 100
+    },
+    {
+      "id": 3193,
+      "field": "bloodAttackPower",
+      "official": 38,
+      "current": 100
+    },
+    {
+      "id": 3195,
+      "field": "bloodAttackPower",
+      "official": 30,
+      "current": 100
+    },
+    {
+      "id": 3197,
+      "field": "bloodAttackPower",
+      "official": 38,
+      "current": 100
+    },
+    {
+      "id": 3311,
+      "field": "diseaseAttackPower",
+      "official": 63,
+      "current": 100
+    },
+    {
+      "id": 3313,
+      "field": "diseaseAttackPower",
+      "official": 80,
+      "current": 100
+    },
+    {
+      "id": 3315,
+      "field": "diseaseAttackPower",
+      "official": 63,
+      "current": 100
+    },
+    {
+      "id": 3317,
+      "field": "diseaseAttackPower",
+      "official": 80,
+      "current": 100
+    },
+    {
+      "id": 4004,
+      "field": "poizonAttackPower",
+      "official": 2,
+      "current": 6
+    },
+    {
+      "id": 4053,
+      "field": "diseaseAttackPower",
+      "official": 2,
+      "current": 10
+    },
+    {
+      "id": 6500,
+      "field": "poizonAttackPower",
+      "official": 60,
+      "current": 100
+    },
+    {
+      "id": 6600,
+      "field": "diseaseAttackPower",
+      "official": 50,
+      "current": 100
+    },
+    {
+      "id": 6800,
+      "field": "curseAttackPower",
+      "official": 45,
+      "current": 75
+    },
+    {
+      "id": 6801,
+      "field": "curseAttackPower",
+      "official": 50,
+      "current": 75
+    },
+    {
+      "id": 6802,
+      "field": "curseAttackPower",
+      "official": 55,
+      "current": 75
+    },
+    {
+      "id": 6803,
+      "field": "curseAttackPower",
+      "official": 60,
+      "current": 75
+    },
+    {
+      "id": 6804,
+      "field": "curseAttackPower",
+      "official": 65,
+      "current": 75
+    },
+    {
+      "id": 6805,
+      "field": "curseAttackPower",
+      "official": 5,
+      "current": 75
+    },
+    {
+      "id": 10691,
+      "field": "bloodAttackPower",
+      "official": 4,
+      "current": 10
+    },
+    {
+      "id": 18430,
+      "field": "diseaseAttackPower",
+      "official": 180,
+      "current": 250
+    },
+    {
+      "id": 18431,
+      "field": "diseaseAttackPower",
+      "official": 90,
+      "current": 250
+    },
+    {
+      "id": 18432,
+      "field": "diseaseAttackPower",
+      "official": 120,
+      "current": 250
+    },
+    {
+      "id": 18433,
+      "field": "diseaseAttackPower",
+      "official": 60,
+      "current": 250
+    },
+    {
+      "id": 102311,
+      "field": "sleepAttackPower",
+      "official": 28,
+      "current": 100
+    },
+    {
+      "id": 102313,
+      "field": "sleepAttackPower",
+      "official": 37,
+      "current": 100
+    },
+    {
+      "id": 102315,
+      "field": "sleepAttackPower",
+      "official": 28,
+      "current": 100
+    },
+    {
+      "id": 102317,
+      "field": "sleepAttackPower",
+      "official": 37,
+      "current": 100
+    },
+    {
+      "id": 310300,
+      "field": "bloodAttackPower",
+      "official": 0,
+      "current": 20
+    },
+    {
+      "id": 310310,
+      "field": "bloodAttackPower",
+      "official": 0,
+      "current": 40
+    },
+    {
+      "id": 310320,
+      "field": "bloodAttackPower",
+      "official": 0,
+      "current": 60
+    },
+    {
+      "id": 312310,
+      "field": "poizonAttackPower",
+      "official": 0,
+      "current": 200
+    },
+    {
+      "id": 312310,
+      "field": "diseaseAttackPower",
+      "official": 0,
+      "current": 200
+    },
+    {
+      "id": 312310,
+      "field": "bloodAttackPower",
+      "official": 0,
+      "current": 200
+    },
+    {
+      "id": 312310,
+      "field": "freezeAttackPower",
+      "official": 0,
+      "current": 200
+    },
+    {
+      "id": 312310,
+      "field": "sleepAttackPower",
+      "official": 0,
+      "current": 200
+    },
+    {
+      "id": 501720,
+      "field": "poizonAttackPower",
+      "official": 58,
+      "current": 60
+    },
+    {
+      "id": 501841,
+      "field": "poizonAttackPower",
+      "official": 45,
+      "current": 70
+    },
+    {
+      "id": 1443101,
+      "field": "freezeAttackPower",
+      "official": 35,
+      "current": 90
+    },
+    {
+      "id": 1703000,
+      "field": "diseaseAttackPower",
+      "official": 65,
+      "current": 110
+    },
+    {
+      "id": 1703100,
+      "field": "diseaseAttackPower",
+      "official": 65,
+      "current": 110
+    },
+    {
+      "id": 1723001,
+      "field": "poizonAttackPower",
+      "official": 70,
+      "current": 100
+    },
+    {
+      "id": 1730001,
+      "field": "madnessAttackPower",
+      "official": 14,
+      "current": 15
+    },
+    {
+      "id": 1730002,
+      "field": "madnessAttackPower",
+      "official": 9,
+      "current": 10
+    },
+    {
+      "id": 1731000,
+      "field": "madnessAttackPower",
+      "official": 21,
+      "current": 25
+    },
+    {
+      "id": 1731001,
+      "field": "madnessAttackPower",
+      "official": 28,
+      "current": 35
+    },
+    {
+      "id": 1732000,
+      "field": "madnessAttackPower",
+      "official": 90,
+      "current": 150
+    },
+    {
+      "id": 1732001,
+      "field": "madnessAttackPower",
+      "official": 105,
+      "current": 180
+    },
+    {
+      "id": 1733001,
+      "field": "madnessAttackPower",
+      "official": 35,
+      "current": 60
+    },
+    {
+      "id": 1733002,
+      "field": "madnessAttackPower",
+      "official": 6,
+      "current": 8
+    },
+    {
+      "id": 21491010,
+      "field": "bloodAttackPower",
+      "official": 17,
+      "current": 72
+    },
+    {
+      "id": 21730001,
+      "field": "madnessAttackPower",
+      "official": 6,
+      "current": 7
+    }
+  ],
+  "resistance_reducers": [
+    {
+      "id": 4002,
+      "resistance_point_changes": {
+        "changePoisonResistPoint": -150
+      },
+      "duration": 180.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 4004,
+      "resistance_point_changes": {
+        "changePoisonResistPoint": -200
+      },
+      "duration": 180.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 4053,
+      "resistance_point_changes": {
+        "changeDiseaseResistPoint": -200
+      },
+      "duration": 180.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 19982,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -50,
+        "changeMadnessResistPoint": -50
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6087200,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -50,
+        "changeMadnessResistPoint": -50
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6202063,
+      "resistance_point_changes": {
+        "changePoisonResistPoint": -500,
+        "changeDiseaseResistPoint": -500,
+        "changeBloodResistPoint": -500,
+        "changeCurseResistPoint": -500,
+        "changeFreezeResistPoint": -500
+      },
+      "duration": 8.0,
+      "typed_goods_callers": [],
+      "reference_counts": {
+        "Bullet": 269,
+        "AtkParam_Npc": 2463
+      },
+      "direct_reference_examples": [
+        {
+          "table": "Bullet",
+          "id": 2110421,
+          "field": "spEffectId4"
+        },
+        {
+          "table": "Bullet",
+          "id": 2110422,
+          "field": "spEffectId4"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520105,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520115,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520215,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520225,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520265,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520275,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520320,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 4520321,
+          "field": "spEffectId2"
+        }
+      ]
+    },
+    {
+      "id": 6202066,
+      "resistance_point_changes": {
+        "changePoisonResistPoint": -1000,
+        "changeDiseaseResistPoint": -1000,
+        "changeBloodResistPoint": -1000,
+        "changeCurseResistPoint": -1000,
+        "changeFreezeResistPoint": -1000
+      },
+      "duration": 8.0,
+      "typed_goods_callers": [],
+      "reference_counts": {
+        "Bullet": 543,
+        "AtkParam_Npc": 1002
+      },
+      "direct_reference_examples": [
+        {
+          "table": "Bullet",
+          "id": 2120292,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120293,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120620,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120621,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120622,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120640,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120641,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120642,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120643,
+          "field": "spEffectId2"
+        },
+        {
+          "table": "Bullet",
+          "id": 2120650,
+          "field": "spEffectId2"
+        }
+      ]
+    },
+    {
+      "id": 6202103,
+      "resistance_point_changes": {
+        "changePoisonResistPoint": -200
+      },
+      "duration": 8.0,
+      "typed_goods_callers": [
+        {
+          "goods_id": 330,
+          "field": "refId_default",
+          "bullet": 10172000
+        },
+        {
+          "goods_id": 370,
+          "field": "refId_default",
+          "bullet": 10172000
+        },
+        {
+          "goods_id": 430,
+          "field": "refId_default",
+          "bullet": 10172000
+        },
+        {
+          "goods_id": 440,
+          "field": "refId_default",
+          "bullet": 10172000
+        },
+        {
+          "goods_id": 670,
+          "field": "refId_default",
+          "bullet": 10172000
+        },
+        {
+          "goods_id": 1720,
+          "field": "refId_default",
+          "bullet": 10172000
+        },
+        {
+          "goods_id": 1840,
+          "field": "refId_default",
+          "bullet": 10184000
+        },
+        {
+          "goods_id": 53652,
+          "field": "refId_default",
+          "bullet": 10033000
+        },
+        {
+          "goods_id": 53655,
+          "field": "refId_default",
+          "bullet": 10037000
+        },
+        {
+          "goods_id": 2000330,
+          "field": "refId_default",
+          "bullet": 210033000
+        },
+        {
+          "goods_id": 2000370,
+          "field": "refId_default",
+          "bullet": 210037000
+        }
+      ],
+      "reference_counts": {
+        "Bullet": 6
+      },
+      "direct_reference_examples": [
+        {
+          "table": "Bullet",
+          "id": 10033001,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 10037001,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 10172000,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 10184000,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 210033001,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 210037001,
+          "field": "spEffectId1"
+        }
+      ]
+    },
+    {
+      "id": 6202104,
+      "resistance_point_changes": {
+        "changeDiseaseResistPoint": -200
+      },
+      "duration": 8.0,
+      "typed_goods_callers": [
+        {
+          "goods_id": 1841,
+          "field": "refId_default",
+          "bullet": 10184100
+        },
+        {
+          "goods_id": 2000670,
+          "field": "refId_default",
+          "bullet": 210067000
+        }
+      ],
+      "reference_counts": {
+        "Bullet": 3
+      },
+      "direct_reference_examples": [
+        {
+          "table": "Bullet",
+          "id": 10067001,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 10184100,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 210067001,
+          "field": "spEffectId0"
+        }
+      ]
+    },
+    {
+      "id": 6202105,
+      "resistance_point_changes": {
+        "changeBloodResistPoint": -200
+      },
+      "duration": 8.0,
+      "typed_goods_callers": [
+        {
+          "goods_id": 340,
+          "field": "refId_default",
+          "bullet": 10034000
+        },
+        {
+          "goods_id": 1730,
+          "field": "refId_default",
+          "bullet": 10173000
+        },
+        {
+          "goods_id": 53653,
+          "field": "refId_default",
+          "bullet": 10034000
+        }
+      ],
+      "reference_counts": {
+        "Bullet": 2
+      },
+      "direct_reference_examples": [
+        {
+          "table": "Bullet",
+          "id": 10034001,
+          "field": "spEffectId0"
+        },
+        {
+          "table": "Bullet",
+          "id": 10173000,
+          "field": "spEffectId1"
+        }
+      ]
+    },
+    {
+      "id": 6202106,
+      "resistance_point_changes": {
+        "changeFreezeResistPoint": -200
+      },
+      "duration": 8.0,
+      "typed_goods_callers": [
+        {
+          "goods_id": 360,
+          "field": "refId_default",
+          "bullet": 10036000
+        },
+        {
+          "goods_id": 640,
+          "field": "refId_default",
+          "bullet": 10036000
+        },
+        {
+          "goods_id": 53654,
+          "field": "refId_default",
+          "bullet": 10036000
+        },
+        {
+          "goods_id": 2000360,
+          "field": "refId_default",
+          "bullet": 210036000
+        },
+        {
+          "goods_id": 2000740,
+          "field": "refId_default",
+          "bullet": 210074000
+        }
+      ],
+      "reference_counts": {
+        "Bullet": 3
+      },
+      "direct_reference_examples": [
+        {
+          "table": "Bullet",
+          "id": 10036001,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 210036001,
+          "field": "spEffectId1"
+        },
+        {
+          "table": "Bullet",
+          "id": 210074001,
+          "field": "spEffectId0"
+        }
+      ]
+    },
+    {
+      "id": 6521000,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -30,
+        "changeMadnessResistPoint": -30
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6525000,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -30,
+        "changeMadnessResistPoint": -30
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6525200,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -45,
+        "changeMadnessResistPoint": -45
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6525300,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -45,
+        "changeMadnessResistPoint": -45
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6529000,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -60,
+        "changeMadnessResistPoint": -60
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6534010,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -30,
+        "changeMadnessResistPoint": -30
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6534011,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -20,
+        "changeMadnessResistPoint": -20
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 6534012,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -20,
+        "changeMadnessResistPoint": -20
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 7100061,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -50,
+        "changeMadnessResistPoint": -50
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 7100157,
+      "resistance_point_changes": {
+        "changeSleepResistPoint": -60,
+        "changeMadnessResistPoint": -60
+      },
+      "duration": -1.0,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    },
+    {
+      "id": 20000132,
+      "resistance_point_changes": {
+        "changePoisonResistPoint": -600,
+        "changeDiseaseResistPoint": -600,
+        "changeBloodResistPoint": -600,
+        "changeCurseResistPoint": -600,
+        "changeFreezeResistPoint": -600,
+        "changeSleepResistPoint": -600,
+        "changeMadnessResistPoint": -600
+      },
+      "duration": 0.05,
+      "typed_goods_callers": [],
+      "reference_counts": {},
+      "direct_reference_examples": []
+    }
+  ],
+  "goods_redirections": [
+    {
+      "id": 330,
+      "official_bullet": 10033000,
+      "current_bullet": 10172000
+    },
+    {
+      "id": 340,
+      "official_bullet": 10034000,
+      "current_bullet": 10034000
+    },
+    {
+      "id": 360,
+      "official_bullet": 10036000,
+      "current_bullet": 10036000
+    },
+    {
+      "id": 370,
+      "official_bullet": 10037000,
+      "current_bullet": 10172000
+    },
+    {
+      "id": 640,
+      "official_bullet": 10064000,
+      "current_bullet": 10036000
+    },
+    {
+      "id": 670,
+      "official_bullet": 10067000,
+      "current_bullet": 10172000
+    },
+    {
+      "id": 1720,
+      "official_bullet": 10172000,
+      "current_bullet": 10172000
+    },
+    {
+      "id": 1730,
+      "official_bullet": 10173000,
+      "current_bullet": 10173000
+    },
+    {
+      "id": 1840,
+      "official_bullet": 10184000,
+      "current_bullet": 10184000
+    },
+    {
+      "id": 1841,
+      "official_bullet": 10184100,
+      "current_bullet": 10184100
+    }
+  ],
+  "resident_immunity_examples": {
+    "90030": {
+      "disableCurse": 1,
+      "disableMadness": 0
+    },
+    "90060": {
+      "disableCurse": 0,
+      "disableMadness": 1
+    }
+  },
+  "area_resistance_multiplier_examples": {
+    "7000": {
+      "registPoizonChangeRate": {
+        "official": 2.0,
+        "current": 2.0
+      },
+      "registDiseaseChangeRate": {
+        "official": 2.0,
+        "current": 2.0
+      },
+      "registBloodChangeRate": {
+        "official": 2.0,
+        "current": 2.0
+      },
+      "registCurseChangeRate": {
+        "official": 1.0,
+        "current": 1.0
+      },
+      "registFreezeChangeRate": {
+        "official": 2.0,
+        "current": 2.0
+      },
+      "registSleepChangeRate": {
+        "official": 2.0,
+        "current": 2.0
+      },
+      "registMadnessChangeRate": {
+        "official": 2.0,
+        "current": 2.0
+      }
+    },
+    "7040": {
+      "registPoizonChangeRate": {
+        "official": 2.0699999,
+        "current": 2.0699999
+      },
+      "registDiseaseChangeRate": {
+        "official": 2.0699999,
+        "current": 2.0699999
+      },
+      "registBloodChangeRate": {
+        "official": 2.0699999,
+        "current": 2.0699999
+      },
+      "registCurseChangeRate": {
+        "official": 1.0,
+        "current": 1.0
+      },
+      "registFreezeChangeRate": {
+        "official": 2.0699999,
+        "current": 2.0699999
+      },
+      "registSleepChangeRate": {
+        "official": 2.0699999,
+        "current": 2.0699999
+      },
+      "registMadnessChangeRate": {
+        "official": 2.0699999,
+        "current": 2.0699999
+      }
+    },
+    "7090": {
+      "registPoizonChangeRate": {
+        "official": 2.158,
+        "current": 2.158
+      },
+      "registDiseaseChangeRate": {
+        "official": 2.158,
+        "current": 2.158
+      },
+      "registBloodChangeRate": {
+        "official": 2.158,
+        "current": 2.158
+      },
+      "registCurseChangeRate": {
+        "official": 1.0,
+        "current": 1.0
+      },
+      "registFreezeChangeRate": {
+        "official": 2.158,
+        "current": 2.158
+      },
+      "registSleepChangeRate": {
+        "official": 2.158,
+        "current": 2.158
+      },
+      "registMadnessChangeRate": {
+        "official": 2.158,
+        "current": 2.158
+      }
+    }
+  },
+  "spell_projectile_status_changes": [
+    {
+      "magic_id": 4000,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10400000,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10400099,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Sorcery] Glintstone Pebble"
+    },
+    {
+      "magic_id": 4001,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10400100,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": 10430000
+          }
+        },
+        {
+          "bullet_id": 10400199,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10430000,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 5,
+            "current": 5
+          },
+          "HitBulletID": {
+            "official": 10430001,
+            "current": 10430001
+          }
+        },
+        {
+          "bullet_id": 10430001,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Sorcery] Great Glintstone Shard"
+    },
+    {
+      "magic_id": 4400,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10440000,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": 10441000
+          }
+        },
+        {
+          "bullet_id": 10441000,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10441001,
+            "current": 10441001
+          }
+        },
+        {
+          "bullet_id": 10441001,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1441000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 80
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10441002,
+            "current": 10441002
+          }
+        },
+        {
+          "bullet_id": 10441002,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1441000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 80
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10441009,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Sorcery] Glintstone Icecrag"
+    },
+    {
+      "magic_id": 4410,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10441000,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10441001,
+            "current": 10441001
+          }
+        },
+        {
+          "bullet_id": 10441001,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1441000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 80
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10441002,
+            "current": 10441002
+          }
+        },
+        {
+          "bullet_id": 10441050,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1441000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 80
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10441051,
+            "current": 10441051
+          }
+        },
+        {
+          "bullet_id": 10441051,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1441000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 80
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10441052,
+            "current": 10441052
+          }
+        },
+        {
+          "bullet_id": 10441002,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1441000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 80
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10441009,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10441059,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10441052,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1441000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 80
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Sorcery] Zamor Ice Storm"
+    },
+    {
+      "magic_id": 4420,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10442000,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1442000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 20
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10442001,
+            "current": 10442001
+          }
+        },
+        {
+          "bullet_id": 10442001,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1442000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 20
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10442050,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1442000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 20
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10442051,
+            "current": 10442051
+          }
+        },
+        {
+          "bullet_id": 10442051,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1442000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 20
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Sorcery] Freezing Mist"
+    },
+    {
+      "magic_id": 4431,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10443120,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10443110,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10443111,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 2,
+            "current": 2
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10443121,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 2,
+            "current": 2
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10443130,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10443131,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 2,
+            "current": 2
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10443100,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10443101,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1443101,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 35
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 2,
+            "current": 2
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Sorcery] Adula's Moonblade"
+    },
+    {
+      "magic_id": 6000,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10600000,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10600001,
+            "current": 10600001
+          }
+        },
+        {
+          "bullet_id": 10600001,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": 10600100
+          }
+        },
+        {
+          "bullet_id": 10600002,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10600001,
+            "current": 10600001
+          }
+        },
+        {
+          "bullet_id": 10600100,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10600101,
+            "current": 10600101
+          }
+        },
+        {
+          "bullet_id": 10600005,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10600006,
+            "current": 10600006
+          }
+        },
+        {
+          "bullet_id": 10600101,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10600006,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Catch Flame"
+    },
+    {
+      "magic_id": 6210,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10621000,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10621001,
+            "current": 10621001
+          }
+        },
+        {
+          "bullet_id": 10621001,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": 10625000
+          }
+        },
+        {
+          "bullet_id": 10621050,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10621051,
+            "current": 10621051
+          }
+        },
+        {
+          "bullet_id": 10625000,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 9,
+            "current": 18
+          },
+          "HitBulletID": {
+            "official": 10625001,
+            "current": 10625001
+          }
+        },
+        {
+          "bullet_id": 10625001,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10625002,
+            "current": 10625002
+          }
+        },
+        {
+          "bullet_id": 10625002,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10621051,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10625003,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Black Flame"
+    },
+    {
+      "magic_id": 6900,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10690000,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10690001,
+            "current": 10690001
+          }
+        },
+        {
+          "bullet_id": 10690001,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690002,
+            "current": 10690002
+          }
+        },
+        {
+          "bullet_id": 10690050,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10690051,
+            "current": 10690051
+          }
+        },
+        {
+          "bullet_id": 10690051,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690052,
+            "current": 10690052
+          }
+        },
+        {
+          "bullet_id": 10690052,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10690053,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690054,
+            "current": 10690054
+          }
+        },
+        {
+          "bullet_id": 10690054,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690055,
+            "current": 10690055
+          }
+        },
+        {
+          "bullet_id": 10690055,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 16,
+            "current": 16
+          },
+          "HitBulletID": {
+            "official": 10690056,
+            "current": 10690056
+          }
+        },
+        {
+          "bullet_id": 10690056,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690057,
+            "current": 10690057
+          }
+        },
+        {
+          "bullet_id": 10690057,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690058,
+            "current": 10690058
+          }
+        },
+        {
+          "bullet_id": 10690058,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690059,
+            "current": 10690059
+          }
+        },
+        {
+          "bullet_id": 10690059,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10690002,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 16,
+            "current": 16
+          },
+          "HitBulletID": {
+            "official": 10690003,
+            "current": 10690003
+          }
+        },
+        {
+          "bullet_id": 10690003,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10690004,
+            "current": 10690004
+          }
+        },
+        {
+          "bullet_id": 10690004,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": 10692000
+          }
+        },
+        {
+          "bullet_id": 10692000,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10692002,
+            "current": 10692002
+          }
+        },
+        {
+          "bullet_id": 10692002,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692003,
+            "current": 10692003
+          }
+        },
+        {
+          "bullet_id": 10692009,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692010,
+            "current": 10692010
+          }
+        },
+        {
+          "bullet_id": 10692010,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692011,
+            "current": 10692011
+          }
+        },
+        {
+          "bullet_id": 10692003,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692004,
+            "current": 10692004
+          }
+        },
+        {
+          "bullet_id": 10692011,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692012,
+            "current": 10692012
+          }
+        },
+        {
+          "bullet_id": 10692012,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10692013,
+          "status_changes": [
+            {
+              "slot": "spEffectId3",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692014,
+            "current": 10692014
+          }
+        },
+        {
+          "bullet_id": 10692004,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692005,
+            "current": 10692005
+          }
+        },
+        {
+          "bullet_id": 10692014,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692015,
+            "current": 10692015
+          }
+        },
+        {
+          "bullet_id": 10692005,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": 10692006,
+            "current": 10692006
+          }
+        },
+        {
+          "bullet_id": 10692015,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 6,
+            "current": 6
+          },
+          "HitBulletID": {
+            "official": 10692016,
+            "current": 10692016
+          }
+        },
+        {
+          "bullet_id": 10692016,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10692006,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3191,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "bloodAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Lightning Spear"
+    },
+    {
+      "magic_id": 7000,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10700000,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 3,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10700001,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10700002,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Dragonfire"
+    },
+    {
+      "magic_id": 7020,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10702000,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1702000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 110
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 3,
+            "current": 6
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10702001,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10702002,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1702000,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 110
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Dragonice"
+    },
+    {
+      "magic_id": 7021,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10702100,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1702100,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 110
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": 10702102,
+            "current": 10702102
+          }
+        },
+        {
+          "bullet_id": 10702101,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1702100,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 110
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 2,
+            "current": 2
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10702102,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1702100,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {
+                "freezeAttackPower": 110
+              },
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 5,
+            "current": 5
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10702110,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Borealis's Mist"
+    },
+    {
+      "magic_id": 7030,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10703000,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 3,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10703002,
+          "status_changes": [
+            {
+              "slot": "spEffectId0",
+              "official_effect_id": 1703000,
+              "current_effect_id": 3176,
+              "official_positive_buildup": {
+                "diseaseAttackPower": 65
+              },
+              "current_positive_buildup": {
+                "poizonAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Rotten Breath"
+    },
+    {
+      "magic_id": 7040,
+      "reachable_changed_bullets": [
+        {
+          "bullet_id": 10704000,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 3,
+            "current": 3
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10704001,
+          "status_changes": [
+            {
+              "slot": "spEffectId2",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        },
+        {
+          "bullet_id": 10704002,
+          "status_changes": [
+            {
+              "slot": "spEffectId1",
+              "official_effect_id": 0,
+              "current_effect_id": 3141,
+              "official_positive_buildup": {},
+              "current_positive_buildup": {
+                "freezeAttackPower": 100
+              }
+            }
+          ],
+          "numShoot": {
+            "official": 1,
+            "current": 1
+          },
+          "HitBulletID": {
+            "official": -1,
+            "current": -1
+          }
+        }
+      ],
+      "reference_name": "[Incantation] Glintstone Breath"
+    }
+  ],
+  "changed_spell_rows_including_npc_variants": 217,
+  "changed_spell_row_ids": [
+    4000,
+    4001,
+    4010,
+    4020,
+    4021,
+    4030,
+    4040,
+    4050,
+    4060,
+    4070,
+    4080,
+    4090,
+    4100,
+    4110,
+    4120,
+    4200,
+    4210,
+    4220,
+    4300,
+    4301,
+    4302,
+    4360,
+    4361,
+    4370,
+    4380,
+    4381,
+    4390,
+    4400,
+    4410,
+    4420,
+    4431,
+    4500,
+    4510,
+    4520,
+    4600,
+    4610,
+    4620,
+    4640,
+    4650,
+    4700,
+    4701,
+    4710,
+    4720,
+    4721,
+    4800,
+    4810,
+    4820,
+    4830,
+    4900,
+    4910,
+    5000,
+    5001,
+    5010,
+    5020,
+    5030,
+    5040,
+    5100,
+    5110,
+    6000,
+    6001,
+    6010,
+    6020,
+    6030,
+    6100,
+    6110,
+    6120,
+    6210,
+    6220,
+    6230,
+    6240,
+    6270,
+    6300,
+    6310,
+    6400,
+    6410,
+    6500,
+    6530,
+    6700,
+    6701,
+    6710,
+    6720,
+    6750,
+    6800,
+    6810,
+    6820,
+    6830,
+    6900,
+    6910,
+    6920,
+    6921,
+    6930,
+    6940,
+    6941,
+    6950,
+    7000,
+    7001,
+    7010,
+    7011,
+    7020,
+    7021,
+    7030,
+    7031,
+    7040,
+    7041,
+    7050,
+    7060,
+    7090,
+    7200,
+    7210,
+    7240,
+    7310,
+    7311,
+    7320,
+    7330,
+    7520,
+    7530,
+    7900,
+    8000,
+    8001,
+    53010,
+    53012,
+    53040,
+    53041,
+    53043,
+    53044,
+    53045,
+    53110,
+    53120,
+    53160,
+    53161,
+    53162,
+    53163,
+    53181,
+    53182,
+    53183,
+    53190,
+    53191,
+    53192,
+    53210,
+    53240,
+    53241,
+    53242,
+    53243,
+    53244,
+    53246,
+    53247,
+    53248,
+    53250,
+    53251,
+    53270,
+    53271,
+    53290,
+    53291,
+    53330,
+    53350,
+    53390,
+    53520,
+    53521,
+    53522,
+    53523,
+    53560,
+    53561,
+    53750,
+    53751,
+    53760,
+    53770,
+    53800,
+    53801,
+    53802,
+    53803,
+    53804,
+    53805,
+    53820,
+    53821,
+    53822,
+    53830,
+    53850,
+    53851,
+    53852,
+    53860,
+    53861,
+    53900,
+    53910,
+    53911,
+    53912,
+    2004320,
+    2004500,
+    2004510,
+    2005000,
+    2006200,
+    2006690,
+    2006700,
+    2006710,
+    2006920,
+    2007000,
+    2007010,
+    2007200,
+    2007300,
+    2007410,
+    2007420,
+    2007700,
+    2007710,
+    2007730,
+    2007800,
+    2007820,
+    2050000,
+    2050001,
+    2050020,
+    2050030,
+    2050040,
+    2050061,
+    2050062,
+    2050063,
+    2050064,
+    2050070,
+    2050082,
+    2050090
+  ],
+  "stored_detail_scope": "Reference lists truncated to 10 examples; spell detail limited to representative cases. Script regenerates complete details."
+}
