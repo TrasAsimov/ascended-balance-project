@@ -6,12 +6,18 @@
 
 “已集成”表示相应文件进入安装包；“静态核验”表示参数、事件结构或压缩包检查通过；只有标明玩家实测的项目才表示已在游戏里确认。当前 MOD 基于 Ascended 1.16 资源，参数容器迁移到官方 1.17.1 格式；跨版本原版差异不能全部归因于本项目。
 
-## Unreleased — 2026-10-01 armor and core integration
+## v0.10.5 · 护甲套装与核心平衡集成（2026-10-01，完整包已完成，待上传）
 
-- Implement the reviewed armor workbook: 26 reward profile revisions, 12 single-piece decisions, 187 explicit families, and 741 named pieces.
-- Restore official single-piece effects with isolated copies; apply the explicitly approved 600-second triggers and Divine Beast Head attributes. Preserve compatible mod effects.
-- Apply core talisman targets: sorcery/incantation attack power x2.2, charged attacks x3.0, jumps x2.0, regular combo final hit x3.5. Preserve guard counter x4, critical x5, arrows/bolts x2, and boss growth.
-- Update English item descriptions and Chinese source overlays. No new binary package or Release. Static verification passes; game testing remains pending.
+- 完整包继承 v0.10.4 的资源，合并已确认的 26 类套装奖励与 12 件单件意见；187 个家族、741 件具名护甲，165 个家族有奖励。恢复 140 件原版特效装备及效果链，保留兼容 Mod 效果。
+- 明确单件例外：蘑菇王冠、黑头罩增伤持续 600 秒；神兽头部力量／灵巧各 +20；小恶魔头罩保留原版属性并加指定效果。
+- 核心护符：魔法／祷告攻击力 ×2.2、蓄力 ×3、跳跃 ×2、普通连段末击 ×3.5；防反 ×4、处决 ×5、箭矢／弩箭 ×2。保留原作用筛选；攻击力系数不等于最终扣血系数。Boss 主效果和施法子效果保持。
+- 纳入既有暂存：6,453 条正常敌人失衡耐久 ×1.25，679 条禁用值和 55 条特殊高值保持；大盾护符格挡精力消耗 ×0.5，即减耗 50%。
+- 新增 437 个效果行、308 个奖励事件。两件／满套同类增伤使用替换，不同效果并存，换装不足与死亡时清理奖励及子效果。
+- 两份英文档案均更新 741 件护甲说明及核心护符；简中仅有说明源 JSON 与合并工具，尚无可安装简中档案。
+- 模块静态检查通过；完整包另通过 SHA-256、ZIP CRC 和非替换资源逐字节继承检查。新增内容尚未游戏实测；高跳、斗牛剑战技保留 v0.10.4 的玩家确认。
+- 完整测试包已准备，GitHub Release 上传待完成。[安装与测试](docs/v0.10.5.md) · [详细套装目录](docs/armor_core_integration_20261001.md) · [包校验记录](changes/v0.10.5_package_manifest.json)。
+
+English: v0.10.5 packages the reviewed armor system, core talisman coefficients, normal enemy stance +25%, and Greatshield stamina reduction of 50% over the complete v0.10.4 resources. English descriptions are included. Static and package checks pass; new gameplay changes and Chinese game archives remain pending.
 
 ## v0.10.4 · 高跳与新版战技兼容
 

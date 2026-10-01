@@ -4,11 +4,24 @@
 
 这是在 **Ascended: Age of the Endless** MOD 基础上进行的独立平衡与新版兼容项目。第一阶段希望保留 Ascended 的敌人强度与特色战斗，同时让法术、祷告、战技、弓箭和其他武器玩法有更多选择。敌人、Boss 与掉落随机化属于第二阶段，**目前尚未制作**。
 
-当前完整测试版为 **v0.10.4**，参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
+最新已完成完整测试包为 **v0.10.5**，待上传；GitHub 已发布版暂仍为 v0.10.4。新版参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
 
-## 待发布：护甲与核心伤害平衡
+## v0.10.5 护甲与核心平衡
 
-2026-10-01 回传护甲方案与核心护符定案已统一实现在 [`systems/armor/`](systems/armor/)，详见[合并检查记录](docs/armor_core_integration_20261001.md)。静态检查通过，尚待游戏实测。本次仅提交源代码和审查记录，没有新下载包或 Release；已发布版本仍为 v0.10.4。
+回传护甲方案和核心护符定案已并入完整安装包：**187 个护甲家族、741 件具名护甲，165 个家族有奖励**。恢复原版单件特色与代价，保留兼容的 Mod 效果；详细分类、套装名和数值见[完整目录与合并检查](docs/armor_core_integration_20261001.md)，安装和测试见 [v0.10.5 说明](docs/v0.10.5.md)。
+
+| 核心效果 | 当前系数 |
+|---|---:|
+| 魔法／祷告攻击力 | ×2.2 |
+| 蓄力攻击 | ×3 |
+| 跳跃攻击 | ×2 |
+| 普通连段最后一击 | ×3.5 |
+| 防御反击 | ×4 |
+| 背刺／处决 | ×5 |
+| 箭矢／弩箭 | ×2 |
+| 大盾护符格挡精力消耗 | ×0.5（减耗 50%） |
+
+保持各自原有适用筛选，攻击力系数不等于最终扣血倍率。正常敌人失衡耐久 6,453 行提高 25%，禁用值与特殊高值不改。Boss 成长奖励保留。同类套装增伤满套替换低档，不同奖励并存。**新增修改通过静态检查，尚待游戏实测**；英文档案已更新，真实简中游戏档案仍待匹配输入。
 
 ## 主要改动
 
@@ -26,16 +39,16 @@
 
 ## 安装与测试
 
-1. 从 [v0.10.4 Release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) 下载完整安装 ZIP。GitHub 自动生成的“Source code”压缩包不是 MOD 安装包。
+1. v0.10.5 完整安装包已准备，待上传；[v0.10.4 Release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) 暂仍提供上一版完整安装 ZIP。GitHub 自动生成的“Source code”压缩包不是 MOD 安装包。
 2. 统一使用 **ME3**。将整个 MOD 文件夹解压到例如 `E:\me3\config\profiles\eldenring-mods\<MOD文件夹>\` 的目录下，保持其中的 `ModEngine` 文件夹及 `ModEngine\launchmod_eldenring.bat` 原有结构。请用新文件夹，不要直接覆盖旧版，以免残留旧脚本、动画或文本文件。
 3. 备份存档，关闭反作弊 EAC 并离线测试。先开启 Steam，再运行 `<MOD文件夹>\ModEngine\launchmod_eldenring.bat` 启动 MOD。新角色初始物品不会自动补发到旧存档；游戏须拥有**全部 DLC 包**才有完整内容。
 
-v0.10.4 完整包 SHA-256：`007b4f0b8dff4d6bab6ad7bcec25ba28386df839c9f589849df23efcfad70136`。
+完整包文件名为 `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`；已准备的发布文件附 `SHA256SUMS.txt`，打包校验见 [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json)。
 
 ## 仓库内容
 
 - [`CHANGELOG.md`](CHANGELOG.md)：唯一持续维护的版本说明，含已知限制与验证状态。
-- [`docs/vanilla_to_v0104_summary.md`](docs/vanilla_to_v0104_summary.md)：与官方 1.17.1 同版本参数的逐表对照。
+- [`docs/vanilla_to_v0104_summary.md`](docs/vanilla_to_v0104_summary.md)：历史 v0.10.4 与官方 1.17.1 同版本参数的逐表对照；v0.10.5 新增差异另见合并检查记录。
 - [`changes/vanilla_to_v0104_fields.csv.gz`](changes/vanilla_to_v0104_fields.csv.gz)：可解析字段的完整差异，包含表、行 ID、原版值和当前值；解压后为 CSV。差异同时包含 Ascended 原有修改和本项目修改。
 - [`changes/`](changes/)：保留每版必要的参数审查 CSV 和 manifest。历史文件名含 `pending_` 不代表当前版本仍未集成。
 - [`scripts/`](scripts/)：构建与审查脚本，需要你自己拥有的游戏和 MOD 原始资源，尚非一键从零构建。

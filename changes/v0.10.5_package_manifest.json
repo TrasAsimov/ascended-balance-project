@@ -1,0 +1,28 @@
+{
+  "version": "v0.10.5",
+  "base_sha256": "007b4f0b8dff4d6bab6ad7bcec25ba28386df839c9f589849df23efcfad70136",
+  "source_implementation_commit": "ee2419f13dec848c0a8d648edc95e759fa44346d",
+  "package": "Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip",
+  "package_sha256": "3db368a557bd71973dee0b15b8219baea069ce1f852863e616b7723df4c1b971",
+  "package_size": 171397094,
+  "package_members": 1239,
+  "replaced_files": {
+    "ModEngine/mod/regulation.bin": "4ea460901390b85ecbe1040aa2e0676dbec7a27f7bdd61c93acfe6ef063253b1",
+    "ModEngine/mod/event/common.emevd.dcx": "01871ab0cd77aa74a72ed11c0c633ef2f539d72088d94a45161c28e5a0217d43",
+    "ModEngine/mod/msg/engus/item_dlc02.msgbnd.dcx": "70cbb477cab370ffa74ad60f5e4883d87d4a936ebb2e29a7208156a187f2f178",
+    "ModEngine/mod/msg/engus/item_dlc01.msgbnd.dcx": "7dce380b054bc6d9ebf54658dfe3a983ab76c2041e43ea26701c6fe5d695e731"
+  },
+  "added_files": [
+    "Ascended_v0.10.5_安装与测试说明.md",
+    "Armor_Core/armor_core_integration_20261001.md",
+    "Armor_Core/description_zh.json",
+    "Armor_Core/integration_manifest.json",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md"
+  ],
+  "unchanged_base_members": 1228,
+  "zip_crc": "passed",
+  "all_inherited_bytes": "passed",
+  "game_test": "not run"
+}

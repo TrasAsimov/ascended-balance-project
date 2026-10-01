@@ -4,11 +4,24 @@
 
 An independent balance and compatibility project built on the **Ascended: Age of the Endless** mod for *Elden Ring*. The first phase makes more character builds viable while retaining Ascended's stronger enemies and distinctive encounters. Enemy, boss, and loot randomization is a later phase; it has **not** been implemented.
 
-The current integrated test build is **v0.10.4**. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
+The latest completed package is **v0.10.5**, prepared for upload. The published GitHub Release remains v0.10.4 until the new asset is uploaded. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
 
-## Pending armor and core damage integration
+## Armor and core balance in v0.10.5
 
-The user-approved 2026-10-01 armor revision and core talisman targets are implemented in [`systems/armor/`](systems/armor/), with the [integration audit](docs/armor_core_integration_20261001.md). Static checks pass; in-game testing is pending. This source submission does not create a new download package or Release; v0.10.4 remains the published release.
+The reviewed 2026-10-01 armor revision and core talisman balance are included in the complete package. The system covers **187 families and 741 named pieces**, with rewards for 165 families, restores official single-piece effects, and preserves compatible mod effects. See the [complete armor catalog and audit](docs/armor_core_integration_20261001.md) and [v0.10.5 installation and test notes](docs/v0.10.5.md).
+
+| Core effect | Current coefficient |
+|---|---:|
+| Sorcery / incantation attack power | ×2.2 |
+| Charged attack | ×3 |
+| Jump attack | ×2 |
+| Regular combo final hit | ×3.5 |
+| Guard counter | ×4 |
+| Backstab / critical | ×5 |
+| Arrows / bolts | ×2 |
+| Greatshield guard stamina consumption | ×0.5 (50% reduction) |
+
+These coefficients keep their original filters; attack power is not a guarantee of identical final HP damage. Normal enemy stance durability is increased by 25% in 6,453 rows, excluding disabled and special high-value rows. Boss growth is retained. Same-kind armor bonuses replace the lower tier with the full-set total; different bonuses coexist. New changes pass static checks; in-game testing is pending. English archives are included; matching Chinese game archives remain pending.
 
 ## What changed
 
@@ -26,16 +39,16 @@ These are the **current intended and integrated changes**, not a claim that ever
 
 ## Install and test
 
-1. Download the complete ZIP from the [v0.10.4 release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated). Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
+1. The v0.10.5 complete package is prepared for upload. The existing [v0.10.4 release](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) contains the previous complete build. Do not use GitHub's auto-generated “Source code” ZIP as the mod package.
 2. Use **ME3**. Extract the whole mod folder to a location such as `E:\me3\config\profiles\eldenring-mods\<mod-folder>\`, keeping its `ModEngine` directory and `ModEngine\launchmod_eldenring.bat` in place. Use a fresh folder: mixing with an older version can leave obsolete scripts, animations, or message files behind.
 3. Back up saves and disable EAC for offline mod testing. Start Steam, then run `<mod-folder>\ModEngine\launchmod_eldenring.bat` to launch the mod. A new character is needed to test starting items; existing saves do not receive them automatically. The base game and **all DLC packs** are required for the full content.
 
-The v0.10.4 complete ZIP SHA-256 is `007b4f0b8dff4d6bab6ad7bcec25ba28386df839c9f589849df23efcfad70136`.
+Download `Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip`. The prepared release files include `SHA256SUMS.txt`; package validation is recorded in [`changes/v0.10.5_package_manifest.json`](changes/v0.10.5_package_manifest.json).
 
 ## Repository map
 
 - [`CHANGELOG.md`](CHANGELOG.md): the single maintained version history, current status, and known limitations.
-- [`docs/vanilla_to_v0104_summary.md`](docs/vanilla_to_v0104_summary.md): same-version 1.17.1 parameter comparison by table.
+- [`docs/vanilla_to_v0104_summary.md`](docs/vanilla_to_v0104_summary.md): historical v0.10.4 comparison against same-version 1.17.1 parameters; v0.10.5 additions are recorded separately in the integration audit.
 - [`changes/vanilla_to_v0104_fields.csv.gz`](changes/vanilla_to_v0104_fields.csv.gz): all comparable changed fields, with row IDs, baseline values, and current values. Decompress before opening as CSV. Ascended's original changes and this project's changes are both included.
 - [`changes/`](changes/): per-version parameter audit CSVs and manifests retained for traceability; historical `pending_` filenames do not necessarily describe the current release status.
 - [`scripts/`](scripts/): build and audit scripts. They require the owner's own game/mod inputs and are not a one-command clean-room build.
