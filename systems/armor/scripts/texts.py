@@ -77,11 +77,24 @@ for e,(zh,en) in zip(range(6202023,6202030),[RESIST[k] for k in ['Poison','Disea
 for e,k in zip([6202030,6202031,6202032,6202034,6202035,6202036,6202037,6202038],ATTR):
     zh,en=ATTR[k];MOD[e]=(f'{zh} +30',f'{en} +30')
 
+def effect_lines(label, effects, language):
+    # Separate effects without discarding their enclosing trigger or scope.
+    separator='；' if language=='zh' else ';'
+    fragments=[part.strip() for effect in effects for part in effect.split(separator) if part.strip()]
+    return [(label+' · ' if i==0 else '    ')+part for i,part in enumerate(fragments)]
+
+def display_name(name):
+    for note in ['（官方装束家族）','（单件家族）','（单件）','（六种单件）','（旧版／Mod条目）','（Mod条目）','（暂译）']:
+        name=name.replace(note,'')
+    return name
+
 texts={}
 for s,r in armors.items():
     rid=int(s);body=result['EquipParamProtector']['rows'][rid]['data']
     resident=[decode(body,la[k]) for k in ['residentSpEffectId','residentSpEffectId2','residentSpEffectId3']]
-    g=groups[r['key']];z=['套装：'+g['name']];e=['Set: '+g['english_name']]
+    g=groups[r['key']]
+    z=[display_name(g['name'])+f"（{g['full']}件）",'']
+    e=[g['english_name']+f" ({g['full']} {'piece' if g['full']==1 else 'pieces'})",'']
     singles_z=[];singles_e=[]
     for eid in rr.get(s,{}).get('official_ids',[]):
         zh,en=describe_original(eid)
@@ -92,18 +105,24 @@ for s,r in armors.items():
         if eid<=0 or eid in reverse:continue
         assert eid in MOD,('missing resident description',rid,eid)
         zh,en=MOD[eid];singles_z.append(compact(zh,'zh'));singles_e.append(compact(en,'en'))
-    if singles_z:z.append('单件：'+'；'.join(singles_z))
-    if singles_e:e.append('Piece: '+'; '.join(singles_e))
-    for tier in sorted({x['tier'] for x in g['rewards']}):
+    # One-slot families use the same single-piece block, without a duplicate label.
+    for reward in g['rewards']:
+        if reward['tier']==1:
+            singles_z.append(compact(reward['zh'],'zh'))
+            singles_e.append(compact(reward['en'],'en'))
+    z.extend(effect_lines('单件',singles_z,'zh'));e.extend(effect_lines('Piece',singles_e,'en'))
+    tiers=sorted({x['tier'] for x in g['rewards'] if x['tier']>1})
+    if tiers and singles_z:z.append('')
+    if tiers and singles_e:e.append('')
+    for tier in tiers:
         rewards=[x for x in g['rewards'] if x['tier']==tier]
-        zlabel='单件' if tier==1 else ('满套' if tier>2 else '2件')
-        elabel='Piece' if tier==1 else ('Full set' if tier>2 else '2 pieces')
-        zh='；'.join(compact(x['zh'],'zh',independent='伤害' in x['zh'] and '承伤' not in x['zh'] and '受到' not in x['zh']) for x in rewards)
-        en='; '.join(compact(x['en'],'en',independent='damage' in x['en'].lower() and 'received' not in x['en'].lower()) for x in rewards)
+        zh=[compact(x['zh'],'zh') for x in rewards]
+        en=[compact(x['en'],'en') for x in rewards]
         if tier>2 and any(x['exclusive'] for x in g['rewards']):
-            zh+='（替换2件）';en+=' (replaces 2 pieces)'
-        z.append(zlabel+'：'+zh);e.append(elabel+': '+en)
-    texts[s]={'zh':'\n'.join(z),'en':'\n'.join(e),'set':g['name'],'name':r['name']}
+            zh[-1]+='（替换2件）';en[-1]+=' (replaces 2 pcs)'
+        z.extend(effect_lines(f'{tier}件',zh,'zh'))
+        e.extend(effect_lines(f'{tier} pcs',en,'en'))
+    texts[s]={'zh':'\n'.join(z).rstrip(),'en':'\n'.join(e).rstrip(),'set':g['name'],'name':r['name']}
 (ROOT/'data/description_zh.json').write_text(json.dumps({k:v['zh'] for k,v in texts.items()},ensure_ascii=False,indent=2))
 (ROOT/'data/description_en.json').write_text(json.dumps({k:v['en'] for k,v in texts.items()},ensure_ascii=False,indent=2))
 
@@ -114,7 +133,7 @@ for name in ['item_dlc01','item_dlc02']:
     for fname,(_,data) in parts.items():
         if fname.startswith('AccessoryCaption'):
             entries=fmg_read(data)
-            coretext={2090:'Critical damage +400% (x5.00).',2120:'Combo final hit damage +250% (x3.50).',2130:'Charged heavy attack damage +200% (x3.00).',2140:'Sorcery/incantation attack power +120% (x2.20).',2150:'Arrow/bolt damage +100% (x2.00).',2180:'Jump attack damage +100% (x2.00).',2200:'Guard counter damage +300% (x4.00).',4100:'Guard stamina cost -50% (x0.50).'}
+            coretext={2090:'Critical damage +400%.',2120:'Combo final hit damage +250%.',2130:'Charged heavy attack damage +200%.',2140:'Sorcery/incantation attack power +120%.',2150:'Arrow/bolt damage +100%.',2180:'Jump attack damage +100%.',2200:'Guard counter damage +300%.',4100:'Guard stamina cost -50%.'}
             for rid,line in coretext.items():
                 if rid in entries:
                     entries[rid]=line

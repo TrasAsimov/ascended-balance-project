@@ -4,7 +4,7 @@ import re
 def compact(text, language, independent=False):
     if language=='zh':
         replacements={
-            '蓄力普通重击':'蓄力重击','背刺与处决':'背刺/处决','削韧系数':'削韧',
+            '普通连段最后一击':'连击末段','精力恢复速度':'精力恢复',' 点/秒':'/秒','蓄力普通重击':'蓄力重击','背刺与处决':'背刺/处决','削韧系数':'削韧',
             '附近发生出血时，所有伤害':'附近出血时，伤害',
             '附近发生中毒或腐败时，所有伤害':'附近中毒/腐败时，伤害',
             '；再次触发刷新时间':'，可刷新','持续 600 秒':'600秒',
@@ -37,17 +37,11 @@ def compact(text, language, independent=False):
             '原版触发增伤':'伤害',
         }
         for old,new in replacements.items():text=text.replace(old,new)
-        def percent(m):
-            value=float(m[2]);rate=1+(1 if m[1]=='+' else -1)*value/100
-            label=('独立倍率' if independent else '')+'×'+f'{rate:.2f}'
-            return ('提高' if m[1]=='+' else '降低')+m[2]+'%（'+label+'）'
-        # Regeneration percentages and additive bow-distance points intentionally
-        # retain their own units; only signed percentage bonuses are rates.
-        text=re.sub(r'\s*([+-])(\d+(?:\.\d+)?)%',percent,text)
+        text=re.sub(r'[×x](\d+(?:\.\d+)?)', lambda m: f'{(float(m[1])-1)*100:+.5g}%', text)
         text=text.replace('原版','').strip('；。 ')
     else:
         replacements={
-            'Charged regular heavy attack':'Charged heavy attack',
+            ' points/s':'/s','damage received':'damage taken','Equip load limit':'Max equip load','Charged regular heavy attack':'Charged heavy attack',
             'Final regular combo attack':'Combo final hit',
             '(Spellblade-supported skill categories)':'(Spellblade skills)',
             '(not percentage HP burn)':'','(not perfumes)':'',
@@ -77,8 +71,5 @@ def compact(text, language, independent=False):
             'original triggered damage':'damage',
         }
         for old,new in replacements.items():text=text.replace(old,new)
-        def percent(m):
-            rate=1+(1 if m[1]=='+' else -1)*float(m[2])/100
-            return m[1]+m[2]+'% ('+('independent ' if independent else '')+f'x{rate:.2f}'+')'
-        text=re.sub(r'([+-])(\d+(?:\.\d+)?)%',percent,text).strip('; . ')
-    return text
+        text=re.sub(r'[×x](\d+(?:\.\d+)?)', lambda m: f'{(float(m[1])-1)*100:+.5g}%', text).strip('; . ')
+    return re.sub(r' +', ' ', text).strip()

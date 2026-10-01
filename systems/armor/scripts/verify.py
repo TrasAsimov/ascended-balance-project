@@ -187,16 +187,16 @@ for name in ['item_dlc01','item_dlc02']:
             for rid,text in fmg_read(r).items():
                 if rid in {2120,2130,2140,2180} and text:
                     assert '[Ascended Balance effect]' not in text and 'Effect:' not in text
-                    assert {2120:'x3.5',2130:'x3.0',2140:'x2.2',2180:'x2.0'}[rid] in text
+                    assert {2120:'+250%',2130:'+200%',2140:'+120%',2180:'+100%'}[rid] in text
                     assert len(text.splitlines())==1
                     core_caption_checks+=1
         if k.startswith('ProtectorCaption'):
             for rid,text in fmg_read(r).items():
                 if rid in named and text:
-                    assert text.startswith('Set: ')
+                    assert 'pieces)' in text.splitlines()[0] or 'piece)' in text.splitlines()[0]
                     assert text==json.loads((ROOT/'data/description_en.json').read_text())[str(rid)]
                     assert 'Original piece:' not in text and 'Retained Mod piece:' not in text
-                    assert len(text.splitlines())<=4
+                    assert 'x1.' not in text and '×' not in text
                     assert not any(l.strip().startswith('Effect:') for l in text.splitlines())
                     seen.add(rid)
     assert seen==named

@@ -1,12 +1,12 @@
 # Elden Ring Ascended Balance Project
 
-**v0.10.5 regression:** The player reports `Save data is corrupted`; keeping its other files and replacing only `regulation.bin` with v0.10.4 works. Candidate 1 also failed. Use [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated) for the game-tested baseline. [Candidate 2](docs/bug_06_001_regulation_20261001.md) preserves all approved parameter data and removes unreferenced outer-container copies; startup, load/save and actual effect validation are still pending. No replacement release has been published.
+**Latest complete test build: [v0.10.7 armor text layout](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.7-armor-text-layout).** Includes the v0.10.6 compact binder, reward target flags and initializer fixes. All 741 armor captions use percentages, one effect per line and actual set/tier counts. Parameters and events are identical to v0.10.6. In-game effects and wrapping still require retesting; the old v0.10.5 package had a save-corruption error regression.
 
 [简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Game-tested baseline](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 
 An independent balance and compatibility project built on the **Ascended: Age of the Endless** mod for *Elden Ring*. The first phase makes more character builds viable while retaining Ascended's stronger enemies and distinctive encounters. Enemy, boss, and loot randomization is a later phase; it has **not** been implemented.
 
-The current integrated test build is **v0.10.5**, available from GitHub Releases. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
+The current integrated test build is **v0.10.7**, available from GitHub Releases. It uses a 1.17.1-format `regulation.bin` so the owner's newer game content and starting classes can be tested. It still includes Ascended-derived resources; it is not a complete port of every original Ascended system to the newer game version. Own the base game and **all DLC packs** to access the mod's complete content.
 
 ## Armor and core balance in v0.10.5
 

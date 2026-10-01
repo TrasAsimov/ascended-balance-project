@@ -1,12 +1,12 @@
 # 艾尔登法环 Ascended 平衡优化项目
 
-**v0.10.5 回归故障：** 用户实测出现 `Save data is corrupted`；保持其余文件、只换回 v0.10.4 的 regulation.bin 后正常，候选 1 也已失败。正常测试基准请使用 [v0.10.4](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)。[候选 2](docs/bug_06_001_regulation_20261001.md) 保留全部参数与护甲设计，只清理外层容器无引用副本；启动、读档／保存和增益实际生效待实机确认，尚未发布替代版本。
+**最新完整测试版：[v0.10.7 护甲描述分行版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.7-armor-text-layout)。** 包含 v0.10.6 的紧凑 BND、套装对象标记和初始化入口修复。741 件护甲描述使用百分比、逐项分行及实际件数；参数和事件与 v0.10.6 相同。仍需实际增益及显示复测。旧 v0.10.5 曾出现存档损坏误报，请使用新版测试；已实测历史基准为 v0.10.4。
 
 [English](README.md) · [版本改动记录](CHANGELOG.md) · [已实测基准](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.4-jump-integrated)
 
 这是在 **Ascended: Age of the Endless** MOD 基础上进行的独立平衡与新版兼容项目。第一阶段希望保留 Ascended 的敌人强度与特色战斗，同时让法术、祷告、战技、弓箭和其他武器玩法有更多选择。敌人、Boss 与掉落随机化属于第二阶段，**目前尚未制作**。
 
-当前完整测试版为 **v0.10.5**，已上传 GitHub Release。参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
+当前完整测试版为 **v0.10.7**，已上传 GitHub Release。参数容器使用官方 1.17.1 格式，以兼容玩家当前游戏的新内容和初始职业；这不代表 Ascended 的每一项旧机制都已经迁移到新版。需拥有游戏本体和**全部 DLC 包**，才能体验 MOD 的完整内容。
 
 ## v0.10.5 护甲与核心平衡
 

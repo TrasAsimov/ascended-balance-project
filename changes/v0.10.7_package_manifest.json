@@ -1,0 +1,19 @@
+{
+  "version": "v0.10.7",
+  "base_sha256": "339f1736aa344288df2278ab3111826799413fd1a61da8360b5089d28147ce1c",
+  "source_base_commit": "342c13692bcfa0de484343be63ece967030b2e15",
+  "package": "Ascended_Balance_v0.10.7_Armor_Text_Layout.zip",
+  "package_sha256": "973c9fa4f65ac0c734376fb1049d5802fe3837efb5f6d84f86f2b045cd962b21",
+  "package_size": 170775943,
+  "package_members": 1239,
+  "replaced_files": {
+    "ModEngine/mod/regulation.bin": "c80785363a1c14d17b5102260184bb16a420b0a31354609f2251688b0609e1f5",
+    "ModEngine/mod/event/common.emevd.dcx": "0f609e61b3b13c3149a003b609420593582b8febb0fc38036df232e1e40662f1",
+    "ModEngine/mod/msg/engus/item_dlc02.msgbnd.dcx": "c47d14e74605025e58629f897fbae2d4d8b72cbbe2934092594bc1c568e3bf5b",
+    "ModEngine/mod/msg/engus/item_dlc01.msgbnd.dcx": "364b358f70ba7277ac62da66b93fe6e03efb491ba3b4c262e71118c08d146d1f"
+  },
+  "unchanged_base_members": 1232,
+  "zip_crc": "passed",
+  "all_inherited_bytes": "passed",
+  "game_test": "not run"
+}
