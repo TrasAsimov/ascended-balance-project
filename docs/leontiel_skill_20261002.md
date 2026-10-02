@@ -8,11 +8,11 @@
 
 ## 最新整合输入与交接
 
-参数输入：01_Melee_Reinforcement_20261002_regulation.bin version2，SHA256 `58b8ef964b8d5e1d39763d61386832fef7472eab4ec721a216fb78c4a50de4e5`。保留刺轮2800／大蛇矛取消攻击强化收益、06最新斗牛剑职业、18条新增护甲单件增益、8法术槽、新道具时长和v0.10.9既有修订。
+参数输入：06_New_Class_Builds_20261002_regulation.bin version2，SHA256 `8028337b466678821b2370f4e9f81f5289282fb512a92958627d31258aa888b5`。保留刺轮2800／大蛇矛取消攻击强化收益、06最新斗牛剑职业及平民服装出生、18条新增护甲单件增益、8法术槽、新道具时长和v0.10.9既有修订。
 
 事件输入：common.emevd(4).dcx，SHA256 `55d6ea60f6e5c812ccac3ebb5b316ba1f80e4d70436ed848895edeefec0d9ff5`。
 
-输出前缀`02_Leontiel_Skill_20261002_`，包含regulation.bin、common.emevd.dcx、两部engus消息档案、中英文描述JSON和audit.json。参数SHA256 `6f9d121c9ee3e1dd18e51471babd8f94c28de0a3d1ba5db1ba556291e2c3f317`；common SHA256 `fb34a26f449efe9f7092ffb9e7f042e695369c948dbdca13972158168c431c5d`。
+输出前缀`02_Leontiel_Skill_20261002_`，包含regulation.bin、common.emevd.dcx、两部engus消息档案、中英文描述JSON和audit.json。参数SHA256 `5b6161206feb813d1e17aee26d498ac14790202efc47b117a6a1e41188503690`；common SHA256 `fb34a26f449efe9f7092ffb9e7f042e695369c948dbdca13972158168c431c5d`。
 
 05若收到更新参数／事件／消息文件，必须在更新输入上重跑`scripts/update_leontiel_skill.py`或移植同样的局部修改，不能用本轮全量文件覆盖其它聊天的后续工作。参数CLI从ARMOR_REGULATION_KEY_HEX读取密钥；源码不新增密钥。消息输入当前采用02_Tarnished_Armor_20261002前缀，整合新消息时应沿用精确5条caption变更，保留其它消息。
 
