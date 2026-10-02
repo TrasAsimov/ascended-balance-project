@@ -1,3 +1,4 @@
+- [v0.10.11 jar shard target correction](v0.10.11.md)
 # 开发文档索引
 
 玩家安装与当前功能见仓库README；本目录保存开发机制和历史说明，均不进入玩家ZIP。

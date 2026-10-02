@@ -1,6 +1,7 @@
 {
-  "status": "pending action-time confirmation for permanent browser deletion",
+  "status": "completed",
   "keep": [
+    "v0.10.10-post-release-integration",
     "v0.10.9-final-integration",
     "v0.10.8-unified-integration",
     "v0.10.7-armor-text-layout"
@@ -173,5 +174,9 @@
       ]
     }
   ],
-  "preserve": "historical source tags, source and archived audits"
+  "preserve": "historical source tags, source and archived audits",
+  "confirmed_at": "2026-10-02T19:41:11+08:00",
+  "deleted_release_count": 13,
+  "deleted_uploaded_asset_count": 15,
+  "verification": "GitHub Release collection now contains exactly the four kept releases; all 17 Git tags preserved"
 }

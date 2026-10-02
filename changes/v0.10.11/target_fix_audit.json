@@ -1,0 +1,20 @@
+{
+  "small_item": 1230,
+  "small_effect": 312300,
+  "skill_multiplier_before": 1.2,
+  "skill_multiplier_after": 1.4,
+  "large_item": 1231,
+  "large_effect": 312310,
+  "large_restored_exactly_to": "v0.10.9",
+  "removed_wrong_effect": 78212310,
+  "player_hp_curve": "unchanged from v0.10.10 (2.5x)",
+  "other_tables_and_rows": "byte-identical",
+  "text_ids_changed": [
+    1230,
+    1231
+  ],
+  "idempotent": true,
+  "encrypted_readback": true,
+  "game_tested": false,
+  "regulation_sha256": "71cb595fe37cab061901f6f3a60f0b94997d16cfa3c4330d838d1b25168f987a"
+}

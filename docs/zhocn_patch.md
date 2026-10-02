@@ -1,8 +1,9 @@
+## v0.10.11 目标纠正
+
+用户截图为英文游戏。此前误改大的亚历山大碎片1231；本次恢复其v0.10.9原描述，更新小战士壶碎片1230为战技40%。英文DLC01/02运行档案均同步更新。中文游戏档案仍未提供。
+
 # Simplified Chinese item text patch / 简体中文道具文本补丁
 
-The published v0.10.4 release includes English item descriptions. The current source overlay now targets the unreleased 2026-10-01 integrated armor/core snapshot (including the 50% Greatshield Talisman cost reduction); use matching generated parameters, not the older release parameters. This source patch translates the modified talisman effects, 21 ordinary remembrance effects, and the starter **Empowered Soul** into Simplified Chinese while keeping the rest of your game's own Chinese text.
-
-当前 v0.10.4 安装包含英文道具说明。本补丁会翻译改动过的护符、21 种普通追忆及开局道具 **Empowered Soul（强化之魂）**，其余简中内容沿用你自己游戏版本的文本。
 
 ## Build / 生成
 

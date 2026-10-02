@@ -1,3 +1,10 @@
+## v0.10.11 — Jar shard target correction
+
+- Warrior Jar Shard (1230 / 312300): skill damage 20% → 40%.
+- Shard of Alexander (1231): restore v0.10.9 effects and descriptions; remove mistaken private effect 78212310.
+- Keep player HP ×2.5 and all other v0.10.10 changes. English DLC01/02 descriptions updated.
+- Previous 13 old Releases and 15 uploaded assets removed; Git tags preserved.
+
 # 版本摘要 / Changelog
 
 ## v0.10.10 — 发布后改动整合（2026-10-02）
