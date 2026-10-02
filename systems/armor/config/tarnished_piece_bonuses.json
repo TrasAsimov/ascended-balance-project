@@ -1,0 +1,307 @@
+{
+  "scope": "Tarnished Pack armor families 534-537; preserve all native effects and penalties",
+  "effects": {
+    "6202037": {
+      "zh": "信仰 +30",
+      "en": "Faith +30",
+      "expected_fields": {
+        "addFaithStatus": 30
+      }
+    },
+    "6202002": {
+      "zh": "最大生命值 +30%",
+      "en": "Maximum HP +30%",
+      "expected_fields": {
+        "maxHpRate": 1.3
+      }
+    },
+    "6202003": {
+      "zh": "最大 FP +30%",
+      "en": "Maximum FP +30%",
+      "expected_fields": {
+        "maxMpRate": 1.3
+      }
+    },
+    "6202004": {
+      "zh": "最大精力 +30%",
+      "en": "Maximum stamina +30%",
+      "expected_fields": {
+        "maxStaminaRate": 1.3
+      }
+    },
+    "6202030": {
+      "zh": "生命力 +30",
+      "en": "Vigor +30",
+      "expected_fields": {
+        "addLifeForceStatus": 30
+      }
+    },
+    "6202022": {
+      "zh": "圣属性承伤 -30%",
+      "en": "Holy damage received -30%",
+      "expected_fields": {
+        "darkDamageCutRate": 0.7
+      }
+    },
+    "6202011": {
+      "zh": "雷电承伤 -30%",
+      "en": "Lightning damage received -30%",
+      "expected_fields": {
+        "thunderDamageCutRate": 0.7
+      }
+    },
+    "6202034": {
+      "zh": "力量 +30",
+      "en": "Strength +30",
+      "expected_fields": {
+        "addStrengthStatus": 30
+      }
+    },
+    "6202007": {
+      "zh": "突刺承伤 -30%",
+      "en": "Pierce damage received -30%",
+      "expected_fields": {
+        "thrustDamageCutRate": 0.7
+      }
+    },
+    "6202005": {
+      "zh": "斩击承伤 -30%",
+      "en": "Slash damage received -30%",
+      "expected_fields": {
+        "slashDamageCutRate": 0.7
+      }
+    },
+    "6202036": {
+      "zh": "智力 +30",
+      "en": "Intelligence +30",
+      "expected_fields": {
+        "addMagicStatus": 30
+      }
+    },
+    "6202009": {
+      "zh": "魔力承伤 -30%",
+      "en": "Magic damage received -30%",
+      "expected_fields": {
+        "magicDamageCutRate": 0.7
+      }
+    },
+    "6202031": {
+      "zh": "集中力 +30",
+      "en": "Mind +30",
+      "expected_fields": {
+        "addWillpowerStatus": 30
+      }
+    },
+    "6202040": {
+      "zh": "每秒恢复 5 FP",
+      "en": "Restore 5 FP/s",
+      "expected_fields": {
+        "changeMpPoint": -5,
+        "motionInterval": 1.0
+      }
+    },
+    "6202016": {
+      "zh": "负重上限 +30%",
+      "en": "Equip load limit +30%",
+      "expected_fields": {
+        "equipWeightChangeRate": 1.3
+      }
+    },
+    "6202032": {
+      "zh": "耐力 +30",
+      "en": "Endurance +30",
+      "expected_fields": {
+        "addEndureStatus": 30
+      }
+    },
+    "6202006": {
+      "zh": "打击承伤 -30%",
+      "en": "Strike damage received -30%",
+      "expected_fields": {
+        "blowDamageCutRate": 0.7
+      }
+    },
+    "6202008": {
+      "zh": "标准物理承伤 -30%",
+      "en": "Standard physical damage received -30%",
+      "expected_fields": {
+        "neutralDamageCutRate": 0.7
+      }
+    },
+    "6202010": {
+      "zh": "火焰承伤 -30%",
+      "en": "Fire damage received -30%",
+      "expected_fields": {
+        "fireDamageCutRate": 0.7
+      }
+    }
+  },
+  "armors": {
+    "5340000": {
+      "name": "Broken Gold Mask",
+      "set_key": "534",
+      "add_effect_ids": [
+        6202037
+      ],
+      "preserve_native_ids": [
+        6534000
+      ]
+    },
+    "5340100": {
+      "name": "Gold Tattoo (Chest)",
+      "set_key": "534",
+      "add_effect_ids": [
+        6202002
+      ],
+      "preserve_native_ids": [
+        6534010
+      ]
+    },
+    "5340200": {
+      "name": "Gold Tattoo (Arm)",
+      "set_key": "534",
+      "add_effect_ids": [
+        6202003
+      ],
+      "preserve_native_ids": [
+        6534011
+      ]
+    },
+    "5340300": {
+      "name": "Gold Tattoo (Leg)",
+      "set_key": "534",
+      "add_effect_ids": [
+        6202004
+      ],
+      "preserve_native_ids": [
+        6534012
+      ]
+    },
+    "5350000": {
+      "name": "Silver Grooved Helm",
+      "set_key": "535",
+      "add_effect_ids": [
+        6202030,
+        6202022
+      ],
+      "preserve_native_ids": []
+    },
+    "5350100": {
+      "name": "Silver Grooved Armor",
+      "set_key": "535",
+      "add_effect_ids": [
+        6202002,
+        6202011
+      ],
+      "preserve_native_ids": []
+    },
+    "5350200": {
+      "name": "Silver Grooved Gauntlets",
+      "set_key": "535",
+      "add_effect_ids": [
+        6202034,
+        6202007
+      ],
+      "preserve_native_ids": []
+    },
+    "5350300": {
+      "name": "Silver Grooved Greaves",
+      "set_key": "535",
+      "add_effect_ids": [
+        6202004,
+        6202005
+      ],
+      "preserve_native_ids": []
+    },
+    "5351100": {
+      "name": "Silver Grooved Armor (Altered)",
+      "set_key": "535",
+      "add_effect_ids": [
+        6202002,
+        6202011
+      ],
+      "preserve_native_ids": []
+    },
+    "5360000": {
+      "name": "Leontiel's Hat",
+      "set_key": "536",
+      "add_effect_ids": [
+        6202036,
+        6202003
+      ],
+      "preserve_native_ids": []
+    },
+    "5360100": {
+      "name": "Leontiel's Armor",
+      "set_key": "536",
+      "add_effect_ids": [
+        6202002,
+        6202009
+      ],
+      "preserve_native_ids": []
+    },
+    "5360200": {
+      "name": "Leontiel's Leather Gloves",
+      "set_key": "536",
+      "add_effect_ids": [
+        6202031,
+        6202040
+      ],
+      "preserve_native_ids": []
+    },
+    "5360300": {
+      "name": "Leontiel's Boots",
+      "set_key": "536",
+      "add_effect_ids": [
+        6202004,
+        6202016
+      ],
+      "preserve_native_ids": []
+    },
+    "5361000": {
+      "name": "Leontiel's Hat (Altered)",
+      "set_key": "536",
+      "add_effect_ids": [
+        6202036,
+        6202003
+      ],
+      "preserve_native_ids": []
+    },
+    "5370000": {
+      "name": "Steel Helm",
+      "set_key": "537",
+      "add_effect_ids": [
+        6202032,
+        6202006
+      ],
+      "preserve_native_ids": []
+    },
+    "5370100": {
+      "name": "Steel Armor",
+      "set_key": "537",
+      "add_effect_ids": [
+        6202002,
+        6202008
+      ],
+      "preserve_native_ids": []
+    },
+    "5370200": {
+      "name": "Steel Gauntlets",
+      "set_key": "537",
+      "add_effect_ids": [
+        6202034,
+        6202010
+      ],
+      "preserve_native_ids": []
+    },
+    "5370300": {
+      "name": "Steel Greaves",
+      "set_key": "537",
+      "add_effect_ids": [
+        6202016,
+        6202007
+      ],
+      "preserve_native_ids": []
+    }
+  }
+}

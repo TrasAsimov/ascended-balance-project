@@ -105,6 +105,7 @@ def active_fields(body):
     neutral=sp[1950]['data']
     return {k for k,f in efields.items() if k not in UTILITY and f[1]!='dummy8' and not f[4] and get('SpEffectParam',body,k)!=get('SpEffectParam',neutral,k)}
 
+tarnished_bonuses=json.loads((ROOT/'config/tarnished_piece_bonuses.json').read_text())['armors']
 for rid,rec in sorted(tables['EquipParamProtector']['rows'].items()):
     data=rec['data'];baseline=van['EquipParamProtector']['rows'][rid]['data']
     own=[get('EquipParamProtector',data,s) for s in slots]
@@ -137,6 +138,11 @@ for rid,rec in sorted(tables['EquipParamProtector']['rows'].items()):
     if extra and extra not in padded:
         assert -1 in padded,('no free resident slot',rid)
         padded[padded.index(-1)]=extra
+    for eid in tarnished_bonuses.get(str(rid),{}).get('add_effect_ids',[]):
+        if eid not in padded:
+            free=next((i for i,v in enumerate(padded) if v<=0),None)
+            assert free is not None,('no free Tarnished resident slot',rid,padded)
+            padded[free]=eid
     if official:restored[-1]['after']=padded
     if own!=padded:
         body=bytearray(data)
