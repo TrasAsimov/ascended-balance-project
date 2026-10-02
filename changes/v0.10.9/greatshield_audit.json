@@ -1,0 +1,16 @@
+{
+  "effect": 341000,
+  "guardStaminaCutRate_before": 0.5,
+  "guardStaminaCutRate_after": 1.0,
+  "guardStaminaMult_offset": 904,
+  "guardStaminaMult_before": 0.0,
+  "guardStaminaMult_after": 0.2,
+  "other_effect_rows_unchanged": true,
+  "other_param_tables_unchanged": 193,
+  "input_sha256": "bf923783389021372e1d33d7bcc5e776c9b32e155af59f58fc0003142da44398",
+  "output_sha256": "af8aef4daa0cee52542cb64c19672e2e0539c914c8f0ea0b51d526899ebc35f9",
+  "idempotence": true,
+  "modeled_guard_cases": 400,
+  "game_validation": "not run",
+  "target": "80% less guarding stamina cost relative to no talisman; no Guard Boost change"
+}

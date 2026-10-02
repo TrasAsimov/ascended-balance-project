@@ -1,0 +1,100 @@
+{
+  "effects": [
+    {
+      "id": 501290,
+      "before": {
+        "motionInterval": 1.0,
+        "changeMpPoint": -15,
+        "effectEndurance": 1800.0,
+        "cycleOccurrenceSpEffectId": -1,
+        "stateInfo": 50
+      },
+      "before_fp_per_second": 15.0,
+      "after": {
+        "motionInterval": 1.0,
+        "changeMpPoint": -5
+      },
+      "after_fp_per_second": 5
+    },
+    {
+      "id": 501291,
+      "before": {
+        "motionInterval": 1.0,
+        "changeMpPoint": -15,
+        "effectEndurance": 1800.0,
+        "cycleOccurrenceSpEffectId": 501311,
+        "stateInfo": 50
+      },
+      "before_fp_per_second": 15.0,
+      "after": {
+        "motionInterval": 1.0,
+        "changeMpPoint": -5
+      },
+      "after_fp_per_second": 5
+    },
+    {
+      "id": 6202040,
+      "before": {
+        "motionInterval": 2.0,
+        "changeMpPoint": -30,
+        "effectEndurance": -1.0,
+        "cycleOccurrenceSpEffectId": -1,
+        "stateInfo": 0
+      },
+      "before_fp_per_second": 15.0,
+      "after": {
+        "motionInterval": 1.0,
+        "changeMpPoint": -5
+      },
+      "after_fp_per_second": 5
+    },
+    {
+      "id": 6202041,
+      "before": {
+        "motionInterval": 2.0,
+        "changeMpPoint": -40,
+        "effectEndurance": -1.0,
+        "cycleOccurrenceSpEffectId": -1,
+        "stateInfo": 0
+      },
+      "before_fp_per_second": 20.0,
+      "after": {
+        "motionInterval": 1.0,
+        "changeMpPoint": -5
+      },
+      "after_fp_per_second": 5
+    },
+    {
+      "id": 20380000,
+      "before": {
+        "motionInterval": 2.0,
+        "changeMpPoint": -150,
+        "effectEndurance": -1.0,
+        "cycleOccurrenceSpEffectId": -1,
+        "stateInfo": 0
+      },
+      "before_fp_per_second": 75.0,
+      "after": {
+        "motionInterval": 1.0,
+        "changeMpPoint": -10
+      },
+      "after_fp_per_second": 10
+    }
+  ],
+  "actual_changed_effect_rows": [
+    501290,
+    501291,
+    6202040,
+    6202041,
+    20380000
+  ],
+  "other_tables_unchanged": 193,
+  "all_non_target_effect_rows_unchanged": true,
+  "all_non_recovery_fields_unchanged": true,
+  "game_validation": "not run",
+  "stacking": "unchanged; no global cap or new exclusion group",
+  "input_sha256": "e5a4d078ecc0617c27fec5c8958b70d337fa3acb2f00a049390b2317b32b46f5",
+  "output_sha256": "ccf28375c2eda8d6ea4d8521f186c23a5c579d99da4e92ce8c6f23299d1ba99a",
+  "idempotence": true,
+  "encrypted_roundtrip": true
+}

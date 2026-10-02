@@ -1,0 +1,17 @@
+{
+  "version": "0.10.9",
+  "regulation_sha256": "ccf28375c2eda8d6ea4d8521f186c23a5c579d99da4e92ce8c6f23299d1ba99a",
+  "regulation_bytes": 2284528,
+  "independent_FP_candidate_delta": {
+    "23010000": [
+      "gemMountType"
+    ]
+  },
+  "english_matches_handoff": {
+    "01_FP_Regen_20261002_engus_item_dlc01.msgbnd.dcx": "0f22bf88046a2998acc436cafa6799320b8682b43a7fa2da385fd41f5603ae2f",
+    "01_FP_Regen_20261002_engus_item_dlc02.msgbnd.dcx": "2c583b17f9749d7a6be65656c1be578f5691feb9f0472dd4ca614bd1054fb09c"
+  },
+  "common_sha256": "55d6ea60f6e5c812ccac3ebb5b316ba1f80e4d70436ed848895edeefec0d9ff5",
+  "inherited_v0108_modules": "preserved; no second spell-status reduction",
+  "game_validation": "not run"
+}

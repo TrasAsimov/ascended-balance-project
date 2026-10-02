@@ -13,7 +13,7 @@ SOURCE=ROOT/'work/pending_class_loadouts.bnd'
 OUT=ROOT/'work/pending_watchdog_no_skill.bnd'
 REG=ROOT/'output/pending_watchdog_no_skill_regulation.bin'
 CHANGES={
- 'EquipParamWeapon':{23010000:{'swordArtsParamId':10,'gemMountType':0,'disableGemAttr':1}},
+ 'EquipParamWeapon':{23010000:{'swordArtsParamId':10,'gemMountType':2,'disableGemAttr':1}},
  'EquipParamCustomWeapon':{309:{'gemId':30900},329:{'gemId':30900}},
 }
 
@@ -30,7 +30,8 @@ def main():
   for rid,changes in rows.items():
    old=mod[table]['rows'][rid]['data']
    for key,new in changes.items():
-    spec=f[key];value=decode(old,spec);assert value!=new,(table,rid,key)
+    spec=f[key];value=decode(old,spec)
+    if value==new:continue
     if spec[4] is not None:
      assert spec[1]=='u8' and spec[4]==1
      mask=1<<spec[5];at=offs[rid]+spec[2]

@@ -1,0 +1,38 @@
+{
+  "input_regulation_sha256": "ece16332ba289e1b6c2a70e24a6717eeaff77749cbfad8b45ac2a1c88b239361",
+  "input_common_sha256": "0f609e61b3b13c3149a003b609420593582b8febb0fc38036df232e1e40662f1",
+  "output_regulation_sha256": "c49e80807764e9247a47f25889f9d2abe82e5a85777b6d961973b0e761b65e18",
+  "output_common_sha256": "e1307c8f0e5ef2e4eef82cd7adbb6fda88495f93e2007c69797786acdcd901d6",
+  "boss_count": 181,
+  "excluded_remembrance_count": 25,
+  "resource_cap_multiplier": 1.362,
+  "weapon_and_spell_cap_multiplier": 1.181,
+  "bayle_separate_remembrance": {
+    "flag": 2054390800,
+    "parent": 7400200,
+    "child": 7410200,
+    "template_parent": 321412,
+    "template_child": 321435,
+    "hp_multiplier": 1.05,
+    "attack_and_spell_multiplier": 1.025
+  },
+  "new_effects": 364,
+  "effect_ranges": [
+    7400001,
+    7400181,
+    7410001,
+    7410181
+  ],
+  "scratch_flags": [
+    699920,
+    699927
+  ],
+  "modified_event": 20007902,
+  "preserved_event_prefix_instructions": 72,
+  "extension_instructions": 5256,
+  "preserved_param_tables": 193,
+  "all_existing_parameter_rows_unchanged": true,
+  "all_other_events_unchanged": true,
+  "idempotence": true,
+  "game_validation": "not run"
+}

@@ -1,0 +1,65 @@
+{
+  "base": "v0.10.8",
+  "mask_id": 1401000,
+  "family": "Raptor / Bandit Set",
+  "set_slots": 4,
+  "mask_single_effect": "Sleep resistance +400 points (unchanged)",
+  "modified_event_ids": [
+    9000157,
+    9000158,
+    9000187,
+    9000188
+  ],
+  "unchanged_events": 560,
+  "actual_condition_loadouts_verified": 450,
+  "armor_descriptions": 741,
+  "archive_coverage": {
+    "item_dlc01": 741,
+    "item_dlc02": 741
+  },
+  "english_caption_readbacks": 1482,
+  "regulation_sha256_unchanged": "bf923783389021372e1d33d7bcc5e776c9b32e155af59f58fc0003142da44398",
+  "heart_event_20007902": "unchanged",
+  "other_FMG_members": "byte-identical except target armor and shield caption tables",
+  "shield_caption_coverage": {
+    "item_dlc01": 933,
+    "item_dlc02": 933
+  },
+  "shields_without_existing_effect_text": 100,
+  "shield_effect_source": "existing v0.10.8 DLC02 Ascended text mirrored into vanilla DLC01 shield captions",
+  "shield_no_effect_behavior": "lore removed; caption empty; no invented bonus",
+  "shield_briar_continuation": "Effect: 20% strike absorb\n\nEffect: 200 madness resist",
+  "other_caption_entries": "all entries outside 741 armor and shield captions unchanged",
+  "nonarmor_chinese_entries": "unchanged",
+  "format": "blank line between every Effect block; percentages; set name and total slots",
+  "real_zhocn_archive": "not generated; owned Chinese archive unavailable",
+  "in_game_visual_and_activation_test": "not run; handoff for integration and game verification",
+  "packaging": "not performed",
+  "files": {
+    "Armor_Core/description_en.json": {
+      "size": 152170,
+      "sha256": "23ef7b81ce530f1d90ece5072ed47d9010385f26beaaaeed4f4d206661b7547e"
+    },
+    "Armor_Core/description_zh.json": {
+      "size": 141240,
+      "sha256": "181bb0a8431204ace931d80788d7f74e968a37b7aa83dd7c43fb45b2d4810642"
+    },
+    "Armor_Core/shield_description_en.json": {
+      "size": 122549,
+      "sha256": "2e7960abe7cca19bc85959e1d9d7f91e3abd408ee783e408b719d64ff52c57ff"
+    },
+    "ModEngine/mod/event/common.emevd.dcx": {
+      "size": 101179,
+      "sha256": "55d6ea60f6e5c812ccac3ebb5b316ba1f80e4d70436ed848895edeefec0d9ff5"
+    },
+    "ModEngine/mod/msg/engus/item_dlc01.msgbnd.dcx": {
+      "size": 1185693,
+      "sha256": "b17084c411168bb3f1c217e36bcd2bfda4807b7dfba330479191a4946c06294c"
+    },
+    "ModEngine/mod/msg/engus/item_dlc02.msgbnd.dcx": {
+      "size": 1209913,
+      "sha256": "9a80149fbf1746674926d456ef805df17bdc388f6d2983f3fa829c9e6833b0a9"
+    }
+  },
+  "mask_caption": "Raptor / Bandit Set (4 pieces)\n\nEffect: Sleep resistance +400 points\n\n2-Piece Effect: Jump attack stance damage +10%\n\n4-Piece Effect: Jump attack damage +10%"
+}

@@ -1,0 +1,177 @@
+{
+  "status": "pending action-time confirmation for permanent browser deletion",
+  "keep": [
+    "v0.10.9-final-integration",
+    "v0.10.8-unified-integration",
+    "v0.10.7-armor-text-layout"
+  ],
+  "delete": [
+    {
+      "id": 401100616,
+      "tag": "v0.10.6-armor-activation-fix",
+      "draft": false,
+      "assets": [
+        {
+          "id": 603545439,
+          "name": "Ascended_Balance_v0.10.6_Armor_Activation_Fix.zip",
+          "size": 170775227
+        },
+        {
+          "id": 603545641,
+          "name": "SHA256SUMS_v0.10.6.txt",
+          "size": 116
+        }
+      ]
+    },
+    {
+      "id": 400957777,
+      "tag": "v0.10.5-armor-core-integrated",
+      "draft": false,
+      "assets": [
+        {
+          "id": 603244531,
+          "name": "Ascended_Balance_v0.10.5_Armor_Core_Integrated.zip",
+          "size": 171397094
+        },
+        {
+          "id": 603244681,
+          "name": "SHA256SUMS.txt",
+          "size": 117
+        }
+      ]
+    },
+    {
+      "id": 400188478,
+      "tag": "v0.10.4-jump-integrated",
+      "draft": false,
+      "assets": [
+        {
+          "id": 601244096,
+          "name": "Ascended_Balance_v0.10.4_Jump_Integrated.zip",
+          "size": 170605604
+        }
+      ]
+    },
+    {
+      "id": 400118883,
+      "tag": "v0.10.3-night-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 601092662,
+          "name": "Ascended_Balance_v0.10.3_Night_Test.zip",
+          "size": 170540362
+        }
+      ]
+    },
+    {
+      "id": 400053681,
+      "tag": "v0.10.2-riposte-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600940684,
+          "name": "Ascended_Balance_v0.10.2_Riposte_Test.zip",
+          "size": 170538497
+        }
+      ]
+    },
+    {
+      "id": 400039368,
+      "tag": "v0.10.1-heart-night-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600908118,
+          "name": "Ascended_Balance_v0.10.1_Starter_Heart_Test.zip",
+          "size": 169896695
+        }
+      ]
+    },
+    {
+      "id": 399785745,
+      "tag": "v0.9.1-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600239502,
+          "name": "Ascended_Balance_v0.9.1_Test.zip",
+          "size": 168741947
+        }
+      ]
+    },
+    {
+      "id": 399777610,
+      "tag": "v0.9-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600217123,
+          "name": "Ascended_Balance_v0.9_Test.zip",
+          "size": 168722821
+        }
+      ]
+    },
+    {
+      "id": 399764777,
+      "tag": "v0.8-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600189014,
+          "name": "Ascended_Balance_v0.8_Test.zip",
+          "size": 168690186
+        }
+      ]
+    },
+    {
+      "id": 399737370,
+      "tag": "v0.7-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600101083,
+          "name": "Ascended_Balance_v0.7_Test.zip",
+          "size": 168566539
+        }
+      ]
+    },
+    {
+      "id": 399732205,
+      "tag": "v0.6-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600082814,
+          "name": "Ascended_Balance_v0.6_Test.zip",
+          "size": 168567152
+        }
+      ]
+    },
+    {
+      "id": 399694465,
+      "tag": "v0.5-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 599929296,
+          "name": "Ascended_Balance_v0.5_Test.zip",
+          "size": 168566727
+        }
+      ]
+    },
+    {
+      "id": 399999949,
+      "tag": "v0.10-integrated-test",
+      "draft": false,
+      "assets": [
+        {
+          "id": 600819676,
+          "name": "Ascended_Balance_v0.10_Integrated_Test.zip",
+          "size": 169893569
+        }
+      ]
+    }
+  ],
+  "preserve": "historical source tags, source and archived audits"
+}

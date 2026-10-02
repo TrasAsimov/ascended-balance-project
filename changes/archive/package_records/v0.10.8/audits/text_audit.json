@@ -1,0 +1,26 @@
+{
+  "item_dlc01.msgbnd.dcx": {
+    "AccessoryCaption.fmg": [
+      2130,
+      2140
+    ],
+    "GoodsInfo_dlc01.fmg": [
+      2001431
+    ],
+    "GoodsCaption_dlc01.fmg": [
+      2001431
+    ]
+  },
+  "item_dlc02.msgbnd.dcx": {
+    "AccessoryCaption.fmg": [
+      2130,
+      2140
+    ],
+    "GoodsInfo_dlc01.fmg": [
+      2001431
+    ],
+    "GoodsCaption_dlc01.fmg": [
+      2001431
+    ]
+  }
+}

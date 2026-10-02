@@ -1,0 +1,235 @@
+{
+  "status": "static checks passed; game validation not run",
+  "input_sha256": "bc3c144b966bbccba9318d8bd164441012f37e7fb41dddccfb967f54510ee835",
+  "output_sha256": "ece16332ba289e1b6c2a70e24a6717eeaff77749cbfad8b45ac2a1c88b239361",
+  "output_bytes": 2252496,
+  "param_version": "11711000",
+  "scope": "remove extra penalty fields while preserving enemy attack statuses",
+  "rows": [
+    {
+      "id": 6202049,
+      "before": {
+        "changeHpPoint": 200,
+        "changeMpRate": 50.0,
+        "staminaRecoverChangeSpeed": -15
+      },
+      "after": {
+        "changeHpPoint": 0,
+        "changeMpRate": 0.0,
+        "staminaRecoverChangeSpeed": 0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202051,
+      "before": {
+        "changeHpRate": 0.01,
+        "changeHpPoint": 200,
+        "changeMpPoint": 25,
+        "staminaRecoverChangeSpeed": -10
+      },
+      "after": {
+        "changeHpRate": 0.0,
+        "changeHpPoint": 0,
+        "changeMpPoint": 0,
+        "staminaRecoverChangeSpeed": 0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202053,
+      "before": {
+        "maxStaminaRate": 0.5,
+        "staminaRecoverChangeSpeed": -35
+      },
+      "after": {
+        "maxStaminaRate": 1.0,
+        "staminaRecoverChangeSpeed": 0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202055,
+      "before": {
+        "staminaRecoverChangeSpeed": -10,
+        "fallDamageRate": 2.0
+      },
+      "after": {
+        "staminaRecoverChangeSpeed": 0,
+        "fallDamageRate": 1.0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202056,
+      "before": {
+        "staminaRecoverChangeSpeed": -10,
+        "hpRecoverRate": 0.75
+      },
+      "after": {
+        "staminaRecoverChangeSpeed": 0,
+        "hpRecoverRate": 1.0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202057,
+      "before": {
+        "addLifeForceStatus": -25,
+        "addWillpowerStatus": -25,
+        "addEndureStatus": -25,
+        "addVitalityStatus": -25,
+        "addStrengthStatus": -25,
+        "addDexterityStatus": -25,
+        "addMagicStatus": -25,
+        "addFaithStatus": -25,
+        "addLuckStatus": -25,
+        "staminaRecoverChangeSpeed": -10
+      },
+      "after": {
+        "addLifeForceStatus": 0,
+        "addWillpowerStatus": 0,
+        "addEndureStatus": 0,
+        "addVitalityStatus": 0,
+        "addStrengthStatus": 0,
+        "addDexterityStatus": 0,
+        "addMagicStatus": 0,
+        "addFaithStatus": 0,
+        "addLuckStatus": 0,
+        "staminaRecoverChangeSpeed": 0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202062,
+      "before": {
+        "addLifeForceStatus": -99,
+        "addWillpowerStatus": -99,
+        "addEndureStatus": -99,
+        "addVitalityStatus": -99,
+        "addStrengthStatus": -99,
+        "addDexterityStatus": -99,
+        "addMagicStatus": -99,
+        "addFaithStatus": -99,
+        "addLuckStatus": -99
+      },
+      "after": {
+        "addLifeForceStatus": 0,
+        "addWillpowerStatus": 0,
+        "addEndureStatus": 0,
+        "addVitalityStatus": 0,
+        "addStrengthStatus": 0,
+        "addDexterityStatus": 0,
+        "addMagicStatus": 0,
+        "addFaithStatus": 0,
+        "addLuckStatus": 0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202067,
+      "before": {
+        "addLifeForceStatus": -30,
+        "addWillpowerStatus": -30,
+        "addEndureStatus": -30,
+        "addVitalityStatus": -30,
+        "addStrengthStatus": -30,
+        "addDexterityStatus": -30,
+        "addMagicStatus": -30,
+        "addFaithStatus": -30,
+        "addLuckStatus": -30,
+        "staminaRecoverChangeSpeed": -10
+      },
+      "after": {
+        "addLifeForceStatus": 0,
+        "addWillpowerStatus": 0,
+        "addEndureStatus": 0,
+        "addVitalityStatus": 0,
+        "addStrengthStatus": 0,
+        "addDexterityStatus": 0,
+        "addMagicStatus": 0,
+        "addFaithStatus": 0,
+        "addLuckStatus": 0,
+        "staminaRecoverChangeSpeed": 0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202092,
+      "before": {
+        "addLifeForceStatus": -50,
+        "addWillpowerStatus": -50,
+        "addEndureStatus": -50,
+        "addVitalityStatus": -50,
+        "addStrengthStatus": -50,
+        "addDexterityStatus": -50,
+        "addMagicStatus": -50,
+        "addFaithStatus": -50,
+        "addLuckStatus": -50,
+        "staminaRecoverChangeSpeed": -10
+      },
+      "after": {
+        "addLifeForceStatus": 0,
+        "addWillpowerStatus": 0,
+        "addEndureStatus": 0,
+        "addVitalityStatus": 0,
+        "addStrengthStatus": 0,
+        "addDexterityStatus": 0,
+        "addMagicStatus": 0,
+        "addFaithStatus": 0,
+        "addLuckStatus": 0,
+        "staminaRecoverChangeSpeed": 0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202100,
+      "before": {
+        "fireDamageCutRate": 1.2
+      },
+      "after": {
+        "fireDamageCutRate": 1.0
+      },
+      "changed": true
+    },
+    {
+      "id": 6202101,
+      "before": {
+        "thunderDamageCutRate": 1.2
+      },
+      "after": {
+        "thunderDamageCutRate": 1.0
+      },
+      "changed": true
+    },
+    {
+      "id": 620205411,
+      "before": {
+        "maxMpRate": 0.5,
+        "staminaRecoverChangeSpeed": -10
+      },
+      "after": {
+        "maxMpRate": 1.0,
+        "staminaRecoverChangeSpeed": 0
+      },
+      "changed": true
+    }
+  ],
+  "changed_rows": 12,
+  "unchanged_tables": 193,
+  "unchanged_speffect_rows": 12259,
+  "validation": [
+    "all other PARAM member bytes identical",
+    "only the declared extra penalty fields changed",
+    "all existing row IDs/names retained",
+    "all target flags, status buildup, triggers and chains unchanged",
+    "madness burst row 6202050 unchanged",
+    "normal status rows, all armor, rewards, core talismans unchanged",
+    "compact BND, idempotence, encrypted round-trip passed"
+  ],
+  "game_validation": {
+    "startup": "not run",
+    "save_and_reload": "not run",
+    "debuff_immunity": "not run"
+  }
+}
