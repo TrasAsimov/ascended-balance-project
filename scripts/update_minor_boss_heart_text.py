@@ -11,23 +11,34 @@ from fmg import fmg_read,fmg_write
 
 HEART_ID = 2001431
 TEXT = {
-    'GoodsInfo_dlc01.fmg':'Refreshes bonuses from defeated bosses',
+    'GoodsInfo_dlc01.fmg':'Refreshes field, dungeon and remembrance boss bonuses',
     'GoodsCaption_dlc01.fmg':(
-        'Use to refresh bonuses from defeated bosses.\n'
-        'Minor bosses (excluding Bayle): max HP, FP and stamina +0.2% each.\n'
-        'Weapon attack power and sorcery/incantation damage +0.1% each.\n'
-        'These bonuses add together; repeat use only refreshes.\n'
-        'Bayle grants a remembrance-tier bonus. Not consumed on use.'),
+        'Use after defeating a boss to refresh bonuses for this journey.\n\n'
+        'Minor bosses: tracked field, cave, catacomb, tunnel and evergaol encounters '
+        '(150 in the base game, 31 in the DLC). Each encounter grants max HP, FP '
+        'and stamina +0.2%, weapon attack power and sorcery/incantation damage +0.1%. '
+        'Minor-boss bonuses add together; a group boss fight counts as one encounter.\n\n'
+        'The 21 eligible standard remembrance bosses, plus Bayle, retain their '
+        'separate bonuses: max HP +5%, weapon attack power and sorcery/incantation '
+        'damage +2.5% each. They do not also count as minor bosses. '
+        'The four special remembrances retain their own effects.\n\n'
+        'Already defeated encounters are counted. Repeat use refreshes the same '
+        'bonuses, without adding duplicate rewards. Reuse after death or reloading '
+        'to restore bonuses. Not consumed on use.'),
 }
 ZH = {
     'GoodsName_dlc01.fmg':'强化之魂',
-    'GoodsInfo_dlc01.fmg':'刷新已击败首领的增益',
+    'GoodsInfo_dlc01.fmg':'刷新野外、地牢与追忆首领的奖励',
     'GoodsCaption_dlc01.fmg':(
-        '使用后刷新已击败首领的增益。\n'
-        '每场小首领（贝勒除外）：生命、法力、精力上限各+0.2%。\n'
-        '武器攻击力、魔法/祷告伤害各+0.1%。\n'
-        '上述奖励加算；重复使用仅刷新。\n'
-        '贝勒按追忆首领奖励；使用后不消耗。'),
+        '击败首领后使用，刷新当前周目的首领奖励。\n\n'
+        '小区域首领：已登记的野外、洞窟、地下墓地、坑道、封印监牢首领战，'
+        '共181场（本体150场、DLC 31场）。每击败一场，生命、法力、精力上限各+0.2%，'
+        '武器攻击力及魔法/祷告伤害各+0.1%。小首领奖励加算；同场多名首领只计一场。\n\n'
+        '21位符合条件的普通追忆首领及贝勒保留独立奖励：每位生命上限+5%，'
+        '武器攻击力及魔法/祷告伤害各+2.5%，不再计入小首领奖励。'
+        '四种特殊追忆保留各自效果。\n\n'
+        '当前周目已击败的首领也会计入。重复使用仅刷新，不重复领奖；'
+        '死亡或重载后再次使用可恢复增益。使用后不消耗。'),
 }
 
 

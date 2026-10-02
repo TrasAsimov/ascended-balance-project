@@ -1,0 +1,15 @@
+{
+  "bayle_separate_and_repeat_cases": 8,
+  "instruction_simulation_cases": 727,
+  "repeat_use_cases": 727,
+  "all_counts_0_to_181": true,
+  "each_boss_individually": 181,
+  "excluded_remembrance_flags_ignored": 25,
+  "stale_tiers_cleared": true,
+  "scratch_counter_reset": true,
+  "progression_and_reset_cases": 10,
+  "scratch_flags_allocated_in_EFID_common": true,
+  "invalid_legacy_bank_reproduced_cases": 5,
+  "eventparam_sha256": "cbd32bb7e94d805903d2823fff9a9e573204cf91389343bdd1e99b05448d41f4",
+  "game_validation": "not run"
+}

@@ -1,0 +1,4020 @@
+{
+  "input_regulation_sha256": "792427388a0529235b1473774d37588d681ddd2ed7418ab2542407044d16d372",
+  "input_common_sha256": "fb34a26f449efe9f7092ffb9e7f042e695369c948dbdca13972158168c431c5d",
+  "input_engus_sha256": {
+    "item_dlc01.msgbnd.dcx": "533aafba5450b2300a6a05cdeb5abc6d57708bc0c91f5017d8e45398f84ee1b3",
+    "item_dlc02.msgbnd.dcx": "f174a81f3873dc58f05d32f807dd67e4903941fc0a46b40150f174a8c6b572a1"
+  },
+  "output_files": {
+    "regulation.bin": {
+      "sha256": "2e0cef01d8261610abbfdf0f1f6fb48d908535e1acdf09e1d557c7843ddbffc2",
+      "bytes": 2304624
+    },
+    "common.emevd.dcx": {
+      "sha256": "f56e93dcb1d01cbf99ba26bf1836263de20c8b348d7a7b2615ab98eefa3ddd1e",
+      "bytes": 101230
+    },
+    "engus_item_dlc01.msgbnd.dcx": {
+      "sha256": "6b6578e32b9b9625d43d13d67ba6744a5da223c0d0af2b71cbeac1605e9d6b5f",
+      "bytes": 493258
+    },
+    "engus_item_dlc02.msgbnd.dcx": {
+      "sha256": "a327d83814a7f6319a6a4e84c9e876cf9824ca462b9fa4c97adfb99aeab02828",
+      "bytes": 496052
+    }
+  },
+  "param_changes": {
+    "CharaInitParam": [
+      {
+        "id": 3010,
+        "fields": {
+          "equip_Accessory01": {
+            "before": 1231,
+            "after": 1230
+          }
+        }
+      },
+      {
+        "id": 3011,
+        "fields": {
+          "equip_Accessory01": {
+            "before": 1231,
+            "after": 1230
+          }
+        }
+      },
+      {
+        "id": 3120,
+        "fields": {
+          "equip_Accessory01": {
+            "before": 1231,
+            "after": 1230
+          }
+        }
+      },
+      {
+        "id": 3121,
+        "fields": {
+          "equip_Accessory01": {
+            "before": 1231,
+            "after": 1230
+          }
+        }
+      },
+      {
+        "id": 3122,
+        "fields": {
+          "equip_Accessory01": {
+            "before": 1231,
+            "after": 1230
+          }
+        }
+      },
+      {
+        "id": 3123,
+        "fields": {
+          "equip_Accessory01": {
+            "before": 1231,
+            "after": 1230
+          }
+        }
+      }
+    ],
+    "SpEffectParam": [
+      {
+        "id": 7400001,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400002,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400003,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400004,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400005,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400006,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400007,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400008,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400009,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400010,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400011,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400012,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400013,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400014,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400015,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400016,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400017,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400018,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400019,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400020,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400021,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400022,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400023,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400024,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400025,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400026,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400027,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400028,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400029,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400030,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400031,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400032,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400033,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400034,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400035,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400036,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400037,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400038,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400039,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400040,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400041,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400042,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400043,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400044,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400045,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400046,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400047,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400048,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400049,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400050,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400051,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400052,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400053,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400054,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400055,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400056,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400057,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400058,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400059,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400060,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400061,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400062,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400063,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400064,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400065,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400066,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400067,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400068,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400069,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400070,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400071,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400072,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400073,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400074,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400075,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400076,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400077,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400078,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400079,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400080,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400081,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400082,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400083,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400084,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400085,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400086,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400087,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400088,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400089,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400090,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400091,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400092,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400093,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400094,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400095,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400096,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400097,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400098,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400099,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400100,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400101,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400102,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400103,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400104,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400105,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400106,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400107,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400108,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400109,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400110,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400111,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400112,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400113,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400114,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400115,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400116,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400117,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400118,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400119,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400120,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400121,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400122,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400123,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400124,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400125,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400126,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400127,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400128,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400129,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400130,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400131,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400132,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400133,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400134,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400135,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400136,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400137,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400138,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400139,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400140,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400141,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400142,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400143,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400144,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400145,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400146,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400147,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400148,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400149,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400150,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400151,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400152,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400153,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400154,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400155,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400156,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400157,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400158,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400159,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400160,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400161,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400162,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400163,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400164,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400165,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400166,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400167,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400168,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400169,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400170,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400171,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400172,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400173,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400174,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400175,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400176,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400177,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400178,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400179,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400180,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      },
+      {
+        "id": 7400181,
+        "fields": {
+          "slashAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "blowAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "thrustAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          },
+          "neutralAttackPowerRate": {
+            "before": 1.05,
+            "after": 1.0
+          }
+        }
+      }
+    ]
+  },
+  "changed_tables": [
+    "CharaInitParam.param",
+    "SpEffectParam.param"
+  ],
+  "other_param_table_payloads_preserved": 192,
+  "class_accessories": {
+    "heavy": [
+      1230
+    ],
+    "light": [
+      1230,
+      2080
+    ]
+  },
+  "small_jar_shard_skill_multiplier": 1.4,
+  "counter_flags": [
+    890992,
+    890999
+  ],
+  "counter_allocated_in_EFID_common": true,
+  "eventparam_sha256": "cbd32bb7e94d805903d2823fff9a9e573204cf91389343bdd1e99b05448d41f4",
+  "heart_event": 20007902,
+  "preserved_prefix_instructions": 72,
+  "extension_instructions": 5256,
+  "other_events_preserved": true,
+  "minor_boss_encounters": 181,
+  "minor_resource_per_encounter": 0.002,
+  "minor_attack_and_spell_per_encounter": 0.001,
+  "minor_resource_cap": 1.362,
+  "minor_attack_and_spell_cap": 1.181,
+  "bayle_and_original_remembrance_logic_preserved": true,
+  "message_changes": {
+    "id": 2001431,
+    "fmgs": [
+      "GoodsInfo_dlc01.fmg",
+      "GoodsCaption_dlc01.fmg"
+    ]
+  },
+  "idempotence": true,
+  "encrypted_roundtrip": true,
+  "latest_inventory_keepsakes_hp_and_armor_preserved": true,
+  "game_validation": "not run",
+  "package_created": false,
+  "published": false,
+  "simulation": {
+    "bayle_separate_and_repeat_cases": 8,
+    "instruction_simulation_cases": 727,
+    "repeat_use_cases": 727,
+    "all_counts_0_to_181": true,
+    "each_boss_individually": 181,
+    "excluded_remembrance_flags_ignored": 25,
+    "stale_tiers_cleared": true,
+    "scratch_counter_reset": true,
+    "progression_and_reset_cases": 10,
+    "scratch_flags_allocated_in_EFID_common": true,
+    "invalid_legacy_bank_reproduced_cases": 5,
+    "eventparam_sha256": "cbd32bb7e94d805903d2823fff9a9e573204cf91389343bdd1e99b05448d41f4",
+    "game_validation": "not run"
+  },
+  "event_flag_collision_scan": {
+    "input": "v0.10.12",
+    "candidate": [
+      890992,
+      890999
+    ],
+    "all_mod_event_files": [
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/common.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m10_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m10_01_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m11_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m11_05_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m12_02_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m12_03_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m12_05_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m12_08_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m12_09_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m13_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m14_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m16_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m18_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m20_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m20_01_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m21_01_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m22_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m28_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m32_05_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m35_00_00_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m60_39_54_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m61_44_45_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m61_48_44_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m61_49_48_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m61_50_48_00.emevd.dcx",
+      "Ascended_Balance_v0.10.12/ModEngine/mod/event/m61_54_39_00.emevd.dcx"
+    ],
+    "kraken_decoded": 26,
+    "instruction_argument_hits": [],
+    "batch_set_overlap": [],
+    "decoder": "lvlvllvlvllvlvl/oozextract commit 5ff5dc14be82160ab2c605dd844a46ba46e52d43"
+  },
+  "diagnosis": {
+    "basis": "static EventParam allocation reference and allocated-write instruction model",
+    "legacy_counter_bank": [
+      699920,
+      699927
+    ],
+    "legacy_counter_allocated": false,
+    "previous_test_limitation": "treated arbitrary scratch flags as writable; did not model allocation",
+    "new_bank": [
+      890992,
+      890999
+    ],
+    "new_bank_allocated": true,
+    "game_validation": "not run"
+  },
+  "baseline": {
+    "version": "v0.10.12",
+    "git_head": "28d062b77a2cc2b0d56fc90fbe850a05252a40b1",
+    "zip_sha256": "cb66fb46977c51741847acd4f3bf75fe2ee0ec7f74ac009f492a740dadadcd1a"
+  },
+  "migration_checks": {
+    "legacy_tail_replaced_not_appended": true,
+    "prefix_instruction_count": 72,
+    "event_idempotence": true,
+    "conflicting_writers_rejected": [
+      "('flag collision', 0, 890992)",
+      "('flag range collision', 0, 890991, 891000)"
+    ]
+  },
+  "source_validation": {
+    "python_compile": true,
+    "git_diff_check": true,
+    "patch_apply_check": "passed against v0.10.12 HEAD; reverse check passed"
+  }
+}

@@ -1,7 +1,7 @@
 """Apply the final new-class builds AFTER update_new_class_loadouts.py.
 
-Heavy: Leontiel's Greatsword, commoner clothing, Alexander, 121 stat points.
-Light: retain two Wing Stance swords; add Alexander and Winged Sword Insignia.
+Heavy: Leontiel's Greatsword, commoner clothing, Warrior Jar Shard, 121 stat points.
+Light: retain two Wing Stance swords; add Warrior Jar Shard and Winged Sword Insignia.
 Both: remove spirit ashes from origin and preview primary/secondary inventory.
 Requires ARMOR_PARAMDEFS and ARMOR_REGULATION_KEY_HEX, never embeds a key.
 """
@@ -23,7 +23,7 @@ from verify_layout import directory
 LIGHT_ROWS = (3010, 3120, 3121)
 HEAVY_ROWS = (3011, 3122, 3123)
 HEAVY_WEAPON = 3560000
-ALEXANDER = 1231
+JAR_SHARD = 1230
 COMBO_TALISMAN = 2080
 STAT_KEYS = ('baseVit', 'baseWil', 'baseEnd', 'baseStr', 'baseDex', 'baseMag', 'baseFai', 'baseLuc')
 HEAVY_STATS = dict(zip(STAT_KEYS, (20, 12, 30, 13, 26, 7, 8, 5)))
@@ -55,9 +55,9 @@ def patch(raw):
     assert get('EquipParamWeapon', HEAVY_WEAPON, 'wepType') == 5
     assert get('EquipParamWeapon', HEAVY_WEAPON, 'swordArtsParamId') == 1200
     assert 1200 in tables['SwordArtsParam']['rows']
-    for aid in (ALEXANDER, COMBO_TALISMAN):
+    for aid in (JAR_SHARD, COMBO_TALISMAN):
         assert get('EquipParamAccessory', aid, 'refId') in tables['SpEffectParam']['rows']
-    assert get('EquipParamAccessory', ALEXANDER, 'refId') == 312310
+    assert get('EquipParamAccessory', JAR_SHARD, 'refId') == 312300
     assert get('EquipParamAccessory', COMBO_TALISMAN, 'refId') == 320800
     for pid in HEAVY_ARMOR.values():
         if pid >= 0:
@@ -78,10 +78,10 @@ def patch(raw):
     assert min(budgets.values()) <= sum(HEAVY_STATS.values()) <= max(budgets.values())
     targets = {}
     for rid in LIGHT_ROWS:
-        targets[rid] = dict(equip_Accessory01=ALEXANDER, equip_Accessory02=COMBO_TALISMAN)
+        targets[rid] = dict(equip_Accessory01=JAR_SHARD, equip_Accessory02=COMBO_TALISMAN)
     for rid in HEAVY_ROWS:
         targets[rid] = dict(HEAVY_STATS, equip_Wep_Right=HEAVY_WEAPON,
-                            wepParamType_Right1=0, equip_Accessory01=ALEXANDER)
+                            wepParamType_Right1=0, equip_Accessory01=JAR_SHARD)
         targets[rid].update(HEAVY_ARMOR)
     # goodsType 7 is spirit summon goods. Check every provided inventory slot,
     # including secondary items; preserve all non-ash goods and empty slots.
@@ -139,20 +139,21 @@ def patch(raw):
         bag = {final(rid, f'item_{i:02}'): final(rid, f'itemNum_{i:02}') for i in range(1, 11)}
         assert all(bag.get(900+10*i) == 20 for i in range(7))
         assert bag[2001431] == 1
-        assert final(rid, 'secondaryItem_01') == 115 and final(rid, 'secondaryItemNum_01') == 1
+        # A later module removed Memory of Grace. Preserve the input's
+        # inventory; do not require or reintroduce that superseded item.
     return output, {
         'heavy_weapon': {'id': HEAVY_WEAPON, 'name': "Leontiel's Greatsword", 'skill_id': 1200},
         'heavy_stats': HEAVY_STATS, 'heavy_stat_total': sum(HEAVY_STATS.values()),
         'heavy_armor': HEAVY_ARMOR,
         'reference_stat_budgets': budgets, 'reference_stat_average': sum(budgets.values())/len(budgets),
         'light_stats': {k: final(3010, k) for k in STAT_KEYS},
-        'accessories': {'heavy': [ALEXANDER], 'light': [ALEXANDER, COMBO_TALISMAN]},
+        'accessories': {'heavy': [JAR_SHARD], 'light': [JAR_SHARD, COMBO_TALISMAN]},
         'weapon_requirements': requirement_audit, 'removed_spirit_ashes': removed,
         'row_changes': records, 'changed_param_tables': ['CharaInitParam'],
         'other_param_tables_unchanged': 193,
         'validation': ['single-hand requirements met without equipment bonuses for both classes and previews',
                        'both origins and all four previews contain no spirit ashes in either inventory',
-                       'seven boluses x20, heart x1 and Memory of Grace x1 retained',
+                       'seven boluses x20 and heart x1 retained; other non-ash inventory preserved',
                        'two +0 light swords and Wing Stance presets retained',
                        'heavy origin and both sex previews wear commoner headband, garb and shoes; no gloves',
                        '193 other table payloads unchanged, including melee reinforcement and all shared skills',

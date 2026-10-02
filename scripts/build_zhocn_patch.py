@@ -31,22 +31,12 @@ ACCESSORY = {
     2200: ("防御反击伤害提高300%（独立倍率×4.00）。", "大幅提高防御反击伤害"),
     4100: ("格挡时精力消耗减少80%。", "大幅减少格挡时的精力消耗"),
 }
-HEART = {
-    "GoodsName_dlc01.fmg": "强化之魂",
-    "GoodsInfo_dlc01.fmg": "刷新已击败首领的增益",
-    "GoodsCaption_dlc01.fmg": (
-        "使用后刷新已击败首领的增益。\n"
-        "每场小首领（贝勒除外）：生命、法力、精力上限各+0.2%。\n"
-        "武器攻击力、魔法/祷告伤害各+0.1%。\n"
-        "上述奖励加算；重复使用仅刷新。\n"
-        "贝勒按追忆首领奖励；使用后不消耗。"
-    ),
-}
+from update_minor_boss_heart_text import ZH as HEART
 
 EXISTING_ENGLISH_HEART = {
     "GoodsName_dlc01.fmg": "Empowered Soul",
-    "GoodsInfo_dlc01.fmg": ("Refreshes power from defeated remembrance bosses", "Refreshes bonuses from defeated bosses"),
-    "GoodsCaption_dlc01.fmg": ("An empowered soul granted at the beginning of the journey.", "Use to refresh bonuses from defeated bosses."),
+    "GoodsInfo_dlc01.fmg": ("Refreshes power from defeated remembrance bosses", "Refreshes bonuses from defeated bosses", "Refreshes field, dungeon and remembrance boss bonuses"),
+    "GoodsCaption_dlc01.fmg": ("An empowered soul granted at the beginning of the journey.", "Use to refresh bonuses from defeated bosses.", "Use after defeating a boss to refresh bonuses for this journey."),
 }
 
 

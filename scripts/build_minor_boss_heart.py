@@ -1,7 +1,7 @@
 """Add additive minor-boss progression to the existing manual heart refresher.
 
 Owned 1.17.1 inputs/definitions and ARMOR_REGULATION_KEY_HEX are required.
-No package creation or publication. Existing events/effects remain intact.
+No package creation or publication. Unrelated events/effects remain intact.
 """
 import argparse
 import copy
@@ -23,7 +23,10 @@ from formats import bnd_entries, bnd_repack, param_patch, Emevd, dcx_pack, dcx_u
 from disable_player_debuffs import unpack
 
 REFRESH_EVENT = 20007902
-COUNTER_START = 699920
+# EFID_common allocates 890000..890999. The former 699920..699927
+# bank was not allocated, so real-engine writes could not store the count.
+COUNTER_START = 890992
+LEGACY_COUNTER_START = 699920
 COUNTER_BITS = 8
 PARENT_START = 7400000
 SPELL_START = 7410000
@@ -34,6 +37,8 @@ POWER = ['physicsAttackPowerRate', 'magicAttackPowerRate', 'fireAttackPowerRate'
          'thunderAttackPowerRate', 'darkAttackPowerRate']
 DAMAGE = ['physicsAttackRate', 'magicAttackRate', 'fireAttackRate',
           'thunderAttackRate', 'darkAttackRate']
+PHYSICAL_POWER = ['slashAttackPowerRate', 'blowAttackPowerRate',
+                  'thrustAttackPowerRate', 'neutralAttackPowerRate']
 
 
 def sha(blob):
@@ -72,7 +77,7 @@ def patch_params(raw, paramdef, count):
         else:
             struct.pack_into('<'+TYPES[f[1]][0], body, f[2], value)
 
-    parents, children = {}, {}
+    parents, children, legacy_parents = {}, {}, {}
     # Existing spell companion is based on the vanilla caster talisman.
     weapon_template = table['rows'][321412]['data']
     spell_template = table['rows'][321435]['data']
@@ -96,6 +101,11 @@ def patch_params(raw, paramdef, count):
         put(body, 'cycleOccurrenceSpEffectId', child)
         put(body, 'motionInterval', .06)
         for k in ['effectTargetSelf', 'effectTargetPlayer', 'effectTargetLive']:
+            put(body, k, 1)
+        legacy_parents[parent] = bytes(body)
+        # Do not inherit the remembrance template's separate +5% physical
+        # damage-type layer. Minor tiers have only the declared +0.1%/boss.
+        for k in PHYSICAL_POWER:
             put(body, k, 1)
         parents[parent] = bytes(body)
         body = bytearray(spell_template)
@@ -126,22 +136,31 @@ def patch_params(raw, paramdef, count):
     occupied = set(expected).intersection(table['rows'])
     if occupied:
         assert occupied == set(expected), 'Partial/colliding effect range'
-        assert all(table['rows'][k]['data'] == v for k,v in expected.items()), 'Effect collision'
-        return raw, layout, expected
-    modified = param_patch(original, {}, expected, size)
+        changes = {}
+        for k, v in expected.items():
+            actual = table['rows'][k]['data']
+            assert actual in (v, legacy_parents.get(k)), ('Effect collision', k)
+            if actual != v:
+                changes[k] = v
+        if not changes:
+            return raw, layout, expected
+        modified = param_patch(original, changes, {}, size)
+    else:
+        changes = {}
+        modified = param_patch(original, {}, expected, size)
     output = bnd_repack(raw, {'SpEffectParam.param': modified})
     after_parts = bnd_entries(output)
     assert all(after_parts[k][1] == v[1] for k,v in parts.items() if k != 'SpEffectParam.param')
     after = read_param(after_parts['SpEffectParam.param'][1], 'SpEffectParam')
     assert set(after['rows']) == set(table['rows']) | set(expected)
     for rid, rec in table['rows'].items():
-        assert after['rows'][rid]['data'] == rec['data']
+        assert after['rows'][rid]['data'] == changes.get(rid, rec['data'])
         assert after['rows'][rid]['name'] == rec['name']
     assert all(after['rows'][k]['data'] == v for k,v in expected.items())
     return output, layout, expected
 
 
-def extension(manifest, emedf):
+def extension(manifest, emedf, counter_start=COUNTER_START):
     """Use explicit little-endian scratch flags, independent of EventValue ABI.
 
     This is a ripple-carry counter recalculated only on manual heart use.
@@ -154,12 +173,12 @@ def extension(manifest, emedf):
            I(2004,8,PLAYER,BAYLE_PARENT), I(2004,8,PLAYER,BAYLE_CHILD)]
     for n in range(1, len(rows)+1):
         out += [I(2004,21,PLAYER,PARENT_START+n), I(2004,21,PLAYER,SPELL_START+n)]
-    out.append(I(2003,22,COUNTER_START,COUNTER_START+COUNTER_BITS-1,0))
+    out.append(I(2003,22,counter_start,counter_start+COUNTER_BITS-1,0))
     carry = []
     for bit in range(COUNTER_BITS):
-        carry.append(I(2003,9,COUNTER_START+bit))
+        carry.append(I(2003,9,counter_start+bit))
         if bit < COUNTER_BITS-1:
-            carry.append(I(1003,1,2*(COUNTER_BITS-bit-1)-1,1,0,COUNTER_START+bit))
+            carry.append(I(1003,1,2*(COUNTER_BITS-bit-1)-1,1,0,counter_start+bit))
     assert len(carry) == 15 and len(rows) < 2**COUNTER_BITS
     for row in rows:
         out.append(I(1003,1,len(carry),0,0,row['flag_id']))
@@ -167,7 +186,7 @@ def extension(manifest, emedf):
     for n in range(1, len(rows)+1):
         for bit in range(COUNTER_BITS):
             # Mismatch skips the rest of this candidate, including its restart.
-            out.append(I(1003,1,COUNTER_BITS-bit-1+3,1-((n>>bit)&1),0,COUNTER_START+bit))
+            out.append(I(1003,1,COUNTER_BITS-bit-1+3,1-((n>>bit)&1),0,counter_start+bit))
         out.extend([I(2004,8,PLAYER,PARENT_START+n),
                     I(2004,8,PLAYER,SPELL_START+n), I(1000,4,1)])
     out.append(I(1000,4,1))  # Zero kills: no new effect, restart original listener.
@@ -180,15 +199,26 @@ def patch_event(blob, manifest, emedf):
     event = next(e for e in ev.events if e['id'] == REFRESH_EVENT)
     assert not event['params']
     extra = extension(manifest, emedf)
-    if len(event['ins']) >= len(extra) and event['ins'][-len(extra):] == extra:
-        return blob, extra, event['ins'][:-len(extra)]
-    # Reserved project-local scratch flags must not already be referenced.
+    # Validate even when already patched: later modules may introduce a
+    # conflicting writer. Only this exact generated tail owns the bank.
     for e in ev.events:
-        for ins in e['ins']:
+        instructions = e['ins']
+        if e['id'] == REFRESH_EVENT and instructions[-len(extra):] == extra:
+            instructions = instructions[:-len(extra)]
+        for ins in instructions:
             for flag in range(COUNTER_START, COUNTER_START+COUNTER_BITS):
                 assert struct.pack('<I', flag) not in ins[2], ('flag collision', e['id'], flag)
-    assert event['ins'][-1][:2] == (1000,4)
-    original_prefix = event['ins'][:-1]
+            if ins[:2] == (2003,22):
+                lo, hi = struct.unpack_from('<II', ins[2])
+                assert hi < COUNTER_START or lo >= COUNTER_START+COUNTER_BITS, ('flag range collision', e['id'], lo, hi)
+    if len(event['ins']) >= len(extra) and event['ins'][-len(extra):] == extra:
+        return blob, extra, event['ins'][:-len(extra)]
+    legacy_extra = extension(manifest, emedf, LEGACY_COUNTER_START)
+    if event['ins'][-len(legacy_extra):] == legacy_extra:
+        original_prefix = event['ins'][:-len(legacy_extra)]
+    else:
+        assert event['ins'][-1][:2] == (1000,4)
+        original_prefix = event['ins'][:-1]
     event['ins'] = original_prefix + extra
     result = dcx_pack(ev.write())
     after = Emevd(dcx_unpack(result)).events
@@ -248,7 +278,9 @@ def main():
              'scratch_flags':[COUNTER_START,COUNTER_START+COUNTER_BITS-1],
              'modified_event':REFRESH_EVENT,'preserved_event_prefix_instructions':len(prefix),
              'extension_instructions':len(extra), 'preserved_param_tables':193,
-             'all_existing_parameter_rows_unchanged':True,'all_other_events_unchanged':True,
+             'non_minor_parameter_rows_unchanged':True,'all_other_events_unchanged':True,
+             'minor_physical_type_power_normalized':PHYSICAL_POWER,
+             'legacy_scratch_flags':[LEGACY_COUNTER_START,LEGACY_COUNTER_START+COUNTER_BITS-1],
              'idempotence':True,'game_validation':'not run'}
     (args.output/'audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(audit,ensure_ascii=False))

@@ -1,3 +1,4 @@
+- [v0.10.13 新职业护符与心脏修复](v0.10.13.md) · [机制与旗标修复](starter_jar_heart_fix_20261002.md)
 - [v0.10.12 starting items and keepsakes](v0.10.12.md)
 - [v0.10.11 jar shard target correction](v0.10.11.md)
 # 开发文档索引
