@@ -1,0 +1,429 @@
+{
+  "origin_rows": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011
+  ],
+  "preview_rows": [
+    3100,
+    3101,
+    3102,
+    3103,
+    3104,
+    3105,
+    3106,
+    3107,
+    3108,
+    3109,
+    3110,
+    3111,
+    3112,
+    3113,
+    3114,
+    3115,
+    3116,
+    3117,
+    3118,
+    3119,
+    3120,
+    3121,
+    3122,
+    3123
+  ],
+  "common_player_rows": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "removed_grace_slots": [
+    {
+      "row": 20,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 21,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 22,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 23,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3000,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3001,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3002,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3003,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3004,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3005,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3006,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3007,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3008,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3009,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3010,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3011,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3100,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3101,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3102,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3103,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3104,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3105,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3106,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3107,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3108,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3109,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3110,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3111,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3112,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3113,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3114,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3115,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3116,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3117,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3118,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3119,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3120,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3121,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3122,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    },
+    {
+      "row": 3123,
+      "slot": "secondaryItem_01",
+      "goods_id": 115
+    }
+  ],
+  "none_choice": "empty",
+  "choices": {
+    "1": [
+      1230,
+      "Warrior Jar Shard",
+      "战技"
+    ],
+    "2": [
+      2080,
+      "Winged Sword Insignia",
+      "连击"
+    ],
+    "3": [
+      2000,
+      "Magic Scorpion Charm",
+      "魔法"
+    ],
+    "4": [
+      2130,
+      "Axe Talisman",
+      "蓄力攻击"
+    ],
+    "5": [
+      2180,
+      "Claw Talisman",
+      "跳跃攻击"
+    ],
+    "6": [
+      2200,
+      "Curved Sword Talisman",
+      "防御反击"
+    ],
+    "7": [
+      2090,
+      "Dagger Talisman",
+      "处决"
+    ],
+    "8": [
+      3001,
+      "Graven-Mass Talisman",
+      "魔法施法"
+    ],
+    "9": [
+      3050,
+      "Flock's Canvas Talisman",
+      "祷告"
+    ],
+    "10": [
+      4100,
+      "Greatshield Talisman",
+      "盾防"
+    ]
+  },
+  "changed_tables": [
+    "CharMakeMenuListItemParam.param",
+    "CharaInitParam.param"
+  ],
+  "game_tested": false,
+  "regulation_sha256": "792427388a0529235b1473774d37588d681ddd2ed7418ab2542407044d16d372",
+  "idempotence_and_encrypted_readback": true,
+  "menus": [
+    {
+      "name": "menu",
+      "sha256": "2d74a18dc3021e9303de96ab057e75263dc37c86f8babe92673940b3bc23291d",
+      "entries": [
+        {
+          "fmg": "GR_MenuText.fmg",
+          "changed_ids": [
+            297151,
+            297152,
+            297153,
+            297154,
+            297156,
+            297157,
+            297158,
+            297159,
+            297160,
+            297161
+          ]
+        },
+        {
+          "fmg": "GR_LineHelp.fmg",
+          "changed_ids": [
+            297150,
+            297151,
+            297152,
+            297153,
+            297154,
+            297156,
+            297157,
+            297158,
+            297159,
+            297160,
+            297161
+          ]
+        }
+      ],
+      "non_target_fmg_and_entries": "byte-identical",
+      "idempotent": true
+    },
+    {
+      "name": "menu_dlc01",
+      "sha256": "d12d011a9e75ed883eb5aa8c2fd8b54dab4a3bc9aedf4d75a10df84791fc8ffa",
+      "entries": [
+        {
+          "fmg": "GR_MenuText.fmg",
+          "changed_ids": [
+            297151,
+            297152,
+            297153,
+            297154,
+            297156,
+            297157,
+            297158,
+            297159,
+            297160,
+            297161
+          ]
+        },
+        {
+          "fmg": "GR_LineHelp.fmg",
+          "changed_ids": [
+            297150,
+            297151,
+            297152,
+            297153,
+            297154,
+            297156,
+            297157,
+            297158,
+            297159,
+            297160,
+            297161
+          ]
+        }
+      ],
+      "non_target_fmg_and_entries": "byte-identical",
+      "idempotent": true
+    },
+    {
+      "name": "menu_dlc02",
+      "sha256": "69d66449521e29042b5f5e63320157b5ec8aaf2c511f35499a728639f0bc1f5a",
+      "entries": [
+        {
+          "fmg": "GR_MenuText.fmg",
+          "changed_ids": [
+            297151,
+            297152,
+            297153,
+            297154,
+            297156,
+            297157,
+            297158,
+            297159,
+            297160,
+            297161
+          ]
+        },
+        {
+          "fmg": "GR_LineHelp.fmg",
+          "changed_ids": [
+            297150,
+            297151,
+            297152,
+            297153,
+            297154,
+            297156,
+            297157,
+            297158,
+            297159,
+            297160,
+            297161
+          ]
+        }
+      ],
+      "non_target_fmg_and_entries": "byte-identical",
+      "idempotent": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "menus": [
+    {
+      "name": "menu",
+      "all_other_fmg_and_entries_preserved": true,
+      "eleven_menu_options": "passed"
+    },
+    {
+      "name": "menu_dlc01",
+      "all_other_fmg_and_entries_preserved": true,
+      "eleven_menu_options": "passed"
+    },
+    {
+      "name": "menu_dlc02",
+      "all_other_fmg_and_entries_preserved": true,
+      "eleven_menu_options": "passed"
+    }
+  ],
+  "magic_scorpion_gift_row_byte_identical": true,
+  "parameter_directory_boundaries": "passed",
+  "original_gift_values": "0-9 preserved",
+  "added_gift_value": 10,
+  "added_rows": {
+    "CharaInitParam": 2410,
+    "CharMakeMenuListItemParam": 100310
+  },
+  "decoder": "oozextract 5ff5dc14; independent restart blocks; older C++ output rejected",
+  "game_tested": false
+}

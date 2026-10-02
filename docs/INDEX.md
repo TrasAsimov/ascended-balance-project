@@ -1,3 +1,4 @@
+- [v0.10.12 starting items and keepsakes](v0.10.12.md)
 - [v0.10.11 jar shard target correction](v0.10.11.md)
 # 开发文档索引
 

@@ -1,3 +1,9 @@
+## v0.10.12 — Starting items and keepsakes
+
+- Remove grace return goods from all 12 origins, 24 previews and four common player templates.
+- Ten selectable build talismans, including unchanged Magic Scorpion and Greatshield. None is empty. English names/help updated in all three menu archives.
+- All v0.10.11 balance and class builds retained; new characters only. Static validation passed, game test pending.
+
 ## v0.10.11 — Jar shard target correction
 
 - Warrior Jar Shard (1230 / 312300): skill damage 20% → 40%.
