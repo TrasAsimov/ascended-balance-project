@@ -38,6 +38,7 @@ def render(group, effects, language):
               f"{group['english_name']} ({count} {'piece' if count == 1 else 'pieces'})")
     result = [header]
     for label, effect in effects:
+        effect = effect.replace('Hit-reaction grade 1', 'Reduced hit stagger').replace('受击动作等级 1', '减轻受击硬直')
         if language == 'zh':
             label = '效果' if label == '单件' else label + '效果'
         else:
