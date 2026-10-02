@@ -9,6 +9,7 @@ from field_diff import defs,fields,decode
 from build_zhocn_patch import fmg_read,fmg_write,unpack
 from formats import bnd_entries,bnd_patch,dcx_pack,dcx_unpack
 from short_text import compact
+from shield_text import patch_shields
 
 _,result=read_bnd(ROOT/'data/result.bnd')
 _,original=read_bnd(OLD/'work/vanilla.bnd')
@@ -81,7 +82,7 @@ def effect_lines(label, effects, language):
     # Separate effects without discarding their enclosing trigger or scope.
     separator='；' if language=='zh' else ';'
     fragments=[part.strip() for effect in effects for part in effect.split(separator) if part.strip()]
-    return [(label+' · ' if i==0 else '    ')+part for i,part in enumerate(fragments)]
+    return [line for part in fragments for line in (label+': '+part, '')]
 
 def display_name(name):
     for note in ['（官方装束家族）','（单件家族）','（单件）','（六种单件）','（旧版／Mod条目）','（Mod条目）','（暂译）']:
@@ -110,23 +111,27 @@ for s,r in armors.items():
         if reward['tier']==1:
             singles_z.append(compact(reward['zh'],'zh'))
             singles_e.append(compact(reward['en'],'en'))
-    z.extend(effect_lines('单件',singles_z,'zh'));e.extend(effect_lines('Piece',singles_e,'en'))
+    z.extend(effect_lines('效果',singles_z,'zh'));e.extend(effect_lines('Effect',singles_e,'en'))
     tiers=sorted({x['tier'] for x in g['rewards'] if x['tier']>1})
-    if tiers and singles_z:z.append('')
-    if tiers and singles_e:e.append('')
     for tier in tiers:
         rewards=[x for x in g['rewards'] if x['tier']==tier]
         zh=[compact(x['zh'],'zh') for x in rewards]
         en=[compact(x['en'],'en') for x in rewards]
         if tier>2 and any(x['exclusive'] for x in g['rewards']):
             zh[-1]+='（替换2件）';en[-1]+=' (replaces 2 pcs)'
-        z.extend(effect_lines(f'{tier}件',zh,'zh'))
-        e.extend(effect_lines(f'{tier} pcs',en,'en'))
+        z.extend(effect_lines(f'{tier}件效果',zh,'zh'))
+        e.extend(effect_lines(f'{tier}-Piece Effect',en,'en'))
     texts[s]={'zh':'\n'.join(z).rstrip(),'en':'\n'.join(e).rstrip(),'set':g['name'],'name':r['name']}
 (ROOT/'data/description_zh.json').write_text(json.dumps({k:v['zh'] for k,v in texts.items()},ensure_ascii=False,indent=2))
 (ROOT/'data/description_en.json').write_text(json.dumps({k:v['en'] for k,v in texts.items()},ensure_ascii=False,indent=2))
 
 stats={}
+shield_canonical={}
+for name in ['item_dlc01','item_dlc02']:
+    source=OLD/'pending_v0105/ModEngine/mod/msg/engus'/f'{name}.msgbnd.dcx'
+    _,shield_descriptions,_=patch_shields(bnd_entries(unpack(source.read_bytes())))
+    for rid,text in shield_descriptions.items():
+        if text or rid not in shield_canonical:shield_canonical[rid]=text
 for name in ['item_dlc01','item_dlc02']:
     p=OLD/'pending_v0105/ModEngine/mod/msg/engus'/f'{name}.msgbnd.dcx'
     raw=unpack(p.read_bytes());parts=bnd_entries(raw);updates={};covered=set()
@@ -149,6 +154,8 @@ for name in ['item_dlc01','item_dlc02']:
             entries[rid]=v['en'];covered.add(rid)
         updates[fname]=fmg_write(entries)
     assert len(covered)==len(texts),(name,len(covered),len(texts))
+    shield_updates,_,_=patch_shields(parts,shield_canonical)
+    updates.update(shield_updates)
     raw=bnd_patch(raw,updates);packed=dcx_pack(raw)
     assert dcx_unpack(packed)==raw
     out=ROOT/'ModEngine/mod/msg/engus'/f'{name}.msgbnd.dcx';out.write_bytes(packed)

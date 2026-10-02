@@ -24,13 +24,13 @@ def main():
             if len(text.splitlines())>1:
                 assert text.splitlines()[1]==''
             for line in text.splitlines()[2:]:
-                assert not line.strip() or line.startswith('    ') or re.match(r'(单件|[234]件|Piece|[234] pcs) · ',line), (rid,line)
+                assert not line.strip() or re.match(r'(效果|[234]件效果|Effect|[234]-Piece Effect): ',line), (rid,line)
             for tier in {r['tier'] for r in g['rewards'] if r['tier']>1}:
-                label=f'{tier}件 · ' if language=='zh' else f'{tier} pcs · '
+                label=f'{tier}件效果: ' if language=='zh' else f'{tier}-Piece Effect: '
                 assert label in text
         if any(r['tier']>2 and r['exclusive'] for r in g['rewards']):
             assert '替换2件' in zh[rid] and 'replaces 2 pcs' in en[rid]
-    core={2090:'+400%',2120:'+250%',2130:'+200%',2140:'+120%',2150:'+100%',2180:'+100%',2200:'+300%',4100:'-50%'}
+    core={2090:'+400%',2120:'+250%',2130:'+300%',2140:'+220%',2150:'+100%',2180:'+100%',2200:'+300%',4100:'-50%'}
     captions=0;fixture=0
     for name in ['item_dlc01','item_dlc02']:
         raw=dcx_unpack((ROOT/f'ModEngine/mod/msg/engus/{name}.msgbnd.dcx').read_bytes())
@@ -51,6 +51,6 @@ def main():
                 for rid,text in fmg_read(body).items():
                     if str(rid) in zh:assert text==zh[str(rid)];fixture+=1
     assert captions==16
-    result={'armor_descriptions':741,'max_logical_lines':max(len(t.splitlines()) for t in en.values()),'set_piece_counts':'all 741 verified against unique equipped slots','format':'percentage only; one effect per line; explicit tier counts','zh_character_median':statistics.median(map(len,zh.values())),'zh_character_max':max(map(len,zh.values())),'en_character_max':max(map(len,en.values())),'compact_talisman_captions_checked':captions,'chinese_merge_structural_fixture_captions':fixture,'actual_chinese_archive':'not generated; matching owned zhocn inputs unavailable','in_game_layout':'not tested'}
+    result={'armor_descriptions':741,'max_logical_lines':max(len(t.splitlines()) for t in en.values()),'set_piece_counts':'all 741 verified against unique equipped slots','format':'percentage only; separated Effect blocks; explicit tier counts','zh_character_median':statistics.median(map(len,zh.values())),'zh_character_max':max(map(len,zh.values())),'en_character_max':max(map(len,en.values())),'compact_talisman_captions_checked':captions,'chinese_merge_structural_fixture_captions':fixture,'actual_chinese_archive':'not generated; matching owned zhocn inputs unavailable','in_game_layout':'not tested'}
     (ROOT/'data/short_text_verification.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 if __name__=='__main__':main()

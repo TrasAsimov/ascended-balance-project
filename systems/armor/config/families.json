@@ -1832,11 +1832,12 @@
     },
     "93": {
       "key": "93",
-      "name": "猛禽套装（骨骸面具家族）",
+      "name": "猛禽／盗贼套装",
       "profile": "jump",
       "pieces": {
         "0": [
-          930000
+          930000,
+          1401000
         ],
         "1": [
           930100,
@@ -1851,7 +1852,7 @@
       },
       "full": 4,
       "category": "近战与战技",
-      "english_name": "Raptor Set"
+      "english_name": "Raptor / Bandit Set"
     },
     "94": {
       "key": "94",
@@ -2255,8 +2256,7 @@
       "profile": "stealth",
       "pieces": {
         "0": [
-          1400000,
-          1401000
+          1400000
         ],
         "1": [
           1400100
@@ -6188,7 +6188,7 @@
     "1401000": {
       "name": "Bandit Mask",
       "slot": 0,
-      "key": "140"
+      "key": "93"
     },
     "1500000": {
       "name": "Knight Helm",

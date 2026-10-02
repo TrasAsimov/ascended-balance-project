@@ -177,7 +177,7 @@ for armor_id,effects in [(5310000,[6531000,6202039,6202002]),(5320000,[6532000,6
     body=out['EquipParamProtector']['rows'][armor_id]['data']
     actual={decode(body,fm['EquipParamProtector'][k]) for k in ['residentSpEffectId','residentSpEffectId2','residentSpEffectId3']}
     assert actual=={mapping.get(e,e) for e in effects},(armor_id,actual)
-# All English descriptions exist, and stale 'Effect:' lines are gone.
+# All English armor captions use separated Effect blocks.
 core_caption_checks=0
 named={int(k) for k in json.loads((ROOT/'data/armor_index.json').read_text())}
 for name in ['item_dlc01','item_dlc02']:
@@ -197,7 +197,7 @@ for name in ['item_dlc01','item_dlc02']:
                     assert text==json.loads((ROOT/'data/description_en.json').read_text())[str(rid)]
                     assert 'Original piece:' not in text and 'Retained Mod piece:' not in text
                     assert 'x1.' not in text and '×' not in text
-                    assert not any(l.strip().startswith('Effect:') for l in text.splitlines())
+                    assert all(not l or l.startswith('Effect: ') or any(l.startswith(f'{tier}-Piece Effect: ') for tier in (2,3,4)) for l in text.splitlines()[2:])
                     seen.add(rid)
     assert seen==named
 assert core_caption_checks>=8,core_caption_checks
