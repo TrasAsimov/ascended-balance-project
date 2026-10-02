@@ -3708,7 +3708,7 @@
     "536": {
       "key": "536",
       "name": "莱昂提尔套装（暂译）",
-      "profile": "sorcery",
+      "profile": "skill",
       "pieces": {
         "0": [
           5360000,
@@ -3725,7 +3725,7 @@
         ]
       },
       "full": 4,
-      "category": "法术与祷告",
+      "category": "近战与战技",
       "english_name": "Leontiel's Set (Mod)"
     },
     "537": {

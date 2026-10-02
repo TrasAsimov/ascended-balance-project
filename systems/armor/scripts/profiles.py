@@ -100,3 +100,8 @@ for code,template,zh,en in [('dance',6508000,'舞蹈战技','Dancing skill'),('b
     P[code]=([damage(zh+'伤害 +8%',en+' damage +8%',1.08,template=template)],[damage(zh+'伤害 +15%',en+' damage +15%',1.15,template=template)])
 P['sleep']=([reward('睡眠抗性 +100 点','Sleep resistance +100 points',{'changeSleepResistPoint':100})],[reward('最大生命值 +10%','Maximum HP +10%',{'maxHpRate':1.10})])
 REPLACE.update({'magic_skill','crucible','dance','bloodmagic','gravity','bloodskill'})
+
+# Leontiel: full-set total replaces two-piece skill damage (2026-10-02).
+P['skill']=([damage('战技伤害 +10%','Skill damage +10%',1.10,template=312310)],
+            [damage('战技伤害 +20%','Skill damage +20%',1.20,template=312310)])
+REPLACE.add('skill')
