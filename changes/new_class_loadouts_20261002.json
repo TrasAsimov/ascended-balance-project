@@ -1,0 +1,288 @@
+{
+  "light_origin": 3010,
+  "heavy_origin": 3011,
+  "light_preview_rows": [
+    3120,
+    3121
+  ],
+  "light_weapon": 67530000,
+  "wing_gem": 412000,
+  "wing_skill": 4120,
+  "custom_preset_ids": [
+    7000,
+    7001
+  ],
+  "new_preset_rows": 2,
+  "reference_goods_origin": 3000,
+  "starting_goods": [
+    [
+      900,
+      20
+    ],
+    [
+      910,
+      20
+    ],
+    [
+      920,
+      20
+    ],
+    [
+      930,
+      20
+    ],
+    [
+      940,
+      20
+    ],
+    [
+      950,
+      20
+    ],
+    [
+      960,
+      20
+    ],
+    [
+      203000,
+      1
+    ],
+    [
+      2001431,
+      1
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "row_changes": [
+    {
+      "row_id": 3010,
+      "changes": {
+        "item_01": {
+          "before": 2001431,
+          "after": 900
+        },
+        "itemNum_01": {
+          "before": 1,
+          "after": 20
+        },
+        "item_02": {
+          "before": -1,
+          "after": 910
+        },
+        "itemNum_02": {
+          "before": 0,
+          "after": 20
+        },
+        "item_03": {
+          "before": -1,
+          "after": 920
+        },
+        "itemNum_03": {
+          "before": 0,
+          "after": 20
+        },
+        "item_04": {
+          "before": -1,
+          "after": 930
+        },
+        "itemNum_04": {
+          "before": 0,
+          "after": 20
+        },
+        "item_05": {
+          "before": -1,
+          "after": 940
+        },
+        "itemNum_05": {
+          "before": 0,
+          "after": 20
+        },
+        "item_06": {
+          "before": -1,
+          "after": 950
+        },
+        "itemNum_06": {
+          "before": 0,
+          "after": 20
+        },
+        "item_07": {
+          "before": -1,
+          "after": 960
+        },
+        "itemNum_07": {
+          "before": 0,
+          "after": 20
+        },
+        "item_08": {
+          "before": -1,
+          "after": 203000
+        },
+        "itemNum_08": {
+          "before": 0,
+          "after": 1
+        },
+        "item_09": {
+          "before": -1,
+          "after": 2001431
+        },
+        "itemNum_09": {
+          "before": 0,
+          "after": 1
+        },
+        "equip_Wep_Right": {
+          "before": 67530000,
+          "after": 7000
+        },
+        "equip_Wep_Left": {
+          "before": 31540000,
+          "after": 7001
+        },
+        "wepParamType_Right1": {
+          "before": 0,
+          "after": 1
+        },
+        "wepParamType_Left1": {
+          "before": 0,
+          "after": 1
+        }
+      }
+    },
+    {
+      "row_id": 3011,
+      "changes": {
+        "item_01": {
+          "before": 2001431,
+          "after": 900
+        },
+        "itemNum_01": {
+          "before": 1,
+          "after": 20
+        },
+        "item_02": {
+          "before": -1,
+          "after": 910
+        },
+        "itemNum_02": {
+          "before": 0,
+          "after": 20
+        },
+        "item_03": {
+          "before": -1,
+          "after": 920
+        },
+        "itemNum_03": {
+          "before": 0,
+          "after": 20
+        },
+        "item_04": {
+          "before": -1,
+          "after": 930
+        },
+        "itemNum_04": {
+          "before": 0,
+          "after": 20
+        },
+        "item_05": {
+          "before": -1,
+          "after": 940
+        },
+        "itemNum_05": {
+          "before": 0,
+          "after": 20
+        },
+        "item_06": {
+          "before": -1,
+          "after": 950
+        },
+        "itemNum_06": {
+          "before": 0,
+          "after": 20
+        },
+        "item_07": {
+          "before": -1,
+          "after": 960
+        },
+        "itemNum_07": {
+          "before": 0,
+          "after": 20
+        },
+        "item_08": {
+          "before": -1,
+          "after": 203000
+        },
+        "itemNum_08": {
+          "before": 0,
+          "after": 1
+        },
+        "item_09": {
+          "before": -1,
+          "after": 2001431
+        },
+        "itemNum_09": {
+          "before": 0,
+          "after": 1
+        }
+      }
+    },
+    {
+      "row_id": 3120,
+      "changes": {
+        "equip_Wep_Right": {
+          "before": 67530000,
+          "after": 7000
+        },
+        "equip_Wep_Left": {
+          "before": 31540000,
+          "after": 7001
+        },
+        "wepParamType_Right1": {
+          "before": 0,
+          "after": 1
+        },
+        "wepParamType_Left1": {
+          "before": 0,
+          "after": 1
+        }
+      }
+    },
+    {
+      "row_id": 3121,
+      "changes": {
+        "equip_Wep_Right": {
+          "before": 67530000,
+          "after": 7000
+        },
+        "equip_Wep_Left": {
+          "before": 31540000,
+          "after": 7001
+        },
+        "wepParamType_Right1": {
+          "before": 0,
+          "after": 1
+        },
+        "wepParamType_Left1": {
+          "before": 0,
+          "after": 1
+        }
+      }
+    }
+  ],
+  "other_param_tables_unchanged": 192,
+  "validation": [
+    "all shared weapon, Ash, skill and 192 other table payloads unchanged",
+    "two actual origin bags exactly match reference origin",
+    "both light preview templates and actual origin use two +0 Wing Stance presets",
+    "all heavy weapon slots/types unchanged",
+    "other rows, directory/name offsets and known-size non-overlap checked",
+    "idempotence and encrypted round-trip passed",
+    "final output independently retains 8 base slots, 1800s blessing and 300000s shield grease"
+  ],
+  "game_validation": "not run",
+  "input_sha256": "21c8045fcde418368c44bcc40211da3437662027f32bce1268aa5eb8cf40954f",
+  "output_sha256": "07dc0e6ebce7aa3a8a7c1eb16c5be087ad72cbf95d92f586ea18f0cc47208ee5",
+  "output_bytes": 2284736,
+  "bnd_bytes": 61116240
+}

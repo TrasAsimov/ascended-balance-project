@@ -1,0 +1,25 @@
+{
+  "table": "PlayerCommonParam",
+  "row_id": 0,
+  "changes": {
+    "baseMagicSlotSize": {
+      "before": 2,
+      "after": 8
+    }
+  },
+  "unchanged_talisman_slots": 4,
+  "other_param_tables_unchanged": 193,
+  "validation": [
+    "only baseMagicSlotSize byte changed in PlayerCommonParam",
+    "all 193 other PARAM payloads unchanged",
+    "all row names, directories and unrelated fields unchanged",
+    "known 256-byte row layout; opaque tail preserved; no overlap",
+    "idempotence and encrypted round-trip passed"
+  ],
+  "scope": "Shared base memory slots for all player classes; bonuses and slot costs retained",
+  "game_validation": "not run",
+  "input_sha256": "ccf28375c2eda8d6ea4d8521f186c23a5c579d99da4e92ce8c6f23299d1ba99a",
+  "output_sha256": "968adbda6c2b2cbace361af0e679d2fc308b1640d7c320c9a2dc46552fdfab4d",
+  "output_bytes": 2284528,
+  "bnd_bytes": 61116160
+}

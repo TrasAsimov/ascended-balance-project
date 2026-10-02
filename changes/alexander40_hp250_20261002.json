@@ -1,0 +1,95 @@
+{
+  "accessory_id": 1231,
+  "unchanged_primary_effect": 312310,
+  "added_skill_effect": 78212310,
+  "resident_slot": "residentSpEffectId1",
+  "skill_damage_multiplier": 1.4,
+  "skill_selectors": [
+    112,
+    111
+  ],
+  "native_skill_template": "official 1.17.1 SpEffect 312310",
+  "existing_defense_and_status_bonuses": "preserved byte-for-byte",
+  "hp_graph_id": 100,
+  "hp_changes": [
+    {
+      "field": "stageMaxGrowVal0",
+      "official": 300.0,
+      "before": 600.0,
+      "after": 750.0,
+      "vigor": 1.0
+    },
+    {
+      "field": "stageMaxGrowVal1",
+      "official": 800.0,
+      "before": 1600.0,
+      "after": 2000.0,
+      "vigor": 25.0
+    },
+    {
+      "field": "stageMaxGrowVal2",
+      "official": 1450.0,
+      "before": 2900.0,
+      "after": 3625.0,
+      "vigor": 40.0
+    },
+    {
+      "field": "stageMaxGrowVal3",
+      "official": 1900.0,
+      "before": 3800.0,
+      "after": 4750.0,
+      "vigor": 60.0
+    },
+    {
+      "field": "stageMaxGrowVal4",
+      "official": 2100.0,
+      "before": 4200.0,
+      "after": 5250.0,
+      "vigor": 99.0
+    }
+  ],
+  "global_max_hp_rate": 1.0,
+  "other_tables_unchanged": 191,
+  "all_existing_speffect_rows_unchanged": true,
+  "hp_curve_knots_and_shape_unchanged": true,
+  "npc_params_unchanged": true,
+  "changed_members": [
+    "CalcCorrectGraph.param",
+    "EquipParamAccessory.param",
+    "SpEffectParam.param"
+  ],
+  "game_tested": false,
+  "input_sha256": "5b6161206feb813d1e17aee26d498ac14790202efc47b117a6a1e41188503690",
+  "output_sha256": "b32489341c056f7f0ed3e1fe1bc94dd57212cbea362583f06cf06316eb763286",
+  "output_bytes": 2304832,
+  "idempotent": true,
+  "encrypted_roundtrip": true,
+  "texts": [
+    {
+      "input": "02_Leontiel_Skill_20261002_engus_item_dlc01.msgbnd.dcx",
+      "input_sha256": "5ab0c74d8f6488c4de76e56117aafc2828aa62c097e86c1a19ec3289ab700b17",
+      "output": "01_Alexander40_HP250_20261002_engus_item_dlc01.msgbnd.dcx",
+      "output_sha256": "d4a3ee5247fc8e9b4a369252f18f5d5e03adb091c7898a05a8d32a8426ce7bcd",
+      "changed_fmgs": [
+        "AccessoryInfo.fmg",
+        "AccessoryCaption.fmg"
+      ],
+      "accessory_id": 1231,
+      "non_target_entries_preserved": true,
+      "idempotent": true
+    },
+    {
+      "input": "02_Leontiel_Skill_20261002_engus_item_dlc02.msgbnd.dcx",
+      "input_sha256": "fff2a11ba93945befaff469f4d9dbd9d2589aaa06eff682031fbcfb72dc0223c",
+      "output": "01_Alexander40_HP250_20261002_engus_item_dlc02.msgbnd.dcx",
+      "output_sha256": "60a355829981a528bdc8825e15c9e86a552daac027a34a57a8b7ed28a28384f5",
+      "changed_fmgs": [
+        "AccessoryInfo.fmg",
+        "AccessoryCaption.fmg"
+      ],
+      "accessory_id": 1231,
+      "non_target_entries_preserved": true,
+      "idempotent": true
+    }
+  ]
+}

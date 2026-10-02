@@ -1,0 +1,7 @@
+{
+  "status": "merge source; not an installable zhocn archive",
+  "accessory_id": 1231,
+  "info": "战技伤害增加40%。",
+  "caption": "效果：战技伤害增加40%。\n效果：防御增加500，对敌人施加的异常累积增加200。",
+  "player_hp_note": "玩家基础生命成长由原版的2倍提高到2.5倍；相对当前基础血量增加25%。"
+}

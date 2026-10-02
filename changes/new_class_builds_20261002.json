@@ -1,0 +1,169 @@
+{
+  "heavy_weapon": {
+    "id": 3560000,
+    "name": "Leontiel's Greatsword",
+    "skill_id": 1200
+  },
+  "heavy_stats": {
+    "baseVit": 20,
+    "baseWil": 12,
+    "baseEnd": 30,
+    "baseStr": 13,
+    "baseDex": 26,
+    "baseMag": 7,
+    "baseFai": 8,
+    "baseLuc": 5
+  },
+  "heavy_stat_total": 121,
+  "heavy_armor": {
+    "equip_Helm": 810000,
+    "equip_Armer": 810100,
+    "equip_Gaunt": -1,
+    "equip_Leg": 810300
+  },
+  "reference_stat_budgets": {
+    "3000": 106,
+    "3001": 116,
+    "3002": 117,
+    "3003": 111,
+    "3004": 119,
+    "3005": 129,
+    "3006": 129,
+    "3007": 135,
+    "3008": 126,
+    "3009": 122
+  },
+  "reference_stat_average": 121.0,
+  "light_stats": {
+    "baseVit": 10,
+    "baseWil": 12,
+    "baseEnd": 11,
+    "baseStr": 13,
+    "baseDex": 15,
+    "baseMag": 8,
+    "baseFai": 11,
+    "baseLuc": 6
+  },
+  "accessories": {
+    "heavy": [
+      1231
+    ],
+    "light": [
+      1231,
+      2080
+    ]
+  },
+  "weapon_requirements": {
+    "67530000": {
+      "baseStr": 10,
+      "baseDex": 15,
+      "baseMag": 0,
+      "baseFai": 0,
+      "baseLuc": 0
+    },
+    "3560000": {
+      "baseStr": 13,
+      "baseDex": 26,
+      "baseMag": 0,
+      "baseFai": 0,
+      "baseLuc": 0
+    }
+  },
+  "removed_spirit_ashes": [],
+  "row_changes": [
+    {
+      "row_id": 3010,
+      "changes": {}
+    },
+    {
+      "row_id": 3120,
+      "changes": {}
+    },
+    {
+      "row_id": 3121,
+      "changes": {}
+    },
+    {
+      "row_id": 3011,
+      "changes": {
+        "equip_Helm": {
+          "before": 5370000,
+          "after": 810000
+        },
+        "equip_Armer": {
+          "before": 5370100,
+          "after": 810100
+        },
+        "equip_Gaunt": {
+          "before": 5370200,
+          "after": -1
+        },
+        "equip_Leg": {
+          "before": 5370300,
+          "after": 810300
+        }
+      }
+    },
+    {
+      "row_id": 3122,
+      "changes": {
+        "equip_Helm": {
+          "before": 5370000,
+          "after": 810000
+        },
+        "equip_Armer": {
+          "before": 5370100,
+          "after": 810100
+        },
+        "equip_Gaunt": {
+          "before": 5370200,
+          "after": -1
+        },
+        "equip_Leg": {
+          "before": 5370300,
+          "after": 810300
+        }
+      }
+    },
+    {
+      "row_id": 3123,
+      "changes": {
+        "equip_Helm": {
+          "before": 5370000,
+          "after": 810000
+        },
+        "equip_Armer": {
+          "before": 5370100,
+          "after": 810100
+        },
+        "equip_Gaunt": {
+          "before": 5370200,
+          "after": -1
+        },
+        "equip_Leg": {
+          "before": 5370300,
+          "after": 810300
+        }
+      }
+    }
+  ],
+  "changed_param_tables": [
+    "CharaInitParam"
+  ],
+  "other_param_tables_unchanged": 193,
+  "validation": [
+    "single-hand requirements met without equipment bonuses for both classes and previews",
+    "both origins and all four previews contain no spirit ashes in either inventory",
+    "seven boluses x20, heart x1 and Memory of Grace x1 retained",
+    "two +0 light swords and Wing Stance presets retained",
+    "heavy origin and both sex previews wear commoner headband, garb and shoes; no gloves",
+    "193 other table payloads unchanged, including melee reinforcement and all shared skills",
+    "all non-target rows and fields, directory/name offsets and known-size non-overlap checked",
+    "binary idempotence and encrypted round-trip passed"
+  ],
+  "game_validation": "not run",
+  "input_sha256": "58b8ef964b8d5e1d39763d61386832fef7472eab4ec721a216fb78c4a50de4e5",
+  "output_sha256": "8028337b466678821b2370f4e9f81f5289282fb512a92958627d31258aa888b5",
+  "output_bytes": 2304656,
+  "bnd_bytes": 61416448
+}

@@ -4,6 +4,8 @@
 
 ## 当前整合与专题
 
+- [v0.10.10验收](v0.10.10.md)：近战／新职业／8槽／最新道具／护甲／战技与HP整合。
+
 - [v0.10.9验收](v0.10.9.md) · [总控交接](v0.10.9_integration_handoff_20261002.md)
 - [护甲与盾牌Effect分区、面罩归属](armor_effect_layout_20261002.md)
 - [大盾80%减耗](greatshield_stamina_80pct_20261002.md)
