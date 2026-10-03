@@ -1,0 +1,70 @@
+{
+  "version": "Field Giant Cleanup01",
+  "base": "Boss HP T2 maps; Music Fix01/other parameter updates retained in place",
+  "maps": [
+    {
+      "map": "m60_48_51_00.msb.dcx",
+      "actor": {
+        "index": 5,
+        "offset": 33560,
+        "name": "c3160_9002",
+        "model": "c4760",
+        "type": 2,
+        "pos": [
+          -102.73551940917969,
+          971.919677734375,
+          45.97911071777344
+        ],
+        "edition_disable": 0,
+        "entity": 1048510810,
+        "think": 47600000,
+        "npc": 47600000
+      },
+      "operation": "GameEditionDisable: 0 -> 1 (DisableInRelease)",
+      "raw_changed_offsets": [
+        33628
+      ],
+      "before_SHA256": "933c12b534deda1e9fcdf1ba2f917aa0ae426e242dab7f607d1de14ffa67f49b",
+      "after_SHA256": "a094430c6406100d48a817c494533a9e0cd0a5a69911f4bd4e9594f27916178e",
+      "size": 9281
+    },
+    {
+      "map": "m60_49_53_00.msb.dcx",
+      "actor": {
+        "index": 14,
+        "offset": 75288,
+        "name": "c4210_9009",
+        "model": "c4760",
+        "type": 2,
+        "pos": [
+          61.534080505371094,
+          1578.078857421875,
+          15.01453685760498
+        ],
+        "edition_disable": 0,
+        "entity": 0,
+        "think": 47600000,
+        "npc": 47600000
+      },
+      "operation": "GameEditionDisable: 0 -> 1 (DisableInRelease)",
+      "raw_changed_offsets": [
+        75356
+      ],
+      "before_SHA256": "adf1e223531501cc229152cff6028fc3ddebe95b858f6b520f788c4bce984b60",
+      "after_SHA256": "8971f0003467229c39175f48f33ef5ddee2b5ecfdd1fa8bb963d9f225e146d96",
+      "size": 43760
+    }
+  ],
+  "modified_gameplay_files": [
+    "ModEngine/mod/map/MapStudio/m60_48_51_00.msb.dcx",
+    "ModEngine/mod/map/MapStudio/m60_49_53_00.msb.dcx"
+  ],
+  "raw_total_changed_bytes": 2,
+  "all_indices_references_and_other_bytes_preserved": true,
+  "formal_fire_giant_boss_map_untouched_SHA256": "a0bd6800ade62bb4799624d327a2b6d2b975b082601f60889955caa132d3c6ed",
+  "installer_checksums_verified_in_python": 1014,
+  "installer_edits_only_target_map_hashes": true,
+  "regulation_and_events_in_package": false,
+  "in_game_test": "NOT RUN",
+  "Windows_PowerShell_execution": "NOT RUN"
+}

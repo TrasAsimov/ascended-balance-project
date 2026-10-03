@@ -1,11 +1,18 @@
 <!-- Historical v0.10.11: 小战士壶碎片1230由20%改40%；大亚历山大碎片1231撤销误加40%，恢复原防御500/异常200；血量2.5倍保留。 -->
-# 艾尔登法环 Ascended 平衡优化项目
+# ELDEN RING: NIGHTTIDE / 艾尔登法环：黑夜入侵
 
-当前完整测试版：[v0.10.16 Caligo完整整合测试版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.16-caligo-full)。
+当前完整测试版：[v0.10.17 NIGHTTIDE完整整合测试版](https://github.com/TrasAsimov/ELDEN-RING--NIGHTTIDE/releases/tag/v0.10.17-integration)。
 
 [English](README.md) · [版本摘要](CHANGELOG.md) · [开发文档索引](docs/INDEX.md)
 
 基于Ascended的独立平衡项目，参数使用1.17.1格式。需游戏本体及全部DLC；随机化尚未制作。
+
+## 最近整合
+
+- 双虫Gnoster/Faurtis放入地下双石像鬼场地，静态NG0名义HP分别585384／914616；冰龙Caligo加血50%至1125000，仍按当前最大HP60%转阶段。周目、联机另缩放，双虫保留作者阶段比例。
+- 修正双虫入场通知和主机音乐旗标，使用法环原生MidBoss_Cave音乐，不是黑夜君临原曲。
+- 全游戏死亡骑士名义HP15万／圣减伤-40%；鲜血怪物首领名义HP13.6万；大型七鳃鳗圣减伤-20%。学院红狼、女王召唤拉达冈及两只洛雷塔四物理减伤10%，召唤拉达冈HP18万；最终拉达冈与其它地区洛雷塔保持。
+- 禁域途中及洛德大升降机上方两只额外野外火焰巨人在正式游戏禁用，正式火焰巨人Boss保留。
 
 ## 当前功能
 
@@ -22,13 +29,13 @@
 
 ## 安装
 
-1. 备份存档，从Release下载 `Ascended_Balance_v0.10.16_Caligo_Full_Test.zip`，核对 `SHA256SUMS.txt` 后解压到全新目录。自动生成的Source code ZIP不是MOD。
+1. 备份存档，从Release下载 `ELDEN_RING_NIGHTTIDE_v0.10.17_Full_Test.zip`，核对 `SHA256SUMS.txt` 后解压到全新目录。自动生成的Source code ZIP不是MOD。
 2. 安装ME3，Steam可用时运行 `ModEngine/launchmod_eldenring.bat`，离线测试。包内只有一个mod目录，启动配置已登记六护符与HP上限模块，无需另装扩展或旧补丁。只有一个实际regulation，没有根目录备份；不要混装旧文件或其他参数MOD。
 3. 先验证启动、读档、保存退出再读档，再测战斗。`SHA256_FILES.txt` 提供运行文件校验和。
 
 ## 已知问题
 
-新增模块仅静态/模拟检查通过，实机待测。英文文本已包含；中文JSON仅是合并源，尚缺匹配简中游戏档案。攻击力百分比不等同最终扣血增幅，复用玩家法术/效果的AI可能受影响；历史高跳实测不代表整包验收。见[当前测试步骤](docs/v0.10.16.md)。
+本完整包未在Windows运行；用户已反馈早期双虫移植测试通过，后续血量、音乐、学院数值及地图清理仍需复测。源资源既有缺引用与共享依赖风险沿用。英文文本已包含；中文JSON仅是合并源，尚缺匹配简中游戏档案。攻击力百分比不等同最终扣血增幅，复用玩家法术/效果的AI可能受影响；历史高跳实测不代表整包验收。见[当前测试步骤](docs/v0.10.17.md)。
 
 源码、审计、对比和历史说明统一留在仓库开发索引，不进入玩家下载包。Ascended及游戏资源归原作者，本项目为独立优化。
 
@@ -39,15 +46,17 @@
 
 ## 六护符测试版
 
-已按用户获得作者同意的要求准备六护符集成：原生4槽＋额外2槽，新增槽由赐福菜单管理。v0.10.15完整包包含原作者DLL、INI及ME3加载配置，静态检查和打包读回通过，实机待测。详见[集成交接](docs/six_talisman_integration_20261003.md)。
+已按用户获得作者同意的要求准备六护符集成：原生4槽＋额外2槽，新增槽由赐福菜单管理。v0.10.17完整包包含原作者DLL、INI及ME3加载配置，静态检查和打包读回通过，实机待测。详见[集成交接](docs/six_talisman_integration_20261003.md)。
 
 感谢[imCioco](https://www.nexusmods.com/profile/imCioco/mods)提供[Expanded Talisman Slots](https://www.nexusmods.com/eldenring/mods/10481)；集成采用原作者1.1.6 DLL并保留署名和来源。
 
 
 ## Caligo完整整合
 
-v0.10.16完整ZIP包含最新核心及累计Caligo资源、地图、事件、参数、HP上限模块和单一ME3启动入口。只下载此ZIP，解压到全新目录即可，不再下载或叠加v0.10.15扩展。需自行安装ME3、本体及全部DLC。
+v0.10.17完整ZIP包含最新核心及累计Caligo资源、地图、事件、参数、HP上限模块和单一ME3启动入口。只下载此ZIP，解压到全新目录即可，不再下载或叠加v0.10.15扩展。需自行安装ME3、本体及全部DLC。
 
-Caligo静态名义HP75万、按当前最大HP60%转阶段；非火承伤额外减少30%、异常阈值提高30%，攻击/冰冻、三龙心脏/心脏奖励、冰湖清理和长走道三只魔像候选保留。HP模块解除全局引擎524287上限，其它配置超过上限的角色也可能受影响。日志APPLIED或ALREADY_APPLIED才表示运行匹配。
+Caligo静态名义HP112.5万、按当前最大HP60%转阶段；非火承伤额外减少30%、异常阈值提高30%，攻击/冰冻、三龙心脏/心脏奖励、冰湖清理和长走道三只魔像候选保留。HP模块解除全局引擎524287上限，其它配置超过上限的角色也可能受影响。日志APPLIED或ALREADY_APPLIED才表示运行匹配。
 
 源码、包校验通过，新增修复未游戏实测；原共享依赖兼容风险和未解决引用仍继承。先测启动/保存/六槽，再测Caligo血条与60%阶段、道路起点三只加载开火及桥外停止。感谢Caligo作者DDMMDD09（Nexus8583）、HP签名作者NymicRazor/Named-Blade（Nexus5732）。本次用户明确要求发布给外部测试者，不宣称原作者背书。
+
+双虫资源感谢Lwingr：[Gnoster Overhaul 1.2.5](https://www.nexusmods.com/eldenring/mods/8406)。两只分别使用作者80%／55%／10%阶段条件，心脏奖励和棺材通路逻辑随完整包保留。

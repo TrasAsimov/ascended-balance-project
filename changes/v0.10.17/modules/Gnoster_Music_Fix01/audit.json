@@ -1,0 +1,54 @@
+{
+  "version": "Gnoster Music Fix01 over Boss HP T2",
+  "baseline_SHA256": "dd57506cfcf913fe264589c230cce5459eedbd0a5f752c12e2623fa16b73eb0f",
+  "modified_game_event_only": 12022810,
+  "inserted_instruction_count": 5,
+  "all_other_map_events_unchanged": true,
+  "fresh_and_retry_share_Label2": true,
+  "defeated_branch_skips_new_notifications": true,
+  "host_visitor_instruction_cases": [
+    {
+      "world": 0,
+      "notify": true,
+      "authority": [
+        12025800,
+        8192
+      ],
+      "host_battle_flag_set": true
+    },
+    {
+      "world": 1,
+      "notify": false,
+      "authority": null,
+      "host_battle_flag_set": false
+    }
+  ],
+  "native_music_handler_retained": [
+    [
+      0,
+      9005822,
+      12020900,
+      931000,
+      12022805,
+      12022806,
+      0,
+      12020903,
+      0,
+      0
+    ]
+  ],
+  "music_id": 931000,
+  "music_native_Wwise_conversion": "MidBoss_Cave",
+  "music_parameters": {
+    "defeat": 12020900,
+    "host_entered": 12022805,
+    "visitor_entered": 12022806,
+    "phase": 12020903
+  },
+  "parameter_HP_resistance_attack_models_map_AI_DLLs_preserved_from_T2": true,
+  "new_regulation_changes": false,
+  "diagnosis": "Static: donor entry omitted boss room notification and explicit host-entered flag required by retained native music condition. Exact client-state cause is not observed; fix remains candidate.",
+  "before_map_SHA256": "9395cb31aed4c0157fe4ab3ac06313cf500b76ceda05300b65aadf41a03fd4d7",
+  "after_map_SHA256": "a5feaf2d155be8bf3f71c364955b3a86dd09ae140924030126c720157c3d73da",
+  "game_test": "NOT RUN"
+}

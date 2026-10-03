@@ -1,11 +1,18 @@
 <!-- Historical v0.10.11: 小战士壶碎片1230由20%改40%；大亚历山大碎片1231撤销误加40%，恢复原防御500/异常200；血量2.5倍保留。 -->
 # ELDEN RING: NIGHTTIDE
 
-Current test build: [v0.10.16 Complete Caligo Test](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.16-caligo-full).
+Current test build: [v0.10.17 NIGHTTIDE Full Integration Test](https://github.com/TrasAsimov/ELDEN-RING--NIGHTTIDE/releases/tag/v0.10.17-integration).
 
 [简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Developer docs](docs/INDEX.md)
 
-Independent Ascended balance project using 1.17.1-format parameters. Requires the base game and all DLC. Randomization is not implemented.
+ELDEN RING: NIGHTTIDE is an independent Ascended balance project using 1.17.1-format parameters. Requires the base game and all DLC. Randomization is not implemented.
+
+## Latest integration
+
+- Gnoster/Faurtis replace the underground Valiant Gargoyles encounter. Nominal NG0 HP: Gnoster 585384, Faurtis 914616. Caligo HP increases by 50% to 1125000; its phase threshold remains 60% of current maximum HP. NG/co-op apply additional scaling.
+- Gnoster entry notification and host battle flag repaired for native MidBoss_Cave music. This is not the Nightreign soundtrack.
+- Global Death Knights: nominal HP 150000, holy reduction -40%; Chief Bloodfiends: nominal HP 136000; large lampreys: holy reduction -20%. Academy Red Wolf and Rennala summons (Radagon and two Lorettas): all physical reduction 10%; summoned Radagon HP 180000. Final Radagon and other Lorettas retain their values.
+- Two extra field Fire Giants on the Forbidden Lands/Rold route are disabled in release gameplay; the actual Fire Giant boss remains.
 
 ## Features
 
@@ -22,28 +29,30 @@ Independent Ascended balance project using 1.17.1-format parameters. Requires th
 
 ## Install
 
-1. Back up saves. Download `Ascended_Balance_v0.10.16_Caligo_Full_Test.zip`, verify Release `SHA256SUMS.txt`, and extract into a new directory. The automatic Source code ZIP is not the mod.
+1. Back up saves. Download `ELDEN_RING_NIGHTTIDE_v0.10.17_Full_Test.zip`, verify Release `SHA256SUMS.txt`, and extract into a new directory. The automatic Source code ZIP is not the mod.
 2. Install ME3, then run `ModEngine/launchmod_eldenring.bat` with Steam available, offline. The supplied profile loads one `ModEngine/mod` directory and registers the talisman and HP-cap DLLs. Do not mix old profiles, files or parameter mods.
 3. Check loading, saving and reloading before combat. `SHA256_FILES.txt` lists runtime checksums.
 
 ## Known limits
 
-New modules passed static checks/simulations; game validation is pending. English item text is included. Chinese JSON is developer merge data; matching Chinese game archives remain unavailable. Attack-power coefficients are not guarantees of final HP damage; shared spell/effect rows can affect AI reuse. Historical jump testing does not establish whole-build validation. See [test steps](docs/v0.10.16.md).
+Package and new changes passed static checks; this full build has not been run in Windows. The user reported the earlier dual-boss transplant test passed; later HP, music, academy and map updates need retesting. Existing source missing references and shared resources remain known limits. English item text is included. Chinese JSON is developer merge data; matching Chinese game archives remain unavailable. Attack-power coefficients are not guarantees of final HP damage; shared spell/effect rows can affect AI reuse. Historical jump testing does not establish whole-build validation. See [test steps](docs/v0.10.17.md).
 
 Source, audits and historical notes stay in the repository through the developer index, outside player downloads. Ascended and Elden Ring belong to their creators; this is an independent project.
 
 
 ## Six talismans test
 
-The v0.10.16 full test package includes four native slots plus two additional slots managed through the Site of Grace menu, the original author DLL, its INI and ME3 registration. Packaging checks passed; game validation remains pending. See the [integration handoff](docs/six_talisman_integration_20261003.md).
+The v0.10.17 full test package includes four native slots plus two additional slots managed through the Site of Grace menu, the original author DLL, its INI and ME3 registration. Packaging checks passed; game validation remains pending. See the [integration handoff](docs/six_talisman_integration_20261003.md).
 
 Credits: [Expanded Talisman Slots](https://www.nexusmods.com/eldenring/mods/10481) by [imCioco](https://www.nexusmods.com/profile/imCioco/mods). The user confirmed author consent for integration; the original v1.1.6 DLL is preserved.
 
 
-## Complete Caligo integration
+## Caligo and Gnoster/Faurtis integration
 
-v0.10.16 includes the entire core and cumulative Caligo runtime in one ZIP, one `ModEngine/mod` directory and one `ModEngine/launchmod_eldenring.bat` entry. Install ME3 and extract into a clean directory. No separate expansion or old patches are needed. The supplied ME3 profile registers both native modules.
+v0.10.17 includes the entire core and cumulative Caligo runtime in one ZIP, one `ModEngine/mod` directory and one `ModEngine/launchmod_eldenring.bat` entry. Install ME3 and extract into a clean directory. No separate expansion or old patches are needed. The supplied ME3 profile registers both native modules.
 
-Nominal Caligo HP is 750000, phase threshold 60% of current maximum HP. The global HP-cap module requires APPLIED/ALREADY_APPLIED in its log; other actors configured above the old cap may also gain their full configured HP. Starscourge regeneration is 40/60/25 HP/s, FP remains 5/s. Existing non-fire resistance, combat/rewards, lake cleanup and road golem candidates are retained.
+Nominal Caligo HP is 1125000, phase threshold 60% of current maximum HP. The global HP-cap module requires APPLIED/ALREADY_APPLIED in its log; other actors configured above the old cap may also gain their full configured HP. Starscourge regeneration is 40/60/25 HP/s, FP remains 5/s. Existing non-fire resistance, combat/rewards, lake cleanup and road golem candidates are retained.
 
-Static checks passed; runtime signature match, HP bar and full-road firing remain untested. Existing shared-resource and missing-reference risks remain. User requested this combined external test release; no original-author endorsement is claimed. Credits: DDMMDD09 (Caligo, Nexus8583), NymicRazor/Named-Blade (HP signature, Nexus5732), imCioco (Expanded Talisman Slots, Nexus10481). See [test guide](docs/v0.10.16.md).
+Static checks passed; runtime signature match, HP bar and full-road firing remain untested. Existing shared-resource and missing-reference risks remain. User requested this combined external test release; no original-author endorsement is claimed. Credits: DDMMDD09 (Caligo, Nexus8583), NymicRazor/Named-Blade (HP signature, Nexus5732), imCioco (Expanded Talisman Slots, Nexus10481). See [test guide](docs/v0.10.17.md).
+
+Gnoster/Faurtis credits: Lwingr, [Gnoster Overhaul 1.2.5](https://www.nexusmods.com/eldenring/mods/8406). Dual-boss stages retain the source 80%/55%/10% ratios and reward/route handling; the new music uses the original Elden Ring handler.

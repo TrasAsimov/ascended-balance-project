@@ -1,0 +1,22 @@
+[
+  {
+    "omitted_duplicate": "changes/v0.10.17/modules/Field_Giant_Cleanup/source/source/formats.py",
+    "retained": "systems/armor/scripts/formats.py"
+  },
+  {
+    "omitted_duplicate": "changes/v0.10.17/modules/Gnoster_Music_Fix01/source/formats.py",
+    "retained": "systems/armor/scripts/formats.py"
+  },
+  {
+    "omitted_duplicate": "changes/v0.10.17/modules/Boss_HP_T2/source/formats.py",
+    "retained": "systems/armor/scripts/formats.py"
+  },
+  {
+    "omitted_duplicate": "changes/v0.10.17/modules/Boss_HP_T2/source/build_v03.py",
+    "retained": "scripts/build_v03.py"
+  },
+  {
+    "omitted_duplicate": "changes/v0.10.17/modules/Boss_HP_T2/source/analyze_regulation.py",
+    "retained": "scripts/analyze_regulation.py"
+  }
+]

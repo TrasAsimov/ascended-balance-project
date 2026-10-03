@@ -1,0 +1,254 @@
+{
+  "baseline_regulation_sha256": "b6510ed8120bc32293c7f4f2d1dd89f97bf43ff010c7612073c9f8037e7d7de9",
+  "regulation_sha256": "dfd0e8eab3442925d654a72f1515939e52a3e073be16fde6bc35dc1a9372585c",
+  "baseline_map_sha256": "9c883699d979a7a894a3efb7f50bdc6064627378df31c580b6ebe8e022c5b09d",
+  "map_sha256": "1bb6d0aa061073b67c6c542e62ce18330d1c0f2fd2f202437f323618450598e0",
+  "death_knight_rows": [
+    50700000,
+    50700001,
+    50700081,
+    50701000,
+    50701090,
+    50701095
+  ],
+  "chief_bloodfiend_rows": [
+    50810000,
+    50810001,
+    50810087,
+    50810090,
+    50810094,
+    50810095,
+    50810100,
+    50810194,
+    50810195,
+    50810990,
+    50811000,
+    50811087
+  ],
+  "large_lamprey_rows": [
+    50610000,
+    50610001,
+    50610002,
+    50610083,
+    50610093,
+    50610883,
+    50610893
+  ],
+  "hp_changes": [
+    {
+      "npc": 50700000,
+      "target_ng0_hp": 150000,
+      "private_hp_effects": []
+    },
+    {
+      "npc": 50700001,
+      "target_ng0_hp": 150000,
+      "private_hp_effects": [
+        [
+          6202068,
+          14557068
+        ]
+      ]
+    },
+    {
+      "npc": 50700081,
+      "target_ng0_hp": 150000,
+      "private_hp_effects": [
+        [
+          4410,
+          8359410
+        ],
+        [
+          20007020,
+          28362020
+        ]
+      ]
+    },
+    {
+      "npc": 50701000,
+      "target_ng0_hp": 150000,
+      "private_hp_effects": []
+    },
+    {
+      "npc": 50701090,
+      "target_ng0_hp": 150000,
+      "private_hp_effects": [
+        [
+          4410,
+          8359410
+        ],
+        [
+          20007040,
+          28362040
+        ]
+      ]
+    },
+    {
+      "npc": 50701095,
+      "target_ng0_hp": 150000,
+      "private_hp_effects": [
+        [
+          4410,
+          8359410
+        ],
+        [
+          20007050,
+          28362050
+        ]
+      ]
+    },
+    {
+      "npc": 50810000,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": []
+    },
+    {
+      "npc": 50810001,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          7200,
+          8362200
+        ]
+      ]
+    },
+    {
+      "npc": 50810087,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          20007060,
+          28362060
+        ]
+      ]
+    },
+    {
+      "npc": 50810090,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          20007040,
+          28362040
+        ]
+      ]
+    },
+    {
+      "npc": 50810094,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          20007090,
+          28362090
+        ]
+      ]
+    },
+    {
+      "npc": 50810095,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          20007050,
+          28362050
+        ]
+      ]
+    },
+    {
+      "npc": 50810100,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": []
+    },
+    {
+      "npc": 50810194,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          20007090,
+          28362090
+        ]
+      ]
+    },
+    {
+      "npc": 50810195,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          20007050,
+          28362050
+        ]
+      ]
+    },
+    {
+      "npc": 50810990,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          4410,
+          8359410
+        ],
+        [
+          20007040,
+          28362040
+        ]
+      ]
+    },
+    {
+      "npc": 50811000,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": []
+    },
+    {
+      "npc": 50811087,
+      "target_ng0_hp": 136000,
+      "private_hp_effects": [
+        [
+          20007060,
+          28362060
+        ]
+      ]
+    }
+  ],
+  "private_npc_clones": {
+    "8353181": 31810001,
+    "8352190": 21900078,
+    "8353252": 32520001
+  },
+  "private_sp_effect_count": 9,
+  "map_changes": [
+    {
+      "name": "c2031_9004",
+      "entity": 14000800,
+      "before": 32520001,
+      "after": 8353252
+    },
+    {
+      "name": "c2031_9002",
+      "entity": 14000800,
+      "before": 32520001,
+      "after": 8353252
+    },
+    {
+      "name": "c3181_9000",
+      "entity": 14000850,
+      "before": 31810001,
+      "after": 8353181
+    },
+    {
+      "name": "c4500_9000",
+      "entity": 14000846,
+      "before": 21900078,
+      "after": 8352190
+    }
+  ],
+  "all_existing_sp_effect_rows_preserved": true,
+  "all_non_target_npc_rows_preserved": true,
+  "final_radagon_preserved": true,
+  "other_loretta_preserved": true,
+  "other_tables_preserved": true,
+  "map_only_four_npc_references_changed": true,
+  "encrypted_readback": "passed",
+  "exact_ng0_resident_hp_check": "passed",
+  "game_test": "NOT RUN",
+  "ng_and_coop": "retain original external scaling",
+  "independent_field_byte_whitelist": "passed",
+  "morgott_and_mohg_preserved": true
+}

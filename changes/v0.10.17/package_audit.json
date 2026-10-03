@@ -1,0 +1,65 @@
+{
+  "version": "v0.10.17",
+  "filename": "ELDEN_RING_NIGHTTIDE_v0.10.17_Full_Test.zip",
+  "bytes": 614372621,
+  "sha256": "afa78f6a11153a1b68254aff60f86be1748f38174d284e17f41dfdd6ec3fe49c",
+  "file_count": 1019,
+  "runtime_checks": 1014,
+  "preserved_base_runtime_files": 1005,
+  "overrides": [
+    {
+      "path": "ModEngine/mod/event/m12_02_00_00.emevd.dcx",
+      "before": "9395cb31aed4c0157fe4ab3ac06313cf500b76ceda05300b65aadf41a03fd4d7",
+      "after": "a5feaf2d155be8bf3f71c364955b3a86dd09ae140924030126c720157c3d73da"
+    },
+    {
+      "path": "ModEngine/mod/regulation.bin",
+      "before": "b6510ed8120bc32293c7f4f2d1dd89f97bf43ff010c7612073c9f8037e7d7de9",
+      "after": "dfd0e8eab3442925d654a72f1515939e52a3e073be16fde6bc35dc1a9372585c"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m14_00_00_00.msb.dcx",
+      "before": "9c883699d979a7a894a3efb7f50bdc6064627378df31c580b6ebe8e022c5b09d",
+      "after": "1bb6d0aa061073b67c6c542e62ce18330d1c0f2fd2f202437f323618450598e0"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_48_51_00.msb.dcx",
+      "before": "933c12b534deda1e9fcdf1ba2f917aa0ae426e242dab7f607d1de14ffa67f49b",
+      "after": "a094430c6406100d48a817c494533a9e0cd0a5a69911f4bd4e9594f27916178e"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_49_53_00.msb.dcx",
+      "before": "adf1e223531501cc229152cff6028fc3ddebe95b858f6b520f788c4bce984b60",
+      "after": "8971f0003467229c39175f48f33ef5ddee2b5ecfdd1fa8bb963d9f225e146d96"
+    }
+  ],
+  "removed_developer_or_old_loader_paths": [
+    "Boss_HP_T2/audit.json",
+    "Boss_HP_T2/build_hp_t2.py",
+    "Boss_HP_T2/source/NpcParam.xml",
+    "Boss_HP_T2/source/SpEffect.xml",
+    "Boss_HP_T2/source/analyze_regulation.py",
+    "Boss_HP_T2/source/build_v03.py",
+    "Boss_HP_T2/source/field_diff.py",
+    "Boss_HP_T2/source/formats.py",
+    "Gnoster_Test/CREDITS.txt",
+    "Gnoster_Test/audit.json",
+    "Gnoster_Test/build_gnoster.py",
+    "Gnoster_Test/event_inspect.py",
+    "Gnoster_Test/manifest.json",
+    "Gnoster_Test/verification.json",
+    "Gnoster_Test/verify_gnoster.py",
+    "ModEngine/check_gnoster_t1.ps1",
+    "ModEngine/evernight_gnoster_t1.me3"
+  ],
+  "inputs": {
+    "baseline.zip": "dd57506cfcf913fe264589c230cce5459eedbd0a5f752c12e2623fa16b73eb0f",
+    "Gnoster_Music_Fix01_With_HP_T2_Update.zip": "5f0e19c55a213a0ab86aa8fd65c9e2f8e6c4827c5f517e992fe7104ee4193826",
+    "Evernight_Field_Giant_Cleanup_Update.zip": "42505e0afc7d81e5561bd1a5068c6daede2d3bf3fba22572cd8281fc81c93cf4",
+    "01_Academy_Global_Enemy_Balance_20261003_regulation.bin": "dfd0e8eab3442925d654a72f1515939e52a3e073be16fde6bc35dc1a9372585c",
+    "01_Academy_Global_Enemy_Balance_20261003_m14_00_00_00.msb.dcx": "1bb6d0aa061073b67c6c542e62ce18330d1c0f2fd2f202437f323618450598e0"
+  },
+  "CRC_all_bytes_internal_hashes": "passed",
+  "one_mod_one_regulation_one_bat": true,
+  "Windows_game_test": "NOT RUN"
+}

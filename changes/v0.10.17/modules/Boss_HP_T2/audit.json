@@ -1,0 +1,42 @@
+{
+  "version": "Boss HP T2",
+  "baseline_SHA256": "de1b6b69738af82a3dc8eb11462880467804d01b2bcdab7ece2ceb8bd6d1c333",
+  "NPC_changes": [
+    {
+      "NPC": 49010010,
+      "old_base_HP": 62500,
+      "new_base_HP": 93750,
+      "old_NG0_nominal_HP": 750000,
+      "new_NG0_nominal_HP": 1125000
+    },
+    {
+      "NPC": 75200000,
+      "old_base_HP": 24391,
+      "new_base_HP": 48782,
+      "old_NG0_nominal_HP": 292692,
+      "new_NG0_nominal_HP": 585384
+    },
+    {
+      "NPC": 75300000,
+      "old_base_HP": 38109,
+      "new_base_HP": 76218,
+      "old_NG0_nominal_HP": 457308,
+      "new_NG0_nominal_HP": 914616
+    }
+  ],
+  "only_gameplay_changes": "three private NPC hp fields",
+  "raw_regulation_byte_changes": 8,
+  "preserved_other_PARAM_rows": 197241,
+  "regional_HP_scale": 12,
+  "Caligo_phase": {
+    "ratio": 0.6,
+    "NG0_nominal_HP": 675000,
+    "AI_and_event_bytes_preserved": true
+  },
+  "bug_stage_ratios_preserved": true,
+  "attack_resistance_rewards_player_shared_HP_effect_DLLs_unchanged": true,
+  "source_missing_dependencies_carried_from_T1": true,
+  "before_regulation_SHA256": "85ce11202c6446bb44e8099f8f7aebf9ffa002d02aa7fd6e8551f9743361288f",
+  "after_regulation_SHA256": "b6510ed8120bc32293c7f4f2d1dd89f97bf43ff010c7612073c9f8037e7d7de9",
+  "game_test": "NOT RUN"
+}
