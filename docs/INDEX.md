@@ -27,3 +27,5 @@
 - [截至v0.10.8的完整旧改动记录](archive/CHANGELOG_through_v0.10.8.md)
 - `archive/package_records/`：从旧整包移出的版本说明；`changes/archive/package_records/`：旧包参数对比与审计，不作为当前配置。
 - [机器审计/差分入口](../changes/INDEX.md) · [当前版本摘要](../CHANGELOG.md)
+
+- [六护符集成：待05发布及实机验收](six_talisman_integration_20261003.md)

@@ -33,3 +33,10 @@
 ## v0.10.12 初始道具与礼物
 
 全部12职业取消初始赐福返回道具；创建角色礼物可选10种流派护符，保留魔对蝎并加入大盾护符。“无”不赠送护符，菜单名称/说明同步，仅影响新建角色。
+
+
+## 下次整合：六护符
+
+已按用户获得作者同意的要求准备六护符集成：原生4槽＋额外2槽，新增槽由赐福菜单管理。DLL／INI及加载配置已完成静态检查，尚未加入当前v0.10.13 Release，实机待测。详见[集成交接](docs/six_talisman_integration_20261003.md)。
+
+感谢[imCioco](https://www.nexusmods.com/profile/imCioco/mods)提供[Expanded Talisman Slots](https://www.nexusmods.com/eldenring/mods/10481)；集成采用原作者1.1.6 DLL并保留署名和来源。

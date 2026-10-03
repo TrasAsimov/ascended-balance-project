@@ -46,7 +46,8 @@ def keep(p):
         if any(x in p for x in ['_DSAS_CACHE','_DSAS_PROJECT']):return False,'editor cache'
         if p.endswith(('.js','.temp','.log','.txt','.json','.patch','.zip','.csv')):return False,'development or temporary file'
         return True,None
-    if p in ['ModEngine/config_eldenring.toml','ModEngine/launchmod_eldenring.bat','ModEngine/modengine2_launcher.exe']:return True,None
+    if p in ['ModEngine/config_eldenring.toml','ModEngine/launchmod_eldenring.bat','ModEngine/modengine2_launcher.exe',
+             'ModEngine/ExpandedTalismanSlots.dll','ModEngine/ExpandedTalismanSlots.ini']:return True,None
     if any(p.startswith('ModEngine/modengine2/'+d+'/') for d in ['bin','assets','crashpad','tools']):return True,None
     return False,'development documentation, SDK, unrelated launcher or duplicate'
 

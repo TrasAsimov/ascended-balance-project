@@ -31,3 +31,10 @@ Independent Ascended balance project using 1.17.1-format parameters. Requires th
 New modules passed static checks/simulations; game validation is pending. English item text is included. Chinese JSON is developer merge data; matching Chinese game archives remain unavailable. Attack-power coefficients are not guarantees of final HP damage; shared spell/effect rows can affect AI reuse. Historical jump testing does not establish whole-build validation. See [test steps](docs/v0.10.13.md).
 
 Source, audits and historical notes stay in the repository through the developer index, outside player downloads. Ascended and Elden Ring belong to their creators; this is an independent project.
+
+
+## Next integration: six talismans
+
+The integration is statically prepared with four native slots plus two additional slots managed through the Site of Grace menu. It is not included in the current v0.10.13 release and requires game validation. See the [integration handoff](docs/six_talisman_integration_20261003.md).
+
+Credits: [Expanded Talisman Slots](https://www.nexusmods.com/eldenring/mods/10481) by [imCioco](https://www.nexusmods.com/profile/imCioco/mods). The user confirmed author consent for integration; the original v1.1.6 DLL is preserved.
