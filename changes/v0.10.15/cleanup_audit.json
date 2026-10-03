@@ -1,0 +1,108 @@
+{
+  "scope": "Only byte-identical archived duplicates; source dependencies and unique history retained",
+  "removed": [
+    {
+      "deleted": "changes/archive/package_records/审查清单/v0.8_changes.csv",
+      "identical_kept": "changes/v0.8_changes.csv",
+      "bytes": 32847,
+      "sha256": "a8be7bbd8bca2a5936ba009eb8498a8480bbc08e6b02698063f2836ec24b5993"
+    },
+    {
+      "deleted": "changes/archive/package_records/Armor_Core/armor_activation_text_20261001.json",
+      "identical_kept": "changes/armor_activation_text_20261001.json",
+      "bytes": 5289,
+      "sha256": "ac2ca88a9a1651c3817ac7988cec9b389e77aa0f82fc6c5149b3a92b7d39678f"
+    },
+    {
+      "deleted": "changes/archive/package_records/审查清单/pending_remembrance_params.csv",
+      "identical_kept": "changes/pending_remembrance_params.csv",
+      "bytes": 2732,
+      "sha256": "768fc27f4d01765dae4e0dc04b5f1dbedeb5defb2ce56a2243354617a60cc2d3"
+    },
+    {
+      "deleted": "changes/archive/package_records/审查清单/v0.10.1_starter_heart.csv",
+      "identical_kept": "changes/v0.10.1_starter_heart.csv",
+      "bytes": 556,
+      "sha256": "47f51a966c16c4991230b0b6431d200258c67385a87cd7157c018fc0f91b3f82"
+    },
+    {
+      "deleted": "changes/archive/package_records/审查清单/v0.9.1_description_changes.csv",
+      "identical_kept": "changes/v0.9.1_description_changes.csv",
+      "bytes": 526,
+      "sha256": "35ff43b2e7592dd3fb9a51829ae7896a69b09b2a4b8921895bcc4f306f88cc28"
+    },
+    {
+      "deleted": "changes/archive/package_records/Armor_Core/armor_description_layout_20261001.json",
+      "identical_kept": "changes/armor_description_layout_20261001.json",
+      "bytes": 1252,
+      "sha256": "6a76a65e68e8e41c7bd96ee2816f5bbf92ae8f85beccb21bfbc8993e1acd048e"
+    },
+    {
+      "deleted": "changes/archive/package_records/审查清单/v0.9_talismans.csv",
+      "identical_kept": "changes/v0.9_talismans.csv",
+      "bytes": 3153,
+      "sha256": "62a765e4cfc6e97e866d36d0c89924a842cf75bbb70498833e2c2e594d54363e"
+    },
+    {
+      "deleted": "changes/archive/package_records/v0.10.8/audits/integration_audit.json",
+      "identical_kept": "changes/v0.10.8_integration_audit.json",
+      "bytes": 600,
+      "sha256": "0400236df2ad17738cc7897d402072ad2728429762be2a0a78e676b968035ca5"
+    },
+    {
+      "deleted": "changes/archive/package_records/审查清单/v0.9_description_changes.csv",
+      "identical_kept": "changes/v0.9_description_changes.csv",
+      "bytes": 3032,
+      "sha256": "8f98202ca53224c532c2f80a7d93c930fe5d40cf2c73c9073b0f44c638ce5486"
+    },
+    {
+      "deleted": "changes/archive/package_records/审查清单/v0.9.1_arrow_talisman.csv",
+      "identical_kept": "changes/v0.9.1_arrow_talisman.csv",
+      "bytes": 595,
+      "sha256": "b7731607f8ed2673fb1b63fc9b5141fa6da8c50eceec7a76a05786a53c450fcc"
+    },
+    {
+      "deleted": "changes/archive/package_records/审查清单/v0.9_bow_audit.csv",
+      "identical_kept": "changes/v0.9_bow_audit.csv",
+      "bytes": 1612,
+      "sha256": "0b2957ea8bc5a8a7abbf7ebfa22ba6a35346a2504be52c5e201ed36b287944b0"
+    },
+    {
+      "deleted": "docs/archive/package_records/Ascended_v0.10.6_安装与测试说明.md",
+      "identical_kept": "docs/v0.10.6.md",
+      "bytes": 1355,
+      "sha256": "8c279d1bb50d23b630c093a7041e2c8db349a4b37fa91efeb6e9290d6da698f7"
+    },
+    {
+      "deleted": "docs/archive/package_records/Armor_Core/armor_activation_text_20261001.md",
+      "identical_kept": "docs/armor_activation_text_20261001.md",
+      "bytes": 4025,
+      "sha256": "261ad6c18278831e30d6670f8bfcea8601ce035997c87ff78ce011cb5e5c4c60"
+    },
+    {
+      "deleted": "docs/archive/package_records/Ascended_v0.10.7_安装与测试说明.md",
+      "identical_kept": "docs/v0.10.7.md",
+      "bytes": 1201,
+      "sha256": "f7caff035e29688db442f55b53b37ac2385272dfd2947739adcd860cd5ba81bb"
+    },
+    {
+      "deleted": "docs/archive/package_records/Armor_Core/armor_core_integration_20261001.md",
+      "identical_kept": "docs/armor_core_integration_20261001.md",
+      "bytes": 24639,
+      "sha256": "ade49a85337bf3593b007dfa70e29a789a1ccd747d359fabbcecc76f6dcff485"
+    },
+    {
+      "deleted": "docs/archive/package_records/v0.10.8/docs/integration_20261002.md",
+      "identical_kept": "docs/integration_20261002.md",
+      "bytes": 3536,
+      "sha256": "59d5f9a1e58c35873bb8dae37f3ecd53602d7c72f442672af2e6c0f375fe12f8"
+    },
+    {
+      "deleted": "docs/archive/package_records/v0.10.8/CHANGELOG.md",
+      "identical_kept": "docs/archive/CHANGELOG_through_v0.10.8.md",
+      "bytes": 14789,
+      "sha256": "262fa1597d0dbe4ae56c7be26b41df213d855de3661a5f9df5ee52591f914208"
+    }
+  ],
+  "saved_bytes": 101739
+}

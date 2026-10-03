@@ -1,0 +1,315 @@
+{
+  "version": "v0.10.15",
+  "source_core_commit": "b11ae5f41478884401abb8a635fe66f28fb63d11",
+  "input_hashes": {
+    "Ascended_Balance_v0.10.14_Six_Talismans_Test.zip": "126b9f329ab2343f72669762c1d0fbcbf767508cd9a7ad39db92b6b69ca9330f",
+    "Caligo_T1_Expansion.zip": "cf59b7fc78756ffc9b84f41b25b0ecad04e2434073979cc1d4be14966fae315b",
+    "Caligo_T2_Update.zip": "39dc34f58cfea20f3b2695cc9e8c7fd038c3499a3c6f7e4d7a28284ff60e1686",
+    "Caligo_T3_Balance_Golems.zip": "004b9fe5701dbe90bc889d7d97ec36835afc46f6c1ce67006ccde137ebe2b0e6",
+    "Caligo_T3_Hotfix_04.zip": "1e530d074e0751184be17e918fcdf0f1f43706d2e5074f026bb0f4f578928815"
+  },
+  "core": {
+    "filename": "Ascended_Balance_v0.10.15_Integrated_Test.zip",
+    "bytes": 162940925,
+    "sha256": "d955452abcf28d79de0e4389ae35add1e9fd5b8987915828db4037b40e013635",
+    "file_count": 984,
+    "CRC_all_bytes_internal_hashes": "passed"
+  },
+  "private_expansion": {
+    "filename": "Caligo_v0.10.15_Private_Expansion.zip",
+    "bytes": 403077616,
+    "sha256": "66cd21e86883887ef592cc2b8791cc9ea46ea0c903a130424855ab921830eec3",
+    "file_count": 53,
+    "CRC_all_bytes_internal_hashes": "passed"
+  },
+  "core_unchanged_files": 979,
+  "core_regeneration": {
+    "source_sha256": "2e0cef01d8261610abbfdf0f1f6fb48d908535e1acdf09e1d557c7843ddbffc2",
+    "output_sha256": "377f33e71ecb56c88883d15a116d7917cd0428004a8762a27af6f3319d972d25",
+    "changes": [
+      {
+        "id": 1643002,
+        "field": "changeHpPoint",
+        "before": -80,
+        "after": -40,
+        "interval_seconds": 1
+      },
+      {
+        "id": 1643102,
+        "field": "changeHpPoint",
+        "before": -120,
+        "after": -60,
+        "interval_seconds": 1
+      },
+      {
+        "id": 1685001,
+        "field": "changeHpPoint",
+        "before": -50,
+        "after": -25,
+        "interval_seconds": 1
+      }
+    ],
+    "fp_per_second": 5,
+    "all_other_decrypted_bytes_preserved": true,
+    "encrypted_readback": "passed",
+    "game_test": "not run",
+    "idempotence": "passed"
+  },
+  "private_regeneration": {
+    "source_sha256": "8a8de19f0f938257a4cdf80e9c3b04633ae263ada5d25d32f46dc2f47c62d036",
+    "output_sha256": "b0806024899139f7ff354a064cc46a584e3efb9c24c02f5566e576b0de4315c9",
+    "changes": [
+      {
+        "id": 1643002,
+        "field": "changeHpPoint",
+        "before": -80,
+        "after": -40,
+        "interval_seconds": 1
+      },
+      {
+        "id": 1643102,
+        "field": "changeHpPoint",
+        "before": -120,
+        "after": -60,
+        "interval_seconds": 1
+      },
+      {
+        "id": 1685001,
+        "field": "changeHpPoint",
+        "before": -50,
+        "after": -25,
+        "interval_seconds": 1
+      }
+    ],
+    "fp_per_second": 5,
+    "all_other_decrypted_bytes_preserved": true,
+    "encrypted_readback": "passed",
+    "game_test": "not run",
+    "idempotence": "passed"
+  },
+  "core_changed_paths": [
+    "ModEngine/mod/msg/engus/item_dlc01.msgbnd.dcx",
+    "ModEngine/mod/msg/engus/item_dlc02.msgbnd.dcx",
+    "ModEngine/mod/regulation.bin",
+    "README.txt",
+    "SHA256_FILES.txt"
+  ],
+  "extension_provenance": {
+    "ModEngine/expansions/nightreign/caligo/action/script/c4900.hks": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/action/script/c4901.hks": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900.anibnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900.behbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900.chrbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900_div00.anibnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900_div01.anibnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900_div02.anibnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900_h.texbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4900_l.texbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4901.anibnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4901.behbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4901.chrbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4901_h.texbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/chr/c4901_l.texbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/event/m60_53_56_00.emevd.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/event/m60_53_57_00.emevd.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/event/m60_54_56_00.emevd.dcx": "Caligo_T3_Hotfix_04.zip",
+    "ModEngine/expansions/nightreign/caligo/event/m60_54_57_00.emevd.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_13_14_02.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/material/allmaterial.matbinbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/msg/engus/item_dlc02.msgbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/param/systemparam/systemparam.parambnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/regulation.bin": "Caligo_T3_Hotfix_04.zip",
+    "ModEngine/expansions/nightreign/caligo/script/490000_battle.luabnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/script/aicommon.luabnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/sd/cs_c4900.bnk": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/sd/cs_c4901.bnk": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/sd/cs_smain.bnk": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/sd/wem/18/185818245.wem": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/sd/wem/47/478974414.wem": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/sfx/sfxbnd_c4900.ffxbnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/shader/shaderbdle.shaderbdlebnd.dcx": "Caligo_T1_Expansion.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_50_53_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_50_54_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_50_56_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_50_57_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_51_56_00.msb.dcx": "Caligo_T3_Balance_Golems.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_52_55_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_52_56_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_53_56_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_53_57_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_54_56_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_54_57_00.msb.dcx": "Caligo_T2_Update.zip",
+    "ModEngine/expansions/nightreign/caligo/event/common.emevd.dcx": "Caligo_T3_Hotfix_04.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_12_13_02.msb.dcx": "Caligo_T3_Hotfix_04.zip",
+    "ModEngine/expansions/nightreign/caligo/map/MapStudio/m60_52_57_00.msb.dcx": "Caligo_T3_Balance_Golems.zip",
+    "ModEngine/CaligoHpCapFix.dll": "Caligo_T3_Hotfix_04.zip"
+  },
+  "obsolete_launchers_and_development_files_omitted": [
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/arena.json"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/baseline_preservation.json"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/build_caligo.py"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/events.json"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/manifest.json"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/param_merge_report.json"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/verification.json"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "Caligo_Test/verify_caligo.py"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "ModEngine/config_caligo_t1.toml"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "ModEngine/launch_caligo_t1.bat"
+    },
+    {
+      "source": "Caligo_T1_Expansion.zip",
+      "file": "START_HERE_CALIGO_T1.txt"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "Caligo_Test/T2/audit.json"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "Caligo_Test/T2/build_t2.py"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "Caligo_Test/T2/fix_airwall.py"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "Caligo_Test/T2/manifest.json"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "Caligo_Test/T2/verification.json"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "Caligo_Test/T2/verify_t2.py"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "ModEngine/caligo_t2.me3"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "ModEngine/config_caligo_t2_me2_artifact.toml"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "ModEngine/launch_caligo_t2.bat"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "ModEngine/launch_caligo_t2_ME2_Artifact.bat"
+    },
+    {
+      "source": "Caligo_T2_Update.zip",
+      "file": "READ_ME_CALIGO_T2.txt"
+    },
+    {
+      "source": "Caligo_T3_Balance_Golems.zip",
+      "file": "Caligo_Test/T3/audit.json"
+    },
+    {
+      "source": "Caligo_T3_Balance_Golems.zip",
+      "file": "Caligo_Test/T3/bridge_golems_audit.json"
+    },
+    {
+      "source": "Caligo_T3_Balance_Golems.zip",
+      "file": "Caligo_Test/T3/build_bridge.py"
+    },
+    {
+      "source": "Caligo_T3_Balance_Golems.zip",
+      "file": "Caligo_Test/T3/build_t3.py"
+    },
+    {
+      "source": "Caligo_T3_Balance_Golems.zip",
+      "file": "Caligo_Test/T3/manifest.json"
+    },
+    {
+      "source": "Caligo_T3_Balance_Golems.zip",
+      "file": "Caligo_Test/T3/nightreign_boss_rewards.json"
+    },
+    {
+      "source": "Caligo_T3_Balance_Golems.zip",
+      "file": "READ_ME_T3.txt"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/CREDITS.txt"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/CaligoHpCapFix.c"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/audit.json"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/build.py"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/cap_machine_test.json"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/hp_cap_signature.h"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/manifest.json"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "Caligo_Test/T3_Hotfix_04/test_signature.c"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "ModEngine/caligo_hotfix04.me3"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "ModEngine/check_caligo_hotfix04.ps1"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "ModEngine/launch_caligo_hotfix04.bat"
+    },
+    {
+      "source": "Caligo_T3_Hotfix_04.zip",
+      "file": "READ_ME_HOTFIX_04.txt"
+    }
+  ],
+  "game_test": "NOT RUN",
+  "public_release_scope": "Core only; Caligo assets private"
+}

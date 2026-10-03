@@ -28,6 +28,8 @@
 - `archive/package_records/`：从旧整包移出的版本说明；`changes/archive/package_records/`：旧包参数对比与审计，不作为当前配置。
 - [机器审计/差分入口](../changes/INDEX.md) · [当前版本摘要](../CHANGELOG.md)
 
-- [六护符集成：待05发布及实机验收](six_talisman_integration_20261003.md)
+- [六护符集成：已发布，实机待验收](six_talisman_integration_20261003.md)
 
 - [v0.10.14 六护符测试版](v0.10.14.md)
+
+- [v0.10.15 最近改动整合与私人扩展](v0.10.15.md)
