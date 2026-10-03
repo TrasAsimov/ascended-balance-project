@@ -1,5 +1,5 @@
 <!-- Historical v0.10.11: 小战士壶碎片1230由20%改40%；大亚历山大碎片1231撤销误加40%，恢复原防御500/异常200；血量2.5倍保留。 -->
-# Elden Ring Ascended Balance Project
+# Elden Ring Evernight Reforged
 
 Current test build: [v0.10.16 Complete Caligo Test](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.16-caligo-full).
 
