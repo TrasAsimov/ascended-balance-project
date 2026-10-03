@@ -1,0 +1,150 @@
+{
+  "version": "v0.10.16",
+  "package": {
+    "filename": "Ascended_Balance_v0.10.16_Caligo_Full_Test.zip",
+    "bytes": 557609666,
+    "sha256": "fa1454c9001a26028ef96f03d4a5c13f501da4684f880511722f4228bd180294",
+    "file_count": 998,
+    "CRC_all_bytes_internal_hashes": "passed"
+  },
+  "core_preserved_non_overlap_runtime_files": 943,
+  "overrides_from_latest_merged_caligo": [
+    {
+      "path": "ModEngine/mod/event/common.emevd.dcx",
+      "core_sha256": "f56e93dcb1d01cbf99ba26bf1836263de20c8b348d7a7b2615ab98eefa3ddd1e",
+      "merged_sha256": "4010007e6125a6f950da5d7571aeb7168cd59093dc7c8e5e6f97cd117cb35bb8"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_50_53_00.msb.dcx",
+      "core_sha256": "543f010f2a92331b159631ecb74c61ed828e0dc4c83c1467db4f2144582ca338",
+      "merged_sha256": "27caa45d87ec2a3b8758e7af701e99dc4dfafe0c9f0a9214252e61a30ed8d71e"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_50_54_00.msb.dcx",
+      "core_sha256": "1e54ba964fb6135b378e4b5e1f16629b6adf8955929221a6445318b34f94bc40",
+      "merged_sha256": "0f68b56c9da9322535667fb3a1bb30dd99cba22a9b41c012113bbc16445601d0"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_50_56_00.msb.dcx",
+      "core_sha256": "ed57f41489cf7a0304919fcb58924ef386c7175a266104901f0d783e799caad6",
+      "merged_sha256": "f4f9dd8b105d2ef0cda70b23773a97d6a006fdfa7344f10b2edd93b3b2f6142e"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_50_57_00.msb.dcx",
+      "core_sha256": "0a47820ed1aeead823d86698da70bea1e9c13186478e606cac3a36d0c7d736d1",
+      "merged_sha256": "e2797f73534f8c8f56284f06dacc275b43600ae9dc87599b9e5c9f2b854b841a"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_51_56_00.msb.dcx",
+      "core_sha256": "43625680ea369d5a3fdf11282d866a3f0caa6b04a60d8462049c49432f055137",
+      "merged_sha256": "ed21aa42233bd10347755fe0b9db96126df001783f2c27593fa38f3ce8b09eaa"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_52_55_00.msb.dcx",
+      "core_sha256": "cd79cba092dd25a901452bc7ca7139b7771c1a9141f12db9164e8a2738116a82",
+      "merged_sha256": "2cec8cb29a63ab0d49f5457af5c5ff9a90735fe776f43e1594543c85456a9b70"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_52_56_00.msb.dcx",
+      "core_sha256": "7e7302778e75a5e128cbf455d005df8faa88f16b9855d1dd20d37834d0c0f35c",
+      "merged_sha256": "e41ee3fb71c264f5aabe225aec42d1dedefe7da3baf73975832fd9491ea55db4"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_53_56_00.msb.dcx",
+      "core_sha256": "925004214076131aff2468383851a67aefaa347acd8a117f416775a62ebddd45",
+      "merged_sha256": "fa90b8ca3810e447dec9db1734d0eb2060442e48e07a5d21ababa85679857972"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_53_57_00.msb.dcx",
+      "core_sha256": "4d588e71a6cdee48bd2d2ce286098a5b3eab1eed92e398c1b623ceb4b7ec4e85",
+      "merged_sha256": "3991805bb6553b16d82dc78c3c82cbe8ea94800fe47c46a22458ea0cdb03cf5f"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_54_56_00.msb.dcx",
+      "core_sha256": "13122c2be38661942bca2df19d0b04ab46fe6b0daab97d32e756a6f009efa3fa",
+      "merged_sha256": "3c906f9da00c692859db177d732396f3f06c19ecd8762443d6159edb3df73f0a"
+    },
+    {
+      "path": "ModEngine/mod/map/MapStudio/m60_54_57_00.msb.dcx",
+      "core_sha256": "bb1977d7bc7db7ae2254095d5f1774eb8f865c21aae7f49598eafab821d4cc5e",
+      "merged_sha256": "e66c0e2089f5d44123a606a08edbd7c8739e08c1adcf0e9ccf821b2f5167557f"
+    },
+    {
+      "path": "ModEngine/mod/msg/engus/item_dlc02.msgbnd.dcx",
+      "core_sha256": "7d951c6839d91d76b39976dedf7d66c0e3aa963e4bfcbd7a20fc0e6bda9442c7",
+      "merged_sha256": "12b9cc52945452897eba91ec218dce083940cbe9a455c30291e08def98fdbcaf"
+    },
+    {
+      "path": "ModEngine/mod/regulation.bin",
+      "core_sha256": "377f33e71ecb56c88883d15a116d7917cd0428004a8762a27af6f3319d972d25",
+      "merged_sha256": "b0806024899139f7ff354a064cc46a584e3efb9c24c02f5566e576b0de4315c9"
+    }
+  ],
+  "new_caligo_runtime_paths": [
+    "ModEngine/mod/action/script/c4900.hks",
+    "ModEngine/mod/action/script/c4901.hks",
+    "ModEngine/mod/chr/c4900.anibnd.dcx",
+    "ModEngine/mod/chr/c4900.behbnd.dcx",
+    "ModEngine/mod/chr/c4900.chrbnd.dcx",
+    "ModEngine/mod/chr/c4900_div00.anibnd.dcx",
+    "ModEngine/mod/chr/c4900_div01.anibnd.dcx",
+    "ModEngine/mod/chr/c4900_div02.anibnd.dcx",
+    "ModEngine/mod/chr/c4900_h.texbnd.dcx",
+    "ModEngine/mod/chr/c4900_l.texbnd.dcx",
+    "ModEngine/mod/chr/c4901.anibnd.dcx",
+    "ModEngine/mod/chr/c4901.behbnd.dcx",
+    "ModEngine/mod/chr/c4901.chrbnd.dcx",
+    "ModEngine/mod/chr/c4901_h.texbnd.dcx",
+    "ModEngine/mod/chr/c4901_l.texbnd.dcx",
+    "ModEngine/mod/event/m60_53_56_00.emevd.dcx",
+    "ModEngine/mod/event/m60_53_57_00.emevd.dcx",
+    "ModEngine/mod/event/m60_54_56_00.emevd.dcx",
+    "ModEngine/mod/event/m60_54_57_00.emevd.dcx",
+    "ModEngine/mod/map/MapStudio/m60_12_13_02.msb.dcx",
+    "ModEngine/mod/map/MapStudio/m60_13_14_02.msb.dcx",
+    "ModEngine/mod/map/MapStudio/m60_52_57_00.msb.dcx",
+    "ModEngine/mod/material/allmaterial.matbinbnd.dcx",
+    "ModEngine/mod/param/systemparam/systemparam.parambnd.dcx",
+    "ModEngine/mod/script/490000_battle.luabnd.dcx",
+    "ModEngine/mod/script/aicommon.luabnd.dcx",
+    "ModEngine/mod/sd/cs_c4900.bnk",
+    "ModEngine/mod/sd/cs_c4901.bnk",
+    "ModEngine/mod/sd/cs_smain.bnk",
+    "ModEngine/mod/sd/wem/18/185818245.wem",
+    "ModEngine/mod/sd/wem/47/478974414.wem",
+    "ModEngine/mod/sfx/sfxbnd_c4900.ffxbnd.dcx",
+    "ModEngine/mod/shader/shaderbdle.shaderbdlebnd.dcx"
+  ],
+  "obsolete_core_loader_paths_omitted": [
+    "ModEngine/config_eldenring.toml",
+    "ModEngine/launchmod_eldenring.bat",
+    "ModEngine/modengine2/assets/debug_menu/adhoc/FontShader/debugFont_ps.ppo",
+    "ModEngine/modengine2/assets/debug_menu/adhoc/FontShader/debugFont_vs.vpo",
+    "ModEngine/modengine2/assets/debug_menu/font/DSFont24.ccm",
+    "ModEngine/modengine2/assets/debug_menu/font/DSFont24.tpf",
+    "ModEngine/modengine2/assets/debug_menu/font/TalkFont24.ccm",
+    "ModEngine/modengine2/assets/debug_menu/font/TalkFont24.tpf",
+    "ModEngine/modengine2/assets/debug_menu/font/dbgfont14h.ccm",
+    "ModEngine/modengine2/assets/debug_menu/font/dbgfont14h.tpf",
+    "ModEngine/modengine2/assets/debug_menu/paramdef/paramdef.paramdefbnd.dcx",
+    "ModEngine/modengine2/assets/debug_menu/stayparamdef/stayparamdef.parambnd.dcx",
+    "ModEngine/modengine2/assets/debug_menu/testdata/debugBootMenu.textlist",
+    "ModEngine/modengine2/assets/debug_menu/testdata/signboard/testsignboard.pwt",
+    "ModEngine/modengine2/bin/lua.dll",
+    "ModEngine/modengine2/bin/modengine2.dll",
+    "ModEngine/modengine2/crashpad/crashpad_handler.exe",
+    "ModEngine/modengine2/crashpad/zlib1.dll",
+    "ModEngine/modengine2/tools/scyllahide/HookLibraryx64.dll",
+    "ModEngine/modengine2/tools/scyllahide/InjectorCLIx64.exe",
+    "ModEngine/modengine2/tools/scyllahide/scylla_hide.ini",
+    "ModEngine/modengine2_launcher.exe",
+    "README.txt",
+    "SHA256_FILES.txt",
+    "steam_appid.txt"
+  ],
+  "runtime_directory": "ModEngine/mod",
+  "single_launch": "ModEngine/launchmod_eldenring.bat",
+  "single_regulation": true,
+  "game_test": "NOT RUN",
+  "scope": "User explicitly requested unified external test release"
+}

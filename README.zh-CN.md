@@ -1,7 +1,7 @@
 <!-- Historical v0.10.11: 小战士壶碎片1230由20%改40%；大亚历山大碎片1231撤销误加40%，恢复原防御500/异常200；血量2.5倍保留。 -->
 # 艾尔登法环 Ascended 平衡优化项目
 
-当前完整测试版：[v0.10.15 最近改动整合测试版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.15-integration)。
+当前完整测试版：[v0.10.16 Caligo完整整合测试版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.16-caligo-full)。
 
 [English](README.md) · [版本摘要](CHANGELOG.md) · [开发文档索引](docs/INDEX.md)
 
@@ -22,13 +22,13 @@
 
 ## 安装
 
-1. 备份存档，从Release下载 `Ascended_Balance_v0.10.15_Integrated_Test.zip`，核对 `SHA256SUMS.txt` 后解压到全新目录。自动生成的Source code ZIP不是MOD。
-2. Steam可用时运行 `ModEngine/launchmod_eldenring.bat`，离线测试。ME3用户把mod目录指向 `ModEngine/mod`，还须在实际profile的 `[[natives]]` 登记 `ModEngine/ExpandedTalismanSlots.dll` 的真实路径（INI放同目录），避免重复注册。只有一个实际regulation，没有根目录备份；不要混装旧文件或其他参数MOD。
+1. 备份存档，从Release下载 `Ascended_Balance_v0.10.16_Caligo_Full_Test.zip`，核对 `SHA256SUMS.txt` 后解压到全新目录。自动生成的Source code ZIP不是MOD。
+2. 安装ME3，Steam可用时运行 `ModEngine/launchmod_eldenring.bat`，离线测试。包内只有一个mod目录，启动配置已登记六护符与HP上限模块，无需另装扩展或旧补丁。只有一个实际regulation，没有根目录备份；不要混装旧文件或其他参数MOD。
 3. 先验证启动、读档、保存退出再读档，再测战斗。`SHA256_FILES.txt` 提供运行文件校验和。
 
 ## 已知问题
 
-新增模块仅静态/模拟检查通过，实机待测。英文文本已包含；中文JSON仅是合并源，尚缺匹配简中游戏档案。攻击力百分比不等同最终扣血增幅，复用玩家法术/效果的AI可能受影响；历史高跳实测不代表整包验收。见[当前测试步骤](docs/v0.10.15.md)。
+新增模块仅静态/模拟检查通过，实机待测。英文文本已包含；中文JSON仅是合并源，尚缺匹配简中游戏档案。攻击力百分比不等同最终扣血增幅，复用玩家法术/效果的AI可能受影响；历史高跳实测不代表整包验收。见[当前测试步骤](docs/v0.10.16.md)。
 
 源码、审计、对比和历史说明统一留在仓库开发索引，不进入玩家下载包。Ascended及游戏资源归原作者，本项目为独立优化。
 
@@ -39,10 +39,15 @@
 
 ## 六护符测试版
 
-已按用户获得作者同意的要求准备六护符集成：原生4槽＋额外2槽，新增槽由赐福菜单管理。v0.10.15完整包包含原作者DLL、INI及ME2加载配置，静态检查和打包读回通过，实机待测。详见[集成交接](docs/six_talisman_integration_20261003.md)。
+已按用户获得作者同意的要求准备六护符集成：原生4槽＋额外2槽，新增槽由赐福菜单管理。v0.10.15完整包包含原作者DLL、INI及ME3加载配置，静态检查和打包读回通过，实机待测。详见[集成交接](docs/six_talisman_integration_20261003.md)。
 
 感谢[imCioco](https://www.nexusmods.com/profile/imCioco/mods)提供[Expanded Talisman Slots](https://www.nexusmods.com/eldenring/mods/10481)；集成采用原作者1.1.6 DLL并保留署名和来源。
 
-## Caligo 私人内测扩展
 
-配套扩展累计合入T1、T2、T3、Hotfix04和本轮回血减半，只需在全新v0.10.15核心目录合入一次，使用`ModEngine/launch_caligo_v0115.bat`。Caligo与长走道魔像资源不在公开核心ZIP中，原移植资源再发布许可未确认。私人扩展中的HP上限模块需日志APPLIED／ALREADY_APPLIED；它解除全局引擎上限，其它超过524287 HP的角色也可能受影响。静态HP75万、当前最大HP60%转阶段，实际血条及上桥三只开火仍待实测。见[整合与验收](docs/v0.10.15.md)。
+## Caligo完整整合
+
+v0.10.16完整ZIP包含最新核心及累计Caligo资源、地图、事件、参数、HP上限模块和单一ME3启动入口。只下载此ZIP，解压到全新目录即可，不再下载或叠加v0.10.15扩展。需自行安装ME3、本体及全部DLC。
+
+Caligo静态名义HP75万、按当前最大HP60%转阶段；非火承伤额外减少30%、异常阈值提高30%，攻击/冰冻、三龙心脏/心脏奖励、冰湖清理和长走道三只魔像候选保留。HP模块解除全局引擎524287上限，其它配置超过上限的角色也可能受影响。日志APPLIED或ALREADY_APPLIED才表示运行匹配。
+
+源码、包校验通过，新增修复未游戏实测；原共享依赖兼容风险和未解决引用仍继承。先测启动/保存/六槽，再测Caligo血条与60%阶段、道路起点三只加载开火及桥外停止。感谢Caligo作者DDMMDD09（Nexus8583）、HP签名作者NymicRazor/Named-Blade（Nexus5732）。本次用户明确要求发布给外部测试者，不宣称原作者背书。
