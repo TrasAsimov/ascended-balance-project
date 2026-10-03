@@ -1,0 +1,49 @@
+{
+  "version": "v0.10.14",
+  "release_tag": "v0.10.14-six-talismans",
+  "zip_name": "Ascended_Balance_v0.10.14_Six_Talismans_Test.zip",
+  "bytes": 163179438,
+  "sha256": "126b9f329ab2343f72669762c1d0fbcbf767508cd9a7ad39db92b6b69ca9330f",
+  "file_count": 984,
+  "unchanged_existing_files": 979,
+  "replaced_existing_files": [
+    "ModEngine/config_eldenring.toml",
+    "README.txt",
+    "SHA256_FILES.txt"
+  ],
+  "added_files": [
+    "ModEngine/ExpandedTalismanSlots.dll",
+    "ModEngine/ExpandedTalismanSlots.ini"
+  ],
+  "CRC_readback_internal_hashes": "passed",
+  "integration": {
+    "native_slots": 4,
+    "extra_slots": 2,
+    "total_slots": 6,
+    "upstream_archive_sha256": "bc917f070f41b1f0387d2c4ad465398ad6fa76292c1533d8323dab3bc364ea85",
+    "upstream_version": "1.1.6",
+    "dll_x64_pe_verified": true,
+    "original_dll_unchanged": true,
+    "ini_filename_verified": "ExpandedTalismanSlots.ini",
+    "idempotent": true,
+    "existing_non_target_files_byte_identical": 981,
+    "regulation_sha256_unchanged": "2e0cef01d8261610abbfdf0f1f6fb48d908535e1acdf09e1d557c7843ddbffc2",
+    "runtime_paths": {
+      "ModEngine/config_eldenring.toml": {
+        "bytes": 2123,
+        "sha256": "c06cb1592dfb810e1329e821e52b5d917f986e9b7e0ae8c7ba60f0215a688f37"
+      },
+      "ModEngine/ExpandedTalismanSlots.dll": {
+        "bytes": 312320,
+        "sha256": "9b6a4190c02b6be9ed23301e692e832464c72046da0be1a4a66d697f4333a1ea"
+      },
+      "ModEngine/ExpandedTalismanSlots.ini": {
+        "bytes": 182,
+        "sha256": "94c108172ec844b25bc164cbf2eb3f37e70cf1494e5612e168de7dc9c190c8b3"
+      }
+    },
+    "game_validation": "not run"
+  },
+  "game_validation": "not run",
+  "package_generated": true
+}

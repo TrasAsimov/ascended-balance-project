@@ -1,7 +1,7 @@
 <!-- Historical v0.10.11: 小战士壶碎片1230由20%改40%；大亚历山大碎片1231撤销误加40%，恢复原防御500/异常200；血量2.5倍保留。 -->
 # 艾尔登法环 Ascended 平衡优化项目
 
-当前完整测试版：[v0.10.13 新职业护符与心脏修复](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.13-starter-heart-fix)。
+当前完整测试版：[v0.10.14 六护符测试版](https://github.com/TrasAsimov/ascended-balance-project/releases/tag/v0.10.14-six-talismans)。
 
 [English](README.md) · [版本摘要](CHANGELOG.md) · [开发文档索引](docs/INDEX.md)
 
@@ -20,13 +20,13 @@
 
 ## 安装
 
-1. 备份存档，从Release下载 `Ascended_Balance_v0.10.13_Starter_Heart_Fix.zip`，核对 `SHA256SUMS.txt` 后解压到全新目录。自动生成的Source code ZIP不是MOD。
-2. Steam可用时运行 `ModEngine/launchmod_eldenring.bat`，离线测试。ME3用户把mod目录指向 `ModEngine/mod`。只有一个实际regulation，没有根目录备份；不要混装旧文件或其他参数MOD。
+1. 备份存档，从Release下载 `Ascended_Balance_v0.10.14_Six_Talismans_Test.zip`，核对 `SHA256SUMS.txt` 后解压到全新目录。自动生成的Source code ZIP不是MOD。
+2. Steam可用时运行 `ModEngine/launchmod_eldenring.bat`，离线测试。ME3用户把mod目录指向 `ModEngine/mod`，还须在实际profile的 `[[natives]]` 登记 `ModEngine/ExpandedTalismanSlots.dll` 的真实路径（INI放同目录），避免重复注册。只有一个实际regulation，没有根目录备份；不要混装旧文件或其他参数MOD。
 3. 先验证启动、读档、保存退出再读档，再测战斗。`SHA256_FILES.txt` 提供运行文件校验和。
 
 ## 已知问题
 
-新增模块仅静态/模拟检查通过，实机待测。英文文本已包含；中文JSON仅是合并源，尚缺匹配简中游戏档案。攻击力百分比不等同最终扣血增幅，复用玩家法术/效果的AI可能受影响；历史高跳实测不代表整包验收。见[当前测试步骤](docs/v0.10.13.md)。
+新增模块仅静态/模拟检查通过，实机待测。英文文本已包含；中文JSON仅是合并源，尚缺匹配简中游戏档案。攻击力百分比不等同最终扣血增幅，复用玩家法术/效果的AI可能受影响；历史高跳实测不代表整包验收。见[当前测试步骤](docs/v0.10.14.md)。
 
 源码、审计、对比和历史说明统一留在仓库开发索引，不进入玩家下载包。Ascended及游戏资源归原作者，本项目为独立优化。
 
@@ -35,8 +35,8 @@
 全部12职业取消初始赐福返回道具；创建角色礼物可选10种流派护符，保留魔对蝎并加入大盾护符。“无”不赠送护符，菜单名称/说明同步，仅影响新建角色。
 
 
-## 下次整合：六护符
+## 六护符测试版
 
-已按用户获得作者同意的要求准备六护符集成：原生4槽＋额外2槽，新增槽由赐福菜单管理。DLL／INI及加载配置已完成静态检查，尚未加入当前v0.10.13 Release，实机待测。详见[集成交接](docs/six_talisman_integration_20261003.md)。
+已按用户获得作者同意的要求准备六护符集成：原生4槽＋额外2槽，新增槽由赐福菜单管理。v0.10.14完整包包含原作者DLL、INI及ME2加载配置，静态检查和打包读回通过，实机待测。详见[集成交接](docs/six_talisman_integration_20261003.md)。
 
 感谢[imCioco](https://www.nexusmods.com/profile/imCioco/mods)提供[Expanded Talisman Slots](https://www.nexusmods.com/eldenring/mods/10481)；集成采用原作者1.1.6 DLL并保留署名和来源。
